@@ -268,11 +268,39 @@ def publish_youtube(
     }
 
 
+def get_tiktok_token() -> str:
+    """Return TIKTOK_ACCESS_TOKEN or refresh one using TIKTOK_CLIENT_KEY/SECRET/REFRESH_TOKEN."""
+    token = os.environ.get("TIKTOK_ACCESS_TOKEN", "").strip()
+    if token:
+        return token
+    ck = os.environ.get("TIKTOK_CLIENT_KEY", "").strip()
+    cs = os.environ.get("TIKTOK_CLIENT_SECRET", "").strip()
+    rt = os.environ.get("TIKTOK_REFRESH_TOKEN", "").strip()
+    if not all([ck, cs, rt]):
+        raise RuntimeError("Missing TIKTOK_ACCESS_TOKEN (and TIKTOK_CLIENT_KEY/SECRET/REFRESH_TOKEN).")
+    body = urllib.parse.urlencode({
+        "client_key": ck,
+        "client_secret": cs,
+        "grant_type": "refresh_token",
+        "refresh_token": rt,
+    }).encode("utf-8")
+    req = urllib.request.Request(
+        "https://open.tiktokapis.com/v2/oauth/token/",
+        data=body,
+        headers={"Content-Type": "application/x-www-form-urlencoded"},
+        method="POST",
+    )
+    with urllib.request.urlopen(req) as resp:
+        res = json.loads(resp.read().decode("utf-8"))
+    tok = res.get("access_token")
+    if not tok:
+        raise RuntimeError(f"TikTok token refresh failed: {res}")
+    return tok
+
+
 def publish_tiktok(video_path: Path, cfg: dict[str, Any], mode: str = "inbox") -> dict[str, Any]:
     """Upload to TikTok Content Posting API v2 using direct chunked FILE_UPLOAD."""
-    token = os.environ.get("TIKTOK_ACCESS_TOKEN")
-    if not token:
-        raise RuntimeError("Missing TIKTOK_ACCESS_TOKEN environment variable.")
+    token = get_tiktok_token()
 
     file_size = video_path.stat().st_size
     chunk_size = min(file_size, 16 * 1024 * 1024)
@@ -284,35 +312,46 @@ def publish_tiktok(video_path: Path, cfg: dict[str, Any], mode: str = "inbox") -
         else "https://open.tiktokapis.com/v2/post/publish/video/init/"
     )
 
-    payload: dict[str, Any] = {
-        "source_info": {
-            "source": "FILE_UPLOAD",
-            "video_size": file_size,
-            "chunk_size": chunk_size,
-            "total_chunk_count": total_chunks,
+    def _init_post(privacy_lvl: str) -> dict[str, Any]:
+        payload: dict[str, Any] = {
+            "source_info": {
+                "source": "FILE_UPLOAD",
+                "video_size": file_size,
+                "chunk_size": chunk_size,
+                "total_chunk_count": total_chunks,
+            }
         }
-    }
-    if mode == "direct":
-        payload["post_info"] = {
-            "title": cfg["caption"][:2200],
-            "privacy_level": cfg.get("privacy_level", "SELF_ONLY"),
-            "disable_duet": cfg.get("disable_duet", False),
-            "disable_comment": cfg.get("disable_comment", False),
-            "disable_stitch": cfg.get("disable_stitch", False),
-            "is_aigc": False,
-        }
+        if mode == "direct":
+            payload["post_info"] = {
+                "title": cfg["caption"][:2200],
+                "privacy_level": privacy_lvl,
+                "disable_duet": cfg.get("disable_duet", False),
+                "disable_comment": cfg.get("disable_comment", False),
+                "disable_stitch": cfg.get("disable_stitch", False),
+                "is_aigc": False,
+            }
+        req = urllib.request.Request(
+            endpoint,
+            data=json.dumps(payload).encode("utf-8"),
+            headers={
+                "Authorization": f"Bearer {token}",
+                "Content-Type": "application/json; charset=UTF-8",
+            },
+            method="POST",
+        )
+        with urllib.request.urlopen(req) as resp:
+            return json.loads(resp.read().decode("utf-8"))
 
-    req = urllib.request.Request(
-        endpoint,
-        data=json.dumps(payload).encode("utf-8"),
-        headers={
-            "Authorization": f"Bearer {token}",
-            "Content-Type": "application/json; charset=UTF-8",
-        },
-        method="POST",
-    )
-    with urllib.request.urlopen(req) as resp:
-        init_res = json.loads(resp.read().decode("utf-8"))
+    wanted_privacy = cfg.get("privacy_level", "SELF_ONLY")
+    try:
+        init_res = _init_post(wanted_privacy)
+    except urllib.error.HTTPError as exc:
+        err_body = exc.read().decode("utf-8", errors="ignore")
+        if mode == "direct" and wanted_privacy != "SELF_ONLY" and ("unaudited" in err_body or "privacy" in err_body or exc.code in (400, 403)):
+            print(f"  [TikTok] {wanted_privacy} rejected ({err_body[:160]}), falling back to SELF_ONLY...")
+            init_res = _init_post("SELF_ONLY")
+        else:
+            raise RuntimeError(f"TikTok init HTTP {exc.code}: {err_body}") from exc
 
     data = init_res.get("data", {})
     upload_url = data.get("upload_url")
@@ -341,6 +380,18 @@ def publish_tiktok(video_path: Path, cfg: dict[str, Any], mode: str = "inbox") -
     return {"platform": "tiktok", "mode": mode, "publish_id": publish_id}
 
 
+def _ig_proof_params(access_token: str) -> dict[str, str]:
+    app_secret = os.environ.get("IG_APP_SECRET", "").strip()
+    if not app_secret:
+        return {}
+    import hashlib
+    import hmac
+
+    ts = str(int(time.time()) - 5)
+    proof = hmac.new(app_secret.encode("utf-8"), f"{access_token}|{ts}".encode("utf-8"), hashlib.sha256).hexdigest()
+    return {"appsecret_proof": proof, "appsecret_time": ts}
+
+
 def publish_instagram_reel(video_url: str, cfg: dict[str, Any]) -> dict[str, Any]:
     """Publish an Instagram Reel via Graph API v21.0 3-step container workflow."""
     ig_user_id = os.environ.get("IG_USER_ID")
@@ -349,23 +400,25 @@ def publish_instagram_reel(video_url: str, cfg: dict[str, Any]) -> dict[str, Any
         raise RuntimeError("Missing IG_USER_ID or IG_ACCESS_TOKEN environment variable.")
 
     base = "https://graph.facebook.com/v21.0"
-    create_data = urllib.parse.urlencode(
-        {
-            "media_type": "REELS",
-            "video_url": video_url,
-            "caption": cfg["caption"],
-            "share_to_feed": "true" if cfg.get("share_to_feed", True) else "false",
-            "thumb_offset": str(cfg.get("thumb_offset_ms", 500)),
-            "access_token": access_token,
-        }
-    ).encode("utf-8")
+    proof_params = _ig_proof_params(access_token)
+    create_payload = {
+        "media_type": "REELS",
+        "video_url": video_url,
+        "caption": cfg["caption"],
+        "share_to_feed": "true" if cfg.get("share_to_feed", True) else "false",
+        "thumb_offset": str(cfg.get("thumb_offset_ms", 500)),
+        "access_token": access_token,
+        **proof_params,
+    }
+    create_data = urllib.parse.urlencode(create_payload).encode("utf-8")
 
     with urllib.request.urlopen(urllib.request.Request(f"{base}/{ig_user_id}/media", data=create_data)) as r:
         creation_id = json.loads(r.read().decode("utf-8"))["id"]
 
     print(f"  [Instagram] Created Reel container {creation_id}. Polling processing status...")
     for _ in range(45):
-        status_url = f"{base}/{creation_id}?fields=status_code,status&access_token={access_token}"
+        q = urllib.parse.urlencode({"fields": "status_code,status", "access_token": access_token, **_ig_proof_params(access_token)})
+        status_url = f"{base}/{creation_id}?{q}"
         with urllib.request.urlopen(status_url) as r:
             sdata = json.loads(r.read().decode("utf-8"))
         scode = sdata.get("status_code")
@@ -375,12 +428,12 @@ def publish_instagram_reel(video_url: str, cfg: dict[str, Any]) -> dict[str, Any
             raise RuntimeError(f"Instagram container error: {sdata}")
         time.sleep(8)
 
-    pub_data = urllib.parse.urlencode({"creation_id": creation_id, "access_token": access_token}).encode("utf-8")
+    pub_data = urllib.parse.urlencode({"creation_id": creation_id, "access_token": access_token, **_ig_proof_params(access_token)}).encode("utf-8")
     with urllib.request.urlopen(urllib.request.Request(f"{base}/{ig_user_id}/media_publish", data=pub_data)) as r:
         media_id = json.loads(r.read().decode("utf-8"))["id"]
 
     if cfg.get("first_comment"):
-        c_data = urllib.parse.urlencode({"message": cfg["first_comment"], "access_token": access_token}).encode("utf-8")
+        c_data = urllib.parse.urlencode({"message": cfg["first_comment"], "access_token": access_token, **_ig_proof_params(access_token)}).encode("utf-8")
         try:
             urllib.request.urlopen(urllib.request.Request(f"{base}/{media_id}/comments", data=c_data)).read()
         except Exception as exc:
@@ -517,10 +570,14 @@ def main() -> None:
                 res = publish_tiktok(target_vpath, cfg, mode=args.tiktok_mode)
                 item_res["uploads"].append(res)
             elif plat == "instagram":
-                key = str(target_vpath)
-                if key not in r2_url_cache:
-                    r2_url_cache[key] = stage_to_r2(target_vpath)
-                res = publish_instagram_reel(r2_url_cache[key], cfg)
+                if item.get("video_url"):
+                    ig_url = item["video_url"]
+                else:
+                    key = str(target_vpath)
+                    if key not in r2_url_cache:
+                        r2_url_cache[key] = stage_to_r2(target_vpath)
+                    ig_url = r2_url_cache[key]
+                res = publish_instagram_reel(ig_url, cfg)
                 item_res["uploads"].append(res)
             elif plat == "x":
                 res = publish_x_video(target_vpath, cfg)

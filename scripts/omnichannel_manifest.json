@@ -373,7 +373,16 @@
       "youtube": {
         "title": "For $1,000, Would You Jump Into a Black Hole? 💀",
         "description": "For $1,000, would you jump into a pocket black hole and come right back?\n\nHe said no for $1,000 — so we doubled it to $2,000. Between getting spaghettified three meters tall, getting yelled at by the Singularity for scuffing his carpet, watching the outside clock spin past year 10,000,000 due to gravitational time dilation, and returning to a chrome sci-fi city... cosmic inflation hit hard.\n\n#Shorts #Animation #Countryballs #PixelArt #Comedy #Space",
-        "tags": ["countryballs", "8bit animation", "pixel art shorts", "black hole", "spaghettification", "time dilation", "animated comedy", "shorts"],
+        "tags": [
+          "countryballs",
+          "8bit animation",
+          "pixel art shorts",
+          "black hole",
+          "spaghettification",
+          "time dilation",
+          "animated comedy",
+          "shorts"
+        ],
         "category_id": "24",
         "privacy": "private",
         "pinned_comment": "Would you jump into a black hole for $2,000 — or did year 10,000,000 inflation ruin the payout? 👇"
@@ -400,7 +409,15 @@
       "youtube": {
         "title": "For $1,000, Would You High-Five the Sun? ☀️",
         "description": "For $1,000, would you fly to the Sun and give it a high five?\n\nHe said no for $1,000 — so we doubled it to $2,000. He put on dollar-store sunglasses and launched at midnight, dodged a grumpy Solar Flare at 5,500°C, learned why photons take 100,000 years to escape the Sun's basement, and trapped a solar flare in a thermos.\n\n#Shorts #Animation #Countryballs #PixelArt #Comedy #Science",
-        "tags": ["countryballs", "8bit animation", "pixel art shorts", "touch the sun", "high five the sun", "animated comedy", "shorts"],
+        "tags": [
+          "countryballs",
+          "8bit animation",
+          "pixel art shorts",
+          "touch the sun",
+          "high five the sun",
+          "animated comedy",
+          "shorts"
+        ],
         "category_id": "24",
         "privacy": "private",
         "pinned_comment": "Going to the Sun at night with dollar-store sunglasses — genius or cooked? 👇"
@@ -427,7 +444,15 @@
       "youtube": {
         "title": "For $1,000, Would You Pet a T-Rex? 🦖",
         "description": "For $1,000, would you ride a cardboard time machine back 66 million years and pet a T-Rex?\n\nHe said no for $1,000 — so we doubled it to $2,000. Between dodging a giant T-Rex with tiny arms, getting roasted by a Velociraptor over Cretaceous budget cuts, and outrunning the Chicxulub asteroid in a cardboard box... he brought back a living dinosaur in his pocket.\n\n#Shorts #Animation #Countryballs #PixelArt #Comedy #Dinosaurs",
-        "tags": ["countryballs", "8bit animation", "pixel art shorts", "trex", "dinosaurs", "animated comedy", "shorts"],
+        "tags": [
+          "countryballs",
+          "8bit animation",
+          "pixel art shorts",
+          "trex",
+          "dinosaurs",
+          "animated comedy",
+          "shorts"
+        ],
         "category_id": "24",
         "privacy": "private",
         "pinned_comment": "Are birds technically dinosaurs — or did he deserve the full $2,000 for that pigeon? 👇"
@@ -454,7 +479,15 @@
       "youtube": {
         "title": "For $1,000, Would You Swim to the Bottom of the Ocean? 🌊",
         "description": "For $1,000, would you swim 11,000 meters down to the bottom of the Mariana Trench?\n\nHe said no for $1,000 — so we doubled it to $2,000. Armed with orange pool floaties, he woke up a grumpy glowing squid, got compressed to the size of a grape under 1,000 atmospheres of pressure, met a Blobfish, and accidentally pulled Earth's giant brass drain plug.\n\n#Shorts #Animation #Countryballs #PixelArt #Comedy #Ocean",
-        "tags": ["countryballs", "8bit animation", "pixel art shorts", "mariana trench", "bottom of the ocean", "animated comedy", "shorts"],
+        "tags": [
+          "countryballs",
+          "8bit animation",
+          "pixel art shorts",
+          "mariana trench",
+          "bottom of the ocean",
+          "animated comedy",
+          "shorts"
+        ],
         "category_id": "24",
         "privacy": "private",
         "pinned_comment": "Wait... did you know there's a giant brass drain plug at the bottom of the Pacific Ocean? 👇"
@@ -481,7 +514,15 @@
       "youtube": {
         "title": "For $1,000, Would You Shrink Smaller Than an Atom? ⚛️",
         "description": "For $1,000, would you let someone zap you smaller than a single atom?\n\nHe said no for $1,000 — so we doubled it to $2,000. First he had to outrun a giant dust mite on a carpet, then fell into the 99.9% empty stadium inside an atom, dodged orbiting electrons clipping his haircut, and grabbed a proton souvenir — only to return with a payout the size of a quark.\n\n#Shorts #Animation #Countryballs #PixelArt #Comedy #Science",
-        "tags": ["countryballs", "8bit animation", "pixel art shorts", "atom", "quantum physics", "animated comedy", "shorts"],
+        "tags": [
+          "countryballs",
+          "8bit animation",
+          "pixel art shorts",
+          "atom",
+          "quantum physics",
+          "animated comedy",
+          "shorts"
+        ],
         "category_id": "24",
         "privacy": "private",
         "pinned_comment": "If an atom is 99.9% empty space, why don't we fall through the floor? 👇"
@@ -777,6 +818,60 @@
         ],
         "category_id": "20",
         "privacy": "public"
+      }
+    }
+  },
+  {
+    "id": "roblox-manual-breathing",
+    "video": "videos/roblox-manual-breathing/out/final.mp4",
+    "video_vertical": "videos/roblox-manual-breathing/out/final.mp4",
+    "status": "posted",
+    "posted_at": "2026-11-23T18:10:36+07:00",
+    "youtube_id": "6GjKc7decH8",
+    "youtube_url": "https://youtube.com/shorts/6GjKc7decH8",
+    "platforms": {
+      "youtube": {
+        "title": "In This World, Everyone Has a Hidden Survival Timer 🫁⏳ #Shorts",
+        "description": "In this world, everyone is born with a hidden survival timer—and it resets every few seconds.\n\nTo stay alive, people have to constantly pull invisible gas from the atmosphere into their bodies using two internal pouches called lungs. If anyone stops doing it for even a few minutes, their screen goes black and they permanently log out of the server.\n\nAnd suddenly... automatic mode turns off. Good luck. 😅\n\n#Shorts #Roblox #RobloxStorytime #Animation #Comedy",
+        "tags": [
+          "roblox",
+          "roblox shorts",
+          "roblox storytime",
+          "in this world",
+          "manual breathing",
+          "roblox animation",
+          "blender roblox",
+          "roblox r15",
+          "funny animation",
+          "shorts"
+        ],
+        "category_id": "20",
+        "privacy": "public"
+      }
+    }
+  },
+  {
+    "id": "cb-20261123-1",
+    "vault_note": "videos/cb-20261123-1/upload.md",
+    "video": "videos/cb-20261123-1/final.mp4",
+    "video_vertical": "videos/cb-20261123-1/final.mp4",
+    "video_url": "https://github.com/envexnity/shortmaking/releases/download/cb-20261123-1/final.mp4",
+    "scheduled_slot": "2026-11-24T00:00:00+07:00",
+    "youtube_id": "QwbK_vNweyQ",
+    "platforms": {
+      "tiktok": {
+        "use_vertical": true,
+        "caption": "5 billionaires got 24 hours to build Superintelligence for $1 TRILLION — and they all failed 😭🤖 Sam Altman, Jensen Huang, Elon Musk, Zuck & Claude CEO go head-to-head in 8-bit. Watch who actually pockets the trillion at the end 💀 #ai #techcomedy #pixelart #countryballs #superintelligence",
+        "privacy_level": "PUBLIC_TO_EVERYONE",
+        "disable_duet": false,
+        "disable_stitch": false,
+        "disable_comment": false
+      },
+      "instagram": {
+        "use_vertical": true,
+        "caption": "5 tech billionaires. 24 hours. $1 Trillion on the line to build Superintelligence — and ALL five failed 💀👇\n\n• Sam Altman: GPT-10 only wants to generate cat memes\n• Jensen Huang: 1,000,000 GPUs melt straight through the floor\n• Elon Musk: Grok rocket steers straight into the Moon\n• Mark Zuckerberg: 50 million open-source bots argue about toast\n• Dario Amodei: Claude passes ethics 100% and refuses to think\n\nWait for the plot twist at the end 😭\n\n#pixelart #aihumor #techmemes #superintelligence #reels",
+        "thumb_offset_ms": 500,
+        "share_to_feed": true
       }
     }
   }
