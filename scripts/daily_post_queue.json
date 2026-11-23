@@ -4,7 +4,7 @@
     "folder": "videos/cb-20261122-1",
     "video": "videos/cb-20261122-1/final.mp4",
     "upload_md": "videos/cb-20261122-1/upload.md",
-    "title": "For $1,000, Would You Stand Inside a Lightning Bolt? ⚡ #Shorts",
+    "title": "For $1,000, Would You Stand Inside a Lightning Bolt? \u26a1 #Shorts",
     "youtube_id": "qqtIgibvLCk",
     "youtube_url": "https://youtube.com/shorts/qqtIgibvLCk",
     "privacy": "public",
@@ -16,7 +16,7 @@
     "folder": "videos/cb-20261122-2",
     "video": "videos/cb-20261122-2/final.mp4",
     "upload_md": "videos/cb-20261122-2/upload.md",
-    "title": "For $1,000, Would You Outrun the Speed of Light? ⚡ #Shorts",
+    "title": "For $1,000, Would You Outrun the Speed of Light? \u26a1 #Shorts",
     "youtube_id": "YXFQ4wa-8VA",
     "youtube_url": "https://youtube.com/shorts/YXFQ4wa-8VA",
     "privacy": "public",
@@ -28,7 +28,7 @@
     "folder": "videos/cb-20261123-1",
     "video": "videos/cb-20261123-1/final.mp4",
     "upload_md": "videos/cb-20261123-1/upload.md",
-    "title": "5 Billionaires Try to Build Superintelligence for $1 Trillion 🤖 #Shorts",
+    "title": "5 Billionaires Try to Build Superintelligence for $1 Trillion \ud83e\udd16 #Shorts",
     "youtube_id": "QwbK_vNweyQ",
     "youtube_url": "https://youtube.com/shorts/QwbK_vNweyQ",
     "privacy": "private",
@@ -39,5 +39,30 @@
       "tiktok": "scheduled_timer_00:00",
       "instagram": "scheduled_timer_00:00"
     }
+  },
+  {
+    "id": "roblox-manual-breathing",
+    "folder": "videos/roblox-manual-breathing",
+    "video": "videos/roblox-manual-breathing/out/final.mp4",
+    "upload_md": "videos/roblox-manual-breathing/upload.md",
+    "title": "In This World, Everyone Has a Hidden Survival Timer \ud83e\udec1\u23f3 #Shorts",
+    "youtube_id": "6GjKc7decH8",
+    "youtube_url": "https://youtube.com/shorts/6GjKc7decH8",
+    "privacy": "public",
+    "status": "posted_youtube",
+    "posted_at": "2026-11-23T18:10:36+07:00"
+  },
+  {
+    "id": "roblox-human-survival",
+    "folder": "videos/roblox-human-survival",
+    "video": "videos/roblox-human-survival/out/final.mp4",
+    "upload_md": "videos/roblox-human-survival/upload.md",
+    "title": "In This World, Humans Have Crazy Survival Rules \ud83d\udc80 #Shorts",
+    "youtube_id": "IbXyHf7HwL4",
+    "youtube_url": "https://youtube.com/shorts/IbXyHf7HwL4",
+    "privacy": "private",
+    "scheduled_slot": "2026-11-23T21:00:00+07:00",
+    "status": "scheduled",
+    "posted_at": null
   }
 ]
