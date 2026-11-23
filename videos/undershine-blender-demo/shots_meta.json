@@ -1,0 +1,62 @@
+{
+  "fps": 30,
+  "total_frames": 634,
+  "shots": [
+    {
+      "name": "Cam01_IsoDiorama",
+      "start_frame": 1,
+      "end_frame": 100,
+      "start_sec": 0.0,
+      "end_sec": 3.333
+    },
+    {
+      "name": "Cam02_BirdsEye",
+      "start_frame": 101,
+      "end_frame": 196,
+      "start_sec": 3.333,
+      "end_sec": 6.533
+    },
+    {
+      "name": "Cam03_LowWormsEye",
+      "start_frame": 197,
+      "end_frame": 285,
+      "start_sec": 6.533,
+      "end_sec": 9.5
+    },
+    {
+      "name": "Cam04_SideParallax",
+      "start_frame": 286,
+      "end_frame": 370,
+      "start_sec": 9.5,
+      "end_sec": 12.333
+    },
+    {
+      "name": "Cam05_OTS_Follow",
+      "start_frame": 371,
+      "end_frame": 444,
+      "start_sec": 12.333,
+      "end_sec": 14.8
+    },
+    {
+      "name": "Cam06_WaterlinePeek",
+      "start_frame": 445,
+      "end_frame": 520,
+      "start_sec": 14.8,
+      "end_sec": 17.333
+    },
+    {
+      "name": "Cam07_DutchMacro",
+      "start_frame": 521,
+      "end_frame": 568,
+      "start_sec": 17.333,
+      "end_sec": 18.933
+    },
+    {
+      "name": "Cam08_CraneOrbit",
+      "start_frame": 569,
+      "end_frame": 634,
+      "start_sec": 18.933,
+      "end_sec": 21.133
+    }
+  ]
+}

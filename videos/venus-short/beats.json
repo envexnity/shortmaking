@@ -1,0 +1,790 @@
+{
+  "voice": "edge:en-AU-WilliamNeural",
+  "total": 47.782,
+  "beats": [
+    {
+      "i": 0,
+      "text": "You land on Venus, Earth\u2019s twin sister \u2014 same size, same gravity. That\u2019s the rule.",
+      "start": 0.25,
+      "end": 5.569,
+      "speechEnd": 5.409,
+      "words": [
+        {
+          "w": "You",
+          "start": 0.25,
+          "end": 0.39
+        },
+        {
+          "w": "land",
+          "start": 0.39,
+          "end": 0.57
+        },
+        {
+          "w": "on",
+          "start": 0.57,
+          "end": 0.77
+        },
+        {
+          "w": "Venus,",
+          "start": 0.77,
+          "end": 0.95
+        },
+        {
+          "w": "Earth's",
+          "start": 1.53,
+          "end": 1.81
+        },
+        {
+          "w": "twin",
+          "start": 1.81,
+          "end": 1.93
+        },
+        {
+          "w": "sister,",
+          "start": 1.93,
+          "end": 2.17
+        },
+        {
+          "w": "same",
+          "start": 2.69,
+          "end": 2.81
+        },
+        {
+          "w": "size,",
+          "start": 2.81,
+          "end": 3.15
+        },
+        {
+          "w": "same",
+          "start": 3.63,
+          "end": 3.91
+        },
+        {
+          "w": "gravity,",
+          "start": 3.91,
+          "end": 4.09
+        },
+        {
+          "w": "that's",
+          "start": 4.55,
+          "end": 4.89
+        },
+        {
+          "w": "the",
+          "start": 4.89,
+          "end": 4.99
+        },
+        {
+          "w": "rule.",
+          "start": 4.99,
+          "end": 5.21
+        }
+      ]
+    },
+    {
+      "i": 1,
+      "text": "Then your suit implodes like a soda can in half a second.",
+      "start": 5.569,
+      "end": 8.76,
+      "speechEnd": 8.6,
+      "words": [
+        {
+          "w": "Then",
+          "start": 5.569,
+          "end": 5.749
+        },
+        {
+          "w": "your",
+          "start": 5.749,
+          "end": 5.929
+        },
+        {
+          "w": "suit",
+          "start": 5.929,
+          "end": 6.189
+        },
+        {
+          "w": "implodes",
+          "start": 6.189,
+          "end": 6.729
+        },
+        {
+          "w": "like",
+          "start": 6.729,
+          "end": 6.969
+        },
+        {
+          "w": "a",
+          "start": 6.969,
+          "end": 7.069
+        },
+        {
+          "w": "soda",
+          "start": 7.069,
+          "end": 7.289
+        },
+        {
+          "w": "can",
+          "start": 7.289,
+          "end": 7.549
+        },
+        {
+          "w": "in",
+          "start": 7.549,
+          "end": 7.789
+        },
+        {
+          "w": "half",
+          "start": 7.789,
+          "end": 7.989
+        },
+        {
+          "w": "a",
+          "start": 7.989,
+          "end": 8.129
+        },
+        {
+          "w": "second.",
+          "start": 8.129,
+          "end": 8.369
+        }
+      ]
+    },
+    {
+      "i": 2,
+      "text": "Killer number one: the crush.",
+      "start": 8.76,
+      "end": 10.502,
+      "speechEnd": 10.342,
+      "words": [
+        {
+          "w": "Killer",
+          "start": 8.76,
+          "end": 8.9
+        },
+        {
+          "w": "number",
+          "start": 9.02,
+          "end": 9.16
+        },
+        {
+          "w": "1:",
+          "start": 9.16,
+          "end": 9.48
+        },
+        {
+          "w": "the",
+          "start": 9.68,
+          "end": 9.82
+        },
+        {
+          "w": "crush.",
+          "start": 9.82,
+          "end": 10.02
+        }
+      ]
+    },
+    {
+      "i": 3,
+      "text": "Venus packs ninety-two times Earth\u2019s air pressure \u2014 like diving nine hundred meters underwater with no submarine.",
+      "start": 10.502,
+      "end": 16.139,
+      "speechEnd": 15.979,
+      "words": [
+        {
+          "w": "Venus",
+          "start": 10.502,
+          "end": 10.742
+        },
+        {
+          "w": "packs",
+          "start": 10.742,
+          "end": 11.042
+        },
+        {
+          "w": "92",
+          "start": 11.042,
+          "end": 11.462
+        },
+        {
+          "w": "times",
+          "start": 11.462,
+          "end": 11.982
+        },
+        {
+          "w": "Earth's",
+          "start": 11.982,
+          "end": 12.362
+        },
+        {
+          "w": "air",
+          "start": 12.362,
+          "end": 12.462
+        },
+        {
+          "w": "pressure,",
+          "start": 12.462,
+          "end": 12.762
+        },
+        {
+          "w": "like",
+          "start": 13.102,
+          "end": 13.222
+        },
+        {
+          "w": "diving",
+          "start": 13.222,
+          "end": 13.462
+        },
+        {
+          "w": "900",
+          "start": 13.462,
+          "end": 13.882
+        },
+        {
+          "w": "meters",
+          "start": 13.882,
+          "end": 14.302
+        },
+        {
+          "w": "under",
+          "start": 14.302,
+          "end": 14.502
+        },
+        {
+          "w": "water",
+          "start": 14.502,
+          "end": 14.802
+        },
+        {
+          "w": "with",
+          "start": 14.802,
+          "end": 15.082
+        },
+        {
+          "w": "no",
+          "start": 15.082,
+          "end": 15.282
+        },
+        {
+          "w": "submarine.",
+          "start": 15.282,
+          "end": 15.622
+        }
+      ]
+    },
+    {
+      "i": 4,
+      "text": "Your helmet folds inward before your brain feels the squeeze.",
+      "start": 16.139,
+      "end": 19.333,
+      "speechEnd": 19.173,
+      "words": [
+        {
+          "w": "Your",
+          "start": 16.139,
+          "end": 16.299
+        },
+        {
+          "w": "helmet",
+          "start": 16.299,
+          "end": 16.519
+        },
+        {
+          "w": "folds",
+          "start": 16.519,
+          "end": 16.839
+        },
+        {
+          "w": "inward",
+          "start": 16.839,
+          "end": 17.199
+        },
+        {
+          "w": "before",
+          "start": 17.199,
+          "end": 17.639
+        },
+        {
+          "w": "your",
+          "start": 17.639,
+          "end": 17.819
+        },
+        {
+          "w": "brain",
+          "start": 17.819,
+          "end": 18.099
+        },
+        {
+          "w": "feels",
+          "start": 18.099,
+          "end": 18.419
+        },
+        {
+          "w": "the",
+          "start": 18.419,
+          "end": 18.619
+        },
+        {
+          "w": "squeeze.",
+          "start": 18.619,
+          "end": 18.839
+        }
+      ]
+    },
+    {
+      "i": 5,
+      "text": "Killer number two: four hundred sixty-five degrees Celsius.",
+      "start": 19.333,
+      "end": 22.627,
+      "speechEnd": 22.467,
+      "words": [
+        {
+          "w": "Killer",
+          "start": 19.333,
+          "end": 19.473
+        },
+        {
+          "w": "number",
+          "start": 19.573,
+          "end": 19.733
+        },
+        {
+          "w": "2:",
+          "start": 19.733,
+          "end": 20.013
+        },
+        {
+          "w": "465",
+          "start": 20.353,
+          "end": 21.093
+        },
+        {
+          "w": "degrees",
+          "start": 21.093,
+          "end": 21.693
+        },
+        {
+          "w": "Celsius.",
+          "start": 21.693,
+          "end": 22.253
+        }
+      ]
+    },
+    {
+      "i": 6,
+      "text": "Venus sits twice as far from the Sun as Mercury, yet traps enough heat to melt lead into puddles at your boots.",
+      "start": 22.627,
+      "end": 28.211,
+      "speechEnd": 28.051,
+      "words": [
+        {
+          "w": "Venus",
+          "start": 22.627,
+          "end": 22.847
+        },
+        {
+          "w": "sits",
+          "start": 22.847,
+          "end": 23.127
+        },
+        {
+          "w": "twice",
+          "start": 23.127,
+          "end": 23.347
+        },
+        {
+          "w": "as",
+          "start": 23.347,
+          "end": 23.547
+        },
+        {
+          "w": "far",
+          "start": 23.547,
+          "end": 23.767
+        },
+        {
+          "w": "from",
+          "start": 23.767,
+          "end": 23.967
+        },
+        {
+          "w": "the",
+          "start": 23.967,
+          "end": 24.047
+        },
+        {
+          "w": "sun",
+          "start": 24.047,
+          "end": 24.207
+        },
+        {
+          "w": "as",
+          "start": 24.207,
+          "end": 24.327
+        },
+        {
+          "w": "mercury,",
+          "start": 24.327,
+          "end": 24.647
+        },
+        {
+          "w": "yet",
+          "start": 24.947,
+          "end": 25.147
+        },
+        {
+          "w": "traps",
+          "start": 25.147,
+          "end": 25.367
+        },
+        {
+          "w": "enough",
+          "start": 25.367,
+          "end": 25.627
+        },
+        {
+          "w": "heat",
+          "start": 25.627,
+          "end": 25.907
+        },
+        {
+          "w": "to",
+          "start": 25.907,
+          "end": 26.147
+        },
+        {
+          "w": "melt",
+          "start": 26.147,
+          "end": 26.287
+        },
+        {
+          "w": "lead",
+          "start": 26.287,
+          "end": 26.567
+        },
+        {
+          "w": "into",
+          "start": 26.567,
+          "end": 26.807
+        },
+        {
+          "w": "puddles",
+          "start": 26.807,
+          "end": 27.227
+        },
+        {
+          "w": "at",
+          "start": 27.227,
+          "end": 27.447
+        },
+        {
+          "w": "your",
+          "start": 27.447,
+          "end": 27.567
+        },
+        {
+          "w": "boots.",
+          "start": 27.567,
+          "end": 27.747
+        }
+      ]
+    },
+    {
+      "i": 7,
+      "text": "NASA\u2019s Magellan and Mariner missions saw sulfuric acid clouds above \u2014 so hot below, the acid evaporates mid-air.",
+      "start": 28.211,
+      "end": 34.561,
+      "speechEnd": 34.401,
+      "words": [
+        {
+          "w": "NASA's",
+          "start": 28.211,
+          "end": 28.551
+        },
+        {
+          "w": "Magellan",
+          "start": 28.551,
+          "end": 28.871
+        },
+        {
+          "w": "and",
+          "start": 28.871,
+          "end": 29.111
+        },
+        {
+          "w": "Mariner",
+          "start": 29.111,
+          "end": 29.431
+        },
+        {
+          "w": "missions",
+          "start": 29.431,
+          "end": 29.691
+        },
+        {
+          "w": "saw",
+          "start": 29.691,
+          "end": 30.031
+        },
+        {
+          "w": "sulfuric",
+          "start": 30.031,
+          "end": 30.671
+        },
+        {
+          "w": "acid",
+          "start": 30.671,
+          "end": 30.831
+        },
+        {
+          "w": "clouds",
+          "start": 30.831,
+          "end": 31.131
+        },
+        {
+          "w": "above,",
+          "start": 31.131,
+          "end": 31.531
+        },
+        {
+          "w": "so",
+          "start": 31.911,
+          "end": 32.051
+        },
+        {
+          "w": "hot",
+          "start": 32.051,
+          "end": 32.191
+        },
+        {
+          "w": "below,",
+          "start": 32.191,
+          "end": 32.431
+        },
+        {
+          "w": "the",
+          "start": 32.911,
+          "end": 32.971
+        },
+        {
+          "w": "acid",
+          "start": 32.971,
+          "end": 33.251
+        },
+        {
+          "w": "evaporates",
+          "start": 33.251,
+          "end": 33.871
+        },
+        {
+          "w": "mid-air.",
+          "start": 33.871,
+          "end": 34.051
+        }
+      ]
+    },
+    {
+      "i": 8,
+      "text": "What can you do? Dig a bunker? The rocks glow.",
+      "start": 34.561,
+      "end": 37.52,
+      "speechEnd": 37.36,
+      "words": [
+        {
+          "w": "What",
+          "start": 34.561,
+          "end": 34.761
+        },
+        {
+          "w": "can",
+          "start": 34.761,
+          "end": 34.961
+        },
+        {
+          "w": "you",
+          "start": 34.961,
+          "end": 35.121
+        },
+        {
+          "w": "do,",
+          "start": 35.121,
+          "end": 35.301
+        },
+        {
+          "w": "Dig a bunker?",
+          "start": 35.621,
+          "end": 36.241
+        },
+        {
+          "w": "the",
+          "start": 36.501,
+          "end": 36.601
+        },
+        {
+          "w": "rocks",
+          "start": 36.601,
+          "end": 36.941
+        },
+        {
+          "w": "glow.",
+          "start": 36.941,
+          "end": 37.101
+        }
+      ]
+    },
+    {
+      "i": 9,
+      "text": "Call Earth? Signals take fifteen minutes \u2014 and your phone melted in point-four seconds.",
+      "start": 37.52,
+      "end": 42.108,
+      "speechEnd": 41.948,
+      "words": [
+        {
+          "w": "Call",
+          "start": 37.52,
+          "end": 37.68
+        },
+        {
+          "w": "Earth,",
+          "start": 37.68,
+          "end": 37.92
+        },
+        {
+          "w": "signals",
+          "start": 38.3,
+          "end": 38.5
+        },
+        {
+          "w": "take",
+          "start": 38.5,
+          "end": 38.86
+        },
+        {
+          "w": "15",
+          "start": 38.86,
+          "end": 39.14
+        },
+        {
+          "w": "minutes,",
+          "start": 39.14,
+          "end": 39.54
+        },
+        {
+          "w": "and",
+          "start": 39.82,
+          "end": 39.98
+        },
+        {
+          "w": "your",
+          "start": 39.98,
+          "end": 40.1
+        },
+        {
+          "w": "phone",
+          "start": 40.1,
+          "end": 40.3
+        },
+        {
+          "w": "melted",
+          "start": 40.3,
+          "end": 40.62
+        },
+        {
+          "w": "in",
+          "start": 40.62,
+          "end": 40.94
+        },
+        {
+          "w": "0.4",
+          "start": 40.94,
+          "end": 41.08
+        },
+        {
+          "w": "seconds.",
+          "start": 41.38,
+          "end": 41.7
+        }
+      ]
+    },
+    {
+      "i": 10,
+      "text": "Fifty kilometers up, the clouds are room temperature. Just don\u2019t breathe the battery acid.",
+      "start": 42.108,
+      "end": 47.782,
+      "speechEnd": 46.782,
+      "words": [
+        {
+          "w": "50",
+          "start": 42.108,
+          "end": 42.388
+        },
+        {
+          "w": "km",
+          "start": 42.388,
+          "end": 42.588
+        },
+        {
+          "w": "up,",
+          "start": 42.588,
+          "end": 43.008
+        },
+        {
+          "w": "the",
+          "start": 43.228,
+          "end": 43.368
+        },
+        {
+          "w": "clouds",
+          "start": 43.368,
+          "end": 43.568
+        },
+        {
+          "w": "are",
+          "start": 43.568,
+          "end": 43.968
+        },
+        {
+          "w": "room",
+          "start": 43.968,
+          "end": 44.148
+        },
+        {
+          "w": "temperature,",
+          "start": 44.148,
+          "end": 44.508
+        },
+        {
+          "w": "just",
+          "start": 44.928,
+          "end": 45.148
+        },
+        {
+          "w": "don't",
+          "start": 45.148,
+          "end": 45.508
+        },
+        {
+          "w": "breathe",
+          "start": 45.508,
+          "end": 45.728
+        },
+        {
+          "w": "the",
+          "start": 45.728,
+          "end": 46.028
+        },
+        {
+          "w": "battery",
+          "start": 46.028,
+          "end": 46.228
+        },
+        {
+          "w": "acid.",
+          "start": 46.228,
+          "end": 46.548
+        }
+      ]
+    }
+  ]
+}

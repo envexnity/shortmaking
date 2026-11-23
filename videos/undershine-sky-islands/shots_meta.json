@@ -1,0 +1,125 @@
+{
+  "fps": 30,
+  "total_frames": 1331,
+  "shots": [
+    {
+      "name": "00_Orrery_Countdown",
+      "start_frame": 1,
+      "end_frame": 126,
+      "start_sec": 0.0,
+      "end_sec": 4.2
+    },
+    {
+      "name": "01_I1_Globe",
+      "start_frame": 127,
+      "end_frame": 149,
+      "start_sec": 4.2,
+      "end_sec": 4.967
+    },
+    {
+      "name": "02_I1_IsoSteppe",
+      "start_frame": 150,
+      "end_frame": 231,
+      "start_sec": 4.967,
+      "end_sec": 7.7
+    },
+    {
+      "name": "03_I1_LowWindmill",
+      "start_frame": 232,
+      "end_frame": 314,
+      "start_sec": 7.7,
+      "end_sec": 10.467
+    },
+    {
+      "name": "04_I1_PeekCottage",
+      "start_frame": 315,
+      "end_frame": 392,
+      "start_sec": 10.467,
+      "end_sec": 13.067
+    },
+    {
+      "name": "05_I2_Globe",
+      "start_frame": 393,
+      "end_frame": 415,
+      "start_sec": 13.067,
+      "end_sec": 13.833
+    },
+    {
+      "name": "06_I2_SideTrackTrain",
+      "start_frame": 416,
+      "end_frame": 522,
+      "start_sec": 13.833,
+      "end_sec": 17.4
+    },
+    {
+      "name": "07_I2_BirdsEyeViaduct",
+      "start_frame": 523,
+      "end_frame": 629,
+      "start_sec": 17.4,
+      "end_sec": 20.967
+    },
+    {
+      "name": "08_I2_DutchFrontTrack",
+      "start_frame": 630,
+      "end_frame": 731,
+      "start_sec": 20.967,
+      "end_sec": 24.367
+    },
+    {
+      "name": "09_I3_Globe",
+      "start_frame": 732,
+      "end_frame": 754,
+      "start_sec": 24.367,
+      "end_sec": 25.133
+    },
+    {
+      "name": "10_I3_IsoSanctuary",
+      "start_frame": 755,
+      "end_frame": 848,
+      "start_sec": 25.133,
+      "end_sec": 28.267
+    },
+    {
+      "name": "11_I3_OTS_Garden",
+      "start_frame": 849,
+      "end_frame": 943,
+      "start_sec": 28.267,
+      "end_sec": 31.433
+    },
+    {
+      "name": "12_I3_TowerTwilight",
+      "start_frame": 944,
+      "end_frame": 1032,
+      "start_sec": 31.433,
+      "end_sec": 34.4
+    },
+    {
+      "name": "13_I4_Globe",
+      "start_frame": 1033,
+      "end_frame": 1055,
+      "start_sec": 34.4,
+      "end_sec": 35.167
+    },
+    {
+      "name": "14_I4_CraneQuarry",
+      "start_frame": 1056,
+      "end_frame": 1148,
+      "start_sec": 35.167,
+      "end_sec": 38.267
+    },
+    {
+      "name": "15_I4_LowChains",
+      "start_frame": 1149,
+      "end_frame": 1242,
+      "start_sec": 38.267,
+      "end_sec": 41.4
+    },
+    {
+      "name": "16_I4_PullbackSever",
+      "start_frame": 1243,
+      "end_frame": 1331,
+      "start_sec": 41.4,
+      "end_sec": 44.367
+    }
+  ]
+}

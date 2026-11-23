@@ -1,0 +1,952 @@
+{
+  "engine": "elevenlabs",
+  "model": "eleven_turbo_v2_5",
+  "total": 45.241,
+  "beats": [
+    {
+      "i": 0,
+      "speaker": "host",
+      "text": "For a thousand bucks, would you fly to the Sun and give it a high five?",
+      "start": 0.05,
+      "speechEnd": 2.699,
+      "end": 2.859,
+      "words": [
+        {
+          "w": "For",
+          "start": 0.05,
+          "end": 0.15
+        },
+        {
+          "w": "a",
+          "start": 0.15,
+          "end": 0.23
+        },
+        {
+          "w": "thousand",
+          "start": 0.23,
+          "end": 0.47
+        },
+        {
+          "w": "bucks,",
+          "start": 0.47,
+          "end": 0.75
+        },
+        {
+          "w": "would",
+          "start": 0.93,
+          "end": 1.01
+        },
+        {
+          "w": "you",
+          "start": 1.01,
+          "end": 1.13
+        },
+        {
+          "w": "fly",
+          "start": 1.13,
+          "end": 1.33
+        },
+        {
+          "w": "to",
+          "start": 1.33,
+          "end": 1.45
+        },
+        {
+          "w": "the",
+          "start": 1.45,
+          "end": 1.53
+        },
+        {
+          "w": "sun",
+          "start": 1.53,
+          "end": 1.69
+        },
+        {
+          "w": "and",
+          "start": 1.69,
+          "end": 1.83
+        },
+        {
+          "w": "give",
+          "start": 1.83,
+          "end": 1.97
+        },
+        {
+          "w": "it",
+          "start": 1.97,
+          "end": 2.07
+        },
+        {
+          "w": "a",
+          "start": 2.07,
+          "end": 2.11
+        },
+        {
+          "w": "high",
+          "start": 2.11,
+          "end": 2.27
+        },
+        {
+          "w": "five?",
+          "start": 2.27,
+          "end": 2.45
+        }
+      ]
+    },
+    {
+      "i": 1,
+      "speaker": "mrbeast",
+      "text": "No.",
+      "start": 2.859,
+      "speechEnd": 3.213,
+      "end": 3.493,
+      "words": [
+        {
+          "w": "No.",
+          "start": 2.859,
+          "end": 3.019
+        }
+      ]
+    },
+    {
+      "i": 2,
+      "speaker": "host",
+      "text": "For two thousand bucks, would you fly up and high-five the Sun?",
+      "start": 3.493,
+      "speechEnd": 6.052,
+      "end": 6.202,
+      "words": [
+        {
+          "w": "For",
+          "start": 3.493,
+          "end": 3.593
+        },
+        {
+          "w": "$2",
+          "start": 3.593,
+          "end": 3.773
+        },
+        {
+          "w": ",000,",
+          "start": 3.773,
+          "end": 4.033
+        },
+        {
+          "w": "would",
+          "start": 4.293,
+          "end": 4.473
+        },
+        {
+          "w": "you",
+          "start": 4.473,
+          "end": 4.713
+        },
+        {
+          "w": "fly",
+          "start": 4.713,
+          "end": 4.953
+        },
+        {
+          "w": "up",
+          "start": 4.953,
+          "end": 5.093
+        },
+        {
+          "w": "and",
+          "start": 5.093,
+          "end": 5.213
+        },
+        {
+          "w": "high",
+          "start": 5.213,
+          "end": 5.353
+        },
+        {
+          "w": "-five",
+          "start": 5.353,
+          "end": 5.573
+        },
+        {
+          "w": "the",
+          "start": 5.573,
+          "end": 5.693
+        },
+        {
+          "w": "sun?",
+          "start": 5.693,
+          "end": 5.853
+        }
+      ]
+    },
+    {
+      "i": 3,
+      "speaker": "mc",
+      "text": "Two grand? I'll just go at night!",
+      "start": 6.202,
+      "speechEnd": 7.812,
+      "end": 8.012,
+      "words": [
+        {
+          "w": "Too",
+          "start": 6.202,
+          "end": 6.322
+        },
+        {
+          "w": "grand.",
+          "start": 6.322,
+          "end": 6.602
+        },
+        {
+          "w": "I'll",
+          "start": 7.022,
+          "end": 7.162
+        },
+        {
+          "w": "just",
+          "start": 7.162,
+          "end": 7.262
+        },
+        {
+          "w": "go",
+          "start": 7.262,
+          "end": 7.402
+        },
+        {
+          "w": "at",
+          "start": 7.402,
+          "end": 7.462
+        },
+        {
+          "w": "night.",
+          "start": 7.462,
+          "end": 7.622
+        }
+      ]
+    },
+    {
+      "i": 4,
+      "speaker": "mc",
+      "text": "Okay, dollar-store sunglasses on, rocket fueled\u2014 wait, why is it STILL daytime?!",
+      "start": 8.012,
+      "speechEnd": 11.962,
+      "end": 12.162,
+      "words": [
+        {
+          "w": "Okay,",
+          "start": 8.012,
+          "end": 8.252
+        },
+        {
+          "w": "dollar",
+          "start": 8.512,
+          "end": 8.692
+        },
+        {
+          "w": "store",
+          "start": 8.692,
+          "end": 8.932
+        },
+        {
+          "w": "sunglasses",
+          "start": 8.932,
+          "end": 9.172
+        },
+        {
+          "w": "on",
+          "start": 9.172,
+          "end": 9.612
+        },
+        {
+          "w": "rocket",
+          "start": 9.612,
+          "end": 9.792
+        },
+        {
+          "w": "-fueled?",
+          "start": 9.792,
+          "end": 10.312
+        },
+        {
+          "w": "Wait,",
+          "start": 10.532,
+          "end": 10.592
+        },
+        {
+          "w": "why",
+          "start": 10.732,
+          "end": 10.872
+        },
+        {
+          "w": "is",
+          "start": 10.872,
+          "end": 10.972
+        },
+        {
+          "w": "it",
+          "start": 10.972,
+          "end": 11.052
+        },
+        {
+          "w": "still",
+          "start": 11.052,
+          "end": 11.292
+        },
+        {
+          "w": "daytime?",
+          "start": 11.292,
+          "end": 11.532
+        }
+      ]
+    },
+    {
+      "i": 5,
+      "speaker": "flare",
+      "text": "Bro, space doesn't have a bedtime!",
+      "start": 12.162,
+      "speechEnd": 14.187,
+      "end": 14.327,
+      "words": [
+        {
+          "w": "Pro",
+          "start": 12.162,
+          "end": 12.322
+        },
+        {
+          "w": "Space",
+          "start": 12.322,
+          "end": 12.682
+        },
+        {
+          "w": "doesn't",
+          "start": 12.682,
+          "end": 13.222
+        },
+        {
+          "w": "have",
+          "start": 13.222,
+          "end": 13.342
+        },
+        {
+          "w": "a",
+          "start": 13.342,
+          "end": 13.442
+        },
+        {
+          "w": "bedtime.",
+          "start": 13.442,
+          "end": 13.942
+        }
+      ]
+    },
+    {
+      "i": 6,
+      "speaker": "mc",
+      "text": "My bad, I skipped science class!",
+      "start": 14.327,
+      "speechEnd": 15.877,
+      "end": 16.057,
+      "words": [
+        {
+          "w": "My",
+          "start": 14.327,
+          "end": 14.447
+        },
+        {
+          "w": "bad,",
+          "start": 14.447,
+          "end": 14.607
+        },
+        {
+          "w": "I",
+          "start": 14.747,
+          "end": 14.767
+        },
+        {
+          "w": "skipped",
+          "start": 14.767,
+          "end": 14.987
+        },
+        {
+          "w": "science",
+          "start": 14.987,
+          "end": 15.287
+        },
+        {
+          "w": "class.",
+          "start": 15.287,
+          "end": 15.607
+        }
+      ]
+    },
+    {
+      "i": 7,
+      "speaker": "mc",
+      "text": "Fifteen million degrees?! Why is my aluminum foil suit turning into soup?!",
+      "start": 16.057,
+      "speechEnd": 19.569,
+      "end": 19.709,
+      "words": [
+        {
+          "w": "15",
+          "start": 16.057,
+          "end": 16.317
+        },
+        {
+          "w": "million",
+          "start": 16.317,
+          "end": 16.617
+        },
+        {
+          "w": "degrees?",
+          "start": 16.617,
+          "end": 17.057
+        },
+        {
+          "w": "Why",
+          "start": 17.537,
+          "end": 17.677
+        },
+        {
+          "w": "is",
+          "start": 17.677,
+          "end": 17.797
+        },
+        {
+          "w": "my",
+          "start": 17.797,
+          "end": 17.917
+        },
+        {
+          "w": "aluminum",
+          "start": 17.917,
+          "end": 18.177
+        },
+        {
+          "w": "foil",
+          "start": 18.177,
+          "end": 18.457
+        },
+        {
+          "w": "suit",
+          "start": 18.457,
+          "end": 18.757
+        },
+        {
+          "w": "turning",
+          "start": 18.757,
+          "end": 18.957
+        },
+        {
+          "w": "into",
+          "start": 18.957,
+          "end": 19.197
+        },
+        {
+          "w": "soup?",
+          "start": 19.197,
+          "end": 19.397
+        }
+      ]
+    },
+    {
+      "i": 8,
+      "speaker": "mc",
+      "text": "Luckily, I brought a thermos to catch a slap. Unluckily, the Sun just sneezed a solar flare!",
+      "start": 19.709,
+      "speechEnd": 24.234,
+      "end": 24.414,
+      "words": [
+        {
+          "w": "Luckily,",
+          "start": 19.709,
+          "end": 19.949
+        },
+        {
+          "w": "I",
+          "start": 20.229,
+          "end": 20.309
+        },
+        {
+          "w": "brought",
+          "start": 20.309,
+          "end": 20.469
+        },
+        {
+          "w": "a",
+          "start": 20.469,
+          "end": 20.589
+        },
+        {
+          "w": "thermos",
+          "start": 20.589,
+          "end": 20.869
+        },
+        {
+          "w": "to",
+          "start": 20.869,
+          "end": 20.989
+        },
+        {
+          "w": "catch",
+          "start": 20.989,
+          "end": 21.129
+        },
+        {
+          "w": "a",
+          "start": 21.129,
+          "end": 21.249
+        },
+        {
+          "w": "slap.",
+          "start": 21.249,
+          "end": 21.509
+        },
+        {
+          "w": "Unluckily,",
+          "start": 21.789,
+          "end": 22.129
+        },
+        {
+          "w": "the",
+          "start": 22.309,
+          "end": 22.369
+        },
+        {
+          "w": "sun",
+          "start": 22.369,
+          "end": 22.589
+        },
+        {
+          "w": "just",
+          "start": 22.589,
+          "end": 22.829
+        },
+        {
+          "w": "sneezed",
+          "start": 22.829,
+          "end": 23.369
+        },
+        {
+          "w": "a",
+          "start": 23.369,
+          "end": 23.409
+        },
+        {
+          "w": "solar",
+          "start": 23.409,
+          "end": 23.649
+        },
+        {
+          "w": "flare.",
+          "start": 23.649,
+          "end": 23.969
+        }
+      ]
+    },
+    {
+      "i": 9,
+      "speaker": "photon",
+      "text": "You see, a single photon takes a hundred thousand years just to bounce out of the Sun's basement!",
+      "start": 24.414,
+      "speechEnd": 29.665,
+      "end": 29.785,
+      "words": [
+        {
+          "w": "You",
+          "start": 24.414,
+          "end": 24.514
+        },
+        {
+          "w": "see,",
+          "start": 24.514,
+          "end": 24.654
+        },
+        {
+          "w": "a",
+          "start": 24.874,
+          "end": 25.034
+        },
+        {
+          "w": "single",
+          "start": 25.034,
+          "end": 25.294
+        },
+        {
+          "w": "photon",
+          "start": 25.294,
+          "end": 25.554
+        },
+        {
+          "w": "takes",
+          "start": 25.554,
+          "end": 26.094
+        },
+        {
+          "w": "100",
+          "start": 26.094,
+          "end": 26.434
+        },
+        {
+          "w": ",000",
+          "start": 26.434,
+          "end": 27.014
+        },
+        {
+          "w": "years",
+          "start": 27.014,
+          "end": 27.274
+        },
+        {
+          "w": "just",
+          "start": 27.274,
+          "end": 27.754
+        },
+        {
+          "w": "to",
+          "start": 27.754,
+          "end": 27.914
+        },
+        {
+          "w": "bounce",
+          "start": 27.914,
+          "end": 28.174
+        },
+        {
+          "w": "out",
+          "start": 28.174,
+          "end": 28.514
+        },
+        {
+          "w": "of",
+          "start": 28.514,
+          "end": 28.614
+        },
+        {
+          "w": "the",
+          "start": 28.614,
+          "end": 28.694
+        },
+        {
+          "w": "sun's",
+          "start": 28.694,
+          "end": 29.054
+        },
+        {
+          "w": "basement.",
+          "start": 29.054,
+          "end": 29.234
+        }
+      ]
+    },
+    {
+      "i": 10,
+      "speaker": "mc",
+      "text": "Cool story, light bulb! High five, Sun!",
+      "start": 29.785,
+      "speechEnd": 32.066,
+      "end": 32.226,
+      "words": [
+        {
+          "w": "Cool",
+          "start": 29.785,
+          "end": 29.905
+        },
+        {
+          "w": "story",
+          "start": 29.905,
+          "end": 30.145
+        },
+        {
+          "w": "light",
+          "start": 30.145,
+          "end": 30.505
+        },
+        {
+          "w": "bulb,",
+          "start": 30.505,
+          "end": 30.765
+        },
+        {
+          "w": "high",
+          "start": 31.045,
+          "end": 31.145
+        },
+        {
+          "w": "five",
+          "start": 31.145,
+          "end": 31.505
+        },
+        {
+          "w": "son.",
+          "start": 31.505,
+          "end": 31.785
+        }
+      ]
+    },
+    {
+      "i": 11,
+      "speaker": "photon",
+      "text": "Wait! Don't trap a solar flare inside a\u2014",
+      "start": 32.226,
+      "speechEnd": 34.319,
+      "end": 34.459,
+      "words": [
+        {
+          "w": "Wait,",
+          "start": 32.226,
+          "end": 32.366
+        },
+        {
+          "w": "don't",
+          "start": 32.606,
+          "end": 32.786
+        },
+        {
+          "w": "trap",
+          "start": 32.786,
+          "end": 32.946
+        },
+        {
+          "w": "a",
+          "start": 32.946,
+          "end": 33.086
+        },
+        {
+          "w": "solar",
+          "start": 33.086,
+          "end": 33.286
+        },
+        {
+          "w": "flare",
+          "start": 33.286,
+          "end": 33.566
+        },
+        {
+          "w": "inside",
+          "start": 33.566,
+          "end": 33.886
+        },
+        {
+          "w": "up.",
+          "start": 33.886,
+          "end": 34.226
+        }
+      ]
+    },
+    {
+      "i": 12,
+      "speaker": "mc",
+      "text": "GOT THE HIGH FIVE!",
+      "start": 34.459,
+      "speechEnd": 35.535,
+      "end": 35.835,
+      "words": [
+        {
+          "w": "Got",
+          "start": 34.459,
+          "end": 34.579
+        },
+        {
+          "w": "the",
+          "start": 34.579,
+          "end": 34.719
+        },
+        {
+          "w": "high",
+          "start": 34.719,
+          "end": 34.919
+        },
+        {
+          "w": "fives.",
+          "start": 34.919,
+          "end": 35.379
+        }
+      ]
+    },
+    {
+      "i": 13,
+      "speaker": "mc",
+      "text": "Why is my thermos glowing brighter than noon at midnight?!",
+      "start": 35.835,
+      "speechEnd": 38.081,
+      "end": 38.301,
+      "words": [
+        {
+          "w": "Why",
+          "start": 35.835,
+          "end": 35.935
+        },
+        {
+          "w": "is",
+          "start": 35.935,
+          "end": 36.055
+        },
+        {
+          "w": "my",
+          "start": 36.055,
+          "end": 36.155
+        },
+        {
+          "w": "thermos",
+          "start": 36.155,
+          "end": 36.535
+        },
+        {
+          "w": "glowing",
+          "start": 36.535,
+          "end": 36.695
+        },
+        {
+          "w": "brighter",
+          "start": 36.695,
+          "end": 37.035
+        },
+        {
+          "w": "than",
+          "start": 37.035,
+          "end": 37.275
+        },
+        {
+          "w": "noon",
+          "start": 37.275,
+          "end": 37.455
+        },
+        {
+          "w": "at",
+          "start": 37.455,
+          "end": 37.635
+        },
+        {
+          "w": "midnight?",
+          "start": 37.635,
+          "end": 37.835
+        }
+      ]
+    },
+    {
+      "i": 14,
+      "speaker": "mc",
+      "text": "I high-fived the Sun! Where's my two thousand bucks?",
+      "start": 38.301,
+      "speechEnd": 40.961,
+      "end": 41.181,
+      "words": [
+        {
+          "w": "I",
+          "start": 38.301,
+          "end": 38.421
+        },
+        {
+          "w": "high",
+          "start": 38.421,
+          "end": 38.581
+        },
+        {
+          "w": "-five",
+          "start": 38.581,
+          "end": 38.881
+        },
+        {
+          "w": "the",
+          "start": 38.881,
+          "end": 39.041
+        },
+        {
+          "w": "sun.",
+          "start": 39.041,
+          "end": 39.261
+        },
+        {
+          "w": "Where's",
+          "start": 39.681,
+          "end": 39.861
+        },
+        {
+          "w": "my",
+          "start": 39.861,
+          "end": 39.961
+        },
+        {
+          "w": "2",
+          "start": 39.961,
+          "end": 40.141
+        },
+        {
+          "w": ",000",
+          "start": 40.141,
+          "end": 40.481
+        },
+        {
+          "w": "bucks?",
+          "start": 40.481,
+          "end": 40.681
+        }
+      ]
+    },
+    {
+      "i": 15,
+      "speaker": "host",
+      "text": "Here's two grand\u2014 minus one thousand nine hundred ninety-nine for waking up the neighborhood.",
+      "start": 41.181,
+      "speechEnd": 45.181,
+      "end": 45.241,
+      "words": [
+        {
+          "w": "Here's",
+          "start": 41.181,
+          "end": 41.401
+        },
+        {
+          "w": "2",
+          "start": 41.401,
+          "end": 41.541
+        },
+        {
+          "w": "grand",
+          "start": 41.541,
+          "end": 41.821
+        },
+        {
+          "w": "minus",
+          "start": 41.821,
+          "end": 42.261
+        },
+        {
+          "w": "$1",
+          "start": 42.261,
+          "end": 42.561
+        },
+        {
+          "w": ",999",
+          "start": 42.561,
+          "end": 43.361
+        },
+        {
+          "w": "for",
+          "start": 43.361,
+          "end": 44.081
+        },
+        {
+          "w": "waking",
+          "start": 44.081,
+          "end": 44.301
+        },
+        {
+          "w": "up",
+          "start": 44.301,
+          "end": 44.521
+        },
+        {
+          "w": "the",
+          "start": 44.521,
+          "end": 44.661
+        },
+        {
+          "w": "neighborhood.",
+          "start": 44.661,
+          "end": 44.901
+        }
+      ]
+    }
+  ]
+}

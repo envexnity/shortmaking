@@ -1,0 +1,832 @@
+{
+  "engine": "elevenlabs",
+  "model": "eleven_turbo_v2_5",
+  "total": 44.443,
+  "beats": [
+    {
+      "i": 0,
+      "speaker": "host",
+      "text": "For a thousand bucks, would you race a beam of light?",
+      "start": 0.05,
+      "speechEnd": 2.406,
+      "end": 2.506,
+      "words": [
+        {
+          "w": "For",
+          "start": 0.05,
+          "end": 0.17
+        },
+        {
+          "w": "a",
+          "start": 0.17,
+          "end": 0.27
+        },
+        {
+          "w": "thousand",
+          "start": 0.27,
+          "end": 0.51
+        },
+        {
+          "w": "bucks,",
+          "start": 0.51,
+          "end": 0.85
+        },
+        {
+          "w": "would",
+          "start": 1.13,
+          "end": 1.21
+        },
+        {
+          "w": "you",
+          "start": 1.21,
+          "end": 1.35
+        },
+        {
+          "w": "race",
+          "start": 1.35,
+          "end": 1.55
+        },
+        {
+          "w": "a",
+          "start": 1.55,
+          "end": 1.71
+        },
+        {
+          "w": "beam",
+          "start": 1.71,
+          "end": 1.87
+        },
+        {
+          "w": "of",
+          "start": 1.87,
+          "end": 2.03
+        },
+        {
+          "w": "light?",
+          "start": 2.03,
+          "end": 2.21
+        }
+      ]
+    },
+    {
+      "i": 1,
+      "speaker": "mrbeast",
+      "text": "No.",
+      "start": 2.506,
+      "speechEnd": 2.837,
+      "end": 3.037,
+      "words": [
+        {
+          "w": "No.",
+          "start": 2.506,
+          "end": 2.666
+        }
+      ]
+    },
+    {
+      "i": 2,
+      "speaker": "host",
+      "text": "For two thousand bucks, would you outrun the speed of light?",
+      "start": 3.037,
+      "speechEnd": 5.284,
+      "end": 5.434,
+      "words": [
+        {
+          "w": "For",
+          "start": 3.037,
+          "end": 3.137
+        },
+        {
+          "w": "$2,000,",
+          "start": 3.137,
+          "end": 3.637
+        },
+        {
+          "w": "would",
+          "start": 3.977,
+          "end": 4.097
+        },
+        {
+          "w": "you",
+          "start": 4.097,
+          "end": 4.197
+        },
+        {
+          "w": "outrun",
+          "start": 4.197,
+          "end": 4.497
+        },
+        {
+          "w": "the",
+          "start": 4.497,
+          "end": 4.637
+        },
+        {
+          "w": "speed",
+          "start": 4.637,
+          "end": 4.797
+        },
+        {
+          "w": "of",
+          "start": 4.797,
+          "end": 4.937
+        },
+        {
+          "w": "light?",
+          "start": 4.937,
+          "end": 5.097
+        }
+      ]
+    },
+    {
+      "i": 3,
+      "speaker": "mc",
+      "text": "Two grand? I got light-up sneakers!",
+      "start": 5.434,
+      "speechEnd": 7.956,
+      "end": 8.076,
+      "words": [
+        {
+          "w": "Two",
+          "start": 5.434,
+          "end": 5.784
+        },
+        {
+          "w": "grand?",
+          "start": 5.784,
+          "end": 6.134
+        },
+        {
+          "w": "I",
+          "start": 6.134,
+          "end": 6.484
+        },
+        {
+          "w": "got",
+          "start": 6.484,
+          "end": 6.834
+        },
+        {
+          "w": "light-up",
+          "start": 6.834,
+          "end": 7.184
+        },
+        {
+          "w": "sneakers!",
+          "start": 7.184,
+          "end": 7.534
+        }
+      ]
+    },
+    {
+      "i": 4,
+      "speaker": "mc",
+      "text": "Three hundred thousand kilometers a second! Why is the road stretching\u2014 uh oh.",
+      "start": 8.076,
+      "speechEnd": 11.909,
+      "end": 12.029,
+      "words": [
+        {
+          "w": "300,000",
+          "start": 8.076,
+          "end": 8.916
+        },
+        {
+          "w": "kilometers",
+          "start": 8.916,
+          "end": 9.256
+        },
+        {
+          "w": "a",
+          "start": 9.256,
+          "end": 9.476
+        },
+        {
+          "w": "second.",
+          "start": 9.476,
+          "end": 9.796
+        },
+        {
+          "w": "Why",
+          "start": 10.016,
+          "end": 10.096
+        },
+        {
+          "w": "is",
+          "start": 10.096,
+          "end": 10.216
+        },
+        {
+          "w": "the",
+          "start": 10.216,
+          "end": 10.316
+        },
+        {
+          "w": "road",
+          "start": 10.316,
+          "end": 10.496
+        },
+        {
+          "w": "stretching?",
+          "start": 10.496,
+          "end": 10.856
+        },
+        {
+          "w": "Uh",
+          "start": 11.336,
+          "end": 11.436
+        },
+        {
+          "w": "oh.",
+          "start": 11.436,
+          "end": 11.656
+        }
+      ]
+    },
+    {
+      "i": 5,
+      "speaker": "photon",
+      "text": "Bro, slow down! You're bending space with those cheap shoes!",
+      "start": 12.029,
+      "speechEnd": 15.137,
+      "end": 15.277,
+      "words": [
+        {
+          "w": "Bro,",
+          "start": 12.029,
+          "end": 12.149
+        },
+        {
+          "w": "slow",
+          "start": 12.289,
+          "end": 12.469
+        },
+        {
+          "w": "down,",
+          "start": 12.469,
+          "end": 12.789
+        },
+        {
+          "w": "you're",
+          "start": 13.149,
+          "end": 13.249
+        },
+        {
+          "w": "bending",
+          "start": 13.249,
+          "end": 13.429
+        },
+        {
+          "w": "space",
+          "start": 13.429,
+          "end": 13.789
+        },
+        {
+          "w": "with",
+          "start": 13.789,
+          "end": 14.049
+        },
+        {
+          "w": "those",
+          "start": 14.049,
+          "end": 14.209
+        },
+        {
+          "w": "cheap",
+          "start": 14.209,
+          "end": 14.449
+        },
+        {
+          "w": "shoes.",
+          "start": 14.449,
+          "end": 14.789
+        }
+      ]
+    },
+    {
+      "i": 6,
+      "speaker": "mc",
+      "text": "My bad, slowpoke!",
+      "start": 15.277,
+      "speechEnd": 16.222,
+      "end": 16.322,
+      "words": [
+        {
+          "w": "My",
+          "start": 15.277,
+          "end": 15.377
+        },
+        {
+          "w": "bad",
+          "start": 15.377,
+          "end": 15.577
+        },
+        {
+          "w": "slowpoke.",
+          "start": 15.577,
+          "end": 16.017
+        }
+      ]
+    },
+    {
+      "i": 7,
+      "speaker": "mc",
+      "text": "Ninety-nine percent light speed?! Why does Earth look like a flat pancake?!",
+      "start": 16.322,
+      "speechEnd": 19.955,
+      "end": 20.095,
+      "words": [
+        {
+          "w": "99%",
+          "start": 16.322,
+          "end": 17.122
+        },
+        {
+          "w": "light",
+          "start": 17.122,
+          "end": 17.322
+        },
+        {
+          "w": "speed,",
+          "start": 17.322,
+          "end": 17.622
+        },
+        {
+          "w": "why",
+          "start": 17.922,
+          "end": 18.062
+        },
+        {
+          "w": "does",
+          "start": 18.062,
+          "end": 18.182
+        },
+        {
+          "w": "Earth",
+          "start": 18.182,
+          "end": 18.442
+        },
+        {
+          "w": "look",
+          "start": 18.442,
+          "end": 18.782
+        },
+        {
+          "w": "like",
+          "start": 18.782,
+          "end": 18.942
+        },
+        {
+          "w": "a",
+          "start": 18.942,
+          "end": 19.022
+        },
+        {
+          "w": "flat",
+          "start": 19.022,
+          "end": 19.282
+        },
+        {
+          "w": "pancake?",
+          "start": 19.282,
+          "end": 19.802
+        }
+      ]
+    },
+    {
+      "i": 8,
+      "speaker": "mc",
+      "text": "Luckily, I'm winning! Unluckily, my wristwatch just froze solid!",
+      "start": 20.095,
+      "speechEnd": 23.668,
+      "end": 23.788,
+      "words": [
+        {
+          "w": "Luckily,",
+          "start": 20.095,
+          "end": 20.335
+        },
+        {
+          "w": "I'm",
+          "start": 20.695,
+          "end": 20.915
+        },
+        {
+          "w": "winning.",
+          "start": 20.915,
+          "end": 21.115
+        },
+        {
+          "w": "Unluckily,",
+          "start": 21.555,
+          "end": 21.935
+        },
+        {
+          "w": "my",
+          "start": 22.075,
+          "end": 22.135
+        },
+        {
+          "w": "wristwatch",
+          "start": 22.135,
+          "end": 22.535
+        },
+        {
+          "w": "just",
+          "start": 22.535,
+          "end": 22.795
+        },
+        {
+          "w": "froze",
+          "start": 22.795,
+          "end": 23.015
+        },
+        {
+          "w": "solid.",
+          "start": 23.015,
+          "end": 23.415
+        }
+      ]
+    },
+    {
+      "i": 9,
+      "speaker": "einstein",
+      "text": "You see, near light speed, time slows\u2014 stretching one second into fifty Earth years!",
+      "start": 23.788,
+      "speechEnd": 29.008,
+      "end": 29.128,
+      "words": [
+        {
+          "w": "You",
+          "start": 23.788,
+          "end": 23.868
+        },
+        {
+          "w": "see,",
+          "start": 23.868,
+          "end": 24.028
+        },
+        {
+          "w": "near",
+          "start": 24.228,
+          "end": 24.408
+        },
+        {
+          "w": "light",
+          "start": 24.408,
+          "end": 24.628
+        },
+        {
+          "w": "speed,",
+          "start": 24.628,
+          "end": 24.948
+        },
+        {
+          "w": "time",
+          "start": 25.388,
+          "end": 25.608
+        },
+        {
+          "w": "slows,",
+          "start": 25.608,
+          "end": 25.908
+        },
+        {
+          "w": "stretching",
+          "start": 26.488,
+          "end": 26.668
+        },
+        {
+          "w": "one",
+          "start": 26.668,
+          "end": 26.968
+        },
+        {
+          "w": "second",
+          "start": 26.968,
+          "end": 27.328
+        },
+        {
+          "w": "into",
+          "start": 27.328,
+          "end": 27.668
+        },
+        {
+          "w": "50",
+          "start": 27.668,
+          "end": 27.968
+        },
+        {
+          "w": "Earth",
+          "start": 27.968,
+          "end": 28.348
+        },
+        {
+          "w": "years.",
+          "start": 28.348,
+          "end": 28.688
+        }
+      ]
+    },
+    {
+      "i": 10,
+      "speaker": "mc",
+      "text": "Cool story, professor! Crossing the finish line!",
+      "start": 29.128,
+      "speechEnd": 31.611,
+      "end": 31.711,
+      "words": [
+        {
+          "w": "Cool",
+          "start": 29.128,
+          "end": 29.248
+        },
+        {
+          "w": "story,",
+          "start": 29.248,
+          "end": 29.468
+        },
+        {
+          "w": "professor,",
+          "start": 29.688,
+          "end": 29.988
+        },
+        {
+          "w": "crossing",
+          "start": 30.388,
+          "end": 30.548
+        },
+        {
+          "w": "the",
+          "start": 30.548,
+          "end": 30.848
+        },
+        {
+          "w": "finish",
+          "start": 30.848,
+          "end": 31.088
+        },
+        {
+          "w": "line.",
+          "start": 31.088,
+          "end": 31.388
+        }
+      ]
+    },
+    {
+      "i": 11,
+      "speaker": "einstein",
+      "text": "Wait! If you hit ninety-nine point nine percent, your family\u2014",
+      "start": 31.711,
+      "speechEnd": 35.214,
+      "end": 35.314,
+      "words": [
+        {
+          "w": "Wait,",
+          "start": 31.711,
+          "end": 31.851
+        },
+        {
+          "w": "if",
+          "start": 32.051,
+          "end": 32.231
+        },
+        {
+          "w": "you",
+          "start": 32.231,
+          "end": 32.331
+        },
+        {
+          "w": "hit",
+          "start": 32.331,
+          "end": 32.491
+        },
+        {
+          "w": "99.9",
+          "start": 32.491,
+          "end": 33.791
+        },
+        {
+          "w": "%",
+          "start": 33.791,
+          "end": 34.211
+        },
+        {
+          "w": "your",
+          "start": 34.211,
+          "end": 34.591
+        },
+        {
+          "w": "family.",
+          "start": 34.591,
+          "end": 34.971
+        }
+      ]
+    },
+    {
+      "i": 12,
+      "speaker": "mc",
+      "text": "WON THE RACE!",
+      "start": 35.314,
+      "speechEnd": 36.091,
+      "end": 36.311,
+      "words": [
+        {
+          "w": "WON",
+          "start": 35.314,
+          "end": 35.474
+        },
+        {
+          "w": "THE",
+          "start": 35.474,
+          "end": 35.634
+        },
+        {
+          "w": "RACE!",
+          "start": 35.634,
+          "end": 35.794
+        }
+      ]
+    },
+    {
+      "i": 13,
+      "speaker": "mc",
+      "text": "Wait... why are flying cars on my street?!",
+      "start": 36.311,
+      "speechEnd": 38.21,
+      "end": 38.33,
+      "words": [
+        {
+          "w": "Wait,",
+          "start": 36.311,
+          "end": 36.431
+        },
+        {
+          "w": "why",
+          "start": 36.591,
+          "end": 36.751
+        },
+        {
+          "w": "are",
+          "start": 36.751,
+          "end": 36.851
+        },
+        {
+          "w": "flying",
+          "start": 36.851,
+          "end": 37.071
+        },
+        {
+          "w": "cars",
+          "start": 37.071,
+          "end": 37.411
+        },
+        {
+          "w": "on",
+          "start": 37.411,
+          "end": 37.611
+        },
+        {
+          "w": "my",
+          "start": 37.611,
+          "end": 37.731
+        },
+        {
+          "w": "street?",
+          "start": 37.731,
+          "end": 37.991
+        }
+      ]
+    },
+    {
+      "i": 14,
+      "speaker": "mc",
+      "text": "I beat light! Where's my two thousand bucks?",
+      "start": 38.33,
+      "speechEnd": 40.421,
+      "end": 40.541,
+      "words": [
+        {
+          "w": "I",
+          "start": 38.33,
+          "end": 38.532
+        },
+        {
+          "w": "beat",
+          "start": 38.532,
+          "end": 38.735
+        },
+        {
+          "w": "light!",
+          "start": 38.735,
+          "end": 38.938
+        },
+        {
+          "w": "Where's",
+          "start": 38.938,
+          "end": 39.14
+        },
+        {
+          "w": "my",
+          "start": 39.14,
+          "end": 39.343
+        },
+        {
+          "w": "two",
+          "start": 39.343,
+          "end": 39.545
+        },
+        {
+          "w": "thousand",
+          "start": 39.545,
+          "end": 39.748
+        },
+        {
+          "w": "bucks?",
+          "start": 39.748,
+          "end": 39.95
+        }
+      ]
+    },
+    {
+      "i": 15,
+      "speaker": "host",
+      "text": "That was fifty years ago, kid. Inflation turned your prize into half a taco!",
+      "start": 40.541,
+      "speechEnd": 44.403,
+      "end": 44.443,
+      "words": [
+        {
+          "w": "That",
+          "start": 40.541,
+          "end": 40.681
+        },
+        {
+          "w": "was",
+          "start": 40.681,
+          "end": 40.841
+        },
+        {
+          "w": "50",
+          "start": 40.841,
+          "end": 41.081
+        },
+        {
+          "w": "years",
+          "start": 41.081,
+          "end": 41.361
+        },
+        {
+          "w": "ago,",
+          "start": 41.361,
+          "end": 41.621
+        },
+        {
+          "w": "kid,",
+          "start": 41.781,
+          "end": 41.881
+        },
+        {
+          "w": "inflation",
+          "start": 42.181,
+          "end": 42.361
+        },
+        {
+          "w": "turned",
+          "start": 42.361,
+          "end": 42.761
+        },
+        {
+          "w": "your",
+          "start": 42.761,
+          "end": 42.961
+        },
+        {
+          "w": "prize",
+          "start": 42.961,
+          "end": 43.281
+        },
+        {
+          "w": "into",
+          "start": 43.281,
+          "end": 43.581
+        },
+        {
+          "w": "half",
+          "start": 43.581,
+          "end": 43.761
+        },
+        {
+          "w": "a",
+          "start": 43.761,
+          "end": 43.941
+        },
+        {
+          "w": "taco.",
+          "start": 43.941,
+          "end": 44.141
+        }
+      ]
+    }
+  ]
+}

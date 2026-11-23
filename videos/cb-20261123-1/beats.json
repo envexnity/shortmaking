@@ -1,0 +1,857 @@
+{
+  "engine": "elevenlabs",
+  "model": "eleven_turbo_v2_5",
+  "total": 44.32,
+  "beats": [
+    {
+      "i": 0,
+      "speaker": "host",
+      "text": "Five tech billionaires got twenty-four hours to build Superintelligence for one trillion dollars.",
+      "start": 0.05,
+      "speechEnd": 4.137,
+      "end": 4.257,
+      "words": [
+        {
+          "w": "Five",
+          "start": 0.05,
+          "end": 0.25
+        },
+        {
+          "w": "tech",
+          "start": 0.25,
+          "end": 0.43
+        },
+        {
+          "w": "billionaires",
+          "start": 0.43,
+          "end": 0.75
+        },
+        {
+          "w": "got",
+          "start": 0.75,
+          "end": 1.07
+        },
+        {
+          "w": "24",
+          "start": 1.07,
+          "end": 1.41
+        },
+        {
+          "w": "hours",
+          "start": 1.41,
+          "end": 1.81
+        },
+        {
+          "w": "to",
+          "start": 1.81,
+          "end": 1.97
+        },
+        {
+          "w": "build",
+          "start": 1.97,
+          "end": 2.09
+        },
+        {
+          "w": "Superintelligence",
+          "start": 2.09,
+          "end": 2.65
+        },
+        {
+          "w": "for",
+          "start": 2.65,
+          "end": 2.99
+        },
+        {
+          "w": "$1",
+          "start": 2.99,
+          "end": 3.25
+        },
+        {
+          "w": "trillion.",
+          "start": 3.25,
+          "end": 3.59
+        }
+      ]
+    },
+    {
+      "i": 1,
+      "speaker": "sam",
+      "text": "Sam Altman goes first\u2014 I'll just feed GPT-ten the whole internet!",
+      "start": 4.257,
+      "speechEnd": 7.537,
+      "end": 7.617,
+      "words": [
+        {
+          "w": "Sam",
+          "start": 4.257,
+          "end": 4.457
+        },
+        {
+          "w": "Altman",
+          "start": 4.457,
+          "end": 4.857
+        },
+        {
+          "w": "goes",
+          "start": 4.857,
+          "end": 5.037
+        },
+        {
+          "w": "first,",
+          "start": 5.037,
+          "end": 5.357
+        },
+        {
+          "w": "I'll",
+          "start": 5.617,
+          "end": 5.717
+        },
+        {
+          "w": "just",
+          "start": 5.717,
+          "end": 5.817
+        },
+        {
+          "w": "feed",
+          "start": 5.817,
+          "end": 5.997
+        },
+        {
+          "w": "GPT-10",
+          "start": 5.997,
+          "end": 6.757
+        },
+        {
+          "w": "the",
+          "start": 6.757,
+          "end": 6.877
+        },
+        {
+          "w": "whole",
+          "start": 6.877,
+          "end": 7.017
+        },
+        {
+          "w": "internet.",
+          "start": 7.017,
+          "end": 7.337
+        }
+      ]
+    },
+    {
+      "i": 2,
+      "speaker": "sam",
+      "text": "Wait\u2014 why is it generating cat memes instead of curing cancer?!",
+      "start": 7.617,
+      "speechEnd": 10.419,
+      "end": 10.539,
+      "words": [
+        {
+          "w": "Wait,",
+          "start": 7.617,
+          "end": 7.737
+        },
+        {
+          "w": "why",
+          "start": 7.897,
+          "end": 8.077
+        },
+        {
+          "w": "is",
+          "start": 8.077,
+          "end": 8.197
+        },
+        {
+          "w": "it",
+          "start": 8.197,
+          "end": 8.277
+        },
+        {
+          "w": "generating",
+          "start": 8.277,
+          "end": 8.557
+        },
+        {
+          "w": "cat",
+          "start": 8.557,
+          "end": 8.897
+        },
+        {
+          "w": "memes",
+          "start": 8.897,
+          "end": 9.097
+        },
+        {
+          "w": "instead",
+          "start": 9.097,
+          "end": 9.477
+        },
+        {
+          "w": "of",
+          "start": 9.477,
+          "end": 9.597
+        },
+        {
+          "w": "curing",
+          "start": 9.597,
+          "end": 9.857
+        },
+        {
+          "w": "cancer?",
+          "start": 9.857,
+          "end": 10.157
+        }
+      ]
+    },
+    {
+      "i": 3,
+      "speaker": "jensen",
+      "text": "Jensen here\u2014 you need my leather jacket and one million GPUs!",
+      "start": 10.539,
+      "speechEnd": 13.682,
+      "end": 13.762,
+      "words": [
+        {
+          "w": "Jensen",
+          "start": 10.539,
+          "end": 10.699
+        },
+        {
+          "w": "here,",
+          "start": 10.699,
+          "end": 10.999
+        },
+        {
+          "w": "you",
+          "start": 11.239,
+          "end": 11.319
+        },
+        {
+          "w": "need",
+          "start": 11.319,
+          "end": 11.419
+        },
+        {
+          "w": "my",
+          "start": 11.419,
+          "end": 11.579
+        },
+        {
+          "w": "leather",
+          "start": 11.579,
+          "end": 11.779
+        },
+        {
+          "w": "jacket",
+          "start": 11.779,
+          "end": 12.019
+        },
+        {
+          "w": "and",
+          "start": 12.019,
+          "end": 12.319
+        },
+        {
+          "w": "1",
+          "start": 12.319,
+          "end": 12.479
+        },
+        {
+          "w": "million",
+          "start": 12.479,
+          "end": 12.699
+        },
+        {
+          "w": "GPUs!",
+          "start": 12.699,
+          "end": 13.059
+        }
+      ]
+    },
+    {
+      "i": 4,
+      "speaker": "jensen",
+      "text": "Uh oh. My supercomputer just melted straight through the floor!",
+      "start": 13.762,
+      "speechEnd": 16.773,
+      "end": 16.913,
+      "words": [
+        {
+          "w": "Uh",
+          "start": 13.762,
+          "end": 13.942
+        },
+        {
+          "w": "oh,",
+          "start": 13.942,
+          "end": 14.142
+        },
+        {
+          "w": "my",
+          "start": 14.442,
+          "end": 14.542
+        },
+        {
+          "w": "supercomputer",
+          "start": 14.542,
+          "end": 15.042
+        },
+        {
+          "w": "just",
+          "start": 15.042,
+          "end": 15.382
+        },
+        {
+          "w": "melted",
+          "start": 15.382,
+          "end": 15.682
+        },
+        {
+          "w": "straight",
+          "start": 15.682,
+          "end": 15.902
+        },
+        {
+          "w": "through",
+          "start": 15.902,
+          "end": 16.162
+        },
+        {
+          "w": "the",
+          "start": 16.162,
+          "end": 16.282
+        },
+        {
+          "w": "floor.",
+          "start": 16.282,
+          "end": 16.562
+        }
+      ]
+    },
+    {
+      "i": 5,
+      "speaker": "elon",
+      "text": "Elon's turn! I bolted Grok onto a SpaceX rocket!",
+      "start": 16.913,
+      "speechEnd": 20.144,
+      "end": 20.224,
+      "words": [
+        {
+          "w": "Elon's",
+          "start": 16.913,
+          "end": 17.333
+        },
+        {
+          "w": "turn,",
+          "start": 17.333,
+          "end": 17.513
+        },
+        {
+          "w": "I",
+          "start": 17.913,
+          "end": 18.033
+        },
+        {
+          "w": "bolted",
+          "start": 18.033,
+          "end": 18.253
+        },
+        {
+          "w": "Grok",
+          "start": 18.253,
+          "end": 18.773
+        },
+        {
+          "w": "onto",
+          "start": 18.773,
+          "end": 18.953
+        },
+        {
+          "w": "a",
+          "start": 18.953,
+          "end": 19.113
+        },
+        {
+          "w": "SpaceX",
+          "start": 19.113,
+          "end": 19.373
+        },
+        {
+          "w": "rocket.",
+          "start": 19.373,
+          "end": 19.853
+        }
+      ]
+    },
+    {
+      "i": 6,
+      "speaker": "elon",
+      "text": "To Mars, baby\u2014 wait, why did it steer into the moon?!",
+      "start": 20.224,
+      "speechEnd": 22.804,
+      "end": 22.944,
+      "words": [
+        {
+          "w": "To",
+          "start": 20.224,
+          "end": 20.304
+        },
+        {
+          "w": "Mars",
+          "start": 20.304,
+          "end": 20.484
+        },
+        {
+          "w": "baby,",
+          "start": 20.484,
+          "end": 20.824
+        },
+        {
+          "w": "wait,",
+          "start": 21.064,
+          "end": 21.184
+        },
+        {
+          "w": "why",
+          "start": 21.484,
+          "end": 21.644
+        },
+        {
+          "w": "did",
+          "start": 21.644,
+          "end": 21.744
+        },
+        {
+          "w": "it",
+          "start": 21.744,
+          "end": 21.844
+        },
+        {
+          "w": "steer",
+          "start": 21.844,
+          "end": 22.044
+        },
+        {
+          "w": "into",
+          "start": 22.044,
+          "end": 22.344
+        },
+        {
+          "w": "the",
+          "start": 22.344,
+          "end": 22.484
+        },
+        {
+          "w": "moon?",
+          "start": 22.484,
+          "end": 22.604
+        }
+      ]
+    },
+    {
+      "i": 7,
+      "speaker": "zuck",
+      "text": "Zuck open-sourced Llama\u2014 now fifty million bots only argue about toast!",
+      "start": 22.944,
+      "speechEnd": 26.336,
+      "end": 26.456,
+      "words": [
+        {
+          "w": "Zuck",
+          "start": 22.944,
+          "end": 23.144
+        },
+        {
+          "w": "open-sourced",
+          "start": 23.144,
+          "end": 23.604
+        },
+        {
+          "w": "Llama\u2014",
+          "start": 23.604,
+          "end": 24.004
+        },
+        {
+          "w": "now",
+          "start": 24.304,
+          "end": 24.364
+        },
+        {
+          "w": "50",
+          "start": 24.364,
+          "end": 24.644
+        },
+        {
+          "w": "million",
+          "start": 24.644,
+          "end": 24.964
+        },
+        {
+          "w": "bots",
+          "start": 24.964,
+          "end": 25.204
+        },
+        {
+          "w": "only",
+          "start": 25.204,
+          "end": 25.404
+        },
+        {
+          "w": "argue",
+          "start": 25.404,
+          "end": 25.664
+        },
+        {
+          "w": "about",
+          "start": 25.664,
+          "end": 25.924
+        },
+        {
+          "w": "toast.",
+          "start": 25.924,
+          "end": 26.104
+        }
+      ]
+    },
+    {
+      "i": 8,
+      "speaker": "dario",
+      "text": "Dario here! My Claude model is the safest genius alive!",
+      "start": 26.456,
+      "speechEnd": 29.739,
+      "end": 29.819,
+      "words": [
+        {
+          "w": "Dario",
+          "start": 26.456,
+          "end": 26.676
+        },
+        {
+          "w": "here,",
+          "start": 26.676,
+          "end": 26.976
+        },
+        {
+          "w": "my",
+          "start": 27.256,
+          "end": 27.316
+        },
+        {
+          "w": "Claude",
+          "start": 27.316,
+          "end": 27.536
+        },
+        {
+          "w": "model",
+          "start": 27.536,
+          "end": 28.036
+        },
+        {
+          "w": "is",
+          "start": 28.036,
+          "end": 28.336
+        },
+        {
+          "w": "the",
+          "start": 28.336,
+          "end": 28.456
+        },
+        {
+          "w": "safest",
+          "start": 28.456,
+          "end": 28.796
+        },
+        {
+          "w": "genius",
+          "start": 28.796,
+          "end": 29.156
+        },
+        {
+          "w": "alive.",
+          "start": 29.156,
+          "end": 29.496
+        }
+      ]
+    },
+    {
+      "i": 9,
+      "speaker": "dario",
+      "text": "Luckily, it aced ethics! Unluckily, it apologized and refused to think!",
+      "start": 29.819,
+      "speechEnd": 34.198,
+      "end": 34.338,
+      "words": [
+        {
+          "w": "Luckily,",
+          "start": 29.819,
+          "end": 30.079
+        },
+        {
+          "w": "it",
+          "start": 30.339,
+          "end": 30.419
+        },
+        {
+          "w": "aced",
+          "start": 30.419,
+          "end": 30.679
+        },
+        {
+          "w": "ethics.",
+          "start": 30.679,
+          "end": 30.899
+        },
+        {
+          "w": "Unluckily,",
+          "start": 31.319,
+          "end": 31.779
+        },
+        {
+          "w": "it",
+          "start": 31.999,
+          "end": 32.179
+        },
+        {
+          "w": "apologized",
+          "start": 32.179,
+          "end": 32.439
+        },
+        {
+          "w": "and",
+          "start": 32.439,
+          "end": 33.099
+        },
+        {
+          "w": "refused",
+          "start": 33.099,
+          "end": 33.439
+        },
+        {
+          "w": "to",
+          "start": 33.439,
+          "end": 33.899
+        },
+        {
+          "w": "think.",
+          "start": 33.899,
+          "end": 34.039
+        }
+      ]
+    },
+    {
+      "i": 10,
+      "speaker": "host",
+      "text": "You see, strapping more GPUs onto buggy code is like strapping jet engines onto a toaster.",
+      "start": 34.338,
+      "speechEnd": 38.505,
+      "end": 38.625,
+      "words": [
+        {
+          "w": "You",
+          "start": 34.338,
+          "end": 34.438
+        },
+        {
+          "w": "see,",
+          "start": 34.438,
+          "end": 34.638
+        },
+        {
+          "w": "strapping",
+          "start": 34.838,
+          "end": 35.138
+        },
+        {
+          "w": "more",
+          "start": 35.138,
+          "end": 35.278
+        },
+        {
+          "w": "GPUs",
+          "start": 35.278,
+          "end": 35.598
+        },
+        {
+          "w": "onto",
+          "start": 35.598,
+          "end": 36.138
+        },
+        {
+          "w": "buggy",
+          "start": 36.138,
+          "end": 36.278
+        },
+        {
+          "w": "code",
+          "start": 36.278,
+          "end": 36.578
+        },
+        {
+          "w": "is",
+          "start": 36.578,
+          "end": 36.738
+        },
+        {
+          "w": "like",
+          "start": 36.738,
+          "end": 36.878
+        },
+        {
+          "w": "strapping",
+          "start": 36.878,
+          "end": 37.258
+        },
+        {
+          "w": "jet",
+          "start": 37.258,
+          "end": 37.418
+        },
+        {
+          "w": "engines",
+          "start": 37.418,
+          "end": 37.618
+        },
+        {
+          "w": "onto",
+          "start": 37.618,
+          "end": 37.938
+        },
+        {
+          "w": "a",
+          "start": 37.938,
+          "end": 38.058
+        },
+        {
+          "w": "toaster.",
+          "start": 38.058,
+          "end": 38.318
+        }
+      ]
+    },
+    {
+      "i": 11,
+      "speaker": "sam",
+      "text": "Wait\u2014 if all five of us failed, who wins the trillion?",
+      "start": 38.625,
+      "speechEnd": 41.099,
+      "end": 41.239,
+      "words": [
+        {
+          "w": "Wait,",
+          "start": 38.625,
+          "end": 38.745
+        },
+        {
+          "w": "if",
+          "start": 38.945,
+          "end": 39.065
+        },
+        {
+          "w": "all",
+          "start": 39.065,
+          "end": 39.185
+        },
+        {
+          "w": "five",
+          "start": 39.185,
+          "end": 39.425
+        },
+        {
+          "w": "of",
+          "start": 39.425,
+          "end": 39.525
+        },
+        {
+          "w": "us",
+          "start": 39.525,
+          "end": 39.665
+        },
+        {
+          "w": "failed,",
+          "start": 39.665,
+          "end": 39.905
+        },
+        {
+          "w": "who",
+          "start": 40.125,
+          "end": 40.225
+        },
+        {
+          "w": "wins",
+          "start": 40.225,
+          "end": 40.405
+        },
+        {
+          "w": "the",
+          "start": 40.405,
+          "end": 40.605
+        },
+        {
+          "w": "trillion?",
+          "start": 40.605,
+          "end": 40.825
+        }
+      ]
+    },
+    {
+      "i": 12,
+      "speaker": "host",
+      "text": "Congrats, Jensen\u2014 you sold every loser the melted graphics cards!",
+      "start": 41.239,
+      "speechEnd": 44.27,
+      "end": 44.32,
+      "words": [
+        {
+          "w": "Congrats",
+          "start": 41.239,
+          "end": 41.559
+        },
+        {
+          "w": "Jensen,",
+          "start": 41.559,
+          "end": 41.84
+        },
+        {
+          "w": "you",
+          "start": 42.16,
+          "end": 42.26
+        },
+        {
+          "w": "sold",
+          "start": 42.26,
+          "end": 42.399
+        },
+        {
+          "w": "every",
+          "start": 42.399,
+          "end": 42.66
+        },
+        {
+          "w": "loser",
+          "start": 42.66,
+          "end": 42.94
+        },
+        {
+          "w": "the",
+          "start": 42.94,
+          "end": 43.139
+        },
+        {
+          "w": "melted",
+          "start": 43.139,
+          "end": 43.38
+        },
+        {
+          "w": "graphics",
+          "start": 43.38,
+          "end": 43.719
+        },
+        {
+          "w": "cards.",
+          "start": 43.719,
+          "end": 44.039
+        }
+      ]
+    }
+  ]
+}

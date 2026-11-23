@@ -1,0 +1,2096 @@
+{
+  "voice": "kokoro:orbit_us",
+  "total": 144.475,
+  "beats": [
+    {
+      "i": 0,
+      "text": "Picture this. You're standing on Mars, fourth planet from the Sun. Looking around, it's just a cold red desert \u2014 and deserts don't kill astronauts. That's the rule.",
+      "start": 0.25,
+      "end": 10.069,
+      "speechEnd": 9.909,
+      "words": [
+        {
+          "w": "Picture",
+          "start": 0.25,
+          "end": 0.51
+        },
+        {
+          "w": "this?",
+          "start": 0.51,
+          "end": 0.75
+        },
+        {
+          "w": "You're",
+          "start": 1.25,
+          "end": 1.29
+        },
+        {
+          "w": "standing",
+          "start": 1.29,
+          "end": 1.59
+        },
+        {
+          "w": "on",
+          "start": 1.59,
+          "end": 1.91
+        },
+        {
+          "w": "Mars'",
+          "start": 1.91,
+          "end": 2.21
+        },
+        {
+          "w": "fourth",
+          "start": 2.59,
+          "end": 2.75
+        },
+        {
+          "w": "planet",
+          "start": 2.75,
+          "end": 3.25
+        },
+        {
+          "w": "from",
+          "start": 3.25,
+          "end": 3.47
+        },
+        {
+          "w": "the",
+          "start": 3.47,
+          "end": 3.61
+        },
+        {
+          "w": "sun.",
+          "start": 3.61,
+          "end": 3.87
+        },
+        {
+          "w": "Looking",
+          "start": 4.23,
+          "end": 4.35
+        },
+        {
+          "w": "around,",
+          "start": 4.35,
+          "end": 4.75
+        },
+        {
+          "w": "it's",
+          "start": 5.01,
+          "end": 5.15
+        },
+        {
+          "w": "just",
+          "start": 5.15,
+          "end": 5.31
+        },
+        {
+          "w": "a",
+          "start": 5.31,
+          "end": 5.47
+        },
+        {
+          "w": "cold,",
+          "start": 5.47,
+          "end": 5.81
+        },
+        {
+          "w": "red",
+          "start": 5.81,
+          "end": 6.21
+        },
+        {
+          "w": "desert",
+          "start": 6.21,
+          "end": 6.71
+        },
+        {
+          "w": "and",
+          "start": 6.71,
+          "end": 6.93
+        },
+        {
+          "w": "deserts",
+          "start": 6.93,
+          "end": 7.29
+        },
+        {
+          "w": "don't",
+          "start": 7.29,
+          "end": 7.79
+        },
+        {
+          "w": "kill",
+          "start": 7.79,
+          "end": 7.99
+        },
+        {
+          "w": "astronauts.",
+          "start": 7.99,
+          "end": 8.31
+        },
+        {
+          "w": "That's",
+          "start": 9.17,
+          "end": 9.35
+        },
+        {
+          "w": "the",
+          "start": 9.35,
+          "end": 9.45
+        },
+        {
+          "w": "rule.",
+          "start": 9.45,
+          "end": 9.61
+        }
+      ]
+    },
+    {
+      "i": 1,
+      "text": "Then your tongue starts to fizz. What actually kills you first on Mars?",
+      "start": 10.069,
+      "end": 14.324,
+      "speechEnd": 14.064,
+      "words": [
+        {
+          "w": "Then",
+          "start": 10.069,
+          "end": 10.209
+        },
+        {
+          "w": "your",
+          "start": 10.209,
+          "end": 10.309
+        },
+        {
+          "w": "tongue",
+          "start": 10.309,
+          "end": 10.569
+        },
+        {
+          "w": "starts",
+          "start": 10.569,
+          "end": 10.989
+        },
+        {
+          "w": "to",
+          "start": 10.989,
+          "end": 11.229
+        },
+        {
+          "w": "fizz,",
+          "start": 11.229,
+          "end": 11.549
+        },
+        {
+          "w": "what",
+          "start": 11.849,
+          "end": 12.009
+        },
+        {
+          "w": "actually",
+          "start": 12.009,
+          "end": 12.329
+        },
+        {
+          "w": "kills",
+          "start": 12.329,
+          "end": 12.669
+        },
+        {
+          "w": "you",
+          "start": 12.669,
+          "end": 12.929
+        },
+        {
+          "w": "first",
+          "start": 12.929,
+          "end": 13.189
+        },
+        {
+          "w": "on",
+          "start": 13.189,
+          "end": 13.409
+        },
+        {
+          "w": "Mars.",
+          "start": 13.409,
+          "end": 13.649
+        }
+      ]
+    },
+    {
+      "i": 2,
+      "text": "Killer number one: the thin air.",
+      "start": 14.324,
+      "end": 16.117,
+      "speechEnd": 15.957,
+      "words": [
+        {
+          "w": "Killer",
+          "start": 14.324,
+          "end": 14.504
+        },
+        {
+          "w": "number",
+          "start": 14.504,
+          "end": 14.784
+        },
+        {
+          "w": "one,",
+          "start": 14.784,
+          "end": 15.024
+        },
+        {
+          "w": "the",
+          "start": 15.264,
+          "end": 15.324
+        },
+        {
+          "w": "thin",
+          "start": 15.324,
+          "end": 15.524
+        },
+        {
+          "w": "air.",
+          "start": 15.524,
+          "end": 15.784
+        }
+      ]
+    },
+    {
+      "i": 3,
+      "text": "Mars has an atmospheric pressure of just six millibars, compared to one thousand and thirteen on Earth. That is under one percent of Earth's air. At six millibars, water boils at thirty-seven degrees Celsius \u2014 your exact body temperature.",
+      "start": 16.117,
+      "end": 30.393,
+      "speechEnd": 30.233,
+      "words": [
+        {
+          "w": "Mars",
+          "start": 16.117,
+          "end": 16.317
+        },
+        {
+          "w": "has",
+          "start": 16.317,
+          "end": 16.717
+        },
+        {
+          "w": "an",
+          "start": 16.717,
+          "end": 16.877
+        },
+        {
+          "w": "atmospheric",
+          "start": 16.877,
+          "end": 17.257
+        },
+        {
+          "w": "pressure",
+          "start": 17.257,
+          "end": 17.957
+        },
+        {
+          "w": "of",
+          "start": 17.957,
+          "end": 18.237
+        },
+        {
+          "w": "just",
+          "start": 18.237,
+          "end": 18.437
+        },
+        {
+          "w": "6",
+          "start": 18.437,
+          "end": 18.737
+        },
+        {
+          "w": "millibars",
+          "start": 18.737,
+          "end": 19.297
+        },
+        {
+          "w": "compared",
+          "start": 19.297,
+          "end": 19.757
+        },
+        {
+          "w": "to",
+          "start": 19.757,
+          "end": 20.017
+        },
+        {
+          "w": "1013",
+          "start": 20.017,
+          "end": 21.477
+        },
+        {
+          "w": "on",
+          "start": 21.477,
+          "end": 21.717
+        },
+        {
+          "w": "Earth.",
+          "start": 21.717,
+          "end": 21.997
+        },
+        {
+          "w": "That",
+          "start": 22.317,
+          "end": 22.417
+        },
+        {
+          "w": "is",
+          "start": 22.417,
+          "end": 22.577
+        },
+        {
+          "w": "under",
+          "start": 22.577,
+          "end": 22.737
+        },
+        {
+          "w": "1",
+          "start": 22.737,
+          "end": 23.057
+        },
+        {
+          "w": "%",
+          "start": 23.057,
+          "end": 23.437
+        },
+        {
+          "w": "of",
+          "start": 23.437,
+          "end": 23.597
+        },
+        {
+          "w": "Earth's",
+          "start": 23.597,
+          "end": 23.997
+        },
+        {
+          "w": "air.",
+          "start": 23.997,
+          "end": 24.217
+        },
+        {
+          "w": "At",
+          "start": 24.577,
+          "end": 24.617
+        },
+        {
+          "w": "6",
+          "start": 24.617,
+          "end": 24.857
+        },
+        {
+          "w": "millibars,",
+          "start": 24.857,
+          "end": 25.477
+        },
+        {
+          "w": "water",
+          "start": 25.637,
+          "end": 25.877
+        },
+        {
+          "w": "boils",
+          "start": 25.877,
+          "end": 26.137
+        },
+        {
+          "w": "at",
+          "start": 26.137,
+          "end": 26.577
+        },
+        {
+          "w": "37",
+          "start": 26.577,
+          "end": 26.937
+        },
+        {
+          "w": "degrees",
+          "start": 26.937,
+          "end": 27.556
+        },
+        {
+          "w": "Celsius,",
+          "start": 27.556,
+          "end": 27.997
+        },
+        {
+          "w": "your",
+          "start": 28.537,
+          "end": 28.677
+        },
+        {
+          "w": "exact",
+          "start": 28.677,
+          "end": 28.897
+        },
+        {
+          "w": "body",
+          "start": 28.897,
+          "end": 29.397
+        },
+        {
+          "w": "temperature.",
+          "start": 29.397,
+          "end": 29.817
+        }
+      ]
+    },
+    {
+      "i": 4,
+      "text": "Remember that fizz? Before you even suffocate, the saliva on your tongue and the moisture in your eyes literally start to boil \u2014 like a warm soda you never ordered.",
+      "start": 30.393,
+      "end": 40.007,
+      "speechEnd": 39.747,
+      "words": [
+        {
+          "w": "Remember",
+          "start": 30.393,
+          "end": 30.633
+        },
+        {
+          "w": "that",
+          "start": 30.633,
+          "end": 30.973
+        },
+        {
+          "w": "fizz,",
+          "start": 30.973,
+          "end": 31.333
+        },
+        {
+          "w": "before",
+          "start": 31.753,
+          "end": 31.953
+        },
+        {
+          "w": "you",
+          "start": 31.953,
+          "end": 32.133
+        },
+        {
+          "w": "even",
+          "start": 32.133,
+          "end": 32.393
+        },
+        {
+          "w": "suffocate",
+          "start": 32.393,
+          "end": 32.973
+        },
+        {
+          "w": "the",
+          "start": 32.973,
+          "end": 33.233
+        },
+        {
+          "w": "saliva",
+          "start": 33.233,
+          "end": 33.553
+        },
+        {
+          "w": "on",
+          "start": 33.553,
+          "end": 33.993
+        },
+        {
+          "w": "your",
+          "start": 33.993,
+          "end": 34.113
+        },
+        {
+          "w": "tongue",
+          "start": 34.113,
+          "end": 34.433
+        },
+        {
+          "w": "and",
+          "start": 34.433,
+          "end": 34.733
+        },
+        {
+          "w": "the",
+          "start": 34.733,
+          "end": 34.833
+        },
+        {
+          "w": "moisture",
+          "start": 34.833,
+          "end": 35.153
+        },
+        {
+          "w": "in",
+          "start": 35.153,
+          "end": 35.513
+        },
+        {
+          "w": "your",
+          "start": 35.513,
+          "end": 35.613
+        },
+        {
+          "w": "eyes",
+          "start": 35.613,
+          "end": 35.953
+        },
+        {
+          "w": "literally",
+          "start": 35.953,
+          "end": 36.333
+        },
+        {
+          "w": "start",
+          "start": 36.333,
+          "end": 36.773
+        },
+        {
+          "w": "to",
+          "start": 36.773,
+          "end": 37.013
+        },
+        {
+          "w": "boil,",
+          "start": 37.013,
+          "end": 37.253
+        },
+        {
+          "w": "like",
+          "start": 37.673,
+          "end": 37.813
+        },
+        {
+          "w": "a",
+          "start": 37.813,
+          "end": 37.953
+        },
+        {
+          "w": "warm",
+          "start": 37.953,
+          "end": 38.253
+        },
+        {
+          "w": "soda",
+          "start": 38.253,
+          "end": 38.613
+        },
+        {
+          "w": "you",
+          "start": 38.613,
+          "end": 38.933
+        },
+        {
+          "w": "never",
+          "start": 38.933,
+          "end": 39.173
+        },
+        {
+          "w": "ordered.",
+          "start": 39.173,
+          "end": 39.533
+        }
+      ]
+    },
+    {
+      "i": 5,
+      "text": "Let's say we patch your helmet seal. Killer number two: the cold.",
+      "start": 40.007,
+      "end": 43.509,
+      "speechEnd": 43.349,
+      "words": [
+        {
+          "w": "Let's",
+          "start": 40.007,
+          "end": 40.207
+        },
+        {
+          "w": "say",
+          "start": 40.207,
+          "end": 40.307
+        },
+        {
+          "w": "we",
+          "start": 40.307,
+          "end": 40.387
+        },
+        {
+          "w": "patch",
+          "start": 40.387,
+          "end": 40.587
+        },
+        {
+          "w": "your",
+          "start": 40.587,
+          "end": 40.807
+        },
+        {
+          "w": "helmet",
+          "start": 40.807,
+          "end": 41.047
+        },
+        {
+          "w": "seal,",
+          "start": 41.047,
+          "end": 41.367
+        },
+        {
+          "w": "killer",
+          "start": 41.807,
+          "end": 42.007
+        },
+        {
+          "w": "number",
+          "start": 42.007,
+          "end": 42.307
+        },
+        {
+          "w": "two,",
+          "start": 42.307,
+          "end": 42.567
+        },
+        {
+          "w": "the",
+          "start": 42.787,
+          "end": 42.847
+        },
+        {
+          "w": "cold.",
+          "start": 42.847,
+          "end": 43.047
+        }
+      ]
+    },
+    {
+      "i": 6,
+      "text": "Because Martian air is too thin to trap heat, the average surface temperature is minus sixty degrees Celsius. Near the poles in winter, it plunges to minus one hundred and twenty-five \u2014 colder than any night ever recorded in Antarctica.",
+      "start": 43.509,
+      "end": 57.851,
+      "speechEnd": 57.691,
+      "words": [
+        {
+          "w": "Because",
+          "start": 43.509,
+          "end": 43.709
+        },
+        {
+          "w": "Martian",
+          "start": 43.709,
+          "end": 43.949
+        },
+        {
+          "w": "air",
+          "start": 43.949,
+          "end": 44.529
+        },
+        {
+          "w": "is",
+          "start": 44.529,
+          "end": 44.829
+        },
+        {
+          "w": "too",
+          "start": 44.829,
+          "end": 45.029
+        },
+        {
+          "w": "thin",
+          "start": 45.029,
+          "end": 45.369
+        },
+        {
+          "w": "to",
+          "start": 45.369,
+          "end": 45.549
+        },
+        {
+          "w": "trap",
+          "start": 45.549,
+          "end": 45.789
+        },
+        {
+          "w": "heat,",
+          "start": 45.789,
+          "end": 46.129
+        },
+        {
+          "w": "the",
+          "start": 46.469,
+          "end": 46.529
+        },
+        {
+          "w": "average",
+          "start": 46.529,
+          "end": 46.809
+        },
+        {
+          "w": "surface",
+          "start": 46.809,
+          "end": 47.189
+        },
+        {
+          "w": "temperature",
+          "start": 47.189,
+          "end": 47.949
+        },
+        {
+          "w": "is",
+          "start": 47.949,
+          "end": 48.189
+        },
+        {
+          "w": "minus",
+          "start": 48.189,
+          "end": 48.509
+        },
+        {
+          "w": "60",
+          "start": 48.509,
+          "end": 49.009
+        },
+        {
+          "w": "degrees",
+          "start": 49.009,
+          "end": 49.369
+        },
+        {
+          "w": "Celsius.",
+          "start": 49.369,
+          "end": 49.769
+        },
+        {
+          "w": "Near",
+          "start": 50.509,
+          "end": 50.569
+        },
+        {
+          "w": "the",
+          "start": 50.569,
+          "end": 50.729
+        },
+        {
+          "w": "poles",
+          "start": 50.729,
+          "end": 50.969
+        },
+        {
+          "w": "in",
+          "start": 50.969,
+          "end": 51.289
+        },
+        {
+          "w": "winter,",
+          "start": 51.289,
+          "end": 51.609
+        },
+        {
+          "w": "it",
+          "start": 51.909,
+          "end": 51.969
+        },
+        {
+          "w": "plunges",
+          "start": 51.969,
+          "end": 52.489
+        },
+        {
+          "w": "to",
+          "start": 52.489,
+          "end": 52.629
+        },
+        {
+          "w": "minus",
+          "start": 52.629,
+          "end": 52.889
+        },
+        {
+          "w": "125,",
+          "start": 52.889,
+          "end": 53.509
+        },
+        {
+          "w": "colder",
+          "start": 54.789,
+          "end": 54.969
+        },
+        {
+          "w": "than",
+          "start": 54.969,
+          "end": 55.329
+        },
+        {
+          "w": "any",
+          "start": 55.329,
+          "end": 55.529
+        },
+        {
+          "w": "night",
+          "start": 55.529,
+          "end": 55.829
+        },
+        {
+          "w": "ever",
+          "start": 55.829,
+          "end": 56.129
+        },
+        {
+          "w": "recorded",
+          "start": 56.129,
+          "end": 56.509
+        },
+        {
+          "w": "in",
+          "start": 56.509,
+          "end": 56.909
+        },
+        {
+          "w": "Antarctica.",
+          "start": 56.909,
+          "end": 57.009
+        }
+      ]
+    },
+    {
+      "i": 7,
+      "text": "Give your suit a heater, and you walk straight into killer number three: the toxic dust.",
+      "start": 57.851,
+      "end": 62.448,
+      "speechEnd": 62.288,
+      "words": [
+        {
+          "w": "Give",
+          "start": 57.851,
+          "end": 57.991
+        },
+        {
+          "w": "your",
+          "start": 57.991,
+          "end": 58.111
+        },
+        {
+          "w": "suit",
+          "start": 58.111,
+          "end": 58.331
+        },
+        {
+          "w": "a",
+          "start": 58.331,
+          "end": 58.491
+        },
+        {
+          "w": "heater",
+          "start": 58.491,
+          "end": 58.731
+        },
+        {
+          "w": "and",
+          "start": 58.731,
+          "end": 59.111
+        },
+        {
+          "w": "you",
+          "start": 59.111,
+          "end": 59.211
+        },
+        {
+          "w": "walk",
+          "start": 59.211,
+          "end": 59.391
+        },
+        {
+          "w": "straight",
+          "start": 59.391,
+          "end": 59.711
+        },
+        {
+          "w": "into",
+          "start": 59.711,
+          "end": 59.951
+        },
+        {
+          "w": "killer",
+          "start": 59.951,
+          "end": 60.231
+        },
+        {
+          "w": "number",
+          "start": 60.231,
+          "end": 60.611
+        },
+        {
+          "w": "3,",
+          "start": 60.611,
+          "end": 60.971
+        },
+        {
+          "w": "the",
+          "start": 61.251,
+          "end": 61.351
+        },
+        {
+          "w": "toxic",
+          "start": 61.351,
+          "end": 61.591
+        },
+        {
+          "w": "dust.",
+          "start": 61.591,
+          "end": 62.011
+        }
+      ]
+    },
+    {
+      "i": 8,
+      "text": "In two thousand and eight, NASA's Phoenix Lander scooped up Martian dirt and confirmed it is packed with perchlorates \u2014 toxic salts that wreck your thyroid, plus talcum-fine grains that cling to your boots and scar your lungs if you track them inside. Wipe your feet, please.",
+      "start": 62.448,
+      "end": 78.242,
+      "speechEnd": 77.982,
+      "words": [
+        {
+          "w": "In",
+          "start": 62.448,
+          "end": 62.548
+        },
+        {
+          "w": "2008,",
+          "start": 62.548,
+          "end": 63.508
+        },
+        {
+          "w": "NASA",
+          "start": 63.868,
+          "end": 64.088
+        },
+        {
+          "w": "Phoenix",
+          "start": 64.088,
+          "end": 64.568
+        },
+        {
+          "w": "Lander",
+          "start": 64.568,
+          "end": 65.108
+        },
+        {
+          "w": "scooped",
+          "start": 65.108,
+          "end": 65.648
+        },
+        {
+          "w": "up",
+          "start": 65.648,
+          "end": 65.728
+        },
+        {
+          "w": "Martian",
+          "start": 65.728,
+          "end": 65.928
+        },
+        {
+          "w": "dirt",
+          "start": 65.928,
+          "end": 66.388
+        },
+        {
+          "w": "and",
+          "start": 66.388,
+          "end": 66.628
+        },
+        {
+          "w": "confirmed",
+          "start": 66.628,
+          "end": 67.008
+        },
+        {
+          "w": "it",
+          "start": 67.008,
+          "end": 67.348
+        },
+        {
+          "w": "is",
+          "start": 67.348,
+          "end": 67.448
+        },
+        {
+          "w": "packed",
+          "start": 67.448,
+          "end": 67.748
+        },
+        {
+          "w": "with",
+          "start": 67.748,
+          "end": 67.988
+        },
+        {
+          "w": "perchlorates,",
+          "start": 67.988,
+          "end": 68.748
+        },
+        {
+          "w": "toxic",
+          "start": 68.948,
+          "end": 69.248
+        },
+        {
+          "w": "salts",
+          "start": 69.248,
+          "end": 69.688
+        },
+        {
+          "w": "that",
+          "start": 69.688,
+          "end": 70.088
+        },
+        {
+          "w": "wreck",
+          "start": 70.088,
+          "end": 70.288
+        },
+        {
+          "w": "your",
+          "start": 70.288,
+          "end": 70.488
+        },
+        {
+          "w": "thyroid,",
+          "start": 70.488,
+          "end": 70.788
+        },
+        {
+          "w": "plus",
+          "start": 71.428,
+          "end": 71.528
+        },
+        {
+          "w": "talcum",
+          "start": 71.528,
+          "end": 72.008
+        },
+        {
+          "w": "fine",
+          "start": 72.008,
+          "end": 72.268
+        },
+        {
+          "w": "grains",
+          "start": 72.268,
+          "end": 72.688
+        },
+        {
+          "w": "that",
+          "start": 72.688,
+          "end": 73.128
+        },
+        {
+          "w": "cling",
+          "start": 73.128,
+          "end": 73.348
+        },
+        {
+          "w": "to",
+          "start": 73.348,
+          "end": 73.588
+        },
+        {
+          "w": "your",
+          "start": 73.588,
+          "end": 73.708
+        },
+        {
+          "w": "boots",
+          "start": 73.708,
+          "end": 73.908
+        },
+        {
+          "w": "and",
+          "start": 73.908,
+          "end": 74.208
+        },
+        {
+          "w": "scar",
+          "start": 74.208,
+          "end": 74.448
+        },
+        {
+          "w": "your",
+          "start": 74.448,
+          "end": 74.748
+        },
+        {
+          "w": "lungs",
+          "start": 74.748,
+          "end": 75.008
+        },
+        {
+          "w": "if",
+          "start": 75.008,
+          "end": 75.348
+        },
+        {
+          "w": "you",
+          "start": 75.348,
+          "end": 75.448
+        },
+        {
+          "w": "track",
+          "start": 75.448,
+          "end": 75.648
+        },
+        {
+          "w": "them",
+          "start": 75.648,
+          "end": 75.868
+        },
+        {
+          "w": "inside.",
+          "start": 75.868,
+          "end": 76.148
+        },
+        {
+          "w": "Wipe",
+          "start": 76.648,
+          "end": 76.748
+        },
+        {
+          "w": "your",
+          "start": 76.748,
+          "end": 76.928
+        },
+        {
+          "w": "feet,",
+          "start": 76.928,
+          "end": 77.168
+        },
+        {
+          "w": "please.",
+          "start": 77.388,
+          "end": 77.528
+        }
+      ]
+    },
+    {
+      "i": 9,
+      "text": "Seal the airlock and scrub the suit, and killer number four is already hitting you: radiation.",
+      "start": 78.242,
+      "end": 83.56,
+      "speechEnd": 83.4,
+      "words": [
+        {
+          "w": "Seal",
+          "start": 78.242,
+          "end": 78.462
+        },
+        {
+          "w": "the",
+          "start": 78.462,
+          "end": 78.662
+        },
+        {
+          "w": "airlock",
+          "start": 78.662,
+          "end": 79.042
+        },
+        {
+          "w": "and",
+          "start": 79.042,
+          "end": 79.242
+        },
+        {
+          "w": "scrub",
+          "start": 79.242,
+          "end": 79.482
+        },
+        {
+          "w": "the",
+          "start": 79.482,
+          "end": 79.722
+        },
+        {
+          "w": "suit,",
+          "start": 79.722,
+          "end": 79.982
+        },
+        {
+          "w": "and",
+          "start": 80.282,
+          "end": 80.342
+        },
+        {
+          "w": "killer",
+          "start": 80.342,
+          "end": 80.562
+        },
+        {
+          "w": "number",
+          "start": 80.562,
+          "end": 80.882
+        },
+        {
+          "w": "4",
+          "start": 80.882,
+          "end": 81.302
+        },
+        {
+          "w": "is",
+          "start": 81.302,
+          "end": 81.542
+        },
+        {
+          "w": "already",
+          "start": 81.542,
+          "end": 81.782
+        },
+        {
+          "w": "hitting",
+          "start": 81.782,
+          "end": 82.182
+        },
+        {
+          "w": "you,",
+          "start": 82.182,
+          "end": 82.442
+        },
+        {
+          "w": "radiation.",
+          "start": 82.662,
+          "end": 82.822
+        }
+      ]
+    },
+    {
+      "i": 10,
+      "text": "Mars has no global magnetic field. Every single day on the surface blasts you with zero point six four millisieverts of cosmic radiation \u2014 roughly the dose of six chest X-rays every twenty-four hours.",
+      "start": 83.56,
+      "end": 96.872,
+      "speechEnd": 96.712,
+      "words": [
+        {
+          "w": "Mars",
+          "start": 83.56,
+          "end": 83.76
+        },
+        {
+          "w": "has",
+          "start": 83.76,
+          "end": 84.14
+        },
+        {
+          "w": "no",
+          "start": 84.14,
+          "end": 84.44
+        },
+        {
+          "w": "global",
+          "start": 84.44,
+          "end": 84.76
+        },
+        {
+          "w": "magnetic",
+          "start": 84.76,
+          "end": 85.32
+        },
+        {
+          "w": "field.",
+          "start": 85.32,
+          "end": 85.86
+        },
+        {
+          "w": "Every",
+          "start": 86.4,
+          "end": 86.4
+        },
+        {
+          "w": "single",
+          "start": 86.4,
+          "end": 86.68
+        },
+        {
+          "w": "day",
+          "start": 86.68,
+          "end": 87.12
+        },
+        {
+          "w": "on",
+          "start": 87.12,
+          "end": 87.34
+        },
+        {
+          "w": "the",
+          "start": 87.34,
+          "end": 87.46
+        },
+        {
+          "w": "surface",
+          "start": 87.46,
+          "end": 87.86
+        },
+        {
+          "w": "blast",
+          "start": 87.86,
+          "end": 88.16
+        },
+        {
+          "w": "you",
+          "start": 88.16,
+          "end": 88.62
+        },
+        {
+          "w": "with",
+          "start": 88.62,
+          "end": 88.8
+        },
+        {
+          "w": "0",
+          "start": 88.8,
+          "end": 89.16
+        },
+        {
+          "w": ".64",
+          "start": 89.16,
+          "end": 90.0
+        },
+        {
+          "w": "mV",
+          "start": 90.0,
+          "end": 90.96
+        },
+        {
+          "w": "of",
+          "start": 90.96,
+          "end": 91.2
+        },
+        {
+          "w": "cosmic",
+          "start": 91.2,
+          "end": 91.42
+        },
+        {
+          "w": "radiation,",
+          "start": 91.42,
+          "end": 92.26
+        },
+        {
+          "w": "roughly",
+          "start": 92.66,
+          "end": 92.92
+        },
+        {
+          "w": "the",
+          "start": 92.92,
+          "end": 93.18
+        },
+        {
+          "w": "dose",
+          "start": 93.18,
+          "end": 93.4
+        },
+        {
+          "w": "of",
+          "start": 93.4,
+          "end": 93.7
+        },
+        {
+          "w": "6",
+          "start": 93.7,
+          "end": 93.96
+        },
+        {
+          "w": "chest",
+          "start": 93.96,
+          "end": 94.32
+        },
+        {
+          "w": "x",
+          "start": 94.32,
+          "end": 94.66
+        },
+        {
+          "w": "-rays",
+          "start": 94.66,
+          "end": 94.98
+        },
+        {
+          "w": "every",
+          "start": 94.98,
+          "end": 95.38
+        },
+        {
+          "w": "24",
+          "start": 95.38,
+          "end": 95.78
+        },
+        {
+          "w": "hours.",
+          "start": 95.78,
+          "end": 96.38
+        }
+      ]
+    },
+    {
+      "i": 11,
+      "text": "Robots handle the radiation better than we do, until the dust settles on their solar panels. NASA's Opportunity rover was designed to last ninety days, yet survived fourteen point four years before a planet-wide dust storm turned out the lights.",
+      "start": 96.872,
+      "end": 112.296,
+      "speechEnd": 112.036,
+      "words": [
+        {
+          "w": "Robots",
+          "start": 96.872,
+          "end": 97.172
+        },
+        {
+          "w": "handle",
+          "start": 97.172,
+          "end": 97.612
+        },
+        {
+          "w": "the",
+          "start": 97.612,
+          "end": 97.952
+        },
+        {
+          "w": "radiation",
+          "start": 97.952,
+          "end": 98.372
+        },
+        {
+          "w": "better",
+          "start": 98.372,
+          "end": 98.932
+        },
+        {
+          "w": "than",
+          "start": 98.932,
+          "end": 99.192
+        },
+        {
+          "w": "we",
+          "start": 99.192,
+          "end": 99.372
+        },
+        {
+          "w": "do",
+          "start": 99.372,
+          "end": 99.592
+        },
+        {
+          "w": "until",
+          "start": 99.592,
+          "end": 100.032
+        },
+        {
+          "w": "the",
+          "start": 100.032,
+          "end": 100.212
+        },
+        {
+          "w": "dust",
+          "start": 100.212,
+          "end": 100.412
+        },
+        {
+          "w": "settles",
+          "start": 100.412,
+          "end": 100.972
+        },
+        {
+          "w": "on",
+          "start": 100.972,
+          "end": 101.232
+        },
+        {
+          "w": "their",
+          "start": 101.232,
+          "end": 101.372
+        },
+        {
+          "w": "solar",
+          "start": 101.372,
+          "end": 101.632
+        },
+        {
+          "w": "panels.",
+          "start": 101.632,
+          "end": 102.152
+        },
+        {
+          "w": "NASA",
+          "start": 102.632,
+          "end": 102.832
+        },
+        {
+          "w": "Opportunity",
+          "start": 102.832,
+          "end": 103.472
+        },
+        {
+          "w": "rover",
+          "start": 103.472,
+          "end": 103.852
+        },
+        {
+          "w": "was",
+          "start": 103.852,
+          "end": 104.192
+        },
+        {
+          "w": "designed",
+          "start": 104.192,
+          "end": 104.532
+        },
+        {
+          "w": "to",
+          "start": 104.532,
+          "end": 104.832
+        },
+        {
+          "w": "last",
+          "start": 104.832,
+          "end": 105.032
+        },
+        {
+          "w": "90",
+          "start": 105.032,
+          "end": 105.432
+        },
+        {
+          "w": "days,",
+          "start": 105.432,
+          "end": 105.792
+        },
+        {
+          "w": "yet",
+          "start": 105.792,
+          "end": 106.332
+        },
+        {
+          "w": "survived",
+          "start": 106.332,
+          "end": 106.672
+        },
+        {
+          "w": "14",
+          "start": 106.672,
+          "end": 107.292
+        },
+        {
+          "w": ".4",
+          "start": 107.292,
+          "end": 108.252
+        },
+        {
+          "w": "years",
+          "start": 108.252,
+          "end": 108.632
+        },
+        {
+          "w": "before",
+          "start": 108.632,
+          "end": 109.072
+        },
+        {
+          "w": "a",
+          "start": 109.072,
+          "end": 109.232
+        },
+        {
+          "w": "planet",
+          "start": 109.232,
+          "end": 109.552
+        },
+        {
+          "w": "-wide",
+          "start": 109.552,
+          "end": 109.852
+        },
+        {
+          "w": "dust",
+          "start": 109.852,
+          "end": 110.232
+        },
+        {
+          "w": "storm",
+          "start": 110.232,
+          "end": 110.692
+        },
+        {
+          "w": "turned",
+          "start": 110.692,
+          "end": 111.072
+        },
+        {
+          "w": "out",
+          "start": 111.072,
+          "end": 111.312
+        },
+        {
+          "w": "the",
+          "start": 111.312,
+          "end": 111.492
+        },
+        {
+          "w": "lights.",
+          "start": 111.492,
+          "end": 111.692
+        }
+      ]
+    },
+    {
+      "i": 12,
+      "text": "So what can you do? Hold your breath? Your lungs rupture in seconds. Dig underground? The dirt is frozen rock laced with perchlorates. Call Earth for help? At Mars's farthest orbit, your radio message takes twenty-two minutes just to travel one way.",
+      "start": 112.296,
+      "end": 126.79,
+      "speechEnd": 126.63,
+      "words": [
+        {
+          "w": "So",
+          "start": 112.296,
+          "end": 112.436
+        },
+        {
+          "w": "what",
+          "start": 112.436,
+          "end": 112.596
+        },
+        {
+          "w": "can",
+          "start": 112.596,
+          "end": 112.756
+        },
+        {
+          "w": "you",
+          "start": 112.756,
+          "end": 112.896
+        },
+        {
+          "w": "do?",
+          "start": 112.896,
+          "end": 113.056
+        },
+        {
+          "w": "Hold",
+          "start": 113.536,
+          "end": 113.576
+        },
+        {
+          "w": "your",
+          "start": 113.576,
+          "end": 113.776
+        },
+        {
+          "w": "breath,",
+          "start": 113.776,
+          "end": 114.076
+        },
+        {
+          "w": "your",
+          "start": 114.456,
+          "end": 114.516
+        },
+        {
+          "w": "lungs",
+          "start": 114.516,
+          "end": 114.736
+        },
+        {
+          "w": "rupture",
+          "start": 114.736,
+          "end": 115.156
+        },
+        {
+          "w": "in",
+          "start": 115.156,
+          "end": 115.536
+        },
+        {
+          "w": "seconds.",
+          "start": 115.536,
+          "end": 115.876
+        },
+        {
+          "w": "Dig",
+          "start": 116.356,
+          "end": 116.356
+        },
+        {
+          "w": "underground.",
+          "start": 116.356,
+          "end": 116.616
+        },
+        {
+          "w": "The",
+          "start": 117.356,
+          "end": 117.376
+        },
+        {
+          "w": "dirt",
+          "start": 117.376,
+          "end": 117.556
+        },
+        {
+          "w": "is",
+          "start": 117.556,
+          "end": 117.776
+        },
+        {
+          "w": "frozen",
+          "start": 117.776,
+          "end": 118.096
+        },
+        {
+          "w": "rock",
+          "start": 118.096,
+          "end": 118.596
+        },
+        {
+          "w": "laced",
+          "start": 118.596,
+          "end": 118.856
+        },
+        {
+          "w": "with",
+          "start": 118.856,
+          "end": 119.156
+        },
+        {
+          "w": "perchlorates.",
+          "start": 119.156,
+          "end": 119.836
+        },
+        {
+          "w": "Call",
+          "start": 120.356,
+          "end": 120.356
+        },
+        {
+          "w": "Earth",
+          "start": 120.356,
+          "end": 120.636
+        },
+        {
+          "w": "for",
+          "start": 120.636,
+          "end": 120.876
+        },
+        {
+          "w": "help.",
+          "start": 120.876,
+          "end": 121.056
+        },
+        {
+          "w": "At",
+          "start": 121.416,
+          "end": 121.436
+        },
+        {
+          "w": "Mars'",
+          "start": 121.436,
+          "end": 121.656
+        },
+        {
+          "w": "farthest",
+          "start": 121.976,
+          "end": 122.396
+        },
+        {
+          "w": "orbit,",
+          "start": 122.396,
+          "end": 122.736
+        },
+        {
+          "w": "your",
+          "start": 123.056,
+          "end": 123.116
+        },
+        {
+          "w": "radio",
+          "start": 123.116,
+          "end": 123.376
+        },
+        {
+          "w": "message",
+          "start": 123.376,
+          "end": 123.856
+        },
+        {
+          "w": "takes",
+          "start": 123.856,
+          "end": 124.276
+        },
+        {
+          "w": "22",
+          "start": 124.276,
+          "end": 124.676
+        },
+        {
+          "w": "minutes",
+          "start": 124.676,
+          "end": 125.096
+        },
+        {
+          "w": "just",
+          "start": 125.096,
+          "end": 125.436
+        },
+        {
+          "w": "to",
+          "start": 125.436,
+          "end": 125.636
+        },
+        {
+          "w": "travel",
+          "start": 125.636,
+          "end": 125.936
+        },
+        {
+          "w": "one",
+          "start": 125.936,
+          "end": 126.256
+        },
+        {
+          "w": "way.",
+          "start": 126.256,
+          "end": 126.496
+        }
+      ]
+    },
+    {
+      "i": 13,
+      "text": "Even burying miles down might not guarantee safety \u2014 seismic readings near Alba Mons hint liquid magma could still pool eight kilometers below the surface, though for now that remains unproven.",
+      "start": 126.79,
+      "end": 139.154,
+      "speechEnd": 138.994,
+      "words": [
+        {
+          "w": "Even",
+          "start": 126.79,
+          "end": 126.99
+        },
+        {
+          "w": "burying",
+          "start": 126.99,
+          "end": 127.37
+        },
+        {
+          "w": "miles",
+          "start": 127.37,
+          "end": 127.77
+        },
+        {
+          "w": "down",
+          "start": 127.77,
+          "end": 128.29
+        },
+        {
+          "w": "might",
+          "start": 128.29,
+          "end": 128.63
+        },
+        {
+          "w": "not",
+          "start": 128.63,
+          "end": 128.89
+        },
+        {
+          "w": "guarantee",
+          "start": 128.89,
+          "end": 129.23
+        },
+        {
+          "w": "safety,",
+          "start": 129.23,
+          "end": 130.05
+        },
+        {
+          "w": "seismic",
+          "start": 130.53,
+          "end": 130.83
+        },
+        {
+          "w": "readings",
+          "start": 130.83,
+          "end": 131.27
+        },
+        {
+          "w": "near",
+          "start": 131.27,
+          "end": 131.75
+        },
+        {
+          "w": "Albemond's",
+          "start": 131.75,
+          "end": 132.61
+        },
+        {
+          "w": "hint",
+          "start": 132.61,
+          "end": 132.75
+        },
+        {
+          "w": "liquid",
+          "start": 132.75,
+          "end": 133.15
+        },
+        {
+          "w": "magma",
+          "start": 133.15,
+          "end": 133.75
+        },
+        {
+          "w": "could",
+          "start": 133.75,
+          "end": 133.95
+        },
+        {
+          "w": "still",
+          "start": 133.95,
+          "end": 134.23
+        },
+        {
+          "w": "pool",
+          "start": 134.23,
+          "end": 134.45
+        },
+        {
+          "w": "8",
+          "start": 134.45,
+          "end": 134.89
+        },
+        {
+          "w": "kilometers",
+          "start": 134.89,
+          "end": 135.15
+        },
+        {
+          "w": "below",
+          "start": 135.15,
+          "end": 135.83
+        },
+        {
+          "w": "the",
+          "start": 135.83,
+          "end": 136.07
+        },
+        {
+          "w": "surface,",
+          "start": 136.07,
+          "end": 136.47
+        },
+        {
+          "w": "though",
+          "start": 136.83,
+          "end": 136.99
+        },
+        {
+          "w": "for",
+          "start": 136.99,
+          "end": 137.15
+        },
+        {
+          "w": "now",
+          "start": 137.15,
+          "end": 137.41
+        },
+        {
+          "w": "that",
+          "start": 137.41,
+          "end": 137.71
+        },
+        {
+          "w": "remains",
+          "start": 137.71,
+          "end": 138.01
+        },
+        {
+          "w": "unproven.",
+          "start": 138.01,
+          "end": 138.75
+        }
+      ]
+    },
+    {
+      "i": 14,
+      "text": "On Mars, the desert doesn't kill you. Everything else just gets in line first.",
+      "start": 139.154,
+      "end": 144.475,
+      "speechEnd": 143.475,
+      "words": [
+        {
+          "w": "On",
+          "start": 139.154,
+          "end": 139.294
+        },
+        {
+          "w": "Mars,",
+          "start": 139.294,
+          "end": 139.494
+        },
+        {
+          "w": "the",
+          "start": 139.894,
+          "end": 139.914
+        },
+        {
+          "w": "desert",
+          "start": 139.914,
+          "end": 140.174
+        },
+        {
+          "w": "doesn't",
+          "start": 140.174,
+          "end": 140.634
+        },
+        {
+          "w": "kill",
+          "start": 140.634,
+          "end": 140.834
+        },
+        {
+          "w": "you.",
+          "start": 140.834,
+          "end": 141.054
+        },
+        {
+          "w": "Everything",
+          "start": 141.654,
+          "end": 141.654
+        },
+        {
+          "w": "else",
+          "start": 141.654,
+          "end": 141.914
+        },
+        {
+          "w": "just",
+          "start": 141.914,
+          "end": 142.174
+        },
+        {
+          "w": "gets",
+          "start": 142.174,
+          "end": 142.394
+        },
+        {
+          "w": "in",
+          "start": 142.394,
+          "end": 142.614
+        },
+        {
+          "w": "line",
+          "start": 142.614,
+          "end": 142.794
+        },
+        {
+          "w": "first.",
+          "start": 142.794,
+          "end": 143.174
+        }
+      ]
+    }
+  ]
+}

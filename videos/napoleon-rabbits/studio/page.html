@@ -1,0 +1,62 @@
+<!doctype html>
+<html><head><meta charset="utf-8">
+<style>
+  :root{--u:1}
+  html,body{margin:0;background:#000;overflow:hidden}
+  #stage{position:relative;width:1080px;height:1920px;overflow:hidden}
+  canvas{position:absolute;inset:0;display:block}
+  #vig{position:absolute;inset:0;background:
+     radial-gradient(ellipse at 50% 45%, rgba(0,0,0,0) 55%, rgba(0,0,0,.36) 100%),
+     linear-gradient(to bottom, rgba(0,0,0,.28) 0%, rgba(0,0,0,0) 20%, rgba(0,0,0,0) 62%, rgba(0,0,0,.44) 100%)}
+  .hud{position:absolute;top:calc(var(--u)*40px);color:#f3ead8;font-family:Inter,"Segoe UI","Helvetica Neue",Arial,sans-serif;text-shadow:0 1px 6px rgba(0,0,0,.45)}
+  #hl{left:calc(var(--u)*48px)} #hr{right:calc(var(--u)*48px);text-align:right}
+  .lab{font-size:calc(var(--u)*11px);letter-spacing:.2em;font-weight:700;opacity:.88;text-transform:uppercase}
+  .serif{font-family:"Bitstream Charter",Charter,Caladea,Georgia,"Times New Roman",serif}
+  #val{font-size:calc(var(--u)*44px);line-height:1.15;margin-top:calc(var(--u)*4px);transform-origin:left center;white-space:nowrap}
+  #val .x{color:#e8c56a;font-size:.72em;margin-right:.05em}
+  #val sup{font-size:.55em;vertical-align:top;position:relative;top:-.1em}
+  #al{margin-top:calc(var(--u)*10px)} #alv{font-size:calc(var(--u)*32px);color:#ff7a66;line-height:1.2}
+  #status{font-size:calc(var(--u)*27px);font-weight:800;letter-spacing:.06em;margin-top:calc(var(--u)*5px);text-transform:uppercase}
+  #sub{margin-top:calc(var(--u)*5px)}
+  /* Next-Gen 8sb2R11FeVw Black-BG Subtitle Pill (y ~ 1360px at 1080x1920) */
+  #pillWrap{position:absolute;left:0;right:0;top:70.8%;transform:translateY(-50%);display:flex;justify-content:center;pointer-events:none;z-index:20}
+  #pill{display:inline-flex;align-items:center;justify-content:center;gap:calc(var(--u)*9px);
+        background:rgba(8,8,10,0.90);border-radius:calc(var(--u)*10.67px);
+        padding:calc(var(--u)*14.67px) calc(var(--u)*25.33px);
+        box-shadow:0 calc(var(--u)*6px) calc(var(--u)*18px) rgba(0,0,0,0.45);
+        font-family:Inter,"Segoe UI","Helvetica Neue",Arial,sans-serif;font-weight:900;
+        font-size:calc(var(--u)*38.67px);line-height:1.1;letter-spacing:-0.01em;color:#ffffff;
+        white-space:nowrap;transform-origin:center center}
+  #pill .w{display:inline-block;text-shadow:0 2px 8px rgba(0,0,0,0.45);transition:none}
+  #pill .w.on{color:#FFE600;transform:scale(1.06)}
+  #cap{display:none}
+  #card{position:absolute;left:50%;top:46%;transform:translate(-50%,-50%);min-width:calc(var(--u)*320px);max-width:70%;
+        padding:calc(var(--u)*26px) calc(var(--u)*34px);border-radius:calc(var(--u)*14px);background:rgba(14,18,32,.78);
+        border:1px solid rgba(255,255,255,.14);color:#f3ead8;font-family:Inter,"Helvetica Neue",Arial,sans-serif;
+        font-size:calc(var(--u)*20px);line-height:1.45;text-align:center;box-shadow:0 12px 40px rgba(0,0,0,.45)}
+  #title{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;text-align:center;color:#f3ead8;
+         font-family:Inter,"Helvetica Neue",Arial,sans-serif;font-weight:800;letter-spacing:.14em;font-size:calc(var(--u)*56px);
+         text-transform:uppercase;text-shadow:0 4px 24px rgba(0,0,0,.6);opacity:0}
+  @media (orientation: portrait){
+    .hud{top:5.5%} #hl{left:6%} #hr{right:6%}
+    #vig{background:radial-gradient(ellipse at 50% 45%, rgba(0,0,0,0) 55%, rgba(0,0,0,.34) 100%),
+      linear-gradient(to bottom, rgba(0,0,0,.30) 0%, rgba(0,0,0,0) 16%, rgba(0,0,0,0) 58%, rgba(0,0,0,.42) 82%, rgba(0,0,0,.2) 100%)}
+  }
+</style></head>
+<body>
+<div id="stage">
+  <canvas id="c"></canvas>
+  <div id="vig"></div>
+  <div id="title"></div>
+  <div class="hud" id="hl"><div class="lab" id="ll"></div><div id="val" class="serif"></div>
+    <div id="al"><div class="lab" id="all"></div><div id="alv" class="serif"></div></div></div>
+  <div class="hud" id="hr"><div class="lab" id="rl"></div><div id="status"></div><div class="lab" id="sub"></div></div>
+  <div id="card"></div>
+  <div id="cap" class="serif"></div>
+  <div id="pillWrap"><div id="pill"></div></div>
+</div>
+<script src="/three.min.js"></script>
+<script src="/kit.js"></script>
+<script src="/shots.js"></script>
+<script>window.KAZ_READY = true;</script>
+</body></html>

@@ -1,0 +1,814 @@
+{
+  "engines": [
+    "elevenlabs"
+  ],
+  "model": "eleven_turbo_v2_5",
+  "total": 33.756,
+  "beats": [
+    {
+      "i": 0,
+      "speaker": "narrator",
+      "text": "In 2006, a night guard heard knocking inside a locked hallway\u2014and checked the security cam.",
+      "start": 0.04,
+      "speechEnd": 4.521,
+      "end": 4.661,
+      "words": [
+        {
+          "w": "In",
+          "start": 0.04,
+          "end": 0.14
+        },
+        {
+          "w": "2006,",
+          "start": 0.14,
+          "end": 0.8
+        },
+        {
+          "w": "a",
+          "start": 1.14,
+          "end": 1.22
+        },
+        {
+          "w": "night",
+          "start": 1.22,
+          "end": 1.36
+        },
+        {
+          "w": "guard",
+          "start": 1.36,
+          "end": 1.56
+        },
+        {
+          "w": "heard",
+          "start": 1.56,
+          "end": 1.8
+        },
+        {
+          "w": "knocking",
+          "start": 1.8,
+          "end": 2.0
+        },
+        {
+          "w": "inside",
+          "start": 2.0,
+          "end": 2.44
+        },
+        {
+          "w": "a",
+          "start": 2.44,
+          "end": 2.56
+        },
+        {
+          "w": "locked",
+          "start": 2.56,
+          "end": 2.74
+        },
+        {
+          "w": "hallway",
+          "start": 2.74,
+          "end": 3.04
+        },
+        {
+          "w": "and",
+          "start": 3.04,
+          "end": 3.44
+        },
+        {
+          "w": "checked",
+          "start": 3.44,
+          "end": 3.6
+        },
+        {
+          "w": "the",
+          "start": 3.6,
+          "end": 3.78
+        },
+        {
+          "w": "security",
+          "start": 3.78,
+          "end": 4.06
+        },
+        {
+          "w": "cam.",
+          "start": 4.06,
+          "end": 4.32
+        }
+      ]
+    },
+    {
+      "i": 1,
+      "speaker": "narrator",
+      "text": "He grabs the steel door handle.",
+      "start": 4.661,
+      "speechEnd": 5.832,
+      "end": 5.952,
+      "words": [
+        {
+          "w": "He",
+          "start": 4.661,
+          "end": 4.721
+        },
+        {
+          "w": "grabs",
+          "start": 4.721,
+          "end": 4.881
+        },
+        {
+          "w": "the",
+          "start": 4.881,
+          "end": 5.061
+        },
+        {
+          "w": "steel",
+          "start": 5.061,
+          "end": 5.241
+        },
+        {
+          "w": "door",
+          "start": 5.241,
+          "end": 5.441
+        },
+        {
+          "w": "handle.",
+          "start": 5.441,
+          "end": 5.661
+        }
+      ]
+    },
+    {
+      "i": 2,
+      "speaker": "narrator",
+      "text": "Empty dark concrete. Zero footsteps.",
+      "start": 5.952,
+      "speechEnd": 7.682,
+      "end": 7.802,
+      "words": [
+        {
+          "w": "Empty",
+          "start": 5.952,
+          "end": 6.152
+        },
+        {
+          "w": "dark",
+          "start": 6.152,
+          "end": 6.352
+        },
+        {
+          "w": "concrete,",
+          "start": 6.352,
+          "end": 6.712
+        },
+        {
+          "w": "zero",
+          "start": 6.932,
+          "end": 7.092
+        },
+        {
+          "w": "footsteps.",
+          "start": 7.092,
+          "end": 7.352
+        }
+      ]
+    },
+    {
+      "i": 3,
+      "speaker": "narrator",
+      "text": "He turns around to walk back to his desk.",
+      "start": 7.802,
+      "speechEnd": 9.276,
+      "end": 9.396,
+      "words": [
+        {
+          "w": "He",
+          "start": 7.802,
+          "end": 7.882
+        },
+        {
+          "w": "turns",
+          "start": 7.882,
+          "end": 8.002
+        },
+        {
+          "w": "around",
+          "start": 8.002,
+          "end": 8.222
+        },
+        {
+          "w": "to",
+          "start": 8.222,
+          "end": 8.382
+        },
+        {
+          "w": "walk",
+          "start": 8.382,
+          "end": 8.502
+        },
+        {
+          "w": "back",
+          "start": 8.502,
+          "end": 8.682
+        },
+        {
+          "w": "to",
+          "start": 8.682,
+          "end": 8.822
+        },
+        {
+          "w": "his",
+          "start": 8.822,
+          "end": 8.922
+        },
+        {
+          "w": "desk.",
+          "start": 8.922,
+          "end": 9.082
+        }
+      ]
+    },
+    {
+      "i": 4,
+      "speaker": "narrator",
+      "text": "Then a hand slams onto the glass behind him.",
+      "start": 9.396,
+      "speechEnd": 11.231,
+      "end": 11.351,
+      "words": [
+        {
+          "w": "Then",
+          "start": 9.396,
+          "end": 9.496
+        },
+        {
+          "w": "a",
+          "start": 9.496,
+          "end": 9.576
+        },
+        {
+          "w": "hand",
+          "start": 9.576,
+          "end": 9.796
+        },
+        {
+          "w": "slams",
+          "start": 9.796,
+          "end": 10.036
+        },
+        {
+          "w": "onto",
+          "start": 10.036,
+          "end": 10.356
+        },
+        {
+          "w": "the",
+          "start": 10.356,
+          "end": 10.516
+        },
+        {
+          "w": "glass",
+          "start": 10.516,
+          "end": 10.696
+        },
+        {
+          "w": "behind",
+          "start": 10.696,
+          "end": 10.956
+        },
+        {
+          "w": "him.",
+          "start": 10.956,
+          "end": 11.136
+        }
+      ]
+    },
+    {
+      "i": 5,
+      "speaker": "narrator",
+      "text": "His eyes snap wide in terror.",
+      "start": 11.351,
+      "speechEnd": 12.569,
+      "end": 12.729,
+      "words": [
+        {
+          "w": "His",
+          "start": 11.351,
+          "end": 11.451
+        },
+        {
+          "w": "eyes",
+          "start": 11.451,
+          "end": 11.571
+        },
+        {
+          "w": "snap",
+          "start": 11.571,
+          "end": 11.851
+        },
+        {
+          "w": "wide",
+          "start": 11.851,
+          "end": 12.071
+        },
+        {
+          "w": "in",
+          "start": 12.071,
+          "end": 12.231
+        },
+        {
+          "w": "terror.",
+          "start": 12.231,
+          "end": 12.411
+        }
+      ]
+    },
+    {
+      "i": 6,
+      "speaker": "narrator",
+      "text": "Luckily, the heavy steel bolt was locked tight.",
+      "start": 12.729,
+      "speechEnd": 14.557,
+      "end": 14.737,
+      "words": [
+        {
+          "w": "Luckily",
+          "start": 12.729,
+          "end": 12.949
+        },
+        {
+          "w": "the",
+          "start": 12.949,
+          "end": 13.169
+        },
+        {
+          "w": "heavy",
+          "start": 13.169,
+          "end": 13.329
+        },
+        {
+          "w": "steel",
+          "start": 13.329,
+          "end": 13.549
+        },
+        {
+          "w": "bolt",
+          "start": 13.549,
+          "end": 13.809
+        },
+        {
+          "w": "was",
+          "start": 13.809,
+          "end": 13.989
+        },
+        {
+          "w": "locked",
+          "start": 13.989,
+          "end": 14.169
+        },
+        {
+          "w": "tight.",
+          "start": 14.169,
+          "end": 14.429
+        }
+      ]
+    },
+    {
+      "i": 7,
+      "speaker": "narrator",
+      "text": "Unluckily, the figure outside was wearing his exact face.",
+      "start": 14.737,
+      "speechEnd": 17.356,
+      "end": 17.516,
+      "words": [
+        {
+          "w": "Unluckily,",
+          "start": 14.737,
+          "end": 15.177
+        },
+        {
+          "w": "the",
+          "start": 15.297,
+          "end": 15.337
+        },
+        {
+          "w": "figure",
+          "start": 15.337,
+          "end": 15.517
+        },
+        {
+          "w": "outside",
+          "start": 15.517,
+          "end": 15.777
+        },
+        {
+          "w": "was",
+          "start": 15.777,
+          "end": 16.197
+        },
+        {
+          "w": "wearing",
+          "start": 16.197,
+          "end": 16.397
+        },
+        {
+          "w": "his",
+          "start": 16.397,
+          "end": 16.577
+        },
+        {
+          "w": "exact",
+          "start": 16.577,
+          "end": 16.717
+        },
+        {
+          "w": "face.",
+          "start": 16.717,
+          "end": 17.077
+        }
+      ]
+    },
+    {
+      "i": 8,
+      "speaker": "narrator",
+      "text": "You see, your brain spots a stranger in milliseconds\u2014like a shadow in broad daylight.",
+      "start": 17.516,
+      "speechEnd": 21.051,
+      "end": 21.171,
+      "words": [
+        {
+          "w": "You",
+          "start": 17.516,
+          "end": 17.596
+        },
+        {
+          "w": "see",
+          "start": 17.596,
+          "end": 17.696
+        },
+        {
+          "w": "your",
+          "start": 17.696,
+          "end": 17.836
+        },
+        {
+          "w": "brain",
+          "start": 17.836,
+          "end": 18.056
+        },
+        {
+          "w": "spots",
+          "start": 18.056,
+          "end": 18.356
+        },
+        {
+          "w": "a",
+          "start": 18.356,
+          "end": 18.616
+        },
+        {
+          "w": "stranger",
+          "start": 18.616,
+          "end": 18.816
+        },
+        {
+          "w": "in",
+          "start": 18.816,
+          "end": 19.056
+        },
+        {
+          "w": "milliseconds,",
+          "start": 19.056,
+          "end": 19.276
+        },
+        {
+          "w": "like",
+          "start": 19.816,
+          "end": 19.896
+        },
+        {
+          "w": "a",
+          "start": 19.896,
+          "end": 19.996
+        },
+        {
+          "w": "shadow",
+          "start": 19.996,
+          "end": 20.256
+        },
+        {
+          "w": "in",
+          "start": 20.256,
+          "end": 20.476
+        },
+        {
+          "w": "broad",
+          "start": 20.476,
+          "end": 20.616
+        },
+        {
+          "w": "daylight.",
+          "start": 20.616,
+          "end": 20.836
+        }
+      ]
+    },
+    {
+      "i": 9,
+      "speaker": "narrator",
+      "text": "But when your own face smiles two seconds late, your legs forget how to move.",
+      "start": 21.171,
+      "speechEnd": 24.341,
+      "end": 24.461,
+      "words": [
+        {
+          "w": "But",
+          "start": 21.171,
+          "end": 21.251
+        },
+        {
+          "w": "when",
+          "start": 21.251,
+          "end": 21.371
+        },
+        {
+          "w": "your",
+          "start": 21.371,
+          "end": 21.511
+        },
+        {
+          "w": "own",
+          "start": 21.511,
+          "end": 21.671
+        },
+        {
+          "w": "face",
+          "start": 21.671,
+          "end": 21.911
+        },
+        {
+          "w": "smiles",
+          "start": 21.911,
+          "end": 22.291
+        },
+        {
+          "w": "two",
+          "start": 22.291,
+          "end": 22.491
+        },
+        {
+          "w": "seconds",
+          "start": 22.491,
+          "end": 22.751
+        },
+        {
+          "w": "late,",
+          "start": 22.751,
+          "end": 23.011
+        },
+        {
+          "w": "your",
+          "start": 23.271,
+          "end": 23.331
+        },
+        {
+          "w": "legs",
+          "start": 23.331,
+          "end": 23.491
+        },
+        {
+          "w": "forget",
+          "start": 23.491,
+          "end": 23.731
+        },
+        {
+          "w": "how",
+          "start": 23.731,
+          "end": 23.951
+        },
+        {
+          "w": "to",
+          "start": 23.951,
+          "end": 24.051
+        },
+        {
+          "w": "move.",
+          "start": 24.051,
+          "end": 24.191
+        }
+      ]
+    },
+    {
+      "i": 10,
+      "speaker": "narrator",
+      "text": "He sprints down the dark stairwell, keys shaking.",
+      "start": 24.461,
+      "speechEnd": 26.604,
+      "end": 26.724,
+      "words": [
+        {
+          "w": "He",
+          "start": 24.461,
+          "end": 24.541
+        },
+        {
+          "w": "sprints",
+          "start": 24.541,
+          "end": 24.881
+        },
+        {
+          "w": "down",
+          "start": 24.881,
+          "end": 25.001
+        },
+        {
+          "w": "the",
+          "start": 25.001,
+          "end": 25.141
+        },
+        {
+          "w": "dark",
+          "start": 25.141,
+          "end": 25.301
+        },
+        {
+          "w": "stairwell,",
+          "start": 25.301,
+          "end": 25.741
+        },
+        {
+          "w": "keys",
+          "start": 25.901,
+          "end": 26.021
+        },
+        {
+          "w": "shaking.",
+          "start": 26.021,
+          "end": 26.341
+        }
+      ]
+    },
+    {
+      "i": 11,
+      "speaker": "narrator",
+      "text": "Then his walkie-talkie crackles from the room he just left:",
+      "start": 26.724,
+      "speechEnd": 29.2,
+      "end": 29.36,
+      "words": [
+        {
+          "w": "Then",
+          "start": 26.724,
+          "end": 26.864
+        },
+        {
+          "w": "his",
+          "start": 26.864,
+          "end": 27.004
+        },
+        {
+          "w": "walkie-talkie",
+          "start": 27.004,
+          "end": 27.424
+        },
+        {
+          "w": "crackles",
+          "start": 27.724,
+          "end": 28.064
+        },
+        {
+          "w": "from",
+          "start": 28.064,
+          "end": 28.224
+        },
+        {
+          "w": "the",
+          "start": 28.224,
+          "end": 28.344
+        },
+        {
+          "w": "room",
+          "start": 28.344,
+          "end": 28.504
+        },
+        {
+          "w": "he",
+          "start": 28.504,
+          "end": 28.664
+        },
+        {
+          "w": "just",
+          "start": 28.664,
+          "end": 28.824
+        },
+        {
+          "w": "left.",
+          "start": 28.824,
+          "end": 29.024
+        }
+      ]
+    },
+    {
+      "i": 12,
+      "speaker": "doppelganger",
+      "text": "\"Why did you lock me out?\"",
+      "start": 29.36,
+      "speechEnd": 31.04,
+      "end": 31.19,
+      "words": [
+        {
+          "w": "Why",
+          "start": 29.36,
+          "end": 29.6
+        },
+        {
+          "w": "did",
+          "start": 29.6,
+          "end": 29.8
+        },
+        {
+          "w": "you",
+          "start": 29.8,
+          "end": 29.94
+        },
+        {
+          "w": "lock",
+          "start": 29.94,
+          "end": 30.18
+        },
+        {
+          "w": "me",
+          "start": 30.18,
+          "end": 30.46
+        },
+        {
+          "w": "out?",
+          "start": 30.46,
+          "end": 30.72
+        }
+      ]
+    },
+    {
+      "i": 13,
+      "speaker": "narrator",
+      "text": "On the security monitor, he's already sitting in his own chair.",
+      "start": 31.19,
+      "speechEnd": 33.696,
+      "end": 33.756,
+      "words": [
+        {
+          "w": "On",
+          "start": 31.19,
+          "end": 31.29
+        },
+        {
+          "w": "the",
+          "start": 31.29,
+          "end": 31.37
+        },
+        {
+          "w": "security",
+          "start": 31.37,
+          "end": 31.67
+        },
+        {
+          "w": "monitor,",
+          "start": 31.67,
+          "end": 32.01
+        },
+        {
+          "w": "he's",
+          "start": 32.27,
+          "end": 32.37
+        },
+        {
+          "w": "already",
+          "start": 32.37,
+          "end": 32.61
+        },
+        {
+          "w": "sitting",
+          "start": 32.61,
+          "end": 32.89
+        },
+        {
+          "w": "in",
+          "start": 32.89,
+          "end": 33.05
+        },
+        {
+          "w": "his",
+          "start": 33.05,
+          "end": 33.19
+        },
+        {
+          "w": "own",
+          "start": 33.19,
+          "end": 33.29
+        },
+        {
+          "w": "chair.",
+          "start": 33.29,
+          "end": 33.49
+        }
+      ]
+    }
+  ]
+}

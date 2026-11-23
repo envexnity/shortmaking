@@ -1,0 +1,935 @@
+{
+  "voice": "edge:en-AU-WilliamNeural",
+  "total": 55.722,
+  "beats": [
+    {
+      "i": 0,
+      "text": "On Friday the thirteenth, twenty twenty-nine, a skyscraper-sized asteroid will pass closer to Earth than our TV satellites.",
+      "start": 0.25,
+      "end": 6.968,
+      "speechEnd": 6.808,
+      "words": [
+        {
+          "w": "On",
+          "start": 0.25,
+          "end": 0.35
+        },
+        {
+          "w": "Friday",
+          "start": 0.35,
+          "end": 0.69
+        },
+        {
+          "w": "the",
+          "start": 0.69,
+          "end": 0.93
+        },
+        {
+          "w": "13th,",
+          "start": 0.93,
+          "end": 1.53
+        },
+        {
+          "w": "2029,",
+          "start": 1.69,
+          "end": 2.35
+        },
+        {
+          "w": "a",
+          "start": 2.65,
+          "end": 2.79
+        },
+        {
+          "w": "skyscraper-sized",
+          "start": 2.79,
+          "end": 3.61
+        },
+        {
+          "w": "asteroid",
+          "start": 3.61,
+          "end": 3.89
+        },
+        {
+          "w": "will",
+          "start": 3.89,
+          "end": 4.37
+        },
+        {
+          "w": "pass",
+          "start": 4.37,
+          "end": 4.59
+        },
+        {
+          "w": "closer",
+          "start": 4.59,
+          "end": 4.89
+        },
+        {
+          "w": "to",
+          "start": 4.89,
+          "end": 5.23
+        },
+        {
+          "w": "Earth",
+          "start": 5.23,
+          "end": 5.49
+        },
+        {
+          "w": "than",
+          "start": 5.49,
+          "end": 5.69
+        },
+        {
+          "w": "our",
+          "start": 5.69,
+          "end": 5.81
+        },
+        {
+          "w": "TV",
+          "start": 5.81,
+          "end": 6.05
+        },
+        {
+          "w": "satellites.",
+          "start": 6.05,
+          "end": 6.43
+        }
+      ]
+    },
+    {
+      "i": 1,
+      "text": "Movies say if one aims at us, we just launch a nuclear bomb. That\u2019s the rule.",
+      "start": 6.968,
+      "end": 11.457,
+      "speechEnd": 11.297,
+      "words": [
+        {
+          "w": "Movies",
+          "start": 6.968,
+          "end": 7.248
+        },
+        {
+          "w": "say",
+          "start": 7.248,
+          "end": 7.508
+        },
+        {
+          "w": "if",
+          "start": 7.508,
+          "end": 7.748
+        },
+        {
+          "w": "one",
+          "start": 7.748,
+          "end": 7.928
+        },
+        {
+          "w": "aims",
+          "start": 7.928,
+          "end": 8.168
+        },
+        {
+          "w": "at",
+          "start": 8.168,
+          "end": 8.348
+        },
+        {
+          "w": "us,",
+          "start": 8.348,
+          "end": 8.508
+        },
+        {
+          "w": "we",
+          "start": 8.728,
+          "end": 8.848
+        },
+        {
+          "w": "just",
+          "start": 8.848,
+          "end": 9.028
+        },
+        {
+          "w": "launch",
+          "start": 9.028,
+          "end": 9.348
+        },
+        {
+          "w": "a",
+          "start": 9.348,
+          "end": 9.508
+        },
+        {
+          "w": "nuclear",
+          "start": 9.508,
+          "end": 9.748
+        },
+        {
+          "w": "bomb,",
+          "start": 9.748,
+          "end": 10.068
+        },
+        {
+          "w": "that's",
+          "start": 10.408,
+          "end": 10.768
+        },
+        {
+          "w": "the",
+          "start": 10.768,
+          "end": 10.888
+        },
+        {
+          "w": "rule.",
+          "start": 10.888,
+          "end": 11.088
+        }
+      ]
+    },
+    {
+      "i": 2,
+      "text": "Then one giant rock turns into ten thousand radioactive shotgun pellets.",
+      "start": 11.457,
+      "end": 15.47,
+      "speechEnd": 15.31,
+      "words": [
+        {
+          "w": "Then",
+          "start": 11.457,
+          "end": 11.657
+        },
+        {
+          "w": "one",
+          "start": 11.657,
+          "end": 11.877
+        },
+        {
+          "w": "giant",
+          "start": 11.877,
+          "end": 12.137
+        },
+        {
+          "w": "rock",
+          "start": 12.137,
+          "end": 12.457
+        },
+        {
+          "w": "turns",
+          "start": 12.457,
+          "end": 12.817
+        },
+        {
+          "w": "into",
+          "start": 12.817,
+          "end": 13.077
+        },
+        {
+          "w": "10,000",
+          "start": 13.077,
+          "end": 13.737
+        },
+        {
+          "w": "radioactive",
+          "start": 13.737,
+          "end": 14.157
+        },
+        {
+          "w": "shotgun",
+          "start": 14.157,
+          "end": 14.637
+        },
+        {
+          "w": "pellets.",
+          "start": 14.637,
+          "end": 14.977
+        }
+      ]
+    },
+    {
+      "i": 3,
+      "text": "Killer number one: the shotgun effect.",
+      "start": 15.47,
+      "end": 17.574,
+      "speechEnd": 17.414,
+      "words": [
+        {
+          "w": "Killer",
+          "start": 15.47,
+          "end": 15.67
+        },
+        {
+          "w": "number",
+          "start": 15.67,
+          "end": 15.89
+        },
+        {
+          "w": "one,",
+          "start": 15.89,
+          "end": 16.17
+        },
+        {
+          "w": "the",
+          "start": 16.39,
+          "end": 16.53
+        },
+        {
+          "w": "shotgun",
+          "start": 16.53,
+          "end": 16.75
+        },
+        {
+          "w": "effect.",
+          "start": 16.75,
+          "end": 17.09
+        }
+      ]
+    },
+    {
+      "i": 4,
+      "text": "NASA\u2019s OSIRIS-REx mission proved most asteroids aren\u2019t solid iron \u2014 they\u2019re loose flying piles of rubble held together by weak gravity.",
+      "start": 17.574,
+      "end": 24.418,
+      "speechEnd": 24.258,
+      "words": [
+        {
+          "w": "NASA's",
+          "start": 17.574,
+          "end": 17.994
+        },
+        {
+          "w": "OSIRIS-REx",
+          "start": 17.994,
+          "end": 18.714
+        },
+        {
+          "w": "mission",
+          "start": 18.714,
+          "end": 18.914
+        },
+        {
+          "w": "proved",
+          "start": 18.914,
+          "end": 19.294
+        },
+        {
+          "w": "most",
+          "start": 19.294,
+          "end": 19.634
+        },
+        {
+          "w": "asteroids",
+          "start": 19.634,
+          "end": 19.974
+        },
+        {
+          "w": "aren't",
+          "start": 19.974,
+          "end": 20.554
+        },
+        {
+          "w": "solid",
+          "start": 20.554,
+          "end": 20.734
+        },
+        {
+          "w": "iron,",
+          "start": 20.734,
+          "end": 21.014
+        },
+        {
+          "w": "the",
+          "start": 21.334,
+          "end": 21.414
+        },
+        {
+          "w": "loose",
+          "start": 21.414,
+          "end": 21.594
+        },
+        {
+          "w": "flying",
+          "start": 21.594,
+          "end": 21.914
+        },
+        {
+          "w": "piles",
+          "start": 21.914,
+          "end": 22.194
+        },
+        {
+          "w": "of",
+          "start": 22.194,
+          "end": 22.494
+        },
+        {
+          "w": "rubble",
+          "start": 22.494,
+          "end": 22.634
+        },
+        {
+          "w": "held",
+          "start": 22.634,
+          "end": 22.914
+        },
+        {
+          "w": "together",
+          "start": 22.914,
+          "end": 23.254
+        },
+        {
+          "w": "by",
+          "start": 23.254,
+          "end": 23.554
+        },
+        {
+          "w": "weak",
+          "start": 23.554,
+          "end": 23.734
+        },
+        {
+          "w": "gravity.",
+          "start": 23.734,
+          "end": 23.974
+        }
+      ]
+    },
+    {
+      "i": 5,
+      "text": "Detonate a warhead late, and the entire cloud still slams into Earth at twenty kilometers per second.",
+      "start": 24.418,
+      "end": 29.483,
+      "speechEnd": 29.323,
+      "words": [
+        {
+          "w": "detonate",
+          "start": 24.418,
+          "end": 24.758
+        },
+        {
+          "w": "a",
+          "start": 24.758,
+          "end": 24.858
+        },
+        {
+          "w": "warhead",
+          "start": 24.858,
+          "end": 25.198
+        },
+        {
+          "w": "late,",
+          "start": 25.198,
+          "end": 25.438
+        },
+        {
+          "w": "and",
+          "start": 25.698,
+          "end": 25.858
+        },
+        {
+          "w": "the",
+          "start": 25.858,
+          "end": 25.938
+        },
+        {
+          "w": "entire",
+          "start": 25.938,
+          "end": 26.078
+        },
+        {
+          "w": "cloud",
+          "start": 26.078,
+          "end": 26.558
+        },
+        {
+          "w": "still",
+          "start": 26.558,
+          "end": 26.938
+        },
+        {
+          "w": "slams",
+          "start": 26.938,
+          "end": 27.318
+        },
+        {
+          "w": "into",
+          "start": 27.318,
+          "end": 27.558
+        },
+        {
+          "w": "Earth",
+          "start": 27.558,
+          "end": 27.838
+        },
+        {
+          "w": "at",
+          "start": 27.838,
+          "end": 28.058
+        },
+        {
+          "w": "20",
+          "start": 28.058,
+          "end": 28.298
+        },
+        {
+          "w": "km",
+          "start": 28.298,
+          "end": 28.498
+        },
+        {
+          "w": "per",
+          "start": 28.498,
+          "end": 28.878
+        },
+        {
+          "w": "second.",
+          "start": 28.878,
+          "end": 29.138
+        }
+      ]
+    },
+    {
+      "i": 6,
+      "text": "Killer number two: the sky turns into a four-hundred-degree broiler.",
+      "start": 29.483,
+      "end": 32.945,
+      "speechEnd": 32.785,
+      "words": [
+        {
+          "w": "Killer",
+          "start": 29.483,
+          "end": 29.663
+        },
+        {
+          "w": "number",
+          "start": 29.663,
+          "end": 29.883
+        },
+        {
+          "w": "two,",
+          "start": 29.883,
+          "end": 30.163
+        },
+        {
+          "w": "the",
+          "start": 30.423,
+          "end": 30.543
+        },
+        {
+          "w": "sky",
+          "start": 30.543,
+          "end": 30.783
+        },
+        {
+          "w": "turns",
+          "start": 30.783,
+          "end": 31.063
+        },
+        {
+          "w": "into",
+          "start": 31.063,
+          "end": 31.463
+        },
+        {
+          "w": "a",
+          "start": 31.463,
+          "end": 31.563
+        },
+        {
+          "w": "400",
+          "start": 31.563,
+          "end": 31.803
+        },
+        {
+          "w": "degree",
+          "start": 31.803,
+          "end": 32.223
+        },
+        {
+          "w": "broiler.",
+          "start": 32.223,
+          "end": 32.663
+        }
+      ]
+    },
+    {
+      "i": 7,
+      "text": "Billions of glowing rock fragments superheat the upper air until every forest below ignites at once.",
+      "start": 32.945,
+      "end": 38.106,
+      "speechEnd": 37.946,
+      "words": [
+        {
+          "w": "Billions",
+          "start": 32.945,
+          "end": 33.265
+        },
+        {
+          "w": "of",
+          "start": 33.265,
+          "end": 33.385
+        },
+        {
+          "w": "glowing",
+          "start": 33.385,
+          "end": 33.605
+        },
+        {
+          "w": "rock",
+          "start": 33.605,
+          "end": 33.885
+        },
+        {
+          "w": "fragments",
+          "start": 33.885,
+          "end": 34.265
+        },
+        {
+          "w": "superheat",
+          "start": 34.265,
+          "end": 34.945
+        },
+        {
+          "w": "the",
+          "start": 34.945,
+          "end": 35.085
+        },
+        {
+          "w": "upper",
+          "start": 35.085,
+          "end": 35.245
+        },
+        {
+          "w": "air",
+          "start": 35.245,
+          "end": 35.565
+        },
+        {
+          "w": "until",
+          "start": 35.565,
+          "end": 35.945
+        },
+        {
+          "w": "every",
+          "start": 35.945,
+          "end": 36.285
+        },
+        {
+          "w": "forest",
+          "start": 36.285,
+          "end": 36.565
+        },
+        {
+          "w": "below",
+          "start": 36.565,
+          "end": 36.885
+        },
+        {
+          "w": "ignites",
+          "start": 36.885,
+          "end": 37.345
+        },
+        {
+          "w": "at",
+          "start": 37.345,
+          "end": 37.505
+        },
+        {
+          "w": "once.",
+          "start": 37.505,
+          "end": 37.685
+        }
+      ]
+    },
+    {
+      "i": 8,
+      "text": "What can you do? Hide underground? The surface bakes for hours.",
+      "start": 38.106,
+      "end": 41.991,
+      "speechEnd": 41.831,
+      "words": [
+        {
+          "w": "What",
+          "start": 38.106,
+          "end": 38.326
+        },
+        {
+          "w": "can",
+          "start": 38.326,
+          "end": 38.506
+        },
+        {
+          "w": "you",
+          "start": 38.506,
+          "end": 38.666
+        },
+        {
+          "w": "do,",
+          "start": 38.666,
+          "end": 38.826
+        },
+        {
+          "w": "hide",
+          "start": 39.166,
+          "end": 39.426
+        },
+        {
+          "w": "underground,",
+          "start": 39.426,
+          "end": 39.946
+        },
+        {
+          "w": "the",
+          "start": 40.386,
+          "end": 40.466
+        },
+        {
+          "w": "surface",
+          "start": 40.466,
+          "end": 40.666
+        },
+        {
+          "w": "bakes",
+          "start": 40.666,
+          "end": 41.166
+        },
+        {
+          "w": "for",
+          "start": 41.166,
+          "end": 41.346
+        },
+        {
+          "w": "hours.",
+          "start": 41.346,
+          "end": 41.546
+        }
+      ]
+    },
+    {
+      "i": 9,
+      "text": "Shoot it last week? Even a nuclear blast barely nudges a million-ton mountain that late.",
+      "start": 41.991,
+      "end": 46.79,
+      "speechEnd": 46.63,
+      "words": [
+        {
+          "w": "Shoot",
+          "start": 41.991,
+          "end": 42.211
+        },
+        {
+          "w": "it",
+          "start": 42.211,
+          "end": 42.351
+        },
+        {
+          "w": "last",
+          "start": 42.351,
+          "end": 42.531
+        },
+        {
+          "w": "week,",
+          "start": 42.531,
+          "end": 42.831
+        },
+        {
+          "w": "even",
+          "start": 43.151,
+          "end": 43.391
+        },
+        {
+          "w": "a",
+          "start": 43.391,
+          "end": 43.491
+        },
+        {
+          "w": "nuclear",
+          "start": 43.491,
+          "end": 43.731
+        },
+        {
+          "w": "blast",
+          "start": 43.731,
+          "end": 44.151
+        },
+        {
+          "w": "barely",
+          "start": 44.151,
+          "end": 44.591
+        },
+        {
+          "w": "nudges",
+          "start": 44.591,
+          "end": 45.051
+        },
+        {
+          "w": "a",
+          "start": 45.051,
+          "end": 45.231
+        },
+        {
+          "w": "million",
+          "start": 45.231,
+          "end": 45.451
+        },
+        {
+          "w": "tonne",
+          "start": 45.451,
+          "end": 45.851
+        },
+        {
+          "w": "mountain",
+          "start": 45.851,
+          "end": 46.031
+        },
+        {
+          "w": "that",
+          "start": 46.031,
+          "end": 46.231
+        },
+        {
+          "w": "late.",
+          "start": 46.231,
+          "end": 46.411
+        }
+      ]
+    },
+    {
+      "i": 10,
+      "text": "You see, NASA\u2019s DART probe proved the real trick: ram it years early at fourteen thousand miles an hour \u2014 because a two-centimeter push makes it miss Earth completely.",
+      "start": 46.79,
+      "end": 55.722,
+      "speechEnd": 54.722,
+      "words": [
+        {
+          "w": "You",
+          "start": 46.79,
+          "end": 46.93
+        },
+        {
+          "w": "see,",
+          "start": 46.93,
+          "end": 47.15
+        },
+        {
+          "w": "NASA's",
+          "start": 47.53,
+          "end": 47.87
+        },
+        {
+          "w": "Dart",
+          "start": 47.87,
+          "end": 48.09
+        },
+        {
+          "w": "Probe",
+          "start": 48.09,
+          "end": 48.33
+        },
+        {
+          "w": "proved",
+          "start": 48.33,
+          "end": 48.67
+        },
+        {
+          "w": "the",
+          "start": 48.67,
+          "end": 48.87
+        },
+        {
+          "w": "real",
+          "start": 48.87,
+          "end": 49.01
+        },
+        {
+          "w": "trick,",
+          "start": 49.01,
+          "end": 49.29
+        },
+        {
+          "w": "ram",
+          "start": 49.57,
+          "end": 49.79
+        },
+        {
+          "w": "it",
+          "start": 49.79,
+          "end": 49.93
+        },
+        {
+          "w": "years",
+          "start": 49.93,
+          "end": 50.13
+        },
+        {
+          "w": "early",
+          "start": 50.13,
+          "end": 50.43
+        },
+        {
+          "w": "at",
+          "start": 50.43,
+          "end": 50.65
+        },
+        {
+          "w": "14,000",
+          "start": 50.65,
+          "end": 51.41
+        },
+        {
+          "w": "miles",
+          "start": 51.41,
+          "end": 51.57
+        },
+        {
+          "w": "an",
+          "start": 51.57,
+          "end": 51.73
+        },
+        {
+          "w": "hour,",
+          "start": 51.73,
+          "end": 51.93
+        },
+        {
+          "w": "because",
+          "start": 52.21,
+          "end": 52.39
+        },
+        {
+          "w": "a",
+          "start": 52.39,
+          "end": 52.47
+        },
+        {
+          "w": "two-centimeter",
+          "start": 52.47,
+          "end": 52.99
+        },
+        {
+          "w": "push",
+          "start": 52.99,
+          "end": 53.29
+        },
+        {
+          "w": "makes",
+          "start": 53.29,
+          "end": 53.55
+        },
+        {
+          "w": "it",
+          "start": 53.55,
+          "end": 53.71
+        },
+        {
+          "w": "miss Earth",
+          "start": 53.71,
+          "end": 54.03
+        },
+        {
+          "w": "completely.",
+          "start": 54.03,
+          "end": 54.41
+        }
+      ]
+    }
+  ]
+}

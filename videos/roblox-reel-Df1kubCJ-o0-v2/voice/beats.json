@@ -1,0 +1,613 @@
+{
+  "total_duration": 98.046,
+  "fps": 30,
+  "beats": [
+    {
+      "index": 1,
+      "id": "b01_hook_town",
+      "shot": "town_party_open",
+      "start": 0.04,
+      "end": 1.714,
+      "clip_end": 1.814,
+      "duration": 1.674,
+      "huss_hit_times": [],
+      "caption": "In this town, everybody is out partying."
+    },
+    {
+      "index": 2,
+      "id": "b02_except_me",
+      "shot": "alex_wrap_intro",
+      "start": 1.814,
+      "end": 2.455,
+      "clip_end": 2.555,
+      "duration": 0.641,
+      "huss_hit_times": [],
+      "caption": "Except me."
+    },
+    {
+      "index": 3,
+      "id": "b03_huss_1",
+      "shot": "wrap_pov_1",
+      "start": 2.555,
+      "end": 3.81,
+      "clip_end": 3.93,
+      "duration": 1.255,
+      "huss_hit_times": [
+        2.598,
+        2.813,
+        3.0,
+        3.233,
+        3.448,
+        3.635
+      ],
+      "caption": "HUSS! HUSS! HUSS! HUSS! HUSS! HUSS!"
+    },
+    {
+      "index": 4,
+      "id": "b04_party_any",
+      "shot": "town_party_any",
+      "start": 3.93,
+      "end": 4.896,
+      "clip_end": 4.976,
+      "duration": 0.966,
+      "huss_hit_times": [],
+      "caption": "They will party for anything."
+    },
+    {
+      "index": 5,
+      "id": "b05_birthday_tue",
+      "shot": "town_party_bday",
+      "start": 4.976,
+      "end": 6.575,
+      "clip_end": 6.655,
+      "duration": 1.599,
+      "huss_hit_times": [],
+      "caption": "A birthday. A Tuesday."
+    },
+    {
+      "index": 6,
+      "id": "b06_nice_rock",
+      "shot": "town_party_rock",
+      "start": 6.655,
+      "end": 8.737,
+      "clip_end": 8.857,
+      "duration": 2.082,
+      "huss_hit_times": [],
+      "caption": "Once because somebody found a nice rock."
+    },
+    {
+      "index": 7,
+      "id": "b07_while_party_1",
+      "shot": "town_party_pan",
+      "start": 8.857,
+      "end": 10.349,
+      "clip_end": 10.409,
+      "duration": 1.492,
+      "huss_hit_times": [],
+      "caption": "While they are out partying, by the way,"
+    },
+    {
+      "index": 8,
+      "id": "b08_preparing",
+      "shot": "alex_room_prep",
+      "start": 10.409,
+      "end": 12.361,
+      "clip_end": 12.461,
+      "duration": 1.951,
+      "huss_hit_times": [],
+      "caption": "I am in here, preparing for my job interview."
+    },
+    {
+      "index": 9,
+      "id": "b09_huss_2",
+      "shot": "wrap_pov_2",
+      "start": 12.461,
+      "end": 13.716,
+      "clip_end": 13.836,
+      "duration": 1.255,
+      "huss_hit_times": [
+        12.504,
+        12.719,
+        12.906,
+        13.139,
+        13.354,
+        13.541
+      ],
+      "caption": "HUSS! HUSS! HUSS! HUSS! HUSS! HUSS!"
+    },
+    {
+      "index": 10,
+      "id": "b10_bun_town",
+      "shot": "buntown_exterior",
+      "start": 13.836,
+      "end": 15.575,
+      "clip_end": 15.675,
+      "duration": 1.739,
+      "huss_hit_times": [],
+      "caption": "The job is wrapping burgers at Bun Town."
+    },
+    {
+      "index": 11,
+      "id": "b11_so_i_train",
+      "shot": "alex_train_start",
+      "start": 15.675,
+      "end": 16.486,
+      "clip_end": 16.566,
+      "duration": 0.811,
+      "huss_hit_times": [],
+      "caption": "So I train."
+    },
+    {
+      "index": 12,
+      "id": "b12_5am_wrist",
+      "shot": "alex_wrist_stretch",
+      "start": 16.566,
+      "end": 18.538,
+      "clip_end": 18.638,
+      "duration": 1.972,
+      "huss_hit_times": [],
+      "caption": "5 AM. Wrist stretches."
+    },
+    {
+      "index": 13,
+      "id": "b13_200_wraps",
+      "shot": "alex_200_wraps",
+      "start": 18.638,
+      "end": 20.094,
+      "clip_end": 20.194,
+      "duration": 1.455,
+      "huss_hit_times": [],
+      "caption": "200 wraps before breakfast."
+    },
+    {
+      "index": 14,
+      "id": "b14_no_breakfast",
+      "shot": "wrap_breakfast_pov",
+      "start": 20.194,
+      "end": 22.129,
+      "clip_end": 22.209,
+      "duration": 1.935,
+      "huss_hit_times": [],
+      "caption": "I do not eat breakfast. I wrap it."
+    },
+    {
+      "index": 15,
+      "id": "b15_fold_tuck",
+      "shot": "wrap_fold_tuck",
+      "start": 22.209,
+      "end": 24.15,
+      "clip_end": 24.23,
+      "duration": 1.941,
+      "huss_hit_times": [],
+      "caption": "Fold, fold, tuck, roll."
+    },
+    {
+      "index": 16,
+      "id": "b16_four_sec",
+      "shot": "alex_stopwatch_4s",
+      "start": 24.23,
+      "end": 26.544,
+      "clip_end": 26.644,
+      "duration": 2.314,
+      "huss_hit_times": [],
+      "caption": "Four seconds. Too slow."
+    },
+    {
+      "index": 17,
+      "id": "b17_huss_3",
+      "shot": "wrap_pov_3",
+      "start": 26.644,
+      "end": 27.264,
+      "clip_end": 27.364,
+      "duration": 0.62,
+      "huss_hit_times": [
+        26.687,
+        26.902,
+        27.089
+      ],
+      "caption": "HUSS! HUSS! HUSS!"
+    },
+    {
+      "index": 18,
+      "id": "b18_wrap_items",
+      "shot": "alex_wrap_plate",
+      "start": 27.364,
+      "end": 29.277,
+      "clip_end": 29.357,
+      "duration": 1.913,
+      "huss_hit_times": [],
+      "caption": "I wrap the burger. I wrap the plate."
+    },
+    {
+      "index": 19,
+      "id": "b19_wrap_cat",
+      "shot": "alex_wrap_cat",
+      "start": 29.357,
+      "end": 32.862,
+      "clip_end": 32.982,
+      "duration": 3.505,
+      "huss_hit_times": [],
+      "caption": "I wrap my neighbor's cat. The cat is fine. The cat is warm."
+    },
+    {
+      "index": 20,
+      "id": "b20_neighbor",
+      "shot": "neighbor_window",
+      "start": 32.982,
+      "end": 34.804,
+      "clip_end": 34.884,
+      "duration": 1.821,
+      "huss_hit_times": [],
+      "caption": "My neighbor has a party every single night."
+    },
+    {
+      "index": 21,
+      "id": "b21_come_out",
+      "shot": "neighbor_door",
+      "start": 34.884,
+      "end": 36.988,
+      "clip_end": 37.088,
+      "duration": 2.105,
+      "huss_hit_times": [],
+      "caption": "Come out, he says. You only live once."
+    },
+    {
+      "index": 22,
+      "id": "b22_exactly",
+      "shot": "alex_exactly",
+      "start": 37.088,
+      "end": 40.382,
+      "clip_end": 40.462,
+      "duration": 3.294,
+      "huss_hit_times": [],
+      "caption": "Exactly. One life. One interview."
+    },
+    {
+      "index": 23,
+      "id": "b23_huss_4",
+      "shot": "wrap_pov_4",
+      "start": 40.462,
+      "end": 41.717,
+      "clip_end": 41.797,
+      "duration": 1.255,
+      "huss_hit_times": [
+        40.505,
+        40.72,
+        40.907,
+        41.14,
+        41.355,
+        41.542
+      ],
+      "caption": "HUSS! HUSS! HUSS! HUSS! HUSS! HUSS!"
+    },
+    {
+      "index": 24,
+      "id": "b24_fold_fast",
+      "shot": "alex_fast_wrap",
+      "start": 41.797,
+      "end": 45.104,
+      "clip_end": 45.164,
+      "duration": 3.307,
+      "huss_hit_times": [],
+      "caption": "Fold, fold, tuck, roll. Two seconds. One second."
+    },
+    {
+      "index": 25,
+      "id": "b25_blur_hands",
+      "shot": "alex_blur_hands",
+      "start": 45.164,
+      "end": 47.049,
+      "clip_end": 47.189,
+      "duration": 1.885,
+      "huss_hit_times": [],
+      "caption": "I stopped being able to see my own hands."
+    },
+    {
+      "index": 26,
+      "id": "b26_interview",
+      "shot": "buntown_walkin",
+      "start": 47.189,
+      "end": 48.201,
+      "clip_end": 48.301,
+      "duration": 1.013,
+      "huss_hit_times": [],
+      "caption": "Then came the interview."
+    },
+    {
+      "index": 27,
+      "id": "b27_one_burger",
+      "shot": "counter_burger_cu",
+      "start": 48.301,
+      "end": 49.911,
+      "clip_end": 50.011,
+      "duration": 1.61,
+      "huss_hit_times": [],
+      "caption": "The manager put one burger on the counter."
+    },
+    {
+      "index": 28,
+      "id": "b28_whenever",
+      "shot": "manager_ready",
+      "start": 50.011,
+      "end": 51.121,
+      "clip_end": 51.221,
+      "duration": 1.109,
+      "huss_hit_times": [],
+      "caption": "Whenever you are ready, he said."
+    },
+    {
+      "index": 29,
+      "id": "b29_already_wrap",
+      "shot": "manager_burger_wrap",
+      "start": 51.221,
+      "end": 52.314,
+      "clip_end": 52.414,
+      "duration": 1.093,
+      "huss_hit_times": [],
+      "caption": "It was already wrapped."
+    },
+    {
+      "index": 30,
+      "id": "b30_clipboard_tie",
+      "shot": "manager_clip_tie",
+      "start": 52.414,
+      "end": 54.746,
+      "clip_end": 54.866,
+      "duration": 2.333,
+      "huss_hit_times": [],
+      "caption": "So was his clipboard. So was his tie."
+    },
+    {
+      "index": 31,
+      "id": "b31_impressed",
+      "shot": "manager_impressed",
+      "start": 54.866,
+      "end": 56.265,
+      "clip_end": 56.385,
+      "duration": 1.399,
+      "huss_hit_times": [],
+      "caption": "He was impressed. I could tell."
+    },
+    {
+      "index": 32,
+      "id": "b32_one_question",
+      "shot": "manager_question",
+      "start": 56.385,
+      "end": 58.946,
+      "clip_end": 59.046,
+      "duration": 2.561,
+      "huss_hit_times": [],
+      "caption": "Then he asked me one question. Can you cook a burger?"
+    },
+    {
+      "index": 33,
+      "id": "b33_never_cooked",
+      "shot": "alex_confession",
+      "start": 59.046,
+      "end": 61.823,
+      "clip_end": 61.923,
+      "duration": 2.777,
+      "huss_hit_times": [],
+      "caption": "I have never cooked a burger. I have never even eaten one."
+    },
+    {
+      "index": 34,
+      "id": "b34_only_wrap",
+      "shot": "grill_wrap_fail",
+      "start": 61.923,
+      "end": 62.752,
+      "clip_end": 62.912,
+      "duration": 0.829,
+      "huss_hit_times": [],
+      "caption": "I only wrap."
+    },
+    {
+      "index": 35,
+      "id": "b35_no_job",
+      "shot": "alex_rejection_ext",
+      "start": 62.912,
+      "end": 64.115,
+      "clip_end": 64.195,
+      "duration": 1.203,
+      "huss_hit_times": [],
+      "caption": "I did not get the job."
+    },
+    {
+      "index": 36,
+      "id": "b36_letter",
+      "shot": "letter_closeup",
+      "start": 64.195,
+      "end": 66.278,
+      "clip_end": 66.438,
+      "duration": 2.083,
+      "huss_hit_times": [],
+      "caption": "The letter said: Thank you for wrapping my tie."
+    },
+    {
+      "index": 37,
+      "id": "b37_almost",
+      "shot": "alex_almost",
+      "start": 66.438,
+      "end": 68.787,
+      "clip_end": 69.027,
+      "duration": 2.349,
+      "huss_hit_times": [],
+      "caption": "Almost. Almost."
+    },
+    {
+      "index": 38,
+      "id": "b38_so_tonight",
+      "shot": "town_night_party",
+      "start": 69.027,
+      "end": 71.32,
+      "clip_end": 71.4,
+      "duration": 2.293,
+      "huss_hit_times": [],
+      "caption": "So tonight, while they are out partying, by the way,"
+    },
+    {
+      "index": 39,
+      "id": "b39_learning_cook",
+      "shot": "alex_grill_train",
+      "start": 71.4,
+      "end": 73.016,
+      "clip_end": 73.096,
+      "duration": 1.616,
+      "huss_hit_times": [],
+      "caption": "I am back in here, learning to cook."
+    },
+    {
+      "index": 40,
+      "id": "b40_5am_200",
+      "shot": "alex_grill_200",
+      "start": 73.096,
+      "end": 75.992,
+      "clip_end": 76.072,
+      "duration": 2.897,
+      "huss_hit_times": [],
+      "caption": "5 AM. 200 burgers before breakfast."
+    },
+    {
+      "index": 41,
+      "id": "b41_huss_cook",
+      "shot": "alex_grill_huss",
+      "start": 76.072,
+      "end": 77.327,
+      "clip_end": 77.447,
+      "duration": 1.255,
+      "huss_hit_times": [
+        76.115,
+        76.33,
+        76.517,
+        76.75,
+        76.965,
+        77.152
+      ],
+      "caption": "HUSS! HUSS! HUSS! HUSS! HUSS! HUSS!"
+    },
+    {
+      "index": 42,
+      "id": "b42_hired",
+      "shot": "manager_hired",
+      "start": 77.447,
+      "end": 79.733,
+      "clip_end": 79.813,
+      "duration": 2.285,
+      "huss_hit_times": [],
+      "caption": "You are hired, he said. When can you start?"
+    },
+    {
+      "index": 43,
+      "id": "b43_already_start",
+      "shot": "alex_already_start",
+      "start": 79.813,
+      "end": 80.717,
+      "clip_end": 80.857,
+      "duration": 0.905,
+      "huss_hit_times": [],
+      "caption": "I had already started."
+    },
+    {
+      "index": 44,
+      "id": "b44_first_shift",
+      "shot": "town_biggest_party",
+      "start": 80.857,
+      "end": 83.542,
+      "clip_end": 83.642,
+      "duration": 2.685,
+      "huss_hit_times": [],
+      "caption": "My first shift was Saturday night. The biggest party of the year."
+    },
+    {
+      "index": 45,
+      "id": "b45_midnight_rush",
+      "shot": "buntown_crowd_rush",
+      "start": 83.642,
+      "end": 87.502,
+      "clip_end": 87.582,
+      "duration": 3.86,
+      "huss_hit_times": [],
+      "caption": "At midnight, the whole town walked in. Hungry. 400 people."
+    },
+    {
+      "index": 46,
+      "id": "b46_one_of_me",
+      "shot": "alex_one_of_me",
+      "start": 87.582,
+      "end": 88.163,
+      "clip_end": 88.243,
+      "duration": 0.581,
+      "huss_hit_times": [],
+      "caption": "One of me."
+    },
+    {
+      "index": 47,
+      "id": "b47_huss_climax",
+      "shot": "wrap_pov_climax",
+      "start": 88.243,
+      "end": 89.498,
+      "clip_end": 89.578,
+      "duration": 1.255,
+      "huss_hit_times": [
+        88.286,
+        88.501,
+        88.688,
+        88.921,
+        89.136,
+        89.323
+      ],
+      "caption": "HUSS! HUSS! HUSS! HUSS! HUSS! HUSS!"
+    },
+    {
+      "index": 48,
+      "id": "b48_400_burgers",
+      "shot": "buntown_flying_400",
+      "start": 89.578,
+      "end": 90.994,
+      "clip_end": 91.114,
+      "duration": 1.416,
+      "huss_hit_times": [],
+      "caption": "400 burgers. One minute."
+    },
+    {
+      "index": 49,
+      "id": "b49_mayor_stared",
+      "shot": "mayor_stunned",
+      "start": 91.114,
+      "end": 93.297,
+      "clip_end": 93.397,
+      "duration": 2.183,
+      "huss_hit_times": [],
+      "caption": "The mayor stared at me. How did you do that?"
+    },
+    {
+      "index": 50,
+      "id": "b50_final_callback",
+      "shot": "alex_final_smug",
+      "start": 93.397,
+      "end": 96.651,
+      "clip_end": 96.711,
+      "duration": 3.254,
+      "huss_hit_times": [],
+      "caption": "While you were out partying, I said. By the way,"
+    },
+    {
+      "index": 51,
+      "id": "b51_final_huss",
+      "shot": "wrap_pov_final",
+      "start": 96.711,
+      "end": 97.966,
+      "clip_end": 98.046,
+      "duration": 1.255,
+      "huss_hit_times": [
+        96.754,
+        96.969,
+        97.156,
+        97.389,
+        97.604,
+        97.791
+      ],
+      "caption": "HUSS! HUSS! HUSS! HUSS! HUSS! HUSS!"
+    }
+  ]
+}

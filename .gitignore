@@ -1,0 +1,27 @@
+# Obsidian & OS
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/cache
+.trash/
+Thumbs.db
+.DS_Store
+
+# Heavy render outputs, models, and dependencies (GitHub 100MB/file limit)
+.models/
+**/node_modules/
+*.mp4
+*.mkv
+*.mov
+*.webm
+*.wav
+*.onnx
+*.blend1
+videos/**/out/
+videos/**/frames/
+videos/**/render/
+videos/**/qa*/
+videos/**/temp/
+videos/**/*.png
+videos/**/*.jpg
+shortmaking/80 Tools & MCPs/
+.github/workflows/

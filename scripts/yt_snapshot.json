@@ -1,0 +1,382 @@
+{
+  "captured_at": "2026-11-22T20:01:38+07:00",
+  "analytics_window": {
+    "channel_report_start": "2026-11-01",
+    "channel_report_end": "2026-11-22",
+    "video_report_start": "2026-11-14",
+    "video_report_end": "2026-11-22",
+    "note": "YouTube Analytics API data is populated through 2026-11-19 (~3-day reporting lag); list_videos reflects live Data API stats."
+  },
+  "channel_info": {
+    "id": "UCDRgD9QwipR0MJm-wx6pNUw",
+    "title": "pixelate past",
+    "description": "What happens if Earth gets a second moon? What if time stops for one second—or a black hole drifts past our solar system?\n\nEvery short here turns mind-bending space, physics, and \"What If\" scenarios into 60-second low-poly 3D stories—breaking down real science, cosmic scale, and impossible timelines without the fluff.\n\nNew space & time stories every day.\nSubscribe if you like big questions in small doses.\n",
+    "subscribers": "18",
+    "views": "12484",
+    "video_count": "19",
+    "uploads_playlist": "UUDRgD9QwipR0MJm-wx6pNUw"
+  },
+  "channel_report": [
+    {"day": "2026-11-01", "views": 0, "estimatedMinutesWatched": 0, "subscribersGained": 0, "subscribersLost": 0},
+    {"day": "2026-11-02", "views": 0, "estimatedMinutesWatched": 0, "subscribersGained": 0, "subscribersLost": 0},
+    {"day": "2026-11-03", "views": 0, "estimatedMinutesWatched": 0, "subscribersGained": 0, "subscribersLost": 0},
+    {"day": "2026-11-04", "views": 0, "estimatedMinutesWatched": 0, "subscribersGained": 0, "subscribersLost": 0},
+    {"day": "2026-11-05", "views": 0, "estimatedMinutesWatched": 0, "subscribersGained": 0, "subscribersLost": 0},
+    {"day": "2026-11-06", "views": 0, "estimatedMinutesWatched": 0, "subscribersGained": 0, "subscribersLost": 0},
+    {"day": "2026-11-07", "views": 0, "estimatedMinutesWatched": 0, "subscribersGained": 0, "subscribersLost": 0},
+    {"day": "2026-11-08", "views": 0, "estimatedMinutesWatched": 0, "subscribersGained": 0, "subscribersLost": 0},
+    {"day": "2026-11-09", "views": 0, "estimatedMinutesWatched": 0, "subscribersGained": 0, "subscribersLost": 0},
+    {"day": "2026-11-10", "views": 0, "estimatedMinutesWatched": 0, "subscribersGained": 0, "subscribersLost": 0},
+    {"day": "2026-11-11", "views": 0, "estimatedMinutesWatched": 0, "subscribersGained": 0, "subscribersLost": 0},
+    {"day": "2026-11-12", "views": 0, "estimatedMinutesWatched": 0, "subscribersGained": 0, "subscribersLost": 0},
+    {"day": "2026-11-13", "views": 0, "estimatedMinutesWatched": 0, "subscribersGained": 0, "subscribersLost": 0},
+    {"day": "2026-11-14", "views": 0, "estimatedMinutesWatched": 0, "subscribersGained": 0, "subscribersLost": 0},
+    {"day": "2026-11-15", "views": 691, "estimatedMinutesWatched": 78, "subscribersGained": 1, "subscribersLost": 0},
+    {"day": "2026-11-16", "views": 603, "estimatedMinutesWatched": 62, "subscribersGained": 1, "subscribersLost": 0},
+    {"day": "2026-11-17", "views": 1673, "estimatedMinutesWatched": 492, "subscribersGained": 4, "subscribersLost": 1},
+    {"day": "2026-11-18", "views": 1822, "estimatedMinutesWatched": 497, "subscribersGained": 2, "subscribersLost": 1},
+    {"day": "2026-11-19", "views": 6844, "estimatedMinutesWatched": 1849, "subscribersGained": 12, "subscribersLost": 1}
+  ],
+  "top_videos": [
+    {"video": "EFaNzjBvmQ0", "views": 1748, "estimatedMinutesWatched": 521},
+    {"video": "P09UsPuikzA", "views": 1658, "estimatedMinutesWatched": 486},
+    {"video": "L5fFM3RmEoU", "views": 1518, "estimatedMinutesWatched": 429},
+    {"video": "EtVIjWGB3nY", "views": 1312, "estimatedMinutesWatched": 351},
+    {"video": "0JY87gjiyVw", "views": 1197, "estimatedMinutesWatched": 336},
+    {"video": "pGDCsqVk2so", "views": 1143, "estimatedMinutesWatched": 282},
+    {"video": "y42XBV9nkUo", "views": 1100, "estimatedMinutesWatched": 255},
+    {"video": "iFmR6koN3GE", "views": 747, "estimatedMinutesWatched": 85},
+    {"video": "PfbiosaTc6o", "views": 529, "estimatedMinutesWatched": 152},
+    {"video": "sw02J7fKmcs", "views": 255, "estimatedMinutesWatched": 14},
+    {"video": "q8S2jFSAUBo", "views": 234, "estimatedMinutesWatched": 34},
+    {"video": "DcPJXaZAY44", "views": 186, "estimatedMinutesWatched": 29},
+    {"video": "VVNU6QImJ3A", "views": 6, "estimatedMinutesWatched": 0}
+  ],
+  "videos": [
+    {
+      "id": "pnbUDB07VGU",
+      "title": "In This Town, Everyone Parties Except Me 🍔 #Shorts",
+      "published": "2026-11-22T12:36:07Z",
+      "privacy": "public",
+      "views": "4",
+      "likes": "0",
+      "comments": "0"
+    },
+    {
+      "id": "YXFQ4wa-8VA",
+      "title": "For $1,000, Would You Outrun the Speed of Light? ⚡ #Shorts",
+      "published": "2026-11-22T11:42:32Z",
+      "privacy": "public",
+      "views": "385",
+      "likes": "5",
+      "comments": "0"
+    },
+    {
+      "id": "qqtIgibvLCk",
+      "title": "For $1,000, Would You Stand Inside a Lightning Bolt? ⚡ #Shorts",
+      "published": "2026-11-22T11:42:24Z",
+      "privacy": "public",
+      "views": "449",
+      "likes": "4",
+      "comments": "0"
+    },
+    {
+      "id": "3ACGvwp-I_k",
+      "title": "He Heard Knocking Inside a Locked Hallway... 💀",
+      "published": "2026-11-20T15:09:50Z",
+      "privacy": "public",
+      "views": "1046",
+      "likes": "6",
+      "comments": "0"
+    },
+    {
+      "id": "2m6PU4zIarI",
+      "title": "Choose a Sky Island: 1 Drops Every Year ☁️ #Shorts",
+      "published": "2026-11-20T14:00:01Z",
+      "privacy": "public",
+      "views": "1063",
+      "likes": "10",
+      "comments": "0"
+    },
+    {
+      "id": "8f2J6kg-q2Q",
+      "title": "Choose a World: Survive 1 Year Here 🌍 #Shorts",
+      "published": "2026-11-20T08:34:25Z",
+      "privacy": "public",
+      "views": "1261",
+      "likes": "11",
+      "comments": "0"
+    },
+    {
+      "id": "L5fFM3RmEoU",
+      "title": "For $1,000, Would You Shrink Smaller Than an Atom? ⚛️",
+      "published": "2026-11-19T13:39:00Z",
+      "privacy": "public",
+      "views": "1757",
+      "likes": "21",
+      "comments": "0"
+    },
+    {
+      "id": "pGDCsqVk2so",
+      "title": "For $1,000, Would You Swim to the Bottom of the Ocean? 🌊",
+      "published": "2026-11-19T13:38:22Z",
+      "privacy": "public",
+      "views": "1202",
+      "likes": "13",
+      "comments": "0"
+    },
+    {
+      "id": "y42XBV9nkUo",
+      "title": "For $1,000, Would You Pet a T-Rex? 🦖",
+      "published": "2026-11-19T13:37:49Z",
+      "privacy": "public",
+      "views": "1244",
+      "likes": "20",
+      "comments": "0"
+    },
+    {
+      "id": "0JY87gjiyVw",
+      "title": "For $1,000, Would You High-Five the Sun? ☀️",
+      "published": "2026-11-19T13:36:52Z",
+      "privacy": "public",
+      "views": "1208",
+      "likes": "23",
+      "comments": "0"
+    },
+    {
+      "id": "EtVIjWGB3nY",
+      "title": "For $1,000, Would You Jump Into a Black Hole? 💀",
+      "published": "2026-11-19T13:36:02Z",
+      "privacy": "public",
+      "views": "1330",
+      "likes": "25",
+      "comments": "0"
+    },
+    {
+      "id": "EFaNzjBvmQ0",
+      "title": "For $1,000, Would You Travel to the 100th Dimension? 💀 #science #animatedhistory #space",
+      "published": "2026-11-18T11:28:11Z",
+      "privacy": "public",
+      "views": "2132",
+      "likes": "19",
+      "comments": "0"
+    },
+    {
+      "id": "PfbiosaTc6o",
+      "title": "How Napoleon Lost a Battle to 3,000 Rabbits 🐇 #history #napoleónbonaparte #napoleon",
+      "published": "2026-11-17T15:08:43Z",
+      "privacy": "public",
+      "views": "534",
+      "likes": "15",
+      "comments": "0"
+    },
+    {
+      "id": "P09UsPuikzA",
+      "title": "For $1,000, Would You Touch Earth's Core? 💀",
+      "published": "2026-11-17T14:31:33Z",
+      "privacy": "public",
+      "views": "1686",
+      "likes": "17",
+      "comments": "1"
+    },
+    {
+      "id": "VVNU6QImJ3A",
+      "title": "What Would Actually Kill You First on Mars?",
+      "published": "2026-11-17T14:00:22Z",
+      "privacy": "public",
+      "views": "6",
+      "likes": "0",
+      "comments": "0"
+    },
+    {
+      "id": "q8S2jFSAUBo",
+      "title": "Why Nuking an Asteroid Actually Kills Earth Faster ☄️ #science #animatedhistory #astronomy",
+      "published": "2026-11-16T13:46:48Z",
+      "privacy": "public",
+      "views": "235",
+      "likes": "3",
+      "comments": "0"
+    },
+    {
+      "id": "DcPJXaZAY44",
+      "title": "What Actually Happens If You Fall Into a Black Hole? 🕳️",
+      "published": "2026-11-16T13:44:29Z",
+      "privacy": "public",
+      "views": "186",
+      "likes": "2",
+      "comments": "0"
+    },
+    {
+      "id": "sw02J7fKmcs",
+      "title": "What Actually Kills You First on Venus?",
+      "published": "2026-11-16T10:45:23Z",
+      "privacy": "public",
+      "views": "256",
+      "likes": "3",
+      "comments": "0"
+    },
+    {
+      "id": "iFmR6koN3GE",
+      "title": "How Australia Lost a War to 20,000 Emus! #Shorts",
+      "published": "2026-11-15T13:33:34Z",
+      "privacy": "public",
+      "views": "748",
+      "likes": "11",
+      "comments": "0"
+    }
+  ],
+  "video_reports": {
+    "pnbUDB07VGU": [
+      {"day": "2026-11-14", "views": 0, "estimatedMinutesWatched": 0, "averageViewDuration": 0, "likes": 0, "comments": 0},
+      {"day": "2026-11-15", "views": 0, "estimatedMinutesWatched": 0, "averageViewDuration": 0, "likes": 0, "comments": 0},
+      {"day": "2026-11-16", "views": 0, "estimatedMinutesWatched": 0, "averageViewDuration": 0, "likes": 0, "comments": 0},
+      {"day": "2026-11-17", "views": 0, "estimatedMinutesWatched": 0, "averageViewDuration": 0, "likes": 0, "comments": 0},
+      {"day": "2026-11-18", "views": 0, "estimatedMinutesWatched": 0, "averageViewDuration": 0, "likes": 0, "comments": 0},
+      {"day": "2026-11-19", "views": 0, "estimatedMinutesWatched": 0, "averageViewDuration": 0, "likes": 0, "comments": 0}
+    ],
+    "YXFQ4wa-8VA": [
+      {"day": "2026-11-14", "views": 0, "estimatedMinutesWatched": 0, "averageViewDuration": 0, "likes": 0, "comments": 0},
+      {"day": "2026-11-15", "views": 0, "estimatedMinutesWatched": 0, "averageViewDuration": 0, "likes": 0, "comments": 0},
+      {"day": "2026-11-16", "views": 0, "estimatedMinutesWatched": 0, "averageViewDuration": 0, "likes": 0, "comments": 0},
+      {"day": "2026-11-17", "views": 0, "estimatedMinutesWatched": 0, "averageViewDuration": 0, "likes": 0, "comments": 0},
+      {"day": "2026-11-18", "views": 0, "estimatedMinutesWatched": 0, "averageViewDuration": 0, "likes": 0, "comments": 0},
+      {"day": "2026-11-19", "views": 0, "estimatedMinutesWatched": 0, "averageViewDuration": 0, "likes": 0, "comments": 0}
+    ],
+    "qqtIgibvLCk": [
+      {"day": "2026-11-14", "views": 0, "estimatedMinutesWatched": 0, "averageViewDuration": 0, "likes": 0, "comments": 0},
+      {"day": "2026-11-15", "views": 0, "estimatedMinutesWatched": 0, "averageViewDuration": 0, "likes": 0, "comments": 0},
+      {"day": "2026-11-16", "views": 0, "estimatedMinutesWatched": 0, "averageViewDuration": 0, "likes": 0, "comments": 0},
+      {"day": "2026-11-17", "views": 0, "estimatedMinutesWatched": 0, "averageViewDuration": 0, "likes": 0, "comments": 0},
+      {"day": "2026-11-18", "views": 0, "estimatedMinutesWatched": 0, "averageViewDuration": 0, "likes": 0, "comments": 0},
+      {"day": "2026-11-19", "views": 0, "estimatedMinutesWatched": 0, "averageViewDuration": 0, "likes": 0, "comments": 0}
+    ],
+    "3ACGvwp-I_k": [
+      {"day": "2026-11-14", "views": 0, "estimatedMinutesWatched": 0, "averageViewDuration": 0, "likes": 0, "comments": 0},
+      {"day": "2026-11-15", "views": 0, "estimatedMinutesWatched": 0, "averageViewDuration": 0, "likes": 0, "comments": 0},
+      {"day": "2026-11-16", "views": 0, "estimatedMinutesWatched": 0, "averageViewDuration": 0, "likes": 0, "comments": 0},
+      {"day": "2026-11-17", "views": 0, "estimatedMinutesWatched": 0, "averageViewDuration": 0, "likes": 0, "comments": 0},
+      {"day": "2026-11-18", "views": 0, "estimatedMinutesWatched": 0, "averageViewDuration": 0, "likes": 0, "comments": 0},
+      {"day": "2026-11-19", "views": 0, "estimatedMinutesWatched": 0, "averageViewDuration": 0, "likes": 0, "comments": 0}
+    ],
+    "2m6PU4zIarI": [
+      {"day": "2026-11-14", "views": 0, "estimatedMinutesWatched": 0, "averageViewDuration": 0, "likes": 0, "comments": 0},
+      {"day": "2026-11-15", "views": 0, "estimatedMinutesWatched": 0, "averageViewDuration": 0, "likes": 0, "comments": 0},
+      {"day": "2026-11-16", "views": 0, "estimatedMinutesWatched": 0, "averageViewDuration": 0, "likes": 0, "comments": 0},
+      {"day": "2026-11-17", "views": 0, "estimatedMinutesWatched": 0, "averageViewDuration": 0, "likes": 0, "comments": 0},
+      {"day": "2026-11-18", "views": 0, "estimatedMinutesWatched": 0, "averageViewDuration": 0, "likes": 0, "comments": 0},
+      {"day": "2026-11-19", "views": 0, "estimatedMinutesWatched": 0, "averageViewDuration": 0, "likes": 0, "comments": 0}
+    ],
+    "8f2J6kg-q2Q": [
+      {"day": "2026-11-14", "views": 0, "estimatedMinutesWatched": 0, "averageViewDuration": 0, "likes": 0, "comments": 0},
+      {"day": "2026-11-15", "views": 0, "estimatedMinutesWatched": 0, "averageViewDuration": 0, "likes": 0, "comments": 0},
+      {"day": "2026-11-16", "views": 0, "estimatedMinutesWatched": 0, "averageViewDuration": 0, "likes": 0, "comments": 0},
+      {"day": "2026-11-17", "views": 0, "estimatedMinutesWatched": 0, "averageViewDuration": 0, "likes": 0, "comments": 0},
+      {"day": "2026-11-18", "views": 0, "estimatedMinutesWatched": 0, "averageViewDuration": 0, "likes": 0, "comments": 0},
+      {"day": "2026-11-19", "views": 0, "estimatedMinutesWatched": 0, "averageViewDuration": 0, "likes": 0, "comments": 0}
+    ],
+    "L5fFM3RmEoU": [
+      {"day": "2026-11-14", "views": 0, "estimatedMinutesWatched": 0, "averageViewDuration": 0, "likes": 0, "comments": 0},
+      {"day": "2026-11-15", "views": 0, "estimatedMinutesWatched": 0, "averageViewDuration": 0, "likes": 0, "comments": 0},
+      {"day": "2026-11-16", "views": 0, "estimatedMinutesWatched": 0, "averageViewDuration": 0, "likes": 0, "comments": 0},
+      {"day": "2026-11-17", "views": 0, "estimatedMinutesWatched": 0, "averageViewDuration": 0, "likes": 0, "comments": 0},
+      {"day": "2026-11-18", "views": 0, "estimatedMinutesWatched": 0, "averageViewDuration": 0, "likes": 0, "comments": 0},
+      {"day": "2026-11-19", "views": 1518, "estimatedMinutesWatched": 429, "averageViewDuration": 34, "likes": 20, "comments": 0}
+    ],
+    "pGDCsqVk2so": [
+      {"day": "2026-11-14", "views": 0, "estimatedMinutesWatched": 0, "averageViewDuration": 0, "likes": 0, "comments": 0},
+      {"day": "2026-11-15", "views": 0, "estimatedMinutesWatched": 0, "averageViewDuration": 0, "likes": 0, "comments": 0},
+      {"day": "2026-11-16", "views": 0, "estimatedMinutesWatched": 0, "averageViewDuration": 0, "likes": 0, "comments": 0},
+      {"day": "2026-11-17", "views": 0, "estimatedMinutesWatched": 0, "averageViewDuration": 0, "likes": 0, "comments": 0},
+      {"day": "2026-11-18", "views": 0, "estimatedMinutesWatched": 0, "averageViewDuration": 0, "likes": 0, "comments": 0},
+      {"day": "2026-11-19", "views": 1143, "estimatedMinutesWatched": 282, "averageViewDuration": 31, "likes": 15, "comments": 0}
+    ],
+    "y42XBV9nkUo": [
+      {"day": "2026-11-14", "views": 0, "estimatedMinutesWatched": 0, "averageViewDuration": 0, "likes": 0, "comments": 0},
+      {"day": "2026-11-15", "views": 0, "estimatedMinutesWatched": 0, "averageViewDuration": 0, "likes": 0, "comments": 0},
+      {"day": "2026-11-16", "views": 0, "estimatedMinutesWatched": 0, "averageViewDuration": 0, "likes": 0, "comments": 0},
+      {"day": "2026-11-17", "views": 0, "estimatedMinutesWatched": 0, "averageViewDuration": 0, "likes": 0, "comments": 0},
+      {"day": "2026-11-18", "views": 0, "estimatedMinutesWatched": 0, "averageViewDuration": 0, "likes": 0, "comments": 0},
+      {"day": "2026-11-19", "views": 1100, "estimatedMinutesWatched": 255, "averageViewDuration": 27, "likes": 17, "comments": 0}
+    ],
+    "0JY87gjiyVw": [
+      {"day": "2026-11-14", "views": 0, "estimatedMinutesWatched": 0, "averageViewDuration": 0, "likes": 0, "comments": 0},
+      {"day": "2026-11-15", "views": 0, "estimatedMinutesWatched": 0, "averageViewDuration": 0, "likes": 0, "comments": 0},
+      {"day": "2026-11-16", "views": 0, "estimatedMinutesWatched": 0, "averageViewDuration": 0, "likes": 0, "comments": 0},
+      {"day": "2026-11-17", "views": 0, "estimatedMinutesWatched": 0, "averageViewDuration": 0, "likes": 0, "comments": 0},
+      {"day": "2026-11-18", "views": 0, "estimatedMinutesWatched": 0, "averageViewDuration": 0, "likes": 0, "comments": 0},
+      {"day": "2026-11-19", "views": 1197, "estimatedMinutesWatched": 336, "averageViewDuration": 30, "likes": 23, "comments": 0}
+    ],
+    "EtVIjWGB3nY": [
+      {"day": "2026-11-14", "views": 0, "estimatedMinutesWatched": 0, "averageViewDuration": 0, "likes": 0, "comments": 0},
+      {"day": "2026-11-15", "views": 0, "estimatedMinutesWatched": 0, "averageViewDuration": 0, "likes": 0, "comments": 0},
+      {"day": "2026-11-16", "views": 0, "estimatedMinutesWatched": 0, "averageViewDuration": 0, "likes": 0, "comments": 0},
+      {"day": "2026-11-17", "views": 0, "estimatedMinutesWatched": 0, "averageViewDuration": 0, "likes": 0, "comments": 0},
+      {"day": "2026-11-18", "views": 0, "estimatedMinutesWatched": 0, "averageViewDuration": 0, "likes": 0, "comments": 0},
+      {"day": "2026-11-19", "views": 1312, "estimatedMinutesWatched": 351, "averageViewDuration": 30, "likes": 24, "comments": 0}
+    ],
+    "EFaNzjBvmQ0": [
+      {"day": "2026-11-14", "views": 0, "estimatedMinutesWatched": 0, "averageViewDuration": 0, "likes": 0, "comments": 0},
+      {"day": "2026-11-15", "views": 0, "estimatedMinutesWatched": 0, "averageViewDuration": 0, "likes": 0, "comments": 0},
+      {"day": "2026-11-16", "views": 0, "estimatedMinutesWatched": 0, "averageViewDuration": 0, "likes": 0, "comments": 0},
+      {"day": "2026-11-17", "views": 0, "estimatedMinutesWatched": 0, "averageViewDuration": 0, "likes": 0, "comments": 0},
+      {"day": "2026-11-18", "views": 1273, "estimatedMinutesWatched": 356, "averageViewDuration": 35, "likes": 15, "comments": 0},
+      {"day": "2026-11-19", "views": 475, "estimatedMinutesWatched": 165, "averageViewDuration": 42, "likes": 2, "comments": 0}
+    ],
+    "PfbiosaTc6o": [
+      {"day": "2026-11-14", "views": 0, "estimatedMinutesWatched": 0, "averageViewDuration": 0, "likes": 0, "comments": 0},
+      {"day": "2026-11-15", "views": 0, "estimatedMinutesWatched": 0, "averageViewDuration": 0, "likes": 0, "comments": 0},
+      {"day": "2026-11-16", "views": 0, "estimatedMinutesWatched": 0, "averageViewDuration": 0, "likes": 0, "comments": 0},
+      {"day": "2026-11-17", "views": 362, "estimatedMinutesWatched": 110, "averageViewDuration": 34, "likes": 11, "comments": 0},
+      {"day": "2026-11-18", "views": 141, "estimatedMinutesWatched": 34, "averageViewDuration": 27, "likes": 3, "comments": 0},
+      {"day": "2026-11-19", "views": 26, "estimatedMinutesWatched": 7, "averageViewDuration": 31, "likes": 1, "comments": 0}
+    ],
+    "P09UsPuikzA": [
+      {"day": "2026-11-14", "views": 0, "estimatedMinutesWatched": 0, "averageViewDuration": 0, "likes": 0, "comments": 0},
+      {"day": "2026-11-15", "views": 0, "estimatedMinutesWatched": 0, "averageViewDuration": 0, "likes": 0, "comments": 0},
+      {"day": "2026-11-16", "views": 0, "estimatedMinutesWatched": 0, "averageViewDuration": 0, "likes": 0, "comments": 0},
+      {"day": "2026-11-17", "views": 1239, "estimatedMinutesWatched": 372, "averageViewDuration": 34, "likes": 15, "comments": 1},
+      {"day": "2026-11-18", "views": 362, "estimatedMinutesWatched": 96, "averageViewDuration": 31, "likes": 1, "comments": 0},
+      {"day": "2026-11-19", "views": 57, "estimatedMinutesWatched": 17, "averageViewDuration": 31, "likes": 0, "comments": 0}
+    ],
+    "VVNU6QImJ3A": [
+      {"day": "2026-11-14", "views": 0, "estimatedMinutesWatched": 0, "averageViewDuration": 0, "likes": 0, "comments": 0},
+      {"day": "2026-11-15", "views": 0, "estimatedMinutesWatched": 0, "averageViewDuration": 0, "likes": 0, "comments": 0},
+      {"day": "2026-11-16", "views": 0, "estimatedMinutesWatched": 0, "averageViewDuration": 0, "likes": 0, "comments": 0},
+      {"day": "2026-11-17", "views": 4, "estimatedMinutesWatched": 0, "averageViewDuration": 16, "likes": 0, "comments": 0},
+      {"day": "2026-11-18", "views": 0, "estimatedMinutesWatched": 0, "averageViewDuration": 0, "likes": 0, "comments": 0},
+      {"day": "2026-11-19", "views": 2, "estimatedMinutesWatched": 0, "averageViewDuration": 19, "likes": 0, "comments": 0}
+    ],
+    "q8S2jFSAUBo": [
+      {"day": "2026-11-14", "views": 0, "estimatedMinutesWatched": 0, "averageViewDuration": 0, "likes": 0, "comments": 0},
+      {"day": "2026-11-15", "views": 0, "estimatedMinutesWatched": 0, "averageViewDuration": 0, "likes": 0, "comments": 0},
+      {"day": "2026-11-16", "views": 187, "estimatedMinutesWatched": 25, "averageViewDuration": 19, "likes": 3, "comments": 0},
+      {"day": "2026-11-17", "views": 22, "estimatedMinutesWatched": 2, "averageViewDuration": 16, "likes": 0, "comments": 0},
+      {"day": "2026-11-18", "views": 23, "estimatedMinutesWatched": 5, "averageViewDuration": 23, "likes": 0, "comments": 0},
+      {"day": "2026-11-19", "views": 2, "estimatedMinutesWatched": 0, "averageViewDuration": 51, "likes": 0, "comments": 0}
+    ],
+    "DcPJXaZAY44": [
+      {"day": "2026-11-14", "views": 0, "estimatedMinutesWatched": 0, "averageViewDuration": 0, "likes": 0, "comments": 0},
+      {"day": "2026-11-15", "views": 0, "estimatedMinutesWatched": 0, "averageViewDuration": 0, "likes": 0, "comments": 0},
+      {"day": "2026-11-16", "views": 136, "estimatedMinutesWatched": 17, "averageViewDuration": 22, "likes": 2, "comments": 0},
+      {"day": "2026-11-17", "views": 30, "estimatedMinutesWatched": 6, "averageViewDuration": 22, "likes": 0, "comments": 0},
+      {"day": "2026-11-18", "views": 17, "estimatedMinutesWatched": 4, "averageViewDuration": 26, "likes": 0, "comments": 0},
+      {"day": "2026-11-19", "views": 3, "estimatedMinutesWatched": 0, "averageViewDuration": 53, "likes": 0, "comments": 0}
+    ],
+    "sw02J7fKmcs": [
+      {"day": "2026-11-14", "views": 0, "estimatedMinutesWatched": 0, "averageViewDuration": 0, "likes": 0, "comments": 0},
+      {"day": "2026-11-15", "views": 0, "estimatedMinutesWatched": 0, "averageViewDuration": 0, "likes": 0, "comments": 0},
+      {"day": "2026-11-16", "views": 234, "estimatedMinutesWatched": 13, "averageViewDuration": 20, "likes": 3, "comments": 0},
+      {"day": "2026-11-17", "views": 10, "estimatedMinutesWatched": 0, "averageViewDuration": 24, "likes": 0, "comments": 0},
+      {"day": "2026-11-18", "views": 4, "estimatedMinutesWatched": 0, "averageViewDuration": 7, "likes": 0, "comments": 0},
+      {"day": "2026-11-19", "views": 7, "estimatedMinutesWatched": 0, "averageViewDuration": 4, "likes": 0, "comments": 0}
+    ],
+    "iFmR6koN3GE": [
+      {"day": "2026-11-14", "views": 0, "estimatedMinutesWatched": 0, "averageViewDuration": 0, "likes": 0, "comments": 0},
+      {"day": "2026-11-15", "views": 691, "estimatedMinutesWatched": 78, "averageViewDuration": 24, "likes": 9, "comments": 0},
+      {"day": "2026-11-16", "views": 46, "estimatedMinutesWatched": 5, "averageViewDuration": 16, "likes": 2, "comments": 0},
+      {"day": "2026-11-17", "views": 6, "estimatedMinutesWatched": 0, "averageViewDuration": 15, "likes": 0, "comments": 0},
+      {"day": "2026-11-18", "views": 2, "estimatedMinutesWatched": 0, "averageViewDuration": 0, "likes": 0, "comments": 0},
+      {"day": "2026-11-19", "views": 2, "estimatedMinutesWatched": 0, "averageViewDuration": 29, "likes": 0, "comments": 0}
+    ]
+  }
+}

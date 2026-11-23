@@ -1,0 +1,272 @@
+{
+  "nodes": [
+    {
+      "id": "a100000000000001",
+      "type": "group",
+      "x": -920,
+      "y": -360,
+      "width": 520,
+      "height": 680,
+      "color": "5",
+      "label": "Stage 1 — Connected Shortmaking Studio Output"
+    },
+    {
+      "id": "a100000000000002",
+      "type": "group",
+      "x": -280,
+      "y": -440,
+      "width": 540,
+      "height": 840,
+      "color": "3",
+      "label": "Stage 2 — Multimodal SEO, Packaging & Timing"
+    },
+    {
+      "id": "a100000000000003",
+      "type": "group",
+      "x": 380,
+      "y": -440,
+      "width": 540,
+      "height": 840,
+      "color": "4",
+      "label": "Stage 3 — Zero-Touch Auto-Upload Engine"
+    },
+    {
+      "id": "a100000000000004",
+      "type": "group",
+      "x": 1040,
+      "y": -540,
+      "width": 560,
+      "height": 1040,
+      "color": "6",
+      "label": "Stage 4 — Omnichannel Platform Playbooks"
+    },
+    {
+      "id": "b200000000000001",
+      "type": "file",
+      "file": "00 Home.md",
+      "x": -880,
+      "y": -300,
+      "width": 440,
+      "height": 180,
+      "color": "5"
+    },
+    {
+      "id": "b200000000000002",
+      "type": "file",
+      "file": "videos/00 Completed Videos.md",
+      "x": -880,
+      "y": -80,
+      "width": 440,
+      "height": 180,
+      "color": "5"
+    },
+    {
+      "id": "b200000000000003",
+      "type": "file",
+      "file": "80 MCPs, Skills & Distribution/Uploading, Algorithm Packaging & Retention Optimization.md",
+      "x": -880,
+      "y": 140,
+      "width": 440,
+      "height": 150,
+      "color": "4"
+    },
+    {
+      "id": "c300000000000001",
+      "type": "file",
+      "file": "100 Social Media & Auto-Publishing Vault/00 Social Publishing Home.md",
+      "x": -240,
+      "y": -380,
+      "width": 460,
+      "height": 220,
+      "color": "6"
+    },
+    {
+      "id": "c300000000000002",
+      "type": "file",
+      "file": "100 Social Media & Auto-Publishing Vault/20 Description, Hashtag & SEO Optimization Bible.md",
+      "x": -240,
+      "y": -120,
+      "width": 460,
+      "height": 220,
+      "color": "3"
+    },
+    {
+      "id": "c300000000000003",
+      "type": "file",
+      "file": "100 Social Media & Auto-Publishing Vault/30 Upload Timing, Cadence & Global Timezone Matrix.md",
+      "x": -240,
+      "y": 140,
+      "width": 460,
+      "height": 220,
+      "color": "2"
+    },
+    {
+      "id": "d400000000000001",
+      "type": "file",
+      "file": "100 Social Media & Auto-Publishing Vault/40 Automated Uploading Research & Full Engineering Architecture.md",
+      "x": 420,
+      "y": -380,
+      "width": 460,
+      "height": 260,
+      "color": "4"
+    },
+    {
+      "id": "d400000000000002",
+      "type": "text",
+      "x": 420,
+      "y": -80,
+      "width": 460,
+      "height": 210,
+      "color": "4",
+      "text": "### `scripts/omnichannel_publish.py`\n- **Pre-Flight `--dry-run`**: `ffprobe` + hashtag/char validator\n- **Cloudflare R2 Stager**: Zero-egress HTTPS URLs\n- **Direct APIs**: YouTube v3, TikTok v2, IG Graph v21, X v2\n- **Unified Hub**: Self-hosted `Postiz` / `n8n`"
+    },
+    {
+      "id": "d400000000000003",
+      "type": "file",
+      "file": "100 Social Media & Auto-Publishing Vault/Upload Queue & Tracker.base",
+      "x": 420,
+      "y": 170,
+      "width": 460,
+      "height": 190,
+      "color": "5"
+    },
+    {
+      "id": "p500000000000001",
+      "type": "file",
+      "file": "100 Social Media & Auto-Publishing Vault/10 Platform Playbooks/01 YouTube Shorts & Long-Form Master Guide.md",
+      "x": 1080,
+      "y": -480,
+      "width": 480,
+      "height": 200,
+      "color": "1"
+    },
+    {
+      "id": "p500000000000002",
+      "type": "file",
+      "file": "100 Social Media & Auto-Publishing Vault/10 Platform Playbooks/02 TikTok Algorithm, SEO & Publishing Guide.md",
+      "x": 1080,
+      "y": -240,
+      "width": 480,
+      "height": 200,
+      "color": "5"
+    },
+    {
+      "id": "p500000000000003",
+      "type": "file",
+      "file": "100 Social Media & Auto-Publishing Vault/10 Platform Playbooks/03 Instagram Reels, Trial Reels & Threads Guide.md",
+      "x": 1080,
+      "y": 0,
+      "width": 480,
+      "height": 200,
+      "color": "6"
+    },
+    {
+      "id": "p500000000000004",
+      "type": "file",
+      "file": "100 Social Media & Auto-Publishing Vault/10 Platform Playbooks/04 X (Twitter), Facebook Reels, LinkedIn, Snapchat & Reddit Guide.md",
+      "x": 1080,
+      "y": 240,
+      "width": 480,
+      "height": 210,
+      "color": "2"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e600000000000001",
+      "fromNode": "b200000000000001",
+      "fromSide": "right",
+      "toNode": "c300000000000001",
+      "toSide": "left",
+      "label": "Connected Vault"
+    },
+    {
+      "id": "e600000000000002",
+      "fromNode": "b200000000000002",
+      "fromSide": "right",
+      "toNode": "c300000000000002",
+      "toSide": "left",
+      "label": "Master MP4s"
+    },
+    {
+      "id": "e600000000000003",
+      "fromNode": "b200000000000003",
+      "fromSide": "right",
+      "toNode": "c300000000000003",
+      "toSide": "left",
+      "label": "CRF 15 + -14 LUFS"
+    },
+    {
+      "id": "e600000000000004",
+      "fromNode": "c300000000000001",
+      "fromSide": "bottom",
+      "toNode": "c300000000000002",
+      "toSide": "top",
+      "label": "ASR + OCR + NLP"
+    },
+    {
+      "id": "e600000000000005",
+      "fromNode": "c300000000000002",
+      "fromSide": "bottom",
+      "toNode": "c300000000000003",
+      "toSide": "top",
+      "label": "20:30 WIB Slot"
+    },
+    {
+      "id": "e600000000000006",
+      "fromNode": "c300000000000002",
+      "fromSide": "right",
+      "toNode": "d400000000000001",
+      "toSide": "left",
+      "label": "Platform Manifest"
+    },
+    {
+      "id": "e600000000000007",
+      "fromNode": "d400000000000001",
+      "fromSide": "bottom",
+      "toNode": "d400000000000002",
+      "toSide": "top",
+      "label": "4 Automation Tiers"
+    },
+    {
+      "id": "e600000000000008",
+      "fromNode": "d400000000000002",
+      "fromSide": "bottom",
+      "toNode": "d400000000000003",
+      "toSide": "top",
+      "label": "Status + Live URLs"
+    },
+    {
+      "id": "e600000000000009",
+      "fromNode": "d400000000000002",
+      "fromSide": "right",
+      "toNode": "p500000000000001",
+      "toSide": "left",
+      "label": "YouTube Data API v3"
+    },
+    {
+      "id": "e600000000000010",
+      "fromNode": "d400000000000002",
+      "fromSide": "right",
+      "toNode": "p500000000000002",
+      "toSide": "left",
+      "label": "TikTok Posting API v2"
+    },
+    {
+      "id": "e600000000000011",
+      "fromNode": "d400000000000002",
+      "fromSide": "right",
+      "toNode": "p500000000000003",
+      "toSide": "left",
+      "label": "IG Graph API v21"
+    },
+    {
+      "id": "e600000000000012",
+      "fromNode": "d400000000000002",
+      "fromSide": "right",
+      "toNode": "p500000000000004",
+      "toSide": "left",
+      "label": "X v2 + Reply #1 Link"
+    }
+  ]
+}

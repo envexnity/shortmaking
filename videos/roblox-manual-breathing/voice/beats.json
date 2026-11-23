@@ -1,0 +1,166 @@
+{
+  "total_duration": 36.3,
+  "fps": 30,
+  "beats": [
+    {
+      "index": 1,
+      "id": "b01_timer",
+      "shot": "town_open",
+      "start": 0.04,
+      "end": 2.497,
+      "clip_end": 2.537,
+      "duration": 2.457,
+      "caption": "In this world, everyone is born with a hidden survival timer\u2014"
+    },
+    {
+      "index": 2,
+      "id": "b02_resets",
+      "shot": "town_timer_reset",
+      "start": 2.537,
+      "end": 4.064,
+      "clip_end": 4.164,
+      "duration": 1.527,
+      "caption": "and it resets every few seconds."
+    },
+    {
+      "index": 3,
+      "id": "b03_pull_gas",
+      "shot": "town_inhale",
+      "start": 4.164,
+      "end": 8.865,
+      "clip_end": 8.905,
+      "duration": 4.702,
+      "caption": "To stay alive, people have to constantly pull invisible gas from the atmosphere into their bodies"
+    },
+    {
+      "index": 4,
+      "id": "b04_lungs",
+      "shot": "town_lungs_xray",
+      "start": 8.905,
+      "end": 10.839,
+      "clip_end": 10.919,
+      "duration": 1.934,
+      "caption": "using two internal pouches called lungs."
+    },
+    {
+      "index": 5,
+      "id": "b05_face_holes",
+      "shot": "town_face_cu",
+      "start": 10.919,
+      "end": 12.729,
+      "clip_end": 12.829,
+      "duration": 1.81,
+      "caption": "They do this through holes in their face."
+    },
+    {
+      "index": 6,
+      "id": "b06_stop_black",
+      "shot": "town_hold_breath",
+      "start": 12.829,
+      "end": 15.497,
+      "clip_end": 15.537,
+      "duration": 2.668,
+      "caption": "If anyone stops doing it for even a few minutes, their screen goes black"
+    },
+    {
+      "index": 7,
+      "id": "b07_logout",
+      "shot": "town_disconnect",
+      "start": 15.537,
+      "end": 16.941,
+      "clip_end": 17.061,
+      "duration": 1.404,
+      "caption": "and they permanently log out of the server."
+    },
+    {
+      "index": 8,
+      "id": "b08_no_pause",
+      "shot": "town_no_pause",
+      "start": 17.061,
+      "end": 19.242,
+      "clip_end": 19.342,
+      "duration": 2.181,
+      "caption": "The craziest part? There is no pause button."
+    },
+    {
+      "index": 9,
+      "id": "b09_walking",
+      "shot": "town_walk",
+      "start": 19.342,
+      "end": 20.496,
+      "clip_end": 20.556,
+      "duration": 1.154,
+      "caption": "You have to do it while walking,"
+    },
+    {
+      "index": 10,
+      "id": "b10_eating",
+      "shot": "patio_eat",
+      "start": 20.556,
+      "end": 21.114,
+      "clip_end": 21.174,
+      "duration": 0.557,
+      "caption": "while eating,"
+    },
+    {
+      "index": 11,
+      "id": "b11_sleeping",
+      "shot": "bedroom_sleep",
+      "start": 21.174,
+      "end": 23.091,
+      "clip_end": 23.191,
+      "duration": 1.918,
+      "caption": "and even while completely unconscious in your sleep."
+    },
+    {
+      "index": 12,
+      "id": "b12_auto_force",
+      "shot": "bedroom_auto",
+      "start": 23.191,
+      "end": 26.664,
+      "clip_end": 26.704,
+      "duration": 3.472,
+      "caption": "Your body automatically forces you to keep pulling the gas in and pushing it back out,"
+    },
+    {
+      "index": 13,
+      "id": "b13_20k_times",
+      "shot": "bedroom_20k",
+      "start": 26.704,
+      "end": 28.728,
+      "clip_end": 28.848,
+      "duration": 2.024,
+      "caption": "over and over, roughly 20,000 times a day."
+    },
+    {
+      "index": 14,
+      "id": "b14_dont_realize",
+      "shot": "town_oblivious",
+      "start": 28.848,
+      "end": 31.886,
+      "clip_end": 32.046,
+      "duration": 3.038,
+      "caption": "Most players don't even realize they're doing it until someone mentions it."
+    },
+    {
+      "index": 15,
+      "id": "b15_manual_mode",
+      "shot": "bedroom_manual_alert",
+      "start": 32.046,
+      "end": 35.561,
+      "clip_end": 35.701,
+      "duration": 3.515,
+      "caption": "Suddenly, the automatic mode turns off, and you have to press the button manually."
+    },
+    {
+      "index": 16,
+      "id": "b16_good_luck",
+      "shot": "bedroom_mash_cu",
+      "start": 35.701,
+      "end": 36.2,
+      "clip_end": 36.3,
+      "duration": 0.499,
+      "caption": "Good luck."
+    }
+  ]
+}

@@ -1,0 +1,937 @@
+{
+  "engine": "elevenlabs",
+  "model": "eleven_turbo_v2_5",
+  "total": 46.78,
+  "beats": [
+    {
+      "i": 0,
+      "speaker": "host",
+      "text": "For a thousand bucks, would you ride this cardboard time machine and pet a T-Rex?",
+      "start": 0.05,
+      "speechEnd": 3.5,
+      "end": 3.66,
+      "words": [
+        {
+          "w": "For",
+          "start": 0.05,
+          "end": 0.19
+        },
+        {
+          "w": "a",
+          "start": 0.19,
+          "end": 0.27
+        },
+        {
+          "w": "thousand",
+          "start": 0.27,
+          "end": 0.47
+        },
+        {
+          "w": "bucks,",
+          "start": 0.47,
+          "end": 0.79
+        },
+        {
+          "w": "would",
+          "start": 1.05,
+          "end": 1.11
+        },
+        {
+          "w": "you",
+          "start": 1.11,
+          "end": 1.23
+        },
+        {
+          "w": "ride",
+          "start": 1.23,
+          "end": 1.39
+        },
+        {
+          "w": "this",
+          "start": 1.39,
+          "end": 1.59
+        },
+        {
+          "w": "cardboard",
+          "start": 1.59,
+          "end": 1.87
+        },
+        {
+          "w": "time",
+          "start": 1.87,
+          "end": 2.25
+        },
+        {
+          "w": "machine",
+          "start": 2.25,
+          "end": 2.53
+        },
+        {
+          "w": "in",
+          "start": 2.53,
+          "end": 2.71
+        },
+        {
+          "w": "Petitirex?",
+          "start": 2.71,
+          "end": 3.31
+        }
+      ]
+    },
+    {
+      "i": 1,
+      "speaker": "mrbeast",
+      "text": "No.",
+      "start": 3.66,
+      "speechEnd": 4.05,
+      "end": 4.33,
+      "words": [
+        {
+          "w": "No.",
+          "start": 3.66,
+          "end": 3.82
+        }
+      ]
+    },
+    {
+      "i": 2,
+      "speaker": "host",
+      "text": "For two thousand bucks, would you go back and pet a T-Rex?",
+      "start": 4.33,
+      "speechEnd": 6.732,
+      "end": 6.882,
+      "words": [
+        {
+          "w": "For",
+          "start": 4.33,
+          "end": 4.43
+        },
+        {
+          "w": "$2",
+          "start": 4.43,
+          "end": 4.63
+        },
+        {
+          "w": ",000,",
+          "start": 4.63,
+          "end": 4.93
+        },
+        {
+          "w": "would",
+          "start": 5.21,
+          "end": 5.35
+        },
+        {
+          "w": "you",
+          "start": 5.35,
+          "end": 5.49
+        },
+        {
+          "w": "go",
+          "start": 5.49,
+          "end": 5.63
+        },
+        {
+          "w": "back",
+          "start": 5.63,
+          "end": 5.77
+        },
+        {
+          "w": "and",
+          "start": 5.77,
+          "end": 5.93
+        },
+        {
+          "w": "pet",
+          "start": 5.93,
+          "end": 6.05
+        },
+        {
+          "w": "a",
+          "start": 6.05,
+          "end": 6.17
+        },
+        {
+          "w": "T",
+          "start": 6.17,
+          "end": 6.29
+        },
+        {
+          "w": "-Rex?",
+          "start": 6.29,
+          "end": 6.49
+        }
+      ]
+    },
+    {
+      "i": 3,
+      "speaker": "mc",
+      "text": "Two grand? Easy puppy!",
+      "start": 6.882,
+      "speechEnd": 8.279,
+      "end": 8.479,
+      "words": [
+        {
+          "w": "Two",
+          "start": 6.882,
+          "end": 7.002
+        },
+        {
+          "w": "grand,",
+          "start": 7.002,
+          "end": 7.262
+        },
+        {
+          "w": "easy",
+          "start": 7.582,
+          "end": 7.742
+        },
+        {
+          "w": "puppy.",
+          "start": 7.742,
+          "end": 8.002
+        }
+      ]
+    },
+    {
+      "i": 4,
+      "speaker": "mc",
+      "text": "Sixty-six million BC! Wait, why is the ground shaking\u2014 uh oh.",
+      "start": 8.479,
+      "speechEnd": 12.081,
+      "end": 12.281,
+      "words": [
+        {
+          "w": "66",
+          "start": 8.479,
+          "end": 8.719
+        },
+        {
+          "w": "million",
+          "start": 8.719,
+          "end": 9.239
+        },
+        {
+          "w": "BC.",
+          "start": 9.239,
+          "end": 9.519
+        },
+        {
+          "w": "Wait,",
+          "start": 10.159,
+          "end": 10.239
+        },
+        {
+          "w": "why",
+          "start": 10.299,
+          "end": 10.479
+        },
+        {
+          "w": "is",
+          "start": 10.479,
+          "end": 10.579
+        },
+        {
+          "w": "the",
+          "start": 10.579,
+          "end": 10.639
+        },
+        {
+          "w": "ground",
+          "start": 10.639,
+          "end": 10.839
+        },
+        {
+          "w": "shaking?",
+          "start": 10.839,
+          "end": 11.199
+        },
+        {
+          "w": "Oh.",
+          "start": 11.579,
+          "end": 11.759
+        }
+      ]
+    },
+    {
+      "i": 5,
+      "speaker": "trex",
+      "text": "Roar! Who parked a toaster box in my swamp?!",
+      "start": 12.281,
+      "speechEnd": 15.323,
+      "end": 15.463,
+      "words": [
+        {
+          "w": "Raw,",
+          "start": 12.281,
+          "end": 12.561
+        },
+        {
+          "w": "who",
+          "start": 12.921,
+          "end": 13.001
+        },
+        {
+          "w": "parked",
+          "start": 13.001,
+          "end": 13.361
+        },
+        {
+          "w": "a",
+          "start": 13.361,
+          "end": 13.561
+        },
+        {
+          "w": "toaster",
+          "start": 13.561,
+          "end": 14.021
+        },
+        {
+          "w": "box",
+          "start": 14.021,
+          "end": 14.361
+        },
+        {
+          "w": "in",
+          "start": 14.361,
+          "end": 14.581
+        },
+        {
+          "w": "my",
+          "start": 14.581,
+          "end": 14.761
+        },
+        {
+          "w": "swamp?",
+          "start": 14.761,
+          "end": 15.061
+        }
+      ]
+    },
+    {
+      "i": 6,
+      "speaker": "mc",
+      "text": "Easy, big lizard! Good boy!",
+      "start": 15.463,
+      "speechEnd": 17.694,
+      "end": 17.874,
+      "words": [
+        {
+          "w": "Easy",
+          "start": 15.463,
+          "end": 15.683
+        },
+        {
+          "w": "big",
+          "start": 15.683,
+          "end": 16.003
+        },
+        {
+          "w": "lizard",
+          "start": 16.003,
+          "end": 16.223
+        },
+        {
+          "w": "head",
+          "start": 16.223,
+          "end": 16.423
+        },
+        {
+          "w": "to",
+          "start": 16.423,
+          "end": 16.583
+        },
+        {
+          "w": "beard,",
+          "start": 16.583,
+          "end": 16.863
+        },
+        {
+          "w": "good",
+          "start": 17.263,
+          "end": 17.343
+        },
+        {
+          "w": "boy.",
+          "start": 17.343,
+          "end": 17.543
+        }
+      ]
+    },
+    {
+      "i": 7,
+      "speaker": "mc",
+      "text": "Look at those tiny arms! He can't even reach his own pockets!",
+      "start": 17.874,
+      "speechEnd": 20.556,
+      "end": 20.696,
+      "words": [
+        {
+          "w": "Look",
+          "start": 17.874,
+          "end": 18.014
+        },
+        {
+          "w": "at",
+          "start": 18.014,
+          "end": 18.074
+        },
+        {
+          "w": "those",
+          "start": 18.074,
+          "end": 18.194
+        },
+        {
+          "w": "tiny",
+          "start": 18.194,
+          "end": 18.414
+        },
+        {
+          "w": "arms,",
+          "start": 18.414,
+          "end": 18.794
+        },
+        {
+          "w": "he",
+          "start": 19.114,
+          "end": 19.194
+        },
+        {
+          "w": "can't",
+          "start": 19.194,
+          "end": 19.394
+        },
+        {
+          "w": "even",
+          "start": 19.394,
+          "end": 19.474
+        },
+        {
+          "w": "reach",
+          "start": 19.474,
+          "end": 19.674
+        },
+        {
+          "w": "his",
+          "start": 19.674,
+          "end": 19.834
+        },
+        {
+          "w": "own",
+          "start": 19.834,
+          "end": 19.934
+        },
+        {
+          "w": "pockets.",
+          "start": 19.934,
+          "end": 20.214
+        }
+      ]
+    },
+    {
+      "i": 8,
+      "speaker": "mc",
+      "text": "Luckily, I brought dog treats. Unluckily, he only eats sixty-pound steak smoothies!",
+      "start": 20.696,
+      "speechEnd": 24.809,
+      "end": 24.989,
+      "words": [
+        {
+          "w": "Luckily,",
+          "start": 20.696,
+          "end": 20.916
+        },
+        {
+          "w": "I",
+          "start": 21.136,
+          "end": 21.216
+        },
+        {
+          "w": "brought",
+          "start": 21.216,
+          "end": 21.416
+        },
+        {
+          "w": "dog",
+          "start": 21.416,
+          "end": 21.636
+        },
+        {
+          "w": "treats.",
+          "start": 21.636,
+          "end": 21.916
+        },
+        {
+          "w": "Unluckily,",
+          "start": 22.356,
+          "end": 22.736
+        },
+        {
+          "w": "he",
+          "start": 22.856,
+          "end": 22.916
+        },
+        {
+          "w": "only",
+          "start": 22.916,
+          "end": 23.036
+        },
+        {
+          "w": "eats",
+          "start": 23.036,
+          "end": 23.236
+        },
+        {
+          "w": "60",
+          "start": 23.236,
+          "end": 23.536
+        },
+        {
+          "w": "-pound",
+          "start": 23.536,
+          "end": 23.856
+        },
+        {
+          "w": "steak",
+          "start": 23.856,
+          "end": 24.096
+        },
+        {
+          "w": "smoothies.",
+          "start": 24.096,
+          "end": 24.636
+        }
+      ]
+    },
+    {
+      "i": 9,
+      "speaker": "raptor",
+      "text": "You see, T-Rex arms are shorter than a broomstick because his giant skull took the whole budget!",
+      "start": 24.989,
+      "speechEnd": 29.724,
+      "end": 29.844,
+      "words": [
+        {
+          "w": "You",
+          "start": 24.989,
+          "end": 25.069
+        },
+        {
+          "w": "see",
+          "start": 25.069,
+          "end": 25.209
+        },
+        {
+          "w": "T",
+          "start": 25.209,
+          "end": 25.349
+        },
+        {
+          "w": "-Rex",
+          "start": 25.349,
+          "end": 25.549
+        },
+        {
+          "w": "arms",
+          "start": 25.549,
+          "end": 25.809
+        },
+        {
+          "w": "are",
+          "start": 25.809,
+          "end": 26.089
+        },
+        {
+          "w": "shorter",
+          "start": 26.089,
+          "end": 26.289
+        },
+        {
+          "w": "than",
+          "start": 26.289,
+          "end": 26.569
+        },
+        {
+          "w": "a",
+          "start": 26.569,
+          "end": 26.649
+        },
+        {
+          "w": "broomstick",
+          "start": 26.649,
+          "end": 27.089
+        },
+        {
+          "w": "because",
+          "start": 27.089,
+          "end": 27.509
+        },
+        {
+          "w": "his",
+          "start": 27.509,
+          "end": 27.729
+        },
+        {
+          "w": "giant",
+          "start": 27.729,
+          "end": 28.009
+        },
+        {
+          "w": "skull",
+          "start": 28.009,
+          "end": 28.409
+        },
+        {
+          "w": "took",
+          "start": 28.409,
+          "end": 28.949
+        },
+        {
+          "w": "the",
+          "start": 28.949,
+          "end": 29.109
+        },
+        {
+          "w": "whole",
+          "start": 29.109,
+          "end": 29.269
+        },
+        {
+          "w": "budget.",
+          "start": 29.269,
+          "end": 29.569
+        }
+      ]
+    },
+    {
+      "i": 10,
+      "speaker": "mc",
+      "text": "Who asked the tiny lizard?! Boop the snoot!",
+      "start": 29.844,
+      "speechEnd": 31.787,
+      "end": 31.947,
+      "words": [
+        {
+          "w": "Who",
+          "start": 29.844,
+          "end": 29.944
+        },
+        {
+          "w": "asked",
+          "start": 29.944,
+          "end": 30.124
+        },
+        {
+          "w": "the",
+          "start": 30.124,
+          "end": 30.324
+        },
+        {
+          "w": "tiny",
+          "start": 30.324,
+          "end": 30.504
+        },
+        {
+          "w": "lizard",
+          "start": 30.504,
+          "end": 30.824
+        },
+        {
+          "w": "boop",
+          "start": 30.824,
+          "end": 31.244
+        },
+        {
+          "w": "the",
+          "start": 31.244,
+          "end": 31.364
+        },
+        {
+          "w": "snoot?",
+          "start": 31.364,
+          "end": 31.644
+        }
+      ]
+    },
+    {
+      "i": 11,
+      "speaker": "raptor",
+      "text": "Wait! Look at the sky\u2014 that's the Chicxulub asteroid in three, two\u2014",
+      "start": 31.947,
+      "speechEnd": 36.305,
+      "end": 36.445,
+      "words": [
+        {
+          "w": "Wait,",
+          "start": 31.947,
+          "end": 32.087
+        },
+        {
+          "w": "look",
+          "start": 32.307,
+          "end": 32.507
+        },
+        {
+          "w": "at",
+          "start": 32.507,
+          "end": 32.627
+        },
+        {
+          "w": "the",
+          "start": 32.627,
+          "end": 32.727
+        },
+        {
+          "w": "sky,",
+          "start": 32.727,
+          "end": 32.927
+        },
+        {
+          "w": "that's",
+          "start": 33.347,
+          "end": 33.587
+        },
+        {
+          "w": "the",
+          "start": 33.587,
+          "end": 33.707
+        },
+        {
+          "w": "Chicxulub",
+          "start": 33.707,
+          "end": 34.287
+        },
+        {
+          "w": "Asteroid",
+          "start": 34.287,
+          "end": 34.987
+        },
+        {
+          "w": "in",
+          "start": 34.987,
+          "end": 35.347
+        },
+        {
+          "w": "3,",
+          "start": 35.347,
+          "end": 35.527
+        },
+        {
+          "w": "2.",
+          "start": 36.107,
+          "end": 36.107
+        }
+      ]
+    },
+    {
+      "i": 12,
+      "speaker": "mc",
+      "text": "BOOPED IT!",
+      "start": 36.445,
+      "speechEnd": 37.065,
+      "end": 37.365,
+      "words": [
+        {
+          "w": "Booped",
+          "start": 36.445,
+          "end": 36.665
+        },
+        {
+          "w": "it.",
+          "start": 36.665,
+          "end": 36.825
+        }
+      ]
+    },
+    {
+      "i": 13,
+      "speaker": "mc",
+      "text": "Wait... did I accidentally grab a dinosaur in my pocket?!",
+      "start": 37.365,
+      "speechEnd": 39.702,
+      "end": 39.922,
+      "words": [
+        {
+          "w": "Wait,",
+          "start": 37.365,
+          "end": 37.485
+        },
+        {
+          "w": "did",
+          "start": 37.705,
+          "end": 37.765
+        },
+        {
+          "w": "I",
+          "start": 37.765,
+          "end": 37.885
+        },
+        {
+          "w": "accidentally",
+          "start": 37.885,
+          "end": 38.225
+        },
+        {
+          "w": "grab",
+          "start": 38.225,
+          "end": 38.585
+        },
+        {
+          "w": "a",
+          "start": 38.585,
+          "end": 38.705
+        },
+        {
+          "w": "dinosaur",
+          "start": 38.705,
+          "end": 38.885
+        },
+        {
+          "w": "in",
+          "start": 38.885,
+          "end": 39.165
+        },
+        {
+          "w": "my",
+          "start": 39.165,
+          "end": 39.245
+        },
+        {
+          "w": "pocket?",
+          "start": 39.245,
+          "end": 39.485
+        }
+      ]
+    },
+    {
+      "i": 14,
+      "speaker": "mc",
+      "text": "I petted a dinosaur! Where's my two thousand bucks?",
+      "start": 39.922,
+      "speechEnd": 42.353,
+      "end": 42.573,
+      "words": [
+        {
+          "w": "I",
+          "start": 39.922,
+          "end": 40.042
+        },
+        {
+          "w": "petted",
+          "start": 40.042,
+          "end": 40.322
+        },
+        {
+          "w": "a",
+          "start": 40.322,
+          "end": 40.382
+        },
+        {
+          "w": "dinosaur,",
+          "start": 40.382,
+          "end": 40.722
+        },
+        {
+          "w": "where's",
+          "start": 41.122,
+          "end": 41.302
+        },
+        {
+          "w": "my",
+          "start": 41.302,
+          "end": 41.382
+        },
+        {
+          "w": "$2",
+          "start": 41.382,
+          "end": 41.562
+        },
+        {
+          "w": ",000?",
+          "start": 41.562,
+          "end": 41.882
+        }
+      ]
+    },
+    {
+      "i": 15,
+      "speaker": "host",
+      "text": "Technically birds are dinosaurs, kid\u2014 but that's a New York pigeon. Here's five bucks.",
+      "start": 42.573,
+      "speechEnd": 46.72,
+      "end": 46.78,
+      "words": [
+        {
+          "w": "Technically,",
+          "start": 42.573,
+          "end": 43.013
+        },
+        {
+          "w": "birds",
+          "start": 43.193,
+          "end": 43.353
+        },
+        {
+          "w": "are",
+          "start": 43.353,
+          "end": 43.893
+        },
+        {
+          "w": "dinosaurs,",
+          "start": 43.893,
+          "end": 43.893
+        },
+        {
+          "w": "kid,",
+          "start": 44.373,
+          "end": 44.393
+        },
+        {
+          "w": "but",
+          "start": 44.593,
+          "end": 44.713
+        },
+        {
+          "w": "that's",
+          "start": 44.713,
+          "end": 44.933
+        },
+        {
+          "w": "a",
+          "start": 44.933,
+          "end": 44.993
+        },
+        {
+          "w": "New",
+          "start": 44.993,
+          "end": 45.093
+        },
+        {
+          "w": "York",
+          "start": 45.093,
+          "end": 45.313
+        },
+        {
+          "w": "pigeon.",
+          "start": 45.313,
+          "end": 45.533
+        },
+        {
+          "w": "Here's",
+          "start": 45.933,
+          "end": 46.073
+        },
+        {
+          "w": "five",
+          "start": 46.073,
+          "end": 46.293
+        },
+        {
+          "w": "bucks.",
+          "start": 46.293,
+          "end": 46.493
+        }
+      ]
+    }
+  ]
+}

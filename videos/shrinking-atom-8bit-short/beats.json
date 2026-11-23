@@ -1,0 +1,967 @@
+{
+  "engine": "elevenlabs",
+  "model": "eleven_turbo_v2_5",
+  "total": 48.144,
+  "beats": [
+    {
+      "i": 0,
+      "speaker": "host",
+      "text": "For a thousand bucks, would you let me zap you smaller than a single atom?",
+      "start": 0.05,
+      "speechEnd": 3.188,
+      "end": 3.348,
+      "words": [
+        {
+          "w": "For",
+          "start": 0.05,
+          "end": 0.17
+        },
+        {
+          "w": "a",
+          "start": 0.17,
+          "end": 0.27
+        },
+        {
+          "w": "thousand",
+          "start": 0.27,
+          "end": 0.49
+        },
+        {
+          "w": "bucks,",
+          "start": 0.49,
+          "end": 0.83
+        },
+        {
+          "w": "would",
+          "start": 1.03,
+          "end": 1.09
+        },
+        {
+          "w": "you",
+          "start": 1.09,
+          "end": 1.21
+        },
+        {
+          "w": "let",
+          "start": 1.21,
+          "end": 1.35
+        },
+        {
+          "w": "me",
+          "start": 1.35,
+          "end": 1.47
+        },
+        {
+          "w": "zap",
+          "start": 1.47,
+          "end": 1.75
+        },
+        {
+          "w": "you",
+          "start": 1.75,
+          "end": 1.85
+        },
+        {
+          "w": "smaller",
+          "start": 1.85,
+          "end": 2.13
+        },
+        {
+          "w": "than",
+          "start": 2.13,
+          "end": 2.37
+        },
+        {
+          "w": "a",
+          "start": 2.37,
+          "end": 2.45
+        },
+        {
+          "w": "single",
+          "start": 2.45,
+          "end": 2.67
+        },
+        {
+          "w": "atom?",
+          "start": 2.67,
+          "end": 2.95
+        }
+      ]
+    },
+    {
+      "i": 1,
+      "speaker": "mrbeast",
+      "text": "No.",
+      "start": 3.348,
+      "speechEnd": 3.735,
+      "end": 4.015,
+      "words": [
+        {
+          "w": "No.",
+          "start": 3.348,
+          "end": 3.508
+        }
+      ]
+    },
+    {
+      "i": 2,
+      "speaker": "host",
+      "text": "For two thousand bucks, would you shrink smaller than an atom?",
+      "start": 4.015,
+      "speechEnd": 6.65,
+      "end": 6.8,
+      "words": [
+        {
+          "w": "For",
+          "start": 4.015,
+          "end": 4.115
+        },
+        {
+          "w": "$2",
+          "start": 4.115,
+          "end": 4.335
+        },
+        {
+          "w": ",000,",
+          "start": 4.335,
+          "end": 4.655
+        },
+        {
+          "w": "would",
+          "start": 4.915,
+          "end": 5.175
+        },
+        {
+          "w": "you",
+          "start": 5.175,
+          "end": 5.295
+        },
+        {
+          "w": "shrink",
+          "start": 5.295,
+          "end": 5.515
+        },
+        {
+          "w": "smaller",
+          "start": 5.515,
+          "end": 5.875
+        },
+        {
+          "w": "than",
+          "start": 5.875,
+          "end": 6.135
+        },
+        {
+          "w": "an",
+          "start": 6.135,
+          "end": 6.255
+        },
+        {
+          "w": "atom?",
+          "start": 6.255,
+          "end": 6.415
+        }
+      ]
+    },
+    {
+      "i": 3,
+      "speaker": "mc",
+      "text": "Two grand? Zap away!",
+      "start": 6.8,
+      "speechEnd": 8.059,
+      "end": 8.259,
+      "words": [
+        {
+          "w": "Two",
+          "start": 6.8,
+          "end": 6.92
+        },
+        {
+          "w": "grand,",
+          "start": 6.92,
+          "end": 7.16
+        },
+        {
+          "w": "zap",
+          "start": 7.5,
+          "end": 7.68
+        },
+        {
+          "w": "away.",
+          "start": 7.68,
+          "end": 7.8
+        }
+      ]
+    },
+    {
+      "i": 4,
+      "speaker": "mc",
+      "text": "Microscope scale! Wait, why is this dust mite looking at me like lunch\u2014 uh oh.",
+      "start": 8.259,
+      "speechEnd": 12.345,
+      "end": 12.545,
+      "words": [
+        {
+          "w": "Microscope",
+          "start": 8.259,
+          "end": 8.679
+        },
+        {
+          "w": "scale?",
+          "start": 8.679,
+          "end": 8.999
+        },
+        {
+          "w": "Wait,",
+          "start": 9.399,
+          "end": 9.559
+        },
+        {
+          "w": "why",
+          "start": 9.599,
+          "end": 9.799
+        },
+        {
+          "w": "is",
+          "start": 9.799,
+          "end": 9.899
+        },
+        {
+          "w": "this",
+          "start": 9.899,
+          "end": 9.999
+        },
+        {
+          "w": "dust",
+          "start": 9.999,
+          "end": 10.22
+        },
+        {
+          "w": "might",
+          "start": 10.22,
+          "end": 10.459
+        },
+        {
+          "w": "looking",
+          "start": 10.459,
+          "end": 10.72
+        },
+        {
+          "w": "at",
+          "start": 10.72,
+          "end": 10.899
+        },
+        {
+          "w": "me",
+          "start": 10.899,
+          "end": 10.999
+        },
+        {
+          "w": "like",
+          "start": 10.999,
+          "end": 11.179
+        },
+        {
+          "w": "lunch?",
+          "start": 11.179,
+          "end": 11.419
+        },
+        {
+          "w": "Uh",
+          "start": 11.779,
+          "end": 11.899
+        },
+        {
+          "w": "-oh.",
+          "start": 11.899,
+          "end": 12.139
+        }
+      ]
+    },
+    {
+      "i": 5,
+      "speaker": "mite",
+      "text": "Hey! Who dropped a walking snack on my carpet?!",
+      "start": 12.545,
+      "speechEnd": 15.034,
+      "end": 15.174,
+      "words": [
+        {
+          "w": "Hey,",
+          "start": 12.545,
+          "end": 12.725
+        },
+        {
+          "w": "who",
+          "start": 13.005,
+          "end": 13.105
+        },
+        {
+          "w": "dropped",
+          "start": 13.105,
+          "end": 13.325
+        },
+        {
+          "w": "a",
+          "start": 13.325,
+          "end": 13.485
+        },
+        {
+          "w": "walking",
+          "start": 13.485,
+          "end": 13.745
+        },
+        {
+          "w": "snack",
+          "start": 13.745,
+          "end": 14.085
+        },
+        {
+          "w": "on",
+          "start": 14.085,
+          "end": 14.325
+        },
+        {
+          "w": "my",
+          "start": 14.325,
+          "end": 14.465
+        },
+        {
+          "w": "carpet?",
+          "start": 14.465,
+          "end": 14.725
+        }
+      ]
+    },
+    {
+      "i": 6,
+      "speaker": "mc",
+      "text": "Shrinking deeper! Peace out, bug!",
+      "start": 15.174,
+      "speechEnd": 16.891,
+      "end": 17.071,
+      "words": [
+        {
+          "w": "Shrinking",
+          "start": 15.174,
+          "end": 15.434
+        },
+        {
+          "w": "deeper,",
+          "start": 15.434,
+          "end": 15.774
+        },
+        {
+          "w": "peace",
+          "start": 16.174,
+          "end": 16.294
+        },
+        {
+          "w": "out,",
+          "start": 16.294,
+          "end": 16.514
+        },
+        {
+          "w": "bug.",
+          "start": 16.634,
+          "end": 16.714
+        }
+      ]
+    },
+    {
+      "i": 7,
+      "speaker": "mc",
+      "text": "Atom scale! Wait... where did the whole wall go?!",
+      "start": 17.071,
+      "speechEnd": 19.033,
+      "end": 19.173,
+      "words": [
+        {
+          "w": "Adam",
+          "start": 17.071,
+          "end": 17.231
+        },
+        {
+          "w": "scale.",
+          "start": 17.231,
+          "end": 17.451
+        },
+        {
+          "w": "Wait,",
+          "start": 17.771,
+          "end": 17.811
+        },
+        {
+          "w": "where",
+          "start": 17.991,
+          "end": 18.131
+        },
+        {
+          "w": "did",
+          "start": 18.131,
+          "end": 18.211
+        },
+        {
+          "w": "the",
+          "start": 18.211,
+          "end": 18.311
+        },
+        {
+          "w": "whole",
+          "start": 18.311,
+          "end": 18.431
+        },
+        {
+          "w": "wall",
+          "start": 18.431,
+          "end": 18.711
+        },
+        {
+          "w": "go?",
+          "start": 18.711,
+          "end": 18.911
+        }
+      ]
+    },
+    {
+      "i": 8,
+      "speaker": "mc",
+      "text": "Luckily, the nucleus looks tiny and cute. Unluckily, an electron just clipped my haircut!",
+      "start": 19.173,
+      "speechEnd": 23.742,
+      "end": 23.922,
+      "words": [
+        {
+          "w": "Luckily,",
+          "start": 19.173,
+          "end": 19.433
+        },
+        {
+          "w": "the",
+          "start": 19.693,
+          "end": 19.733
+        },
+        {
+          "w": "nucleus",
+          "start": 19.733,
+          "end": 19.993
+        },
+        {
+          "w": "looks",
+          "start": 19.993,
+          "end": 20.353
+        },
+        {
+          "w": "tiny",
+          "start": 20.353,
+          "end": 20.613
+        },
+        {
+          "w": "and",
+          "start": 20.613,
+          "end": 20.853
+        },
+        {
+          "w": "cute.",
+          "start": 20.853,
+          "end": 21.133
+        },
+        {
+          "w": "Unluckily,",
+          "start": 21.453,
+          "end": 21.953
+        },
+        {
+          "w": "an",
+          "start": 22.133,
+          "end": 22.173
+        },
+        {
+          "w": "electron",
+          "start": 22.173,
+          "end": 22.453
+        },
+        {
+          "w": "just",
+          "start": 22.453,
+          "end": 22.753
+        },
+        {
+          "w": "clipped",
+          "start": 22.753,
+          "end": 22.993
+        },
+        {
+          "w": "my",
+          "start": 22.993,
+          "end": 23.253
+        },
+        {
+          "w": "haircut.",
+          "start": 23.253,
+          "end": 23.473
+        }
+      ]
+    },
+    {
+      "i": 9,
+      "speaker": "quark",
+      "text": "You see, an atom is ninety-nine percent empty space\u2014 like a marble inside an empty stadium!",
+      "start": 23.922,
+      "speechEnd": 29.388,
+      "end": 29.508,
+      "words": [
+        {
+          "w": "You",
+          "start": 23.922,
+          "end": 24.022
+        },
+        {
+          "w": "see,",
+          "start": 24.022,
+          "end": 24.222
+        },
+        {
+          "w": "an",
+          "start": 24.562,
+          "end": 24.642
+        },
+        {
+          "w": "atom",
+          "start": 24.642,
+          "end": 24.822
+        },
+        {
+          "w": "is",
+          "start": 24.822,
+          "end": 25.082
+        },
+        {
+          "w": "99",
+          "start": 25.082,
+          "end": 25.362
+        },
+        {
+          "w": "%",
+          "start": 25.362,
+          "end": 26.022
+        },
+        {
+          "w": "empty",
+          "start": 26.022,
+          "end": 26.342
+        },
+        {
+          "w": "space,",
+          "start": 26.342,
+          "end": 26.682
+        },
+        {
+          "w": "like",
+          "start": 27.082,
+          "end": 27.202
+        },
+        {
+          "w": "a",
+          "start": 27.202,
+          "end": 27.302
+        },
+        {
+          "w": "marble",
+          "start": 27.302,
+          "end": 27.602
+        },
+        {
+          "w": "inside",
+          "start": 27.602,
+          "end": 28.082
+        },
+        {
+          "w": "an",
+          "start": 28.082,
+          "end": 28.362
+        },
+        {
+          "w": "empty",
+          "start": 28.362,
+          "end": 28.602
+        },
+        {
+          "w": "stadium.",
+          "start": 28.602,
+          "end": 29.142
+        }
+      ]
+    },
+    {
+      "i": 10,
+      "speaker": "mc",
+      "text": "Wait, so I'm standing on nothing?! Grabbing a proton souvenir!",
+      "start": 29.508,
+      "speechEnd": 32.174,
+      "end": 32.334,
+      "words": [
+        {
+          "w": "Wait,",
+          "start": 29.508,
+          "end": 29.628
+        },
+        {
+          "w": "so",
+          "start": 29.728,
+          "end": 29.808
+        },
+        {
+          "w": "I'm",
+          "start": 29.808,
+          "end": 29.888
+        },
+        {
+          "w": "standing",
+          "start": 29.888,
+          "end": 30.108
+        },
+        {
+          "w": "on",
+          "start": 30.108,
+          "end": 30.288
+        },
+        {
+          "w": "nothing?",
+          "start": 30.288,
+          "end": 30.588
+        },
+        {
+          "w": "Grabbing",
+          "start": 30.928,
+          "end": 31.148
+        },
+        {
+          "w": "a",
+          "start": 31.148,
+          "end": 31.228
+        },
+        {
+          "w": "proton",
+          "start": 31.228,
+          "end": 31.568
+        },
+        {
+          "w": "souvenir.",
+          "start": 31.568,
+          "end": 32.108
+        }
+      ]
+    },
+    {
+      "i": 11,
+      "speaker": "quark",
+      "text": "Stop! If you poke the strong force, the quantum scale\u2014",
+      "start": 32.334,
+      "speechEnd": 37.428,
+      "end": 37.568,
+      "words": [
+        {
+          "w": "Stop",
+          "start": 32.334,
+          "end": 32.594
+        },
+        {
+          "w": "if",
+          "start": 32.594,
+          "end": 32.914
+        },
+        {
+          "w": "you",
+          "start": 32.914,
+          "end": 33.054
+        },
+        {
+          "w": "poke",
+          "start": 33.054,
+          "end": 33.254
+        },
+        {
+          "w": "the",
+          "start": 33.254,
+          "end": 33.494
+        },
+        {
+          "w": "strong",
+          "start": 33.494,
+          "end": 33.774
+        },
+        {
+          "w": "force",
+          "start": 33.774,
+          "end": 34.214
+        },
+        {
+          "w": "the",
+          "start": 34.214,
+          "end": 34.534
+        },
+        {
+          "w": "quantum",
+          "start": 34.534,
+          "end": 34.774
+        },
+        {
+          "w": "scales",
+          "start": 34.774,
+          "end": 35.294
+        }
+      ]
+    },
+    {
+      "i": 12,
+      "speaker": "mc",
+      "text": "GOT THE PROTON!",
+      "start": 37.568,
+      "speechEnd": 38.346,
+      "end": 38.646,
+      "words": [
+        {
+          "w": "Got",
+          "start": 37.568,
+          "end": 37.728
+        },
+        {
+          "w": "the",
+          "start": 37.728,
+          "end": 37.888
+        },
+        {
+          "w": "pro",
+          "start": 37.888,
+          "end": 38.108
+        },
+        {
+          "w": "to",
+          "start": 38.108,
+          "end": 38.248
+        }
+      ]
+    },
+    {
+      "i": 13,
+      "speaker": "mc",
+      "text": "Wait... why am I back on the street, and the dollar bills are giant?!",
+      "start": 38.646,
+      "speechEnd": 41.567,
+      "end": 41.787,
+      "words": [
+        {
+          "w": "Wait,",
+          "start": 38.646,
+          "end": 38.766
+        },
+        {
+          "w": "why",
+          "start": 38.926,
+          "end": 39.106
+        },
+        {
+          "w": "am",
+          "start": 39.106,
+          "end": 39.206
+        },
+        {
+          "w": "I",
+          "start": 39.206,
+          "end": 39.266
+        },
+        {
+          "w": "back",
+          "start": 39.266,
+          "end": 39.506
+        },
+        {
+          "w": "on",
+          "start": 39.506,
+          "end": 39.666
+        },
+        {
+          "w": "the",
+          "start": 39.666,
+          "end": 39.766
+        },
+        {
+          "w": "street",
+          "start": 39.766,
+          "end": 40.026
+        },
+        {
+          "w": "and",
+          "start": 40.026,
+          "end": 40.246
+        },
+        {
+          "w": "the",
+          "start": 40.246,
+          "end": 40.326
+        },
+        {
+          "w": "dollar",
+          "start": 40.326,
+          "end": 40.606
+        },
+        {
+          "w": "bills",
+          "start": 40.606,
+          "end": 40.826
+        },
+        {
+          "w": "are",
+          "start": 40.826,
+          "end": 41.006
+        },
+        {
+          "w": "giant?",
+          "start": 41.006,
+          "end": 41.206
+        }
+      ]
+    },
+    {
+      "i": 14,
+      "speaker": "mc",
+      "text": "I touched an atom! Where's my two thousand bucks?",
+      "start": 41.787,
+      "speechEnd": 43.905,
+      "end": 44.125,
+      "words": [
+        {
+          "w": "I",
+          "start": 41.787,
+          "end": 41.867
+        },
+        {
+          "w": "touched",
+          "start": 41.867,
+          "end": 42.007
+        },
+        {
+          "w": "an",
+          "start": 42.007,
+          "end": 42.207
+        },
+        {
+          "w": "atom.",
+          "start": 42.207,
+          "end": 42.487
+        },
+        {
+          "w": "Where's",
+          "start": 42.827,
+          "end": 42.967
+        },
+        {
+          "w": "my",
+          "start": 42.967,
+          "end": 43.067
+        },
+        {
+          "w": "2000",
+          "start": 43.067,
+          "end": 43.247
+        },
+        {
+          "w": "bucks?",
+          "start": 43.247,
+          "end": 43.647
+        }
+      ]
+    },
+    {
+      "i": 15,
+      "speaker": "host",
+      "text": "Forgot to un-shrink your payout, kid. Good luck spending two thousand bucks the size of a quark.",
+      "start": 44.125,
+      "speechEnd": 48.084,
+      "end": 48.144,
+      "words": [
+        {
+          "w": "Forgot",
+          "start": 44.125,
+          "end": 44.365
+        },
+        {
+          "w": "to",
+          "start": 44.365,
+          "end": 44.525
+        },
+        {
+          "w": "unshrink",
+          "start": 44.525,
+          "end": 44.965
+        },
+        {
+          "w": "your",
+          "start": 44.965,
+          "end": 45.085
+        },
+        {
+          "w": "payout,",
+          "start": 45.085,
+          "end": 45.325
+        },
+        {
+          "w": "kid.",
+          "start": 45.545,
+          "end": 45.645
+        },
+        {
+          "w": "Good",
+          "start": 45.925,
+          "end": 45.985
+        },
+        {
+          "w": "luck",
+          "start": 45.985,
+          "end": 46.125
+        },
+        {
+          "w": "spending",
+          "start": 46.125,
+          "end": 46.365
+        },
+        {
+          "w": "$2",
+          "start": 46.365,
+          "end": 46.685
+        },
+        {
+          "w": ",000",
+          "start": 46.685,
+          "end": 47.045
+        },
+        {
+          "w": "the",
+          "start": 47.045,
+          "end": 47.365
+        },
+        {
+          "w": "size",
+          "start": 47.365,
+          "end": 47.505
+        },
+        {
+          "w": "of",
+          "start": 47.505,
+          "end": 47.685
+        },
+        {
+          "w": "a",
+          "start": 47.685,
+          "end": 47.745
+        },
+        {
+          "w": "quart.",
+          "start": 47.745,
+          "end": 47.905
+        }
+      ]
+    }
+  ]
+}

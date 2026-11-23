@@ -1,0 +1,952 @@
+{
+  "engine": "elevenlabs",
+  "model": "eleven_turbo_v2_5",
+  "total": 47.143,
+  "beats": [
+    {
+      "i": 0,
+      "speaker": "host",
+      "text": "For a thousand bucks, would you jump into this pocket black hole and come right back?",
+      "start": 0.05,
+      "speechEnd": 3.531,
+      "end": 3.691,
+      "words": [
+        {
+          "w": "For",
+          "start": 0.05,
+          "end": 0.19
+        },
+        {
+          "w": "a",
+          "start": 0.19,
+          "end": 0.27
+        },
+        {
+          "w": "thousand",
+          "start": 0.27,
+          "end": 0.51
+        },
+        {
+          "w": "bucks,",
+          "start": 0.51,
+          "end": 0.85
+        },
+        {
+          "w": "would",
+          "start": 1.09,
+          "end": 1.17
+        },
+        {
+          "w": "you",
+          "start": 1.17,
+          "end": 1.29
+        },
+        {
+          "w": "jump",
+          "start": 1.29,
+          "end": 1.55
+        },
+        {
+          "w": "into",
+          "start": 1.55,
+          "end": 1.73
+        },
+        {
+          "w": "this",
+          "start": 1.73,
+          "end": 1.93
+        },
+        {
+          "w": "pocket",
+          "start": 1.93,
+          "end": 2.13
+        },
+        {
+          "w": "black",
+          "start": 2.13,
+          "end": 2.39
+        },
+        {
+          "w": "hole",
+          "start": 2.39,
+          "end": 2.69
+        },
+        {
+          "w": "and",
+          "start": 2.69,
+          "end": 2.85
+        },
+        {
+          "w": "come",
+          "start": 2.85,
+          "end": 2.99
+        },
+        {
+          "w": "right",
+          "start": 2.99,
+          "end": 3.21
+        },
+        {
+          "w": "back?",
+          "start": 3.21,
+          "end": 3.37
+        }
+      ]
+    },
+    {
+      "i": 1,
+      "speaker": "mrbeast",
+      "text": "No.",
+      "start": 3.691,
+      "speechEnd": 4.065,
+      "end": 4.345,
+      "words": [
+        {
+          "w": "No.",
+          "start": 3.691,
+          "end": 3.851
+        }
+      ]
+    },
+    {
+      "i": 2,
+      "speaker": "host",
+      "text": "For two thousand bucks, would you jump into this pocket black hole?",
+      "start": 4.345,
+      "speechEnd": 7.117,
+      "end": 7.267,
+      "words": [
+        {
+          "w": "For",
+          "start": 4.345,
+          "end": 4.445
+        },
+        {
+          "w": "$2",
+          "start": 4.445,
+          "end": 4.665
+        },
+        {
+          "w": ",000,",
+          "start": 4.665,
+          "end": 4.965
+        },
+        {
+          "w": "would",
+          "start": 5.245,
+          "end": 5.425
+        },
+        {
+          "w": "you",
+          "start": 5.425,
+          "end": 5.565
+        },
+        {
+          "w": "jump",
+          "start": 5.565,
+          "end": 5.785
+        },
+        {
+          "w": "into",
+          "start": 5.785,
+          "end": 5.965
+        },
+        {
+          "w": "this",
+          "start": 5.965,
+          "end": 6.145
+        },
+        {
+          "w": "pocket",
+          "start": 6.145,
+          "end": 6.345
+        },
+        {
+          "w": "black",
+          "start": 6.345,
+          "end": 6.605
+        },
+        {
+          "w": "hole?",
+          "start": 6.605,
+          "end": 6.885
+        }
+      ]
+    },
+    {
+      "i": 3,
+      "speaker": "mc",
+      "text": "Two grand? Easy bounce.",
+      "start": 7.267,
+      "speechEnd": 8.724,
+      "end": 8.924,
+      "words": [
+        {
+          "w": "Two",
+          "start": 7.267,
+          "end": 7.387
+        },
+        {
+          "w": "grand,",
+          "start": 7.387,
+          "end": 7.667
+        },
+        {
+          "w": "easy",
+          "start": 8.027,
+          "end": 8.147
+        },
+        {
+          "w": "bounce.",
+          "start": 8.147,
+          "end": 8.407
+        }
+      ]
+    },
+    {
+      "i": 4,
+      "speaker": "mc",
+      "text": "Wait, why are my shoes stretching like hot mozzarella\u2014 uh oh.",
+      "start": 8.924,
+      "speechEnd": 11.683,
+      "end": 11.883,
+      "words": [
+        {
+          "w": "Wait,",
+          "start": 8.924,
+          "end": 9.024
+        },
+        {
+          "w": "why",
+          "start": 9.124,
+          "end": 9.264
+        },
+        {
+          "w": "are",
+          "start": 9.264,
+          "end": 9.344
+        },
+        {
+          "w": "my",
+          "start": 9.344,
+          "end": 9.424
+        },
+        {
+          "w": "shoes",
+          "start": 9.424,
+          "end": 9.624
+        },
+        {
+          "w": "stretching",
+          "start": 9.624,
+          "end": 9.924
+        },
+        {
+          "w": "like",
+          "start": 9.924,
+          "end": 10.224
+        },
+        {
+          "w": "hot",
+          "start": 10.224,
+          "end": 10.484
+        },
+        {
+          "w": "mozzarella?",
+          "start": 10.484,
+          "end": 10.964
+        },
+        {
+          "w": "Uh",
+          "start": 11.244,
+          "end": 11.304
+        },
+        {
+          "w": "oh.",
+          "start": 11.304,
+          "end": 11.484
+        }
+      ]
+    },
+    {
+      "i": 5,
+      "speaker": "singularity",
+      "text": "Bro, watch your boots! You're spaghettifying my carpet!",
+      "start": 11.883,
+      "speechEnd": 14.666,
+      "end": 14.806,
+      "words": [
+        {
+          "w": "Bro,",
+          "start": 11.883,
+          "end": 12.063
+        },
+        {
+          "w": "watch",
+          "start": 12.223,
+          "end": 12.363
+        },
+        {
+          "w": "your",
+          "start": 12.363,
+          "end": 12.563
+        },
+        {
+          "w": "boots,",
+          "start": 12.563,
+          "end": 12.803
+        },
+        {
+          "w": "you're",
+          "start": 13.063,
+          "end": 13.203
+        },
+        {
+          "w": "specifying",
+          "start": 13.203,
+          "end": 13.463
+        },
+        {
+          "w": "my",
+          "start": 13.463,
+          "end": 14.003
+        },
+        {
+          "w": "carpet.",
+          "start": 14.003,
+          "end": 14.363
+        }
+      ]
+    },
+    {
+      "i": 6,
+      "speaker": "mc",
+      "text": "My bad, I'm three meters tall now!",
+      "start": 14.806,
+      "speechEnd": 16.325,
+      "end": 16.505,
+      "words": [
+        {
+          "w": "My",
+          "start": 14.806,
+          "end": 14.906
+        },
+        {
+          "w": "bad,",
+          "start": 14.906,
+          "end": 15.086
+        },
+        {
+          "w": "I'm",
+          "start": 15.246,
+          "end": 15.286
+        },
+        {
+          "w": "3",
+          "start": 15.286,
+          "end": 15.506
+        },
+        {
+          "w": "meters",
+          "start": 15.506,
+          "end": 15.726
+        },
+        {
+          "w": "tall",
+          "start": 15.726,
+          "end": 15.986
+        },
+        {
+          "w": "now.",
+          "start": 15.986,
+          "end": 16.226
+        }
+      ]
+    },
+    {
+      "i": 7,
+      "speaker": "mc",
+      "text": "Look at my watch! Why is the year spinning past four thousand?!",
+      "start": 16.505,
+      "speechEnd": 19.253,
+      "end": 19.393,
+      "words": [
+        {
+          "w": "Look",
+          "start": 16.505,
+          "end": 16.645
+        },
+        {
+          "w": "at",
+          "start": 16.645,
+          "end": 16.725
+        },
+        {
+          "w": "my",
+          "start": 16.725,
+          "end": 16.845
+        },
+        {
+          "w": "watch.",
+          "start": 16.845,
+          "end": 17.125
+        },
+        {
+          "w": "Why",
+          "start": 17.425,
+          "end": 17.545
+        },
+        {
+          "w": "is",
+          "start": 17.545,
+          "end": 17.645
+        },
+        {
+          "w": "the",
+          "start": 17.645,
+          "end": 17.765
+        },
+        {
+          "w": "year",
+          "start": 17.765,
+          "end": 17.885
+        },
+        {
+          "w": "spending",
+          "start": 17.885,
+          "end": 18.165
+        },
+        {
+          "w": "past",
+          "start": 18.165,
+          "end": 18.425
+        },
+        {
+          "w": "4",
+          "start": 18.425,
+          "end": 18.765
+        },
+        {
+          "w": ",000?",
+          "start": 18.765,
+          "end": 19.165
+        }
+      ]
+    },
+    {
+      "i": 8,
+      "speaker": "mc",
+      "text": "Luckily, gravity feels super cozy here. Unluckily, time outside just skipped ten million years!",
+      "start": 19.393,
+      "speechEnd": 24.603,
+      "end": 24.783,
+      "words": [
+        {
+          "w": "Luckily,",
+          "start": 19.393,
+          "end": 19.633
+        },
+        {
+          "w": "gravity",
+          "start": 19.773,
+          "end": 19.913
+        },
+        {
+          "w": "feels",
+          "start": 19.913,
+          "end": 20.353
+        },
+        {
+          "w": "super",
+          "start": 20.353,
+          "end": 20.573
+        },
+        {
+          "w": "cozy",
+          "start": 20.573,
+          "end": 20.873
+        },
+        {
+          "w": "here.",
+          "start": 20.873,
+          "end": 21.233
+        },
+        {
+          "w": "Unluckily,",
+          "start": 21.573,
+          "end": 21.893
+        },
+        {
+          "w": "time",
+          "start": 22.193,
+          "end": 22.453
+        },
+        {
+          "w": "outside",
+          "start": 22.453,
+          "end": 22.633
+        },
+        {
+          "w": "just",
+          "start": 22.633,
+          "end": 23.093
+        },
+        {
+          "w": "skipped",
+          "start": 23.093,
+          "end": 23.333
+        },
+        {
+          "w": "10",
+          "start": 23.333,
+          "end": 23.693
+        },
+        {
+          "w": "million",
+          "start": 23.693,
+          "end": 23.893
+        },
+        {
+          "w": "years.",
+          "start": 23.893,
+          "end": 24.293
+        }
+      ]
+    },
+    {
+      "i": 9,
+      "speaker": "warden",
+      "text": "You see, near an event horizon, gravity bends time like a trampoline under a bowling ball!",
+      "start": 24.783,
+      "speechEnd": 29.989,
+      "end": 30.109,
+      "words": [
+        {
+          "w": "You",
+          "start": 24.783,
+          "end": 24.863
+        },
+        {
+          "w": "see,",
+          "start": 24.863,
+          "end": 25.023
+        },
+        {
+          "w": "near",
+          "start": 25.263,
+          "end": 25.463
+        },
+        {
+          "w": "an",
+          "start": 25.463,
+          "end": 25.603
+        },
+        {
+          "w": "event",
+          "start": 25.603,
+          "end": 25.783
+        },
+        {
+          "w": "horizon,",
+          "start": 25.783,
+          "end": 26.223
+        },
+        {
+          "w": "gravity",
+          "start": 26.683,
+          "end": 26.803
+        },
+        {
+          "w": "bends",
+          "start": 26.803,
+          "end": 27.323
+        },
+        {
+          "w": "time",
+          "start": 27.323,
+          "end": 27.703
+        },
+        {
+          "w": "like",
+          "start": 27.703,
+          "end": 28.063
+        },
+        {
+          "w": "a",
+          "start": 28.063,
+          "end": 28.183
+        },
+        {
+          "w": "trampoline",
+          "start": 28.183,
+          "end": 28.723
+        },
+        {
+          "w": "under",
+          "start": 28.723,
+          "end": 29.023
+        },
+        {
+          "w": "a",
+          "start": 29.023,
+          "end": 29.203
+        },
+        {
+          "w": "bowling",
+          "start": 29.203,
+          "end": 29.463
+        },
+        {
+          "w": "ball.",
+          "start": 29.463,
+          "end": 29.863
+        }
+      ]
+    },
+    {
+      "i": 10,
+      "speaker": "mc",
+      "text": "Less astronomy, more money! Pull me back out!",
+      "start": 30.109,
+      "speechEnd": 32.175,
+      "end": 32.335,
+      "words": [
+        {
+          "w": "Less",
+          "start": 30.109,
+          "end": 30.249
+        },
+        {
+          "w": "astronomy,",
+          "start": 30.249,
+          "end": 30.469
+        },
+        {
+          "w": "more",
+          "start": 30.849,
+          "end": 30.929
+        },
+        {
+          "w": "money.",
+          "start": 30.929,
+          "end": 31.289
+        },
+        {
+          "w": "Pull",
+          "start": 31.509,
+          "end": 31.589
+        },
+        {
+          "w": "me",
+          "start": 31.589,
+          "end": 31.689
+        },
+        {
+          "w": "back",
+          "start": 31.689,
+          "end": 31.849
+        },
+        {
+          "w": "out.",
+          "start": 31.849,
+          "end": 32.049
+        }
+      ]
+    },
+    {
+      "i": 11,
+      "speaker": "warden",
+      "text": "Wait! With cosmic inflation, two thousand bucks in the future is worth\u2014",
+      "start": 32.335,
+      "speechEnd": 36.523,
+      "end": 36.663,
+      "words": [
+        {
+          "w": "Wait,",
+          "start": 32.335,
+          "end": 32.515
+        },
+        {
+          "w": "with",
+          "start": 32.715,
+          "end": 32.875
+        },
+        {
+          "w": "cosmic",
+          "start": 32.875,
+          "end": 33.155
+        },
+        {
+          "w": "inflation,",
+          "start": 33.155,
+          "end": 33.655
+        },
+        {
+          "w": "2",
+          "start": 34.175,
+          "end": 34.335
+        },
+        {
+          "w": ",000",
+          "start": 34.335,
+          "end": 34.795
+        },
+        {
+          "w": "bucks",
+          "start": 34.795,
+          "end": 35.055
+        },
+        {
+          "w": "in",
+          "start": 35.055,
+          "end": 35.375
+        },
+        {
+          "w": "the",
+          "start": 35.375,
+          "end": 35.495
+        },
+        {
+          "w": "future",
+          "start": 35.495,
+          "end": 35.775
+        },
+        {
+          "w": "is",
+          "start": 35.775,
+          "end": 36.135
+        },
+        {
+          "w": "worth...",
+          "start": 36.135,
+          "end": 36.495
+        }
+      ]
+    },
+    {
+      "i": 12,
+      "speaker": "mc",
+      "text": "I'M RICH, BABY!",
+      "start": 36.663,
+      "speechEnd": 37.488,
+      "end": 37.788,
+      "words": [
+        {
+          "w": "I'm",
+          "start": 36.663,
+          "end": 36.783
+        },
+        {
+          "w": "rich,",
+          "start": 36.783,
+          "end": 36.923
+        },
+        {
+          "w": "baby.",
+          "start": 37.103,
+          "end": 37.203
+        }
+      ]
+    },
+    {
+      "i": 13,
+      "speaker": "mc",
+      "text": "Wait... why does the entire city look like sci-fi chrome?",
+      "start": 37.788,
+      "speechEnd": 40.569,
+      "end": 40.789,
+      "words": [
+        {
+          "w": "Wait,",
+          "start": 37.788,
+          "end": 37.908
+        },
+        {
+          "w": "why",
+          "start": 38.068,
+          "end": 38.268
+        },
+        {
+          "w": "does",
+          "start": 38.268,
+          "end": 38.368
+        },
+        {
+          "w": "the",
+          "start": 38.368,
+          "end": 38.508
+        },
+        {
+          "w": "entire",
+          "start": 38.508,
+          "end": 38.728
+        },
+        {
+          "w": "city",
+          "start": 38.728,
+          "end": 39.108
+        },
+        {
+          "w": "look",
+          "start": 39.108,
+          "end": 39.348
+        },
+        {
+          "w": "like",
+          "start": 39.348,
+          "end": 39.488
+        },
+        {
+          "w": "sci",
+          "start": 39.488,
+          "end": 39.748
+        },
+        {
+          "w": "-fi",
+          "start": 39.748,
+          "end": 40.008
+        },
+        {
+          "w": "chrome?",
+          "start": 40.008,
+          "end": 40.308
+        }
+      ]
+    },
+    {
+      "i": 14,
+      "speaker": "mc",
+      "text": "I survived a black hole! Where's my two thousand bucks?",
+      "start": 40.789,
+      "speechEnd": 43.316,
+      "end": 43.536,
+      "words": [
+        {
+          "w": "I",
+          "start": 40.789,
+          "end": 40.909
+        },
+        {
+          "w": "survived",
+          "start": 40.909,
+          "end": 41.109
+        },
+        {
+          "w": "a",
+          "start": 41.109,
+          "end": 41.389
+        },
+        {
+          "w": "black",
+          "start": 41.389,
+          "end": 41.529
+        },
+        {
+          "w": "hole.",
+          "start": 41.529,
+          "end": 41.829
+        },
+        {
+          "w": "Where's",
+          "start": 42.129,
+          "end": 42.269
+        },
+        {
+          "w": "my",
+          "start": 42.269,
+          "end": 42.369
+        },
+        {
+          "w": "2000",
+          "start": 42.369,
+          "end": 42.629
+        },
+        {
+          "w": "bucks?",
+          "start": 42.629,
+          "end": 43.049
+        }
+      ]
+    },
+    {
+      "i": 15,
+      "speaker": "host",
+      "text": "Here's two grand, kid. In year ten million, it buys one crumb of space-toast.",
+      "start": 43.536,
+      "speechEnd": 47.083,
+      "end": 47.143,
+      "words": [
+        {
+          "w": "Here's",
+          "start": 43.536,
+          "end": 43.716
+        },
+        {
+          "w": "two",
+          "start": 43.716,
+          "end": 43.856
+        },
+        {
+          "w": "grandkid,",
+          "start": 43.856,
+          "end": 44.376
+        },
+        {
+          "w": "and",
+          "start": 44.676,
+          "end": 44.736
+        },
+        {
+          "w": "year",
+          "start": 44.736,
+          "end": 44.876
+        },
+        {
+          "w": "10",
+          "start": 44.876,
+          "end": 45.116
+        },
+        {
+          "w": "million",
+          "start": 45.116,
+          "end": 45.336
+        },
+        {
+          "w": "it",
+          "start": 45.336,
+          "end": 45.516
+        },
+        {
+          "w": "buys",
+          "start": 45.516,
+          "end": 45.676
+        },
+        {
+          "w": "one",
+          "start": 45.676,
+          "end": 46.016
+        },
+        {
+          "w": "crumb",
+          "start": 46.016,
+          "end": 46.336
+        },
+        {
+          "w": "of",
+          "start": 46.336,
+          "end": 46.396
+        },
+        {
+          "w": "space",
+          "start": 46.396,
+          "end": 46.576
+        },
+        {
+          "w": "toast.",
+          "start": 46.576,
+          "end": 46.836
+        }
+      ]
+    }
+  ]
+}

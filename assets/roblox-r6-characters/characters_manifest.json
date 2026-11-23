@@ -1,0 +1,210 @@
+[
+  {
+    "id": "01_Alex_Protagonist",
+    "display_name": "Alex (Protagonist)",
+    "role": "Main Hero / Story Narrator",
+    "feminine": false,
+    "body_colors": {
+      "head": "#F2C9A0",
+      "torso": "#F2C9A0",
+      "left_arm": "#F2C9A0",
+      "right_arm": "#F2C9A0",
+      "left_leg": "#F2C9A0",
+      "right_leg": "#F2C9A0"
+    },
+    "face": "face_check_it",
+    "shirt": "shirt_denim_hoodie",
+    "pants": "pants_black_white",
+    "accessories": [
+      "pal_hair"
+    ],
+    "extra_accessories": [
+      "red_roblox_cap"
+    ],
+    "pose": "hero_wave",
+    "atlas_path": "c:\\Users\\AFADAZIO\\OneDrive\\Desktop\\shortmaking\\assets\\roblox-r6-characters\\textures\\01_Alex_Protagonist_atlas.png"
+  },
+  {
+    "id": "02_Noob_BestFriend",
+    "display_name": "Noob (Best Friend)",
+    "role": "Classic Goofy Best Friend / Comic Relief",
+    "feminine": false,
+    "body_colors": {
+      "head": "#F5CD30",
+      "torso": "#0D69AC",
+      "left_arm": "#F5CD30",
+      "right_arm": "#F5CD30",
+      "left_leg": "#A4BD47",
+      "right_leg": "#A4BD47"
+    },
+    "face": "face_silly_fun",
+    "shirt": null,
+    "pants": null,
+    "accessories": [
+      "red_roblox_cap"
+    ],
+    "extra_accessories": [
+      "propeller_beanie"
+    ],
+    "pose": "noob_excited",
+    "atlas_path": "c:\\Users\\AFADAZIO\\OneDrive\\Desktop\\shortmaking\\assets\\roblox-r6-characters\\textures\\02_Noob_BestFriend_atlas.png"
+  },
+  {
+    "id": "03_RichKid_Dominus",
+    "display_name": "Rich Kid (Dominus)",
+    "role": "Rich Flexer / Billionaire Rival",
+    "feminine": false,
+    "body_colors": {
+      "head": "#F5D5B8",
+      "torso": "#1B1D24",
+      "left_arm": "#F5D5B8",
+      "right_arm": "#F5D5B8",
+      "left_leg": "#1B1D24",
+      "right_leg": "#1B1D24"
+    },
+    "face": "face_chill",
+    "shirt": "__CUSTOM_ROYAL_TUXEDO__",
+    "pants": "pants_black_slacks",
+    "accessories": [
+      "dominus_empyreus",
+      "clockwork_shades"
+    ],
+    "extra_accessories": [
+      "domino_crown"
+    ],
+    "pose": "rich_flex",
+    "atlas_path": "c:\\Users\\AFADAZIO\\OneDrive\\Desktop\\shortmaking\\assets\\roblox-r6-characters\\textures\\03_RichKid_Dominus_atlas.png"
+  },
+  {
+    "id": "04_Maya_BestFriend",
+    "display_name": "Maya (Best Friend)",
+    "role": "Cool Girl / Smart Best Friend / Sister",
+    "feminine": true,
+    "body_colors": {
+      "head": "#F0C4A0",
+      "torso": "#F0C4A0",
+      "left_arm": "#F0C4A0",
+      "right_arm": "#F0C4A0",
+      "left_leg": "#F0C4A0",
+      "right_leg": "#F0C4A0"
+    },
+    "face": "face_sshf",
+    "shirt": "shirt_pastel_jacket",
+    "pants": "pants_beautiful_you",
+    "accessories": [
+      "beautiful_hair",
+      "rose_glasses"
+    ],
+    "extra_accessories": [
+      "roblox_girl_hair",
+      "chestnut_bun"
+    ],
+    "pose": "maya_cheer",
+    "atlas_path": "c:\\Users\\AFADAZIO\\OneDrive\\Desktop\\shortmaking\\assets\\roblox-r6-characters\\textures\\04_Maya_BestFriend_atlas.png"
+  },
+  {
+    "id": "05_Dad_Principal",
+    "display_name": "Dad / Principal",
+    "role": "Strict Dad / Teacher / Principal",
+    "feminine": false,
+    "body_colors": {
+      "head": "#E5B58B",
+      "torso": "#E5B58B",
+      "left_arm": "#E5B58B",
+      "right_arm": "#E5B58B",
+      "left_leg": "#E5B58B",
+      "right_leg": "#E5B58B"
+    },
+    "face": "face_man",
+    "shirt": "shirt_blue_plaid",
+    "pants": "pants_black_slacks",
+    "accessories": [
+      "classic_fedora",
+      "nerd_glasses"
+    ],
+    "extra_accessories": [
+      "shaggy"
+    ],
+    "pose": "dad_lecture",
+    "atlas_path": "c:\\Users\\AFADAZIO\\OneDrive\\Desktop\\shortmaking\\assets\\roblox-r6-characters\\textures\\05_Dad_Principal_atlas.png"
+  },
+  {
+    "id": "06_Hacker_Glitch",
+    "display_name": "Hacker (Chaos)",
+    "role": "Chaos Hacker / Prankster Villain",
+    "feminine": false,
+    "body_colors": {
+      "head": "#3A3E4C",
+      "torso": "#1E2028",
+      "left_arm": "#3A3E4C",
+      "right_arm": "#3A3E4C",
+      "left_leg": "#1E2028",
+      "right_leg": "#1E2028"
+    },
+    "face": "face_err",
+    "shirt": "shirt_guitar_black",
+    "pants": "pants_ripped_skater",
+    "accessories": [
+      "void_star",
+      "midnight_shades",
+      "bandit_mask"
+    ],
+    "extra_accessories": [
+      "domino_crown"
+    ],
+    "pose": "hacker_scheme",
+    "atlas_path": "c:\\Users\\AFADAZIO\\OneDrive\\Desktop\\shortmaking\\assets\\roblox-r6-characters\\textures\\06_Hacker_Glitch_atlas.png"
+  },
+  {
+    "id": "07_Admin_Boss",
+    "display_name": "Admin (Boss)",
+    "role": "Roblox Admin / Judge / Final Boss",
+    "feminine": false,
+    "body_colors": {
+      "head": "#F2C9A0",
+      "torso": "#1E2A44",
+      "left_arm": "#F2C9A0",
+      "right_arm": "#F2C9A0",
+      "left_leg": "#1E2A44",
+      "right_leg": "#1E2A44"
+    },
+    "face": "face_skeptic",
+    "shirt": "shirt_moto_blue",
+    "pants": "pants_black_sneak",
+    "accessories": [
+      "valkyrie_helm",
+      "swordpack"
+    ],
+    "extra_accessories": [
+      "clockwork_shades"
+    ],
+    "pose": "admin_power",
+    "atlas_path": "c:\\Users\\AFADAZIO\\OneDrive\\Desktop\\shortmaking\\assets\\roblox-r6-characters\\textures\\07_Admin_Boss_atlas.png"
+  },
+  {
+    "id": "08_Chloe_Rival",
+    "display_name": "Chloe (Rival)",
+    "role": "Popular Rival / Sassy Classmate / Karen",
+    "feminine": true,
+    "body_colors": {
+      "head": "#EAC096",
+      "torso": "#EAC096",
+      "left_arm": "#EAC096",
+      "right_arm": "#EAC096",
+      "left_leg": "#EAC096",
+      "right_leg": "#EAC096"
+    },
+    "face": "face_woman",
+    "shirt": "shirt_purple_teal",
+    "pants": "pants_jean_shorts",
+    "accessories": [
+      "lavender_updo",
+      "stylish_aviators"
+    ],
+    "extra_accessories": [
+      "blonde_spiked_hair"
+    ],
+    "pose": "chloe_sass",
+    "atlas_path": "c:\\Users\\AFADAZIO\\OneDrive\\Desktop\\shortmaking\\assets\\roblox-r6-characters\\textures\\08_Chloe_Rival_atlas.png"
+  }
+]

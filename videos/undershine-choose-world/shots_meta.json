@@ -1,0 +1,125 @@
+{
+  "fps": 30,
+  "total_frames": 1619,
+  "shots": [
+    {
+      "name": "00_Orrery_Countdown",
+      "start_frame": 1,
+      "end_frame": 160,
+      "start_sec": 0.0,
+      "end_sec": 5.333
+    },
+    {
+      "name": "01_W1_Globe",
+      "start_frame": 161,
+      "end_frame": 188,
+      "start_sec": 5.333,
+      "end_sec": 6.267
+    },
+    {
+      "name": "02_W1_LowLighthouse",
+      "start_frame": 189,
+      "end_frame": 309,
+      "start_sec": 6.267,
+      "end_sec": 10.3
+    },
+    {
+      "name": "03_W1_IsoShadow",
+      "start_frame": 310,
+      "end_frame": 430,
+      "start_sec": 10.3,
+      "end_sec": 14.333
+    },
+    {
+      "name": "04_W1_DeckWatch",
+      "start_frame": 431,
+      "end_frame": 544,
+      "start_sec": 14.333,
+      "end_sec": 18.133
+    },
+    {
+      "name": "05_W2_Globe",
+      "start_frame": 545,
+      "end_frame": 572,
+      "start_sec": 18.133,
+      "end_sec": 19.067
+    },
+    {
+      "name": "06_W2_BirdsEye",
+      "start_frame": 573,
+      "end_frame": 697,
+      "start_sec": 19.067,
+      "end_sec": 23.233
+    },
+    {
+      "name": "07_W2_SideParallax",
+      "start_frame": 698,
+      "end_frame": 822,
+      "start_sec": 23.233,
+      "end_sec": 27.4
+    },
+    {
+      "name": "08_W2_DutchMacro",
+      "start_frame": 823,
+      "end_frame": 940,
+      "start_sec": 27.4,
+      "end_sec": 31.333
+    },
+    {
+      "name": "09_W3_Globe",
+      "start_frame": 941,
+      "end_frame": 968,
+      "start_sec": 31.333,
+      "end_sec": 32.267
+    },
+    {
+      "name": "10_W3_IsoHarbour",
+      "start_frame": 969,
+      "end_frame": 1064,
+      "start_sec": 32.267,
+      "end_sec": 35.467
+    },
+    {
+      "name": "11_W3_PeekBalcony",
+      "start_frame": 1065,
+      "end_frame": 1161,
+      "start_sec": 35.467,
+      "end_sec": 38.7
+    },
+    {
+      "name": "12_W3_SpireTwilight",
+      "start_frame": 1162,
+      "end_frame": 1252,
+      "start_sec": 38.7,
+      "end_sec": 41.733
+    },
+    {
+      "name": "13_W4_Globe",
+      "start_frame": 1253,
+      "end_frame": 1280,
+      "start_sec": 41.733,
+      "end_sec": 42.667
+    },
+    {
+      "name": "14_W4_CraneCrater",
+      "start_frame": 1281,
+      "end_frame": 1395,
+      "start_sec": 42.667,
+      "end_sec": 46.5
+    },
+    {
+      "name": "15_W4_LowFurnace",
+      "start_frame": 1396,
+      "end_frame": 1510,
+      "start_sec": 46.5,
+      "end_sec": 50.333
+    },
+    {
+      "name": "16_W4_PullbackReveal",
+      "start_frame": 1511,
+      "end_frame": 1619,
+      "start_sec": 50.333,
+      "end_sec": 53.967
+    }
+  ]
+}

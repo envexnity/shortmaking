@@ -1,0 +1,920 @@
+{
+  "voice": "edge:en-AU-WilliamNeural",
+  "total": 52.868,
+  "beats": [
+    {
+      "i": 0,
+      "text": "Movies say a black hole sucks you in like a cosmic vacuum cleaner. That\u2019s the rule.",
+      "start": 0.25,
+      "end": 4.667,
+      "speechEnd": 4.507,
+      "words": [
+        {
+          "w": "Movies",
+          "start": 0.25,
+          "end": 0.51
+        },
+        {
+          "w": "say",
+          "start": 0.51,
+          "end": 0.79
+        },
+        {
+          "w": "a",
+          "start": 0.79,
+          "end": 0.89
+        },
+        {
+          "w": "black",
+          "start": 0.89,
+          "end": 1.09
+        },
+        {
+          "w": "hole",
+          "start": 1.09,
+          "end": 1.35
+        },
+        {
+          "w": "sucks",
+          "start": 1.35,
+          "end": 1.67
+        },
+        {
+          "w": "you",
+          "start": 1.67,
+          "end": 1.89
+        },
+        {
+          "w": "in",
+          "start": 1.89,
+          "end": 2.09
+        },
+        {
+          "w": "like",
+          "start": 2.09,
+          "end": 2.25
+        },
+        {
+          "w": "a",
+          "start": 2.25,
+          "end": 2.37
+        },
+        {
+          "w": "cosmic",
+          "start": 2.37,
+          "end": 2.61
+        },
+        {
+          "w": "vacuum",
+          "start": 2.61,
+          "end": 2.97
+        },
+        {
+          "w": "cleaner,",
+          "start": 2.97,
+          "end": 3.25
+        },
+        {
+          "w": "that's",
+          "start": 3.67,
+          "end": 3.97
+        },
+        {
+          "w": "the",
+          "start": 3.97,
+          "end": 4.09
+        },
+        {
+          "w": "rule.",
+          "start": 4.09,
+          "end": 4.29
+        }
+      ]
+    },
+    {
+      "i": 1,
+      "text": "Until gravity pulls your boots a million times harder than your helmet.",
+      "start": 4.667,
+      "end": 8.018,
+      "speechEnd": 7.858,
+      "words": [
+        {
+          "w": "until",
+          "start": 4.667,
+          "end": 4.887
+        },
+        {
+          "w": "gravity",
+          "start": 4.887,
+          "end": 5.167
+        },
+        {
+          "w": "pulls",
+          "start": 5.167,
+          "end": 5.587
+        },
+        {
+          "w": "your",
+          "start": 5.587,
+          "end": 5.787
+        },
+        {
+          "w": "boots",
+          "start": 5.787,
+          "end": 5.967
+        },
+        {
+          "w": "a",
+          "start": 5.967,
+          "end": 6.147
+        },
+        {
+          "w": "million",
+          "start": 6.147,
+          "end": 6.387
+        },
+        {
+          "w": "times",
+          "start": 6.387,
+          "end": 6.727
+        },
+        {
+          "w": "harder",
+          "start": 6.727,
+          "end": 7.027
+        },
+        {
+          "w": "than",
+          "start": 7.027,
+          "end": 7.307
+        },
+        {
+          "w": "your",
+          "start": 7.307,
+          "end": 7.407
+        },
+        {
+          "w": "helmet.",
+          "start": 7.407,
+          "end": 7.607
+        }
+      ]
+    },
+    {
+      "i": 2,
+      "text": "Killer number one: spaghettification.",
+      "start": 8.018,
+      "end": 10.315,
+      "speechEnd": 10.155,
+      "words": [
+        {
+          "w": "Killer",
+          "start": 8.018,
+          "end": 8.218
+        },
+        {
+          "w": "number",
+          "start": 8.218,
+          "end": 8.478
+        },
+        {
+          "w": "one,",
+          "start": 8.478,
+          "end": 8.778
+        },
+        {
+          "w": "spaghettification.",
+          "start": 8.958,
+          "end": 9.878
+        }
+      ]
+    },
+    {
+      "i": 3,
+      "text": "Three hundred kilometers from a stellar black hole, tidal gravity stretches your spine vertically while crushing your shoulders inward like a tube of toothpaste.",
+      "start": 10.315,
+      "end": 17.608,
+      "speechEnd": 17.448,
+      "words": [
+        {
+          "w": "300",
+          "start": 10.315,
+          "end": 10.575
+        },
+        {
+          "w": "km",
+          "start": 10.575,
+          "end": 10.935
+        },
+        {
+          "w": "from",
+          "start": 10.935,
+          "end": 11.395
+        },
+        {
+          "w": "a",
+          "start": 11.395,
+          "end": 11.455
+        },
+        {
+          "w": "stellar",
+          "start": 11.455,
+          "end": 11.675
+        },
+        {
+          "w": "black",
+          "start": 11.675,
+          "end": 11.935
+        },
+        {
+          "w": "hole,",
+          "start": 11.935,
+          "end": 12.175
+        },
+        {
+          "w": "tidal",
+          "start": 12.475,
+          "end": 12.675
+        },
+        {
+          "w": "gravity",
+          "start": 12.675,
+          "end": 13.015
+        },
+        {
+          "w": "stretches",
+          "start": 13.015,
+          "end": 13.455
+        },
+        {
+          "w": "your",
+          "start": 13.455,
+          "end": 13.735
+        },
+        {
+          "w": "spine",
+          "start": 13.735,
+          "end": 13.955
+        },
+        {
+          "w": "vertically",
+          "start": 13.955,
+          "end": 14.355
+        },
+        {
+          "w": "while",
+          "start": 14.355,
+          "end": 14.775
+        },
+        {
+          "w": "crushing",
+          "start": 14.775,
+          "end": 14.995
+        },
+        {
+          "w": "your",
+          "start": 14.995,
+          "end": 15.275
+        },
+        {
+          "w": "shoulders",
+          "start": 15.275,
+          "end": 15.555
+        },
+        {
+          "w": "inward",
+          "start": 15.555,
+          "end": 15.915
+        },
+        {
+          "w": "like",
+          "start": 15.915,
+          "end": 16.255
+        },
+        {
+          "w": "a",
+          "start": 16.255,
+          "end": 16.375
+        },
+        {
+          "w": "tube",
+          "start": 16.375,
+          "end": 16.555
+        },
+        {
+          "w": "of",
+          "start": 16.555,
+          "end": 16.775
+        },
+        {
+          "w": "toothpaste.",
+          "start": 16.775,
+          "end": 17.175
+        }
+      ]
+    },
+    {
+      "i": 4,
+      "text": "Before you even touch the edge, you\u2019re a stream of superheated plasma.",
+      "start": 17.608,
+      "end": 21.417,
+      "speechEnd": 21.257,
+      "words": [
+        {
+          "w": "Before",
+          "start": 17.608,
+          "end": 17.848
+        },
+        {
+          "w": "you",
+          "start": 17.848,
+          "end": 18.028
+        },
+        {
+          "w": "even",
+          "start": 18.028,
+          "end": 18.248
+        },
+        {
+          "w": "touch",
+          "start": 18.248,
+          "end": 18.488
+        },
+        {
+          "w": "the",
+          "start": 18.488,
+          "end": 18.688
+        },
+        {
+          "w": "edge,",
+          "start": 18.688,
+          "end": 18.928
+        },
+        {
+          "w": "you're",
+          "start": 19.228,
+          "end": 19.408
+        },
+        {
+          "w": "a",
+          "start": 19.408,
+          "end": 19.468
+        },
+        {
+          "w": "stream",
+          "start": 19.468,
+          "end": 19.728
+        },
+        {
+          "w": "of",
+          "start": 19.728,
+          "end": 20.028
+        },
+        {
+          "w": "super-heated",
+          "start": 20.028,
+          "end": 20.708
+        },
+        {
+          "w": "plasma.",
+          "start": 20.708,
+          "end": 20.928
+        }
+      ]
+    },
+    {
+      "i": 5,
+      "text": "Killer number two: time breaks in half.",
+      "start": 21.417,
+      "end": 23.729,
+      "speechEnd": 23.569,
+      "words": [
+        {
+          "w": "Kill",
+          "start": 21.417,
+          "end": 21.557
+        },
+        {
+          "w": "a",
+          "start": 21.557,
+          "end": 21.657
+        },
+        {
+          "w": "number",
+          "start": 21.657,
+          "end": 21.797
+        },
+        {
+          "w": "2,",
+          "start": 21.797,
+          "end": 22.097
+        },
+        {
+          "w": "time",
+          "start": 22.357,
+          "end": 22.617
+        },
+        {
+          "w": "breaks",
+          "start": 22.617,
+          "end": 22.877
+        },
+        {
+          "w": "in",
+          "start": 22.877,
+          "end": 23.097
+        },
+        {
+          "w": "half.",
+          "start": 23.097,
+          "end": 23.317
+        }
+      ]
+    },
+    {
+      "i": 6,
+      "text": "You see, extreme gravity bends time itself \u2014 so your crewmates watch you freeze and turn blood-red at the border forever.",
+      "start": 23.729,
+      "end": 29.951,
+      "speechEnd": 29.791,
+      "words": [
+        {
+          "w": "You",
+          "start": 23.729,
+          "end": 23.869
+        },
+        {
+          "w": "see,",
+          "start": 23.869,
+          "end": 24.069
+        },
+        {
+          "w": "extreme",
+          "start": 24.429,
+          "end": 24.649
+        },
+        {
+          "w": "gravity",
+          "start": 24.649,
+          "end": 25.129
+        },
+        {
+          "w": "bends",
+          "start": 25.129,
+          "end": 25.469
+        },
+        {
+          "w": "time",
+          "start": 25.469,
+          "end": 25.749
+        },
+        {
+          "w": "itself,",
+          "start": 25.749,
+          "end": 26.129
+        },
+        {
+          "w": "so",
+          "start": 26.449,
+          "end": 26.609
+        },
+        {
+          "w": "your",
+          "start": 26.609,
+          "end": 26.729
+        },
+        {
+          "w": "crew",
+          "start": 26.729,
+          "end": 26.949
+        },
+        {
+          "w": "mates",
+          "start": 26.949,
+          "end": 27.149
+        },
+        {
+          "w": "watch",
+          "start": 27.149,
+          "end": 27.369
+        },
+        {
+          "w": "you",
+          "start": 27.369,
+          "end": 27.529
+        },
+        {
+          "w": "freeze",
+          "start": 27.529,
+          "end": 27.709
+        },
+        {
+          "w": "and",
+          "start": 27.709,
+          "end": 28.029
+        },
+        {
+          "w": "turn",
+          "start": 28.029,
+          "end": 28.209
+        },
+        {
+          "w": "blood",
+          "start": 28.209,
+          "end": 28.469
+        },
+        {
+          "w": "red",
+          "start": 28.469,
+          "end": 28.669
+        },
+        {
+          "w": "at",
+          "start": 28.669,
+          "end": 28.869
+        },
+        {
+          "w": "the",
+          "start": 28.869,
+          "end": 28.969
+        },
+        {
+          "w": "border",
+          "start": 28.969,
+          "end": 29.169
+        },
+        {
+          "w": "forever.",
+          "start": 29.169,
+          "end": 29.489
+        }
+      ]
+    },
+    {
+      "i": 7,
+      "text": "Meanwhile, looking back up, you watch billions of years of cosmic history fast-forward in seconds.",
+      "start": 29.951,
+      "end": 34.998,
+      "speechEnd": 34.838,
+      "words": [
+        {
+          "w": "Meanwhile,",
+          "start": 29.951,
+          "end": 30.291
+        },
+        {
+          "w": "looking",
+          "start": 30.731,
+          "end": 30.931
+        },
+        {
+          "w": "back",
+          "start": 30.931,
+          "end": 31.131
+        },
+        {
+          "w": "up,",
+          "start": 31.131,
+          "end": 31.371
+        },
+        {
+          "w": "you",
+          "start": 31.651,
+          "end": 31.731
+        },
+        {
+          "w": "watch",
+          "start": 31.731,
+          "end": 31.871
+        },
+        {
+          "w": "billions",
+          "start": 31.871,
+          "end": 32.171
+        },
+        {
+          "w": "of",
+          "start": 32.171,
+          "end": 32.471
+        },
+        {
+          "w": "years",
+          "start": 32.471,
+          "end": 32.611
+        },
+        {
+          "w": "of",
+          "start": 32.611,
+          "end": 32.811
+        },
+        {
+          "w": "cosmic",
+          "start": 32.811,
+          "end": 33.011
+        },
+        {
+          "w": "history",
+          "start": 33.011,
+          "end": 33.331
+        },
+        {
+          "w": "fast",
+          "start": 33.331,
+          "end": 33.691
+        },
+        {
+          "w": "forward",
+          "start": 33.691,
+          "end": 34.051
+        },
+        {
+          "w": "in",
+          "start": 34.051,
+          "end": 34.251
+        },
+        {
+          "w": "seconds.",
+          "start": 34.251,
+          "end": 34.551
+        }
+      ]
+    },
+    {
+      "i": 8,
+      "text": "What can you do? Fire full thrusters? Inside the event horizon, space falls inward faster than light.",
+      "start": 34.998,
+      "end": 41.019,
+      "speechEnd": 40.859,
+      "words": [
+        {
+          "w": "What",
+          "start": 34.998,
+          "end": 35.198
+        },
+        {
+          "w": "can",
+          "start": 35.198,
+          "end": 35.398
+        },
+        {
+          "w": "you",
+          "start": 35.398,
+          "end": 35.558
+        },
+        {
+          "w": "do?",
+          "start": 35.558,
+          "end": 35.718
+        },
+        {
+          "w": "Fire full",
+          "start": 36.098,
+          "end": 36.618
+        },
+        {
+          "w": "thrusters?",
+          "start": 36.618,
+          "end": 37.058
+        },
+        {
+          "w": "Inside",
+          "start": 37.458,
+          "end": 37.698
+        },
+        {
+          "w": "the",
+          "start": 37.698,
+          "end": 37.918
+        },
+        {
+          "w": "event",
+          "start": 37.918,
+          "end": 38.058
+        },
+        {
+          "w": "horizon,",
+          "start": 38.058,
+          "end": 38.458
+        },
+        {
+          "w": "space",
+          "start": 38.958,
+          "end": 39.158
+        },
+        {
+          "w": "falls",
+          "start": 39.158,
+          "end": 39.458
+        },
+        {
+          "w": "inward",
+          "start": 39.458,
+          "end": 39.858
+        },
+        {
+          "w": "faster",
+          "start": 39.858,
+          "end": 40.198
+        },
+        {
+          "w": "than",
+          "start": 40.198,
+          "end": 40.478
+        },
+        {
+          "w": "light.",
+          "start": 40.478,
+          "end": 40.658
+        }
+      ]
+    },
+    {
+      "i": 9,
+      "text": "Pick a bigger monster, like M-eighty-seven star \u2014 six point five billion suns wide.",
+      "start": 41.019,
+      "end": 45.612,
+      "speechEnd": 45.452,
+      "words": [
+        {
+          "w": "Pick",
+          "start": 41.019,
+          "end": 41.139
+        },
+        {
+          "w": "a",
+          "start": 41.139,
+          "end": 41.259
+        },
+        {
+          "w": "bigger",
+          "start": 41.259,
+          "end": 41.399
+        },
+        {
+          "w": "monster,",
+          "start": 41.399,
+          "end": 41.799
+        },
+        {
+          "w": "like",
+          "start": 42.099,
+          "end": 42.279
+        },
+        {
+          "w": "a",
+          "start": 42.279,
+          "end": 42.399
+        },
+        {
+          "w": "M87*",
+          "start": 42.399,
+          "end": 42.659
+        },
+        {
+          "w": "star,",
+          "start": 42.659,
+          "end": 43.179
+        },
+        {
+          "w": "6.5",
+          "start": 43.459,
+          "end": 44.339
+        },
+        {
+          "w": "billion",
+          "start": 44.339,
+          "end": 44.579
+        },
+        {
+          "w": "suns",
+          "start": 44.579,
+          "end": 45.019
+        },
+        {
+          "w": "wide.",
+          "start": 45.019,
+          "end": 45.259
+        }
+      ]
+    },
+    {
+      "i": 10,
+      "text": "Its horizon is three times wider than Pluto\u2019s orbit, so you float across feeling zero pain \u2014 with nowhere left to swim back.",
+      "start": 45.612,
+      "end": 52.868,
+      "speechEnd": 51.868,
+      "words": [
+        {
+          "w": "Its",
+          "start": 45.612,
+          "end": 45.752
+        },
+        {
+          "w": "horizon",
+          "start": 45.752,
+          "end": 45.972
+        },
+        {
+          "w": "is",
+          "start": 45.972,
+          "end": 46.372
+        },
+        {
+          "w": "three",
+          "start": 46.372,
+          "end": 46.612
+        },
+        {
+          "w": "times",
+          "start": 46.612,
+          "end": 46.912
+        },
+        {
+          "w": "wider",
+          "start": 46.912,
+          "end": 47.192
+        },
+        {
+          "w": "than",
+          "start": 47.192,
+          "end": 47.452
+        },
+        {
+          "w": "Pluto's",
+          "start": 47.452,
+          "end": 47.852
+        },
+        {
+          "w": "orbit,",
+          "start": 47.852,
+          "end": 48.092
+        },
+        {
+          "w": "so",
+          "start": 48.392,
+          "end": 48.492
+        },
+        {
+          "w": "you",
+          "start": 48.492,
+          "end": 48.592
+        },
+        {
+          "w": "float",
+          "start": 48.592,
+          "end": 48.772
+        },
+        {
+          "w": "across",
+          "start": 48.772,
+          "end": 49.012
+        },
+        {
+          "w": "feeling",
+          "start": 49.012,
+          "end": 49.412
+        },
+        {
+          "w": "zero",
+          "start": 49.412,
+          "end": 49.692
+        },
+        {
+          "w": "pain,",
+          "start": 49.692,
+          "end": 50.112
+        },
+        {
+          "w": "with",
+          "start": 50.412,
+          "end": 50.532
+        },
+        {
+          "w": "nowhere",
+          "start": 50.532,
+          "end": 50.772
+        },
+        {
+          "w": "left",
+          "start": 50.772,
+          "end": 51.132
+        },
+        {
+          "w": "to",
+          "start": 51.132,
+          "end": 51.292
+        },
+        {
+          "w": "swim",
+          "start": 51.292,
+          "end": 51.452
+        },
+        {
+          "w": "back.",
+          "start": 51.452,
+          "end": 51.672
+        }
+      ]
+    }
+  ]
+}

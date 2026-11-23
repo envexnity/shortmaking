@@ -1,0 +1,777 @@
+{
+  "engine": "elevenlabs",
+  "model": "eleven_turbo_v2_5",
+  "total": 35.401,
+  "beats": [
+    {
+      "i": 0,
+      "speaker": "host",
+      "text": "For a thousand bucks, would you dig to the center of the Earth and touch the core?",
+      "start": 0.06,
+      "speechEnd": 3.577,
+      "end": 3.757,
+      "words": [
+        {
+          "w": "For",
+          "start": 0.06,
+          "end": 0.18
+        },
+        {
+          "w": "a",
+          "start": 0.18,
+          "end": 0.28
+        },
+        {
+          "w": "thousand",
+          "start": 0.28,
+          "end": 0.58
+        },
+        {
+          "w": "bucks,",
+          "start": 0.58,
+          "end": 0.92
+        },
+        {
+          "w": "would",
+          "start": 1.26,
+          "end": 1.4
+        },
+        {
+          "w": "you",
+          "start": 1.4,
+          "end": 1.54
+        },
+        {
+          "w": "dig",
+          "start": 1.54,
+          "end": 1.72
+        },
+        {
+          "w": "to",
+          "start": 1.72,
+          "end": 1.86
+        },
+        {
+          "w": "the",
+          "start": 1.86,
+          "end": 1.94
+        },
+        {
+          "w": "center",
+          "start": 1.94,
+          "end": 2.14
+        },
+        {
+          "w": "of",
+          "start": 2.14,
+          "end": 2.34
+        },
+        {
+          "w": "the",
+          "start": 2.34,
+          "end": 2.42
+        },
+        {
+          "w": "Earth",
+          "start": 2.42,
+          "end": 2.56
+        },
+        {
+          "w": "and",
+          "start": 2.56,
+          "end": 2.78
+        },
+        {
+          "w": "touch",
+          "start": 2.78,
+          "end": 2.96
+        },
+        {
+          "w": "the",
+          "start": 2.96,
+          "end": 3.18
+        },
+        {
+          "w": "core?",
+          "start": 3.18,
+          "end": 3.36
+        }
+      ]
+    },
+    {
+      "i": 1,
+      "speaker": "mrbeast",
+      "text": "No.",
+      "start": 3.757,
+      "speechEnd": 4.101,
+      "end": 4.401,
+      "words": [
+        {
+          "w": "No.",
+          "start": 3.757,
+          "end": 3.917
+        }
+      ]
+    },
+    {
+      "i": 2,
+      "speaker": "host",
+      "text": "For two thousand bucks, would you dig to the center of the Earth and touch the core?",
+      "start": 4.401,
+      "speechEnd": 7.674,
+      "end": 7.834,
+      "words": [
+        {
+          "w": "For",
+          "start": 4.401,
+          "end": 4.501
+        },
+        {
+          "w": "$2,000,",
+          "start": 4.501,
+          "end": 5.041
+        },
+        {
+          "w": "would",
+          "start": 5.321,
+          "end": 5.501
+        },
+        {
+          "w": "you",
+          "start": 5.501,
+          "end": 5.621
+        },
+        {
+          "w": "dig",
+          "start": 5.621,
+          "end": 5.841
+        },
+        {
+          "w": "to",
+          "start": 5.841,
+          "end": 5.981
+        },
+        {
+          "w": "the",
+          "start": 5.981,
+          "end": 6.061
+        },
+        {
+          "w": "center",
+          "start": 6.061,
+          "end": 6.281
+        },
+        {
+          "w": "of",
+          "start": 6.281,
+          "end": 6.461
+        },
+        {
+          "w": "the",
+          "start": 6.461,
+          "end": 6.541
+        },
+        {
+          "w": "Earth",
+          "start": 6.541,
+          "end": 6.701
+        },
+        {
+          "w": "and",
+          "start": 6.701,
+          "end": 6.901
+        },
+        {
+          "w": "touch",
+          "start": 6.901,
+          "end": 7.081
+        },
+        {
+          "w": "the",
+          "start": 7.081,
+          "end": 7.301
+        },
+        {
+          "w": "core?",
+          "start": 7.301,
+          "end": 7.441
+        }
+      ]
+    },
+    {
+      "i": 3,
+      "speaker": "mc",
+      "text": "Two grand? Say less.",
+      "start": 7.834,
+      "speechEnd": 9.073,
+      "end": 9.293,
+      "words": [
+        {
+          "w": "Two",
+          "start": 7.834,
+          "end": 7.954
+        },
+        {
+          "w": "grand,",
+          "start": 7.954,
+          "end": 8.174
+        },
+        {
+          "w": "say",
+          "start": 8.494,
+          "end": 8.674
+        },
+        {
+          "w": "less.",
+          "start": 8.674,
+          "end": 8.874
+        }
+      ]
+    },
+    {
+      "i": 4,
+      "speaker": "mc",
+      "text": "How deep can it even be\u2014 uh oh.",
+      "start": 9.293,
+      "speechEnd": 11.32,
+      "end": 11.57,
+      "words": [
+        {
+          "w": "How",
+          "start": 9.293,
+          "end": 9.433
+        },
+        {
+          "w": "deep",
+          "start": 9.433,
+          "end": 9.613
+        },
+        {
+          "w": "can",
+          "start": 9.613,
+          "end": 9.833
+        },
+        {
+          "w": "it",
+          "start": 9.833,
+          "end": 9.973
+        },
+        {
+          "w": "even",
+          "start": 9.973,
+          "end": 10.133
+        },
+        {
+          "w": "be?",
+          "start": 10.133,
+          "end": 10.433
+        },
+        {
+          "w": "Uh",
+          "start": 10.773,
+          "end": 10.833
+        },
+        {
+          "w": "oh.",
+          "start": 10.833,
+          "end": 11.053
+        }
+      ]
+    },
+    {
+      "i": 5,
+      "speaker": "rat",
+      "text": "Bro, use a door!",
+      "start": 11.57,
+      "speechEnd": 12.769,
+      "end": 12.909,
+      "words": [
+        {
+          "w": "Bro,",
+          "start": 11.57,
+          "end": 11.77
+        },
+        {
+          "w": "use",
+          "start": 12.09,
+          "end": 12.23
+        },
+        {
+          "w": "a",
+          "start": 12.23,
+          "end": 12.37
+        },
+        {
+          "w": "door.",
+          "start": 12.37,
+          "end": 12.57
+        }
+      ]
+    },
+    {
+      "i": 6,
+      "speaker": "mc",
+      "text": "My bad, wrong basement!",
+      "start": 12.909,
+      "speechEnd": 14.122,
+      "end": 14.272,
+      "words": [
+        {
+          "w": "My",
+          "start": 12.909,
+          "end": 13.029
+        },
+        {
+          "w": "bad",
+          "start": 13.029,
+          "end": 13.229
+        },
+        {
+          "w": "wrong",
+          "start": 13.229,
+          "end": 13.449
+        },
+        {
+          "w": "basement.",
+          "start": 13.449,
+          "end": 13.729
+        }
+      ]
+    },
+    {
+      "i": 7,
+      "speaker": "mc",
+      "text": "Okay, sick dinosaur helmet. Still worth two grand.",
+      "start": 14.272,
+      "speechEnd": 16.951,
+      "end": 17.151,
+      "words": [
+        {
+          "w": "Okay,",
+          "start": 14.272,
+          "end": 14.472
+        },
+        {
+          "w": "Sick",
+          "start": 14.752,
+          "end": 14.932
+        },
+        {
+          "w": "dinosaur",
+          "start": 14.932,
+          "end": 15.232
+        },
+        {
+          "w": "helmet.",
+          "start": 15.232,
+          "end": 15.592
+        },
+        {
+          "w": "Still",
+          "start": 15.892,
+          "end": 16.032
+        },
+        {
+          "w": "worth",
+          "start": 16.032,
+          "end": 16.212
+        },
+        {
+          "w": "two",
+          "start": 16.212,
+          "end": 16.412
+        },
+        {
+          "w": "grand.",
+          "start": 16.412,
+          "end": 16.672
+        }
+      ]
+    },
+    {
+      "i": 8,
+      "speaker": "mc",
+      "text": "Luckily, I brought a shovel. Unluckily, the shovel just melted.",
+      "start": 17.151,
+      "speechEnd": 20.25,
+      "end": 20.4,
+      "words": [
+        {
+          "w": "Luckily,",
+          "start": 17.151,
+          "end": 17.391
+        },
+        {
+          "w": "I",
+          "start": 17.611,
+          "end": 17.671
+        },
+        {
+          "w": "brought",
+          "start": 17.671,
+          "end": 17.851
+        },
+        {
+          "w": "a",
+          "start": 17.851,
+          "end": 17.971
+        },
+        {
+          "w": "shovel.",
+          "start": 17.971,
+          "end": 18.211
+        },
+        {
+          "w": "Unluckily,",
+          "start": 18.631,
+          "end": 19.011
+        },
+        {
+          "w": "the",
+          "start": 19.231,
+          "end": 19.251
+        },
+        {
+          "w": "shovel",
+          "start": 19.251,
+          "end": 19.451
+        },
+        {
+          "w": "just",
+          "start": 19.451,
+          "end": 19.711
+        },
+        {
+          "w": "melted.",
+          "start": 19.711,
+          "end": 19.971
+        }
+      ]
+    },
+    {
+      "i": 9,
+      "speaker": "mc",
+      "text": "Why is the dirt spicy?! This better be crisp cash!",
+      "start": 20.4,
+      "speechEnd": 23.039,
+      "end": 23.189,
+      "words": [
+        {
+          "w": "Why",
+          "start": 20.4,
+          "end": 20.52
+        },
+        {
+          "w": "is",
+          "start": 20.52,
+          "end": 20.66
+        },
+        {
+          "w": "the",
+          "start": 20.66,
+          "end": 20.76
+        },
+        {
+          "w": "dirt",
+          "start": 20.76,
+          "end": 20.9
+        },
+        {
+          "w": "spicy?",
+          "start": 20.9,
+          "end": 21.2
+        },
+        {
+          "w": "This",
+          "start": 21.76,
+          "end": 21.84
+        },
+        {
+          "w": "better",
+          "start": 21.84,
+          "end": 22.08
+        },
+        {
+          "w": "be",
+          "start": 22.08,
+          "end": 22.24
+        },
+        {
+          "w": "crisp",
+          "start": 22.24,
+          "end": 22.44
+        },
+        {
+          "w": "cash.",
+          "start": 22.44,
+          "end": 22.72
+        }
+      ]
+    },
+    {
+      "i": 10,
+      "speaker": "mc",
+      "text": "Wait... the core is just a giant heater?",
+      "start": 23.189,
+      "speechEnd": 25.032,
+      "end": 25.182,
+      "words": [
+        {
+          "w": "Wait,",
+          "start": 23.189,
+          "end": 23.309
+        },
+        {
+          "w": "the",
+          "start": 23.489,
+          "end": 23.629
+        },
+        {
+          "w": "core",
+          "start": 23.629,
+          "end": 23.809
+        },
+        {
+          "w": "is",
+          "start": 23.809,
+          "end": 24.009
+        },
+        {
+          "w": "just",
+          "start": 24.009,
+          "end": 24.169
+        },
+        {
+          "w": "a",
+          "start": 24.169,
+          "end": 24.289
+        },
+        {
+          "w": "giant",
+          "start": 24.289,
+          "end": 24.509
+        },
+        {
+          "w": "heater?",
+          "start": 24.509,
+          "end": 24.769
+        }
+      ]
+    },
+    {
+      "i": 11,
+      "speaker": "mc",
+      "text": "I'm turning the AC on.",
+      "start": 25.182,
+      "speechEnd": 26.523,
+      "end": 26.743,
+      "words": [
+        {
+          "w": "I'm",
+          "start": 25.182,
+          "end": 25.302
+        },
+        {
+          "w": "turning",
+          "start": 25.302,
+          "end": 25.482
+        },
+        {
+          "w": "the",
+          "start": 25.482,
+          "end": 25.702
+        },
+        {
+          "w": "AC",
+          "start": 25.702,
+          "end": 25.862
+        },
+        {
+          "w": "on.",
+          "start": 25.862,
+          "end": 26.282
+        }
+      ]
+    },
+    {
+      "i": 12,
+      "speaker": "guardian",
+      "text": "Wait, don't touch\u2014",
+      "start": 26.743,
+      "speechEnd": 27.73,
+      "end": 28.01,
+      "words": [
+        {
+          "w": "Wait,",
+          "start": 26.743,
+          "end": 26.903
+        },
+        {
+          "w": "don't",
+          "start": 27.123,
+          "end": 27.343
+        },
+        {
+          "w": "touch.",
+          "start": 27.343,
+          "end": 27.503
+        }
+      ]
+    },
+    {
+      "i": 13,
+      "speaker": "mc",
+      "text": "WORTH ITTTT!",
+      "start": 28.01,
+      "speechEnd": 28.997,
+      "end": 29.547,
+      "words": [
+        {
+          "w": "WORTH",
+          "start": 28.01,
+          "end": 28.25
+        },
+        {
+          "w": "IT!",
+          "start": 28.25,
+          "end": 28.9
+        }
+      ]
+    },
+    {
+      "i": 14,
+      "speaker": "mc",
+      "text": "I touched it. Where's my two thousand bucks?",
+      "start": 29.547,
+      "speechEnd": 31.655,
+      "end": 31.905,
+      "words": [
+        {
+          "w": "I",
+          "start": 29.547,
+          "end": 29.627
+        },
+        {
+          "w": "touched",
+          "start": 29.627,
+          "end": 29.827
+        },
+        {
+          "w": "it.",
+          "start": 29.827,
+          "end": 30.047
+        },
+        {
+          "w": "Where's",
+          "start": 30.287,
+          "end": 30.447
+        },
+        {
+          "w": "my",
+          "start": 30.447,
+          "end": 30.567
+        },
+        {
+          "w": "two",
+          "start": 30.567,
+          "end": 30.787
+        },
+        {
+          "w": "thousand",
+          "start": 30.787,
+          "end": 31.147
+        },
+        {
+          "w": "bucks?",
+          "start": 31.147,
+          "end": 31.547
+        }
+      ]
+    },
+    {
+      "i": 15,
+      "speaker": "host",
+      "text": "I said touch the hot core. That's ice. Best I can do is a thousand.",
+      "start": 31.905,
+      "speechEnd": 34.951,
+      "end": 35.401,
+      "words": [
+        {
+          "w": "I",
+          "start": 31.905,
+          "end": 32.005
+        },
+        {
+          "w": "said",
+          "start": 32.005,
+          "end": 32.185
+        },
+        {
+          "w": "touch",
+          "start": 32.185,
+          "end": 32.425
+        },
+        {
+          "w": "the",
+          "start": 32.425,
+          "end": 32.605
+        },
+        {
+          "w": "hot",
+          "start": 32.605,
+          "end": 32.725
+        },
+        {
+          "w": "core.",
+          "start": 32.725,
+          "end": 32.965
+        },
+        {
+          "w": "That's",
+          "start": 33.245,
+          "end": 33.425
+        },
+        {
+          "w": "ice.",
+          "start": 33.425,
+          "end": 33.525
+        },
+        {
+          "w": "Best",
+          "start": 33.885,
+          "end": 33.985
+        },
+        {
+          "w": "I",
+          "start": 33.985,
+          "end": 34.145
+        },
+        {
+          "w": "can",
+          "start": 34.145,
+          "end": 34.265
+        },
+        {
+          "w": "do",
+          "start": 34.265,
+          "end": 34.385
+        },
+        {
+          "w": "is",
+          "start": 34.385,
+          "end": 34.485
+        },
+        {
+          "w": "a",
+          "start": 34.485,
+          "end": 34.565
+        },
+        {
+          "w": "thousand.",
+          "start": 34.565,
+          "end": 34.725
+        }
+      ]
+    }
+  ]
+}

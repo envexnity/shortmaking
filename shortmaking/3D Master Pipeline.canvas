@@ -1,0 +1,56 @@
+{
+  "nodes": [
+    {"id":"g-brief","type":"group","x":-1100,"y":-420,"width":460,"height":780,"color":"6","label":"Stage 1 — Brief, Art Style Lock & 2D Reference"},
+    {"id":"g-geo","type":"group","x":-560,"y":-420,"width":520,"height":880,"color":"5","label":"Stage 2 — Geometry, Sculpting & Parametric CAD"},
+    {"id":"g-mat","type":"group","x":40,"y":-420,"width":540,"height":880,"color":"3","label":"Stage 3 — ArtCraft Procedural Materials & 3D Painting"},
+    {"id":"g-look","type":"group","x":660,"y":-420,"width":520,"height":880,"color":"2","label":"Stage 4 — Look-Dev, Lighting, Rigging & Shaders"},
+    {"id":"g-qa","type":"group","x":1260,"y":-420,"width":520,"height":880,"color":"1","label":"Stage 5 — Automated Gate, Visual Critic & Delivery"},
+
+    {"id":"n-agents","type":"file","file":"AGENTS.md","x":-1060,"y":-360,"width":380,"height":180,"color":"6"},
+    {"id":"n-style","type":"file","file":"20 Art Styles Encyclopedia/00 Art Style Selection Guide.md","x":-1060,"y":-140,"width":380,"height":200,"color":"6"},
+    {"id":"n-brief","type":"file","file":"90 Templates/3D Asset Brief.md","x":-1060,"y":100,"width":380,"height":200,"color":"6"},
+
+    {"id":"n-topo","type":"file","file":"10 Foundations & Geometry/Topology & Edge Flow Mastery.md","x":-520,"y":-360,"width":440,"height":170,"color":"5"},
+    {"id":"n-hs","type":"file","file":"10 Foundations & Geometry/Hard-Surface & SubD Modeling Playbook.md","x":-520,"y":-160,"width":440,"height":170,"color":"5"},
+    {"id":"n-org","type":"file","file":"10 Foundations & Geometry/Organic Sculpting, Retopology & Anatomy.md","x":-520,"y":40,"width":440,"height":170,"color":"5"},
+    {"id":"n-cad","type":"file","file":"10 Foundations & Geometry/Parametric CAD & 3D Printing (OpenSCAD, CadQuery, SolidCraft).md","x":-520,"y":240,"width":440,"height":180,"color":"5"},
+
+    {"id":"n-uv","type":"file","file":"10 Foundations & Geometry/UV Unwrapping, Texel Density & UDIMs.md","x":80,"y":-360,"width":460,"height":170,"color":"3"},
+    {"id":"n-mc","type":"file","file":"30 Materials, Textures & Shaders/MaterialCraft Mastery — Node Library & Procedural Graphs.md","x":80,"y":-160,"width":460,"height":180,"color":"3"},
+    {"id":"n-tc","type":"file","file":"30 Materials, Textures & Shaders/TextureCraft Mastery — Baking, Smart Materials & 3D Painting.md","x":80,"y":50,"width":460,"height":180,"color":"3"},
+    {"id":"n-bridge","type":"file","file":"30 Materials, Textures & Shaders/MaterialCraft-to-TextureCraft-to-Blender-to-Engine Bridge.md","x":80,"y":260,"width":460,"height":160,"color":"3"},
+
+    {"id":"n-light","type":"file","file":"40 Lighting, Cameras & Rendering/Lighting Design & Three-Point to Atmospheric Cinema.md","x":700,"y":-360,"width":440,"height":170,"color":"2"},
+    {"id":"n-color","type":"file","file":"40 Lighting, Cameras & Rendering/Color Management (AgX, Filmic, ACES) & Compositing.md","x":700,"y":-160,"width":440,"height":170,"color":"2"},
+    {"id":"n-rig","type":"file","file":"50 Rigging, Animation & Simulation/Character Rigging, Armatures & Weight Painting.md","x":700,"y":40,"width":440,"height":170,"color":"2"},
+    {"id":"n-shader","type":"file","file":"30 Materials, Textures & Shaders/GLSL, WGSL & Three.js TSL Custom Shaders.md","x":700,"y":240,"width":440,"height":180,"color":"2"},
+
+    {"id":"n-gate","type":"file","file":"70 Craft Floor & Autonomous QA/Automated Mesh & GLB QA Gate (mesh_qa.py).md","x":1300,"y":-360,"width":440,"height":170,"color":"1"},
+    {"id":"n-cook","type":"file","file":"70 Craft Floor & Autonomous QA/The Visual Critic & Cook Loop for 3D Assets.md","x":1300,"y":-160,"width":440,"height":170,"color":"1"},
+    {"id":"n-gltf","type":"file","file":"60 Engines, Web 3D & Delivery/glTF - GLB & USD Export Pipeline (Zero-Defect Rules).md","x":1300,"y":40,"width":440,"height":170,"color":"4"},
+    {"id":"n-engines","type":"file","file":"60 Engines, Web 3D & Delivery/Three.js Complete Master Guide — Scenes, Loaders, Post-Processing & MCP.md","x":1300,"y":240,"width":440,"height":180,"color":"4"},
+    {"id":"n-shortmaking","type":"file","file":"60 Engines, Web 3D & Delivery/Shortmaking Vault Bridge (Viral Animated Shorts Pipeline).md","x":1840,"y":40,"width":440,"height":240,"color":"6"}
+  ],
+  "edges": [
+    {"id":"e1","fromNode":"n-agents","fromSide":"bottom","toNode":"n-style","toSide":"top","label":"Lock Style"},
+    {"id":"e2","fromNode":"n-style","fromSide":"bottom","toNode":"n-brief","toSide":"top","label":"Write Spec"},
+    {"id":"e3","fromNode":"n-brief","fromSide":"right","toNode":"n-topo","toSide":"left","label":"Metrics + Budget"},
+    {"id":"e4","fromNode":"n-brief","fromSide":"right","toNode":"n-hs","toSide":"left","label":"Hard-Surface"},
+    {"id":"e5","fromNode":"n-brief","fromSide":"right","toNode":"n-org","toSide":"left","label":"Organic"},
+    {"id":"e6","fromNode":"n-brief","fromSide":"right","toNode":"n-cad","toSide":"left","label":"Parametric CAD"},
+    {"id":"e7","fromNode":"n-hs","fromSide":"right","toNode":"n-uv","toSide":"left","label":"Clean Mesh"},
+    {"id":"e8","fromNode":"n-org","fromSide":"right","toNode":"n-uv","toSide":"left","label":"Retopo + High"},
+    {"id":"e9","fromNode":"n-uv","fromSide":"bottom","toNode":"n-mc","toSide":"top"},
+    {"id":"e10","fromNode":"n-mc","fromSide":"bottom","toNode":"n-tc","toSide":"top","label":".mcmat"},
+    {"id":"e11","fromNode":"n-tc","fromSide":"bottom","toNode":"n-bridge","toSide":"top","label":"Baked + Painted"},
+    {"id":"e12","fromNode":"n-bridge","fromSide":"right","toNode":"n-light","toSide":"left","label":"PBR / OpenPBR"},
+    {"id":"e13","fromNode":"n-light","fromSide":"bottom","toNode":"n-color","toSide":"top","label":"AgX / ACES"},
+    {"id":"e14","fromNode":"n-color","fromSide":"right","toNode":"n-cook","toSide":"left","label":"3-Angle Stills"},
+    {"id":"e15","fromNode":"n-rig","fromSide":"right","toNode":"n-gltf","toSide":"left","label":"Skinned GLB"},
+    {"id":"e16","fromNode":"n-gate","fromSide":"bottom","toNode":"n-cook","toSide":"top","label":"Pass JSON"},
+    {"id":"e17","fromNode":"n-cook","fromSide":"bottom","toNode":"n-gltf","toSide":"top","label":">= 8.5/10"},
+    {"id":"e18","fromNode":"n-gltf","fromSide":"bottom","toNode":"n-engines","toSide":"top","label":"Three.js / WebGPU"},
+    {"id":"e19","fromNode":"n-engines","fromSide":"right","toNode":"n-shortmaking","toSide":"left","label":"2D-in-3D / KAZ Shorts"},
+    {"id":"e20","fromNode":"n-gltf","fromSide":"right","toNode":"n-shortmaking","toSide":"left","label":"Blender / Roblox Shorts"}
+  ]
+}

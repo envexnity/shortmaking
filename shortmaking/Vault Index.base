@@ -1,0 +1,77 @@
+filters:
+  and:
+    - file.ext == "md"
+    - '!file.inFolder("80 Tools & MCPs/skills")'
+formulas:
+  area: if(file.inFolder("10 Foundations & Geometry"), "10 Foundations", if(file.inFolder("20 Art Styles Encyclopedia"), "20 Art Styles", if(file.inFolder("30 Materials, Textures & Shaders"), "30 Materials & Shaders", if(file.inFolder("40 Lighting, Cameras & Rendering"), "40 Lighting & Render", if(file.inFolder("50 Rigging, Animation & Simulation"), "50 Rigging & Sim", if(file.inFolder("60 Engines, Web 3D & Delivery"), "60 Engines & Delivery", if(file.inFolder("70 Craft Floor & Autonomous QA"), "70 Craft & QA", if(file.inFolder("80 Tools & MCPs"), "80 Tools & MCPs", if(file.inFolder("90 Templates"), "90 Templates", "00 Root")))))))))
+  words: (file.size / 6).round(0)
+properties:
+  formula.area:
+    displayName: Discipline
+  formula.words:
+    displayName: ~Words
+  file.mtime:
+    displayName: Updated
+  file.tags:
+    displayName: Tags
+views:
+  - type: table
+    name: All Core Notes
+    groupBy:
+      property: formula.area
+      direction: ASC
+    order:
+      - file.name
+      - formula.area
+      - file.tags
+      - formula.words
+      - file.mtime
+  - type: cards
+    name: Art Styles Gallery
+    filters:
+      and:
+        - file.inFolder("20 Art Styles Encyclopedia")
+    order:
+      - file.name
+      - style_family
+      - pbr_or_npr
+      - poly_budget
+  - type: table
+    name: Materials & Shaders
+    filters:
+      and:
+        - file.inFolder("30 Materials, Textures & Shaders")
+    order:
+      - file.name
+      - file.tags
+      - formula.words
+  - type: table
+    name: Craft Floor & QA
+    filters:
+      and:
+        - file.inFolder("70 Craft Floor & Autonomous QA")
+    order:
+      - file.name
+      - file.tags
+      - formula.words
+  - type: table
+    name: Tools & MCPs
+    filters:
+      and:
+        - file.inFolder("80 Tools & MCPs")
+    order:
+      - file.name
+      - file.tags
+      - formula.words
+  - type: table
+    name: Three.js & Shortmaking Bridge
+    filters:
+      and:
+        - or:
+            - file.tags.contains("threejs")
+            - file.tags.contains("shortmaking")
+    order:
+      - file.name
+      - formula.area
+      - file.tags
+      - formula.words

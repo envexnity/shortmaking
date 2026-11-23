@@ -1,0 +1,65 @@
+filters:
+  and:
+    - file.inFolder("20 Art Styles Encyclopedia")
+    - file.ext == "md"
+    - 'file.name != "00 Art Style Selection Guide"'
+properties:
+  style_id:
+    displayName: ID
+  style_family:
+    displayName: Family
+  pbr_or_npr:
+    displayName: Shading Model
+  primary_engines:
+    displayName: Primary Engines
+  artcraft_tools:
+    displayName: ArtCraft Tools
+  poly_budget:
+    displayName: Poly Budget
+  texel_density:
+    displayName: Texel Density
+  lighting_key:
+    displayName: Lighting Key
+views:
+  - type: table
+    name: All 24 Art Styles
+    order:
+      - style_id
+      - file.name
+      - style_family
+      - pbr_or_npr
+      - primary_engines
+      - artcraft_tools
+      - poly_budget
+  - type: cards
+    name: By Visual Family
+    groupBy:
+      property: style_family
+      direction: ASC
+    order:
+      - style_id
+      - file.name
+      - pbr_or_npr
+      - lighting_key
+      - artcraft_tools
+  - type: table
+    name: NPR & Stylized Only
+    filters:
+      and:
+        - 'pbr_or_npr != "Physically-Based (PBR)"'
+    order:
+      - style_id
+      - file.name
+      - pbr_or_npr
+      - primary_engines
+  - type: table
+    name: Photoreal & PBR Only
+    filters:
+      and:
+        - 'pbr_or_npr == "Physically-Based (PBR)"'
+    order:
+      - style_id
+      - file.name
+      - poly_budget
+      - texel_density
+      - artcraft_tools

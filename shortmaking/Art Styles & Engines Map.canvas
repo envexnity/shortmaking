@@ -1,0 +1,37 @@
+{
+  "nodes": [
+    {"id":"g-photo","type":"group","x":-1000,"y":-500,"width":460,"height":940,"color":"4","label":"Photoreal, Physical & Tactile PBR"},
+    {"id":"g-stylized","type":"group","x":-480,"y":-500,"width":460,"height":940,"color":"3","label":"Stylized PBR, Hand-Painted & Clay"},
+    {"id":"g-npr","type":"group","x":40,"y":-500,"width":460,"height":940,"color":"6","label":"NPR, Anime, Retro, Voxel & Pixel"},
+    {"id":"g-world","type":"group","x":560,"y":-500,"width":460,"height":940,"color":"5","label":"Genre Worlds, Abstract & Technical"},
+
+    {"id":"s01","type":"file","file":"20 Art Styles Encyclopedia/Style 01 — Photorealistic Physically-Based (ArchViz & Product).md","x":-970,"y":-440,"width":400,"height":120,"color":"4"},
+    {"id":"s02","type":"file","file":"20 Art Styles Encyclopedia/Style 02 — Cinematic VFX & Film Realism (ACES - AgX).md","x":-970,"y":-300,"width":400,"height":120,"color":"4"},
+    {"id":"s19","type":"file","file":"20 Art Styles Encyclopedia/Style 19 — Botanical, Nature, Terrain & Biomes (Foliage - Water - Clouds).md","x":-970,"y":-160,"width":400,"height":120,"color":"4"},
+    {"id":"s20","type":"file","file":"20 Art Styles Encyclopedia/Style 20 — Miniature Tabletop, Kitbash & Toy Photography (Vinyl - Resin - LEGO).md","x":-970,"y":-20,"width":400,"height":120,"color":"4"},
+    {"id":"s22","type":"file","file":"20 Art Styles Encyclopedia/Style 22 — Plush, Fabric, Knitwear & Woolly Tactile 3D.md","x":-970,"y":120,"width":400,"height":120,"color":"4"},
+    {"id":"s23","type":"file","file":"20 Art Styles Encyclopedia/Style 23 — Ceramic, Glass, Jewelry & Caustics Macro.md","x":-970,"y":260,"width":400,"height":120,"color":"4"},
+
+    {"id":"s03","type":"file","file":"20 Art Styles Encyclopedia/Style 03 — Stylized PBR (Pixar - Disney - Overwatch - Fortnite).md","x":-450,"y":-440,"width":400,"height":120,"color":"3"},
+    {"id":"s04","type":"file","file":"20 Art Styles Encyclopedia/Style 04 — Hand-Painted Diffuse (Arcane - Riot - World of Warcraft).md","x":-450,"y":-300,"width":400,"height":120,"color":"3"},
+    {"id":"s05","type":"file","file":"20 Art Styles Encyclopedia/Style 05 — Painterly Brushstroke & Spider-Verse (Halftones - Stepped Anim).md","x":-450,"y":-160,"width":400,"height":120,"color":"3"},
+    {"id":"s08","type":"file","file":"20 Art Styles Encyclopedia/Style 08 — Isometric Diorama & Cozy Miniature (Tilt-Shift - Clay).md","x":-450,"y":-20,"width":400,"height":120,"color":"3"},
+    {"id":"s09","type":"file","file":"20 Art Styles Encyclopedia/Style 09 — Claymation, Stop-Motion & Plasticine (Thumbprints - SSS).md","x":-450,"y":120,"width":400,"height":120,"color":"3"},
+    {"id":"s13","type":"file","file":"20 Art Styles Encyclopedia/Style 13 — Roblox Stylized, Stud & UGC Accessory Pipeline.md","x":-450,"y":260,"width":400,"height":120,"color":"3"},
+
+    {"id":"s06","type":"file","file":"20 Art Styles Encyclopedia/Style 06 — Anime & Cel-Shaded NPR (Guilty Gear - Genshin - Ghibli).md","x":70,"y":-440,"width":400,"height":120,"color":"6"},
+    {"id":"s07","type":"file","file":"20 Art Styles Encyclopedia/Style 07 — 2D-in-3D Grease Pencil & Comic Ink (Ligne Claire - Manga).md","x":70,"y":-300,"width":400,"height":120,"color":"6"},
+    {"id":"s10","type":"file","file":"20 Art Styles Encyclopedia/Style 10 — Low-Poly Flat-Shaded & Faceted (Monument Valley - Firewatch).md","x":70,"y":-160,"width":400,"height":120,"color":"6"},
+    {"id":"s11","type":"file","file":"20 Art Styles Encyclopedia/Style 11 — PS1 - PS2 - N64 Retro & Vertex-Snapped Lo-Fi.md","x":70,"y":-20,"width":400,"height":120,"color":"6"},
+    {"id":"s12","type":"file","file":"20 Art Styles Encyclopedia/Style 12 — Voxel, Blocky & Minecraft - Blockbench Style.md","x":70,"y":120,"width":400,"height":120,"color":"6"},
+    {"id":"s24","type":"file","file":"20 Art Styles Encyclopedia/Style 24 — Pixel-Art 3D (Dithered Orthographic Sprites & 2.5D HD-2D).md","x":70,"y":260,"width":400,"height":120,"color":"6"},
+
+    {"id":"s14","type":"file","file":"20 Art Styles Encyclopedia/Style 14 — Cyberpunk, Neon Noir & Holographic Sci-Fi.md","x":590,"y":-440,"width":400,"height":120,"color":"5"},
+    {"id":"s15","type":"file","file":"20 Art Styles Encyclopedia/Style 15 — Brutalist, Industrial Hard-Surface & Mecha.md","x":590,"y":-300,"width":400,"height":120,"color":"5"},
+    {"id":"s16","type":"file","file":"20 Art Styles Encyclopedia/Style 16 — Dark Fantasy, Gothic & Soulsborne Atmospheric.md","x":590,"y":-160,"width":400,"height":120,"color":"5"},
+    {"id":"s17","type":"file","file":"20 Art Styles Encyclopedia/Style 17 — Surreal, Liminal Space & Dreamcore.md","x":590,"y":-20,"width":400,"height":120,"color":"5"},
+    {"id":"s18","type":"file","file":"20 Art Styles Encyclopedia/Style 18 — Abstract Motion Graphics, Glassmorphism & Iridescent (Cinema4D - Awwwards).md","x":590,"y":120,"width":400,"height":120,"color":"5"},
+    {"id":"s21","type":"file","file":"20 Art Styles Encyclopedia/Style 21 — Technical Blueprint, Wireframe, X-Ray & Exploded CAD.md","x":590,"y":260,"width":400,"height":120,"color":"5"}
+  ],
+  "edges": []
+}

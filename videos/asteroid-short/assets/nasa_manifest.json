@@ -1,0 +1,41 @@
+[
+  {
+    "key": "bennu_rubble",
+    "query": "PIA23555",
+    "nasa_id": "PIA23555",
+    "title": "Bennu Particles",
+    "date_created": "2019-12-05",
+    "center": "JPL",
+    "credit": "NASA/Goddard/University of Arizona/Lauretta & Hergenrother et al., Science 10.1126",
+    "source_url": "https://images.nasa.gov/details/PIA23555",
+    "image_url": "http://images-assets.nasa.gov/image/PIA23555/PIA23555~medium.jpg",
+    "local_file": "C:\\Users\\AFADAZIO\\OneDrive\\Desktop\\shortmaking\\videos\\asteroid-short\\assets\\bennu_rubble.jpg",
+    "bytes": 39406
+  },
+  {
+    "key": "dart_impact",
+    "query": "PIA02122",
+    "nasa_id": "PIA02122",
+    "title": "Hubble Witnesses Comet Crash",
+    "date_created": "2005-07-04",
+    "center": "JPL",
+    "credit": "NASA/STScI",
+    "source_url": "https://images.nasa.gov/details/PIA02122",
+    "image_url": "http://images-assets.nasa.gov/image/PIA02122/PIA02122~orig.jpg",
+    "local_file": "C:\\Users\\AFADAZIO\\OneDrive\\Desktop\\shortmaking\\videos\\asteroid-short\\assets\\dart_impact.jpg",
+    "bytes": 27774
+  },
+  {
+    "key": "asteroid_crater",
+    "query": "PIA03490",
+    "nasa_id": "PIA03490",
+    "title": "Meteor Crater, AZ",
+    "date_created": "2002-03-12",
+    "center": "JPL",
+    "credit": "NASA/GSFC/METI/ERSDAC/JAROS, and U.S./Japan ASTER Science Team",
+    "source_url": "https://images.nasa.gov/details/PIA03490",
+    "image_url": "http://images-assets.nasa.gov/image/PIA03490/PIA03490~small.jpg",
+    "local_file": "C:\\Users\\AFADAZIO\\OneDrive\\Desktop\\shortmaking\\videos\\asteroid-short\\assets\\asteroid_crater.jpg",
+    "bytes": 64277
+  }
+]

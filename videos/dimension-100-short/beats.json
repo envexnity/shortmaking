@@ -1,0 +1,967 @@
+{
+  "engine": "elevenlabs",
+  "model": "eleven_turbo_v2_5",
+  "total": 49.625,
+  "beats": [
+    {
+      "i": 0,
+      "speaker": "host",
+      "text": "For a thousand bucks, would you step into this toaster and travel to the hundredth dimension?",
+      "start": 0.05,
+      "speechEnd": 3.894,
+      "end": 4.054,
+      "words": [
+        {
+          "w": "For",
+          "start": 0.05,
+          "end": 0.17
+        },
+        {
+          "w": "a",
+          "start": 0.17,
+          "end": 0.27
+        },
+        {
+          "w": "thousand",
+          "start": 0.27,
+          "end": 0.49
+        },
+        {
+          "w": "bucks,",
+          "start": 0.49,
+          "end": 0.83
+        },
+        {
+          "w": "would",
+          "start": 1.21,
+          "end": 1.29
+        },
+        {
+          "w": "you",
+          "start": 1.29,
+          "end": 1.43
+        },
+        {
+          "w": "step",
+          "start": 1.43,
+          "end": 1.65
+        },
+        {
+          "w": "into",
+          "start": 1.65,
+          "end": 1.79
+        },
+        {
+          "w": "this",
+          "start": 1.79,
+          "end": 2.01
+        },
+        {
+          "w": "toaster",
+          "start": 2.01,
+          "end": 2.33
+        },
+        {
+          "w": "and",
+          "start": 2.33,
+          "end": 2.49
+        },
+        {
+          "w": "travel",
+          "start": 2.49,
+          "end": 2.71
+        },
+        {
+          "w": "to",
+          "start": 2.71,
+          "end": 2.91
+        },
+        {
+          "w": "the",
+          "start": 2.91,
+          "end": 3.01
+        },
+        {
+          "w": "hundredth",
+          "start": 3.01,
+          "end": 3.39
+        },
+        {
+          "w": "dimension?",
+          "start": 3.39,
+          "end": 3.53
+        }
+      ]
+    },
+    {
+      "i": 1,
+      "speaker": "mrbeast",
+      "text": "No.",
+      "start": 4.054,
+      "speechEnd": 4.414,
+      "end": 4.694,
+      "words": [
+        {
+          "w": "No.",
+          "start": 4.054,
+          "end": 4.194
+        }
+      ]
+    },
+    {
+      "i": 2,
+      "speaker": "host",
+      "text": "For two thousand bucks, would you step into this toaster and travel to the hundredth dimension?",
+      "start": 4.694,
+      "speechEnd": 8.605,
+      "end": 8.755,
+      "words": [
+        {
+          "w": "For",
+          "start": 4.694,
+          "end": 4.794
+        },
+        {
+          "w": "$2",
+          "start": 4.794,
+          "end": 5.014
+        },
+        {
+          "w": ",000,",
+          "start": 5.014,
+          "end": 5.314
+        },
+        {
+          "w": "would",
+          "start": 5.634,
+          "end": 5.834
+        },
+        {
+          "w": "you",
+          "start": 5.834,
+          "end": 5.994
+        },
+        {
+          "w": "step",
+          "start": 5.994,
+          "end": 6.194
+        },
+        {
+          "w": "into",
+          "start": 6.194,
+          "end": 6.374
+        },
+        {
+          "w": "this",
+          "start": 6.374,
+          "end": 6.534
+        },
+        {
+          "w": "toaster",
+          "start": 6.534,
+          "end": 6.874
+        },
+        {
+          "w": "and",
+          "start": 6.874,
+          "end": 7.014
+        },
+        {
+          "w": "travel",
+          "start": 7.014,
+          "end": 7.374
+        },
+        {
+          "w": "to",
+          "start": 7.374,
+          "end": 7.594
+        },
+        {
+          "w": "the",
+          "start": 7.594,
+          "end": 7.674
+        },
+        {
+          "w": "hundredth",
+          "start": 7.674,
+          "end": 8.094
+        },
+        {
+          "w": "dimension?",
+          "start": 8.094,
+          "end": 8.214
+        }
+      ]
+    },
+    {
+      "i": 3,
+      "speaker": "mc",
+      "text": "Two grand? Fire it up.",
+      "start": 8.755,
+      "speechEnd": 10.162,
+      "end": 10.362,
+      "words": [
+        {
+          "w": "Two",
+          "start": 8.755,
+          "end": 8.875
+        },
+        {
+          "w": "grand,",
+          "start": 8.875,
+          "end": 9.095
+        },
+        {
+          "w": "fire",
+          "start": 9.375,
+          "end": 9.515
+        },
+        {
+          "w": "it",
+          "start": 9.515,
+          "end": 9.735
+        },
+        {
+          "w": "up.",
+          "start": 9.735,
+          "end": 10.035
+        }
+      ]
+    },
+    {
+      "i": 4,
+      "speaker": "mc",
+      "text": "Wait, why did the dial start at Dimension One\u2014 uh oh.",
+      "start": 10.362,
+      "speechEnd": 13.13,
+      "end": 13.35,
+      "words": [
+        {
+          "w": "Wait,",
+          "start": 10.362,
+          "end": 10.482
+        },
+        {
+          "w": "why",
+          "start": 10.622,
+          "end": 10.762
+        },
+        {
+          "w": "did",
+          "start": 10.762,
+          "end": 10.842
+        },
+        {
+          "w": "the",
+          "start": 10.842,
+          "end": 10.942
+        },
+        {
+          "w": "dial",
+          "start": 10.942,
+          "end": 11.122
+        },
+        {
+          "w": "start",
+          "start": 11.122,
+          "end": 11.422
+        },
+        {
+          "w": "at",
+          "start": 11.422,
+          "end": 11.542
+        },
+        {
+          "w": "Dimension",
+          "start": 11.542,
+          "end": 11.782
+        },
+        {
+          "w": "1?",
+          "start": 11.782,
+          "end": 12.102
+        },
+        {
+          "w": "Uh",
+          "start": 12.302,
+          "end": 12.362
+        },
+        {
+          "w": "oh.",
+          "start": 12.362,
+          "end": 12.882
+        }
+      ]
+    },
+    {
+      "i": 5,
+      "speaker": "flat",
+      "text": "Hey! Stop stepping on my X-axis, round boy!",
+      "start": 13.35,
+      "speechEnd": 15.878,
+      "end": 16.018,
+      "words": [
+        {
+          "w": "Hey,",
+          "start": 13.35,
+          "end": 13.49
+        },
+        {
+          "w": "stop",
+          "start": 13.79,
+          "end": 13.99
+        },
+        {
+          "w": "stepping",
+          "start": 13.99,
+          "end": 14.29
+        },
+        {
+          "w": "on",
+          "start": 14.29,
+          "end": 14.49
+        },
+        {
+          "w": "my",
+          "start": 14.49,
+          "end": 14.61
+        },
+        {
+          "w": "x",
+          "start": 14.61,
+          "end": 14.77
+        },
+        {
+          "w": "-axis,",
+          "start": 14.77,
+          "end": 15.17
+        },
+        {
+          "w": "round",
+          "start": 15.19,
+          "end": 15.45
+        },
+        {
+          "w": "boy.",
+          "start": 15.45,
+          "end": 15.69
+        }
+      ]
+    },
+    {
+      "i": 6,
+      "speaker": "mc",
+      "text": "My bad, I'll crank it past three!",
+      "start": 16.018,
+      "speechEnd": 17.528,
+      "end": 17.728,
+      "words": [
+        {
+          "w": "My",
+          "start": 16.018,
+          "end": 16.138
+        },
+        {
+          "w": "bad,",
+          "start": 16.138,
+          "end": 16.318
+        },
+        {
+          "w": "I'll",
+          "start": 16.498,
+          "end": 16.518
+        },
+        {
+          "w": "crank",
+          "start": 16.518,
+          "end": 16.718
+        },
+        {
+          "w": "it",
+          "start": 16.718,
+          "end": 16.898
+        },
+        {
+          "w": "past",
+          "start": 16.898,
+          "end": 17.138
+        },
+        {
+          "w": "three.",
+          "start": 17.138,
+          "end": 17.398
+        }
+      ]
+    },
+    {
+      "i": 7,
+      "speaker": "mc",
+      "text": "Dimension Four! Okay, seeing the back of my own head is deeply unsettling.",
+      "start": 17.728,
+      "speechEnd": 21.36,
+      "end": 21.5,
+      "words": [
+        {
+          "w": "Dimension",
+          "start": 17.728,
+          "end": 17.968
+        },
+        {
+          "w": "4.",
+          "start": 17.968,
+          "end": 18.368
+        },
+        {
+          "w": "Okay,",
+          "start": 18.688,
+          "end": 18.888
+        },
+        {
+          "w": "seeing",
+          "start": 19.008,
+          "end": 19.168
+        },
+        {
+          "w": "the",
+          "start": 19.168,
+          "end": 19.308
+        },
+        {
+          "w": "back",
+          "start": 19.308,
+          "end": 19.508
+        },
+        {
+          "w": "of",
+          "start": 19.508,
+          "end": 19.648
+        },
+        {
+          "w": "my",
+          "start": 19.648,
+          "end": 19.768
+        },
+        {
+          "w": "own",
+          "start": 19.768,
+          "end": 19.888
+        },
+        {
+          "w": "head",
+          "start": 19.888,
+          "end": 20.128
+        },
+        {
+          "w": "is",
+          "start": 20.128,
+          "end": 20.268
+        },
+        {
+          "w": "deeply",
+          "start": 20.268,
+          "end": 20.528
+        },
+        {
+          "w": "unsettling.",
+          "start": 20.528,
+          "end": 21.008
+        }
+      ]
+    },
+    {
+      "i": 8,
+      "speaker": "mc",
+      "text": "Luckily, this toaster goes up to a hundred. Unluckily, my bagel just turned into a Klein bottle.",
+      "start": 21.5,
+      "speechEnd": 25.805,
+      "end": 25.985,
+      "words": [
+        {
+          "w": "Luckily,",
+          "start": 21.5,
+          "end": 21.72
+        },
+        {
+          "w": "this",
+          "start": 21.96,
+          "end": 22.04
+        },
+        {
+          "w": "toaster",
+          "start": 22.04,
+          "end": 22.36
+        },
+        {
+          "w": "goes",
+          "start": 22.36,
+          "end": 22.54
+        },
+        {
+          "w": "up",
+          "start": 22.54,
+          "end": 22.68
+        },
+        {
+          "w": "to",
+          "start": 22.68,
+          "end": 22.8
+        },
+        {
+          "w": "100.",
+          "start": 22.8,
+          "end": 23.02
+        },
+        {
+          "w": "Unluckily,",
+          "start": 23.4,
+          "end": 23.8
+        },
+        {
+          "w": "my",
+          "start": 23.96,
+          "end": 24.02
+        },
+        {
+          "w": "bagel",
+          "start": 24.02,
+          "end": 24.32
+        },
+        {
+          "w": "just",
+          "start": 24.32,
+          "end": 24.441
+        },
+        {
+          "w": "turned",
+          "start": 24.441,
+          "end": 24.7
+        },
+        {
+          "w": "into",
+          "start": 24.7,
+          "end": 24.92
+        },
+        {
+          "w": "a",
+          "start": 24.92,
+          "end": 25.02
+        },
+        {
+          "w": "Klein",
+          "start": 25.02,
+          "end": 25.22
+        },
+        {
+          "w": "bottle.",
+          "start": 25.22,
+          "end": 25.52
+        }
+      ]
+    },
+    {
+      "i": 9,
+      "speaker": "warden",
+      "text": "You see, past Dimension Eleven, space folds like an origami pretzel until gravity leaks out!",
+      "start": 25.985,
+      "speechEnd": 32.266,
+      "end": 32.386,
+      "words": [
+        {
+          "w": "You",
+          "start": 25.985,
+          "end": 26.065
+        },
+        {
+          "w": "see,",
+          "start": 26.065,
+          "end": 26.185
+        },
+        {
+          "w": "past",
+          "start": 26.305,
+          "end": 27.325
+        },
+        {
+          "w": "dimension",
+          "start": 27.325,
+          "end": 27.565
+        },
+        {
+          "w": "11,",
+          "start": 27.565,
+          "end": 28.165
+        },
+        {
+          "w": "space",
+          "start": 28.625,
+          "end": 28.765
+        },
+        {
+          "w": "folds",
+          "start": 28.765,
+          "end": 29.165
+        },
+        {
+          "w": "like",
+          "start": 29.165,
+          "end": 29.605
+        },
+        {
+          "w": "an",
+          "start": 29.605,
+          "end": 29.705
+        },
+        {
+          "w": "origami",
+          "start": 29.705,
+          "end": 30.185
+        },
+        {
+          "w": "pretzel",
+          "start": 30.185,
+          "end": 30.785
+        },
+        {
+          "w": "until",
+          "start": 30.785,
+          "end": 31.125
+        },
+        {
+          "w": "gravity",
+          "start": 31.125,
+          "end": 31.365
+        },
+        {
+          "w": "leaks",
+          "start": 31.365,
+          "end": 31.865
+        },
+        {
+          "w": "out.",
+          "start": 31.865,
+          "end": 32.165
+        }
+      ]
+    },
+    {
+      "i": 10,
+      "speaker": "mc",
+      "text": "Less physics, more cash! Maximum overdrive!",
+      "start": 32.386,
+      "speechEnd": 34.794,
+      "end": 34.974,
+      "words": [
+        {
+          "w": "Less",
+          "start": 32.386,
+          "end": 32.526
+        },
+        {
+          "w": "physics,",
+          "start": 32.526,
+          "end": 32.766
+        },
+        {
+          "w": "more",
+          "start": 33.046,
+          "end": 33.126
+        },
+        {
+          "w": "cash,",
+          "start": 33.126,
+          "end": 33.426
+        },
+        {
+          "w": "maximum",
+          "start": 33.766,
+          "end": 34.026
+        },
+        {
+          "w": "overdrives.",
+          "start": 34.026,
+          "end": 34.706
+        }
+      ]
+    },
+    {
+      "i": 11,
+      "speaker": "warden",
+      "text": "Stop! At a hundred dimensions, everything collapses into\u2014",
+      "start": 34.974,
+      "speechEnd": 38.414,
+      "end": 38.554,
+      "words": [
+        {
+          "w": "Stop",
+          "start": 34.974,
+          "end": 35.274
+        },
+        {
+          "w": "at",
+          "start": 35.274,
+          "end": 35.614
+        },
+        {
+          "w": "100",
+          "start": 35.614,
+          "end": 35.874
+        },
+        {
+          "w": "dimensions",
+          "start": 35.874,
+          "end": 36.394
+        },
+        {
+          "w": "everything",
+          "start": 36.394,
+          "end": 37.134
+        },
+        {
+          "w": "collapses",
+          "start": 37.134,
+          "end": 37.814
+        },
+        {
+          "w": "into.",
+          "start": 37.814,
+          "end": 38.194
+        }
+      ]
+    },
+    {
+      "i": 12,
+      "speaker": "mc",
+      "text": "TWO GRAND, BABY!",
+      "start": 38.554,
+      "speechEnd": 39.512,
+      "end": 39.832,
+      "words": [
+        {
+          "w": "Two",
+          "start": 38.554,
+          "end": 38.674
+        },
+        {
+          "w": "grand,",
+          "start": 38.674,
+          "end": 38.874
+        },
+        {
+          "w": "baby.",
+          "start": 39.094,
+          "end": 39.234
+        }
+      ]
+    },
+    {
+      "i": 13,
+      "speaker": "mc",
+      "text": "Bro... I have six pixels. I'm a calculator screen!",
+      "start": 39.832,
+      "speechEnd": 42.296,
+      "end": 42.536,
+      "words": [
+        {
+          "w": "Bro,",
+          "start": 39.832,
+          "end": 39.972
+        },
+        {
+          "w": "I",
+          "start": 40.232,
+          "end": 40.352
+        },
+        {
+          "w": "have",
+          "start": 40.352,
+          "end": 40.412
+        },
+        {
+          "w": "6",
+          "start": 40.412,
+          "end": 40.592
+        },
+        {
+          "w": "pixels,",
+          "start": 40.592,
+          "end": 40.892
+        },
+        {
+          "w": "I'm",
+          "start": 41.112,
+          "end": 41.192
+        },
+        {
+          "w": "a",
+          "start": 41.192,
+          "end": 41.232
+        },
+        {
+          "w": "calculator",
+          "start": 41.232,
+          "end": 41.512
+        },
+        {
+          "w": "screen.",
+          "start": 41.512,
+          "end": 41.992
+        }
+      ]
+    },
+    {
+      "i": 14,
+      "speaker": "mc",
+      "text": "I made it to the hundredth dimension! Where's my two thousand bucks?",
+      "start": 42.536,
+      "speechEnd": 45.304,
+      "end": 45.524,
+      "words": [
+        {
+          "w": "I",
+          "start": 42.536,
+          "end": 42.616
+        },
+        {
+          "w": "made",
+          "start": 42.616,
+          "end": 42.736
+        },
+        {
+          "w": "it",
+          "start": 42.736,
+          "end": 42.836
+        },
+        {
+          "w": "to",
+          "start": 42.836,
+          "end": 42.936
+        },
+        {
+          "w": "the",
+          "start": 42.936,
+          "end": 43.016
+        },
+        {
+          "w": "hundredth",
+          "start": 43.016,
+          "end": 43.496
+        },
+        {
+          "w": "dimension.",
+          "start": 43.496,
+          "end": 43.696
+        },
+        {
+          "w": "Where's",
+          "start": 44.216,
+          "end": 44.336
+        },
+        {
+          "w": "my",
+          "start": 44.336,
+          "end": 44.436
+        },
+        {
+          "w": "two",
+          "start": 44.436,
+          "end": 44.576
+        },
+        {
+          "w": "thousand",
+          "start": 44.576,
+          "end": 44.776
+        },
+        {
+          "w": "bucks?",
+          "start": 44.776,
+          "end": 45.036
+        }
+      ]
+    },
+    {
+      "i": 15,
+      "speaker": "host",
+      "text": "That's two thousand in hundred-dimensional bills. In three-D, it folds down to a nickel.",
+      "start": 45.524,
+      "speechEnd": 49.565,
+      "end": 49.625,
+      "words": [
+        {
+          "w": "That's",
+          "start": 45.524,
+          "end": 45.724
+        },
+        {
+          "w": "2",
+          "start": 45.724,
+          "end": 45.864
+        },
+        {
+          "w": ",000",
+          "start": 45.864,
+          "end": 46.224
+        },
+        {
+          "w": "in",
+          "start": 46.224,
+          "end": 46.344
+        },
+        {
+          "w": "100",
+          "start": 46.344,
+          "end": 46.624
+        },
+        {
+          "w": "-dimensional",
+          "start": 46.624,
+          "end": 46.904
+        },
+        {
+          "w": "bills.",
+          "start": 46.904,
+          "end": 47.244
+        },
+        {
+          "w": "In",
+          "start": 47.744,
+          "end": 47.764
+        },
+        {
+          "w": "3D,",
+          "start": 47.764,
+          "end": 48.184
+        },
+        {
+          "w": "it",
+          "start": 48.524,
+          "end": 48.624
+        },
+        {
+          "w": "folds",
+          "start": 48.624,
+          "end": 48.764
+        },
+        {
+          "w": "down",
+          "start": 48.764,
+          "end": 49.024
+        },
+        {
+          "w": "to",
+          "start": 49.024,
+          "end": 49.184
+        },
+        {
+          "w": "a",
+          "start": 49.184,
+          "end": 49.244
+        },
+        {
+          "w": "nickel.",
+          "start": 49.244,
+          "end": 49.364
+        }
+      ]
+    }
+  ]
+}

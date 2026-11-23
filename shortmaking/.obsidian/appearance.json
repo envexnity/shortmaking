@@ -1,0 +1,13 @@
+{
+  "accentColor": "#ff6b35",
+  "theme": "obsidian",
+  "baseFontSize": 16,
+  "cssTheme": "deeper work",
+  "enabledCssSnippets": [],
+  "showViewHeader": true,
+  "interfaceFontFamily": "Times New Roman,Inter,Inter Tight,Algerian",
+  "textFontFamily": "Inter Tight",
+  "monospaceFontFamily": "JetBrains Mono",
+  "nativeMenus": false,
+  "showRibbon": true
+}

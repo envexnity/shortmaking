@@ -1,0 +1,43 @@
+[
+  {
+    "id": "cb-20261122-1",
+    "folder": "videos/cb-20261122-1",
+    "video": "videos/cb-20261122-1/final.mp4",
+    "upload_md": "videos/cb-20261122-1/upload.md",
+    "title": "For $1,000, Would You Stand Inside a Lightning Bolt? ⚡ #Shorts",
+    "youtube_id": "qqtIgibvLCk",
+    "youtube_url": "https://youtube.com/shorts/qqtIgibvLCk",
+    "privacy": "public",
+    "status": "posted",
+    "posted_at": "2026-11-22T18:41:34+07:00"
+  },
+  {
+    "id": "cb-20261122-2",
+    "folder": "videos/cb-20261122-2",
+    "video": "videos/cb-20261122-2/final.mp4",
+    "upload_md": "videos/cb-20261122-2/upload.md",
+    "title": "For $1,000, Would You Outrun the Speed of Light? ⚡ #Shorts",
+    "youtube_id": "YXFQ4wa-8VA",
+    "youtube_url": "https://youtube.com/shorts/YXFQ4wa-8VA",
+    "privacy": "public",
+    "status": "posted",
+    "posted_at": "2026-11-22T18:42:07+07:00"
+  },
+  {
+    "id": "cb-20261123-1",
+    "folder": "videos/cb-20261123-1",
+    "video": "videos/cb-20261123-1/final.mp4",
+    "upload_md": "videos/cb-20261123-1/upload.md",
+    "title": "5 Billionaires Try to Build Superintelligence for $1 Trillion 🤖 #Shorts",
+    "youtube_id": "QwbK_vNweyQ",
+    "youtube_url": "https://youtube.com/shorts/QwbK_vNweyQ",
+    "privacy": "private",
+    "scheduled_publish_at": "2026-11-24T00:00:00+07:00",
+    "status": "scheduled_youtube_pending_tiktok_instagram",
+    "platforms": {
+      "youtube": "scheduled (QwbK_vNweyQ)",
+      "tiktok": "scheduled_timer_00:00",
+      "instagram": "scheduled_timer_00:00"
+    }
+  }
+]

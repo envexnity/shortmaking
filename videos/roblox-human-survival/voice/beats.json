@@ -1,0 +1,160 @@
+{
+  "total_duration": 50.875,
+  "fps": 30,
+  "beats": [
+    {
+      "index": 1,
+      "id": "b01_pull_gas",
+      "shot": "breath_street",
+      "start": 0.04,
+      "end": 4.216,
+      "clip_end": 4.286,
+      "duration": 4.176,
+      "caption": "In this world, you have to constantly pull invisible gas into your chest through the holes in your face.",
+      "word_range": [
+        0,
+        19
+      ]
+    },
+    {
+      "index": 2,
+      "id": "b02_nonstop",
+      "shot": "breath_montage",
+      "start": 4.286,
+      "end": 7.587,
+      "clip_end": 7.627,
+      "duration": 3.3,
+      "caption": "You have to do this non-stop\u2014 while eating, traveling, and even sleeping\u2014",
+      "word_range": [
+        19,
+        31
+      ]
+    },
+    {
+      "index": 3,
+      "id": "b03_three_min",
+      "shot": "breath_gameover",
+      "start": 7.627,
+      "end": 11.31,
+      "clip_end": 11.45,
+      "duration": 3.683,
+      "caption": "because if you stop for just three minutes, your lungs shut down and it\u2019s an instant game over.",
+      "word_range": [
+        31,
+        49
+      ]
+    },
+    {
+      "index": 4,
+      "id": "b04_slam_skin",
+      "shot": "blink_closeup",
+      "start": 11.45,
+      "end": 14.992,
+      "clip_end": 15.062,
+      "duration": 3.542,
+      "caption": "In this world, you have to slam pieces of skin over your eyeballs every few seconds.",
+      "word_range": [
+        49,
+        65
+      ]
+    },
+    {
+      "index": 5,
+      "id": "b05_keep_wet",
+      "shot": "blink_burn",
+      "start": 15.062,
+      "end": 20.014,
+      "clip_end": 20.154,
+      "duration": 4.952,
+      "caption": "You have to do this to keep your eyes wet, otherwise your vision gets blurry and your eyes literally start burning.",
+      "word_range": [
+        65,
+        86
+      ]
+    },
+    {
+      "index": 6,
+      "id": "b06_pour_liquid",
+      "shot": "water_pour",
+      "start": 20.154,
+      "end": 23.548,
+      "clip_end": 23.618,
+      "duration": 3.394,
+      "caption": "In this world, you have to pour clear liquid down your throat multiple times a day.",
+      "word_range": [
+        86,
+        102
+      ]
+    },
+    {
+      "index": 7,
+      "id": "b07_refill_tank",
+      "shot": "water_tank",
+      "start": 23.618,
+      "end": 28.725,
+      "clip_end": 28.865,
+      "duration": 5.107,
+      "caption": "Your character is mostly made of this liquid, so if you don't keep refilling your tank, your internal organs start failing.",
+      "word_range": [
+        102,
+        123
+      ]
+    },
+    {
+      "index": 8,
+      "id": "b08_crush_dead",
+      "shot": "eat_chew",
+      "start": 28.865,
+      "end": 33.154,
+      "clip_end": 33.224,
+      "duration": 4.289,
+      "caption": "In this world, you have to crush up dead plants and animals using tiny rocks in your mouth.",
+      "word_range": [
+        123,
+        141
+      ]
+    },
+    {
+      "index": 9,
+      "id": "b09_stomach_acid",
+      "shot": "eat_acid_walk",
+      "start": 33.224,
+      "end": 37.908,
+      "clip_end": 38.048,
+      "duration": 4.684,
+      "caption": "You have to do this so your stomach acid can melt them down and turn them into fuel just so you can keep walking around.",
+      "word_range": [
+        141,
+        166
+      ]
+    },
+    {
+      "index": 10,
+      "id": "b10_dark_room",
+      "shot": "sleep_dream",
+      "start": 38.048,
+      "end": 45.301,
+      "clip_end": 45.371,
+      "duration": 7.253,
+      "caption": "In this world, you have to lie down in a dark room, go completely unconscious, and hallucinate for eight hours straight every single day.",
+      "word_range": [
+        166,
+        190
+      ]
+    },
+    {
+      "index": 11,
+      "id": "b11_skip_sleep",
+      "shot": "sleep_breakdown",
+      "start": 45.371,
+      "end": 50.735,
+      "clip_end": 50.875,
+      "duration": 5.364,
+      "caption": "If you skip this, your brain stops saving data, your stamina bar hits zero, and your character starts breaking down.",
+      "word_range": [
+        190,
+        210
+      ]
+    }
+  ]
+}

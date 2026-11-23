@@ -1,0 +1,97 @@
+{
+  "fps": 30,
+  "total_frames": 1131,
+  "shots": [
+    {
+      "name": "00_Hook_WideObby",
+      "start_frame": 1,
+      "end_frame": 83,
+      "start_sec": 0.0,
+      "end_sec": 2.767
+    },
+    {
+      "name": "01_Hook_ExceptMe_CU",
+      "start_frame": 84,
+      "end_frame": 161,
+      "start_sec": 2.767,
+      "end_sec": 5.367
+    },
+    {
+      "name": "02_Hook_ZeroRobux_Dutch",
+      "start_frame": 162,
+      "end_frame": 260,
+      "start_sec": 5.367,
+      "end_sec": 8.667
+    },
+    {
+      "name": "03_School_BunnyHop",
+      "start_frame": 261,
+      "end_frame": 333,
+      "start_sec": 8.667,
+      "end_sec": 11.1
+    },
+    {
+      "name": "04_School_DominusLow",
+      "start_frame": 334,
+      "end_frame": 395,
+      "start_sec": 11.1,
+      "end_sec": 13.167
+    },
+    {
+      "name": "05_Lava_CrackWide",
+      "start_frame": 396,
+      "end_frame": 490,
+      "start_sec": 13.167,
+      "end_sec": 16.333
+    },
+    {
+      "name": "06_Lava_BalanceZero_CU",
+      "start_frame": 491,
+      "end_frame": 567,
+      "start_sec": 16.333,
+      "end_sec": 18.9
+    },
+    {
+      "name": "07_Luckily_GravityCoil",
+      "start_frame": 568,
+      "end_frame": 656,
+      "start_sec": 18.9,
+      "end_sec": 21.867
+    },
+    {
+      "name": "08_Unluckily_RoofBlast",
+      "start_frame": 657,
+      "end_frame": 761,
+      "start_sec": 21.867,
+      "end_sec": 25.367
+    },
+    {
+      "name": "09_YouSee_TaxBotTrack",
+      "start_frame": 762,
+      "end_frame": 884,
+      "start_sec": 25.367,
+      "end_sec": 29.467
+    },
+    {
+      "name": "10_Debt_Negative4000_Macro",
+      "start_frame": 885,
+      "end_frame": 1006,
+      "start_sec": 29.467,
+      "end_sec": 33.533
+    },
+    {
+      "name": "11_Admin_BanAndFloat",
+      "start_frame": 1007,
+      "end_frame": 1062,
+      "start_sec": 33.533,
+      "end_sec": 35.4
+    },
+    {
+      "name": "12_Twist_FloatForFree",
+      "start_frame": 1063,
+      "end_frame": 1131,
+      "start_sec": 35.4,
+      "end_sec": 37.7
+    }
+  ]
+}

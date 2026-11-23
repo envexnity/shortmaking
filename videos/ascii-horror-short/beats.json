@@ -1,0 +1,854 @@
+{
+  "engines": [
+    "elevenlabs"
+  ],
+  "model": "eleven_turbo_v2_5",
+  "total": 36.834,
+  "beats": [
+    {
+      "i": 0,
+      "speaker": "narrator",
+      "text": "In 1999, a night guard switched his hallway camera to ASCII\u2014and counted two extra shadows.",
+      "start": 0.04,
+      "speechEnd": 4.518,
+      "end": 4.658,
+      "words": [
+        {
+          "w": "In",
+          "start": 0.04,
+          "end": 0.12
+        },
+        {
+          "w": "1999,",
+          "start": 0.12,
+          "end": 0.52
+        },
+        {
+          "w": "a",
+          "start": 0.52,
+          "end": 0.98
+        },
+        {
+          "w": "night",
+          "start": 0.98,
+          "end": 1.16
+        },
+        {
+          "w": "guard",
+          "start": 1.16,
+          "end": 1.36
+        },
+        {
+          "w": "switched",
+          "start": 1.36,
+          "end": 1.58
+        },
+        {
+          "w": "his",
+          "start": 1.58,
+          "end": 1.84
+        },
+        {
+          "w": "hallway",
+          "start": 1.84,
+          "end": 2.04
+        },
+        {
+          "w": "camera",
+          "start": 2.04,
+          "end": 2.38
+        },
+        {
+          "w": "to",
+          "start": 2.38,
+          "end": 2.56
+        },
+        {
+          "w": "ASCII",
+          "start": 2.56,
+          "end": 2.82
+        },
+        {
+          "w": "and",
+          "start": 2.82,
+          "end": 3.28
+        },
+        {
+          "w": "counted",
+          "start": 3.28,
+          "end": 3.46
+        },
+        {
+          "w": "two",
+          "start": 3.46,
+          "end": 3.74
+        },
+        {
+          "w": "extra",
+          "start": 3.74,
+          "end": 3.94
+        },
+        {
+          "w": "shadows.",
+          "start": 3.94,
+          "end": 4.28
+        }
+      ]
+    },
+    {
+      "i": 1,
+      "speaker": "narrator",
+      "text": "He slams on the overhead lights.",
+      "start": 4.658,
+      "speechEnd": 6.072,
+      "end": 6.192,
+      "words": [
+        {
+          "w": "He",
+          "start": 4.658,
+          "end": 4.738
+        },
+        {
+          "w": "slams",
+          "start": 4.738,
+          "end": 4.998
+        },
+        {
+          "w": "on",
+          "start": 4.998,
+          "end": 5.258
+        },
+        {
+          "w": "the",
+          "start": 5.258,
+          "end": 5.338
+        },
+        {
+          "w": "overhead",
+          "start": 5.338,
+          "end": 5.518
+        },
+        {
+          "w": "lights.",
+          "start": 5.518,
+          "end": 5.838
+        }
+      ]
+    },
+    {
+      "i": 2,
+      "speaker": "narrator",
+      "text": "Empty concrete. Zero footsteps.",
+      "start": 6.192,
+      "speechEnd": 7.881,
+      "end": 8.001,
+      "words": [
+        {
+          "w": "Empty",
+          "start": 6.192,
+          "end": 6.392
+        },
+        {
+          "w": "concrete,",
+          "start": 6.392,
+          "end": 6.652
+        },
+        {
+          "w": "zero",
+          "start": 7.052,
+          "end": 7.212
+        },
+        {
+          "w": "footsteps.",
+          "start": 7.212,
+          "end": 7.552
+        }
+      ]
+    },
+    {
+      "i": 3,
+      "speaker": "narrator",
+      "text": "Just silent green symbols humming across his CRT monitor.",
+      "start": 8.001,
+      "speechEnd": 10.576,
+      "end": 10.696,
+      "words": [
+        {
+          "w": "Just",
+          "start": 8.001,
+          "end": 8.141
+        },
+        {
+          "w": "silent",
+          "start": 8.141,
+          "end": 8.341
+        },
+        {
+          "w": "green",
+          "start": 8.341,
+          "end": 8.621
+        },
+        {
+          "w": "symbols",
+          "start": 8.621,
+          "end": 8.941
+        },
+        {
+          "w": "humming",
+          "start": 8.941,
+          "end": 9.201
+        },
+        {
+          "w": "across",
+          "start": 9.201,
+          "end": 9.521
+        },
+        {
+          "w": "his",
+          "start": 9.521,
+          "end": 9.741
+        },
+        {
+          "w": "CRT",
+          "start": 9.741,
+          "end": 10.181
+        },
+        {
+          "w": "monitor.",
+          "start": 10.181,
+          "end": 10.361
+        }
+      ]
+    },
+    {
+      "i": 4,
+      "speaker": "narrator",
+      "text": "He leans closer to wipe off the static.",
+      "start": 10.696,
+      "speechEnd": 12.313,
+      "end": 12.433,
+      "words": [
+        {
+          "w": "He",
+          "start": 10.696,
+          "end": 10.756
+        },
+        {
+          "w": "leans",
+          "start": 10.756,
+          "end": 10.896
+        },
+        {
+          "w": "closer",
+          "start": 10.896,
+          "end": 11.156
+        },
+        {
+          "w": "to",
+          "start": 11.156,
+          "end": 11.416
+        },
+        {
+          "w": "wipe",
+          "start": 11.416,
+          "end": 11.556
+        },
+        {
+          "w": "off",
+          "start": 11.556,
+          "end": 11.736
+        },
+        {
+          "w": "the",
+          "start": 11.736,
+          "end": 11.876
+        },
+        {
+          "w": "static.",
+          "start": 11.876,
+          "end": 12.116
+        }
+      ]
+    },
+    {
+      "i": 5,
+      "speaker": "narrator",
+      "text": "Then the wall inside the text blinks\u2014",
+      "start": 12.433,
+      "speechEnd": 13.879,
+      "end": 14.019,
+      "words": [
+        {
+          "w": "Then",
+          "start": 12.433,
+          "end": 12.573
+        },
+        {
+          "w": "the",
+          "start": 12.573,
+          "end": 12.653
+        },
+        {
+          "w": "wall",
+          "start": 12.653,
+          "end": 12.813
+        },
+        {
+          "w": "inside",
+          "start": 12.813,
+          "end": 13.013
+        },
+        {
+          "w": "the",
+          "start": 13.013,
+          "end": 13.173
+        },
+        {
+          "w": "text",
+          "start": 13.173,
+          "end": 13.333
+        },
+        {
+          "w": "blinks.",
+          "start": 13.333,
+          "end": 13.673
+        }
+      ]
+    },
+    {
+      "i": 6,
+      "speaker": "narrator",
+      "text": "And steps three feet out of the dark.",
+      "start": 14.019,
+      "speechEnd": 15.408,
+      "end": 15.568,
+      "words": [
+        {
+          "w": "and",
+          "start": 14.019,
+          "end": 14.119
+        },
+        {
+          "w": "steps",
+          "start": 14.119,
+          "end": 14.279
+        },
+        {
+          "w": "three",
+          "start": 14.279,
+          "end": 14.599
+        },
+        {
+          "w": "feet",
+          "start": 14.599,
+          "end": 14.779
+        },
+        {
+          "w": "out",
+          "start": 14.779,
+          "end": 14.899
+        },
+        {
+          "w": "of",
+          "start": 14.899,
+          "end": 14.999
+        },
+        {
+          "w": "the",
+          "start": 14.999,
+          "end": 15.099
+        },
+        {
+          "w": "dark.",
+          "start": 15.099,
+          "end": 15.259
+        }
+      ]
+    },
+    {
+      "i": 7,
+      "speaker": "narrator",
+      "text": "Luckily, he ripped the power cord straight out of the wall.",
+      "start": 15.568,
+      "speechEnd": 17.969,
+      "end": 18.149,
+      "words": [
+        {
+          "w": "Luckily,",
+          "start": 15.568,
+          "end": 15.808
+        },
+        {
+          "w": "he",
+          "start": 16.008,
+          "end": 16.088
+        },
+        {
+          "w": "ripped",
+          "start": 16.088,
+          "end": 16.288
+        },
+        {
+          "w": "the",
+          "start": 16.288,
+          "end": 16.468
+        },
+        {
+          "w": "power",
+          "start": 16.468,
+          "end": 16.668
+        },
+        {
+          "w": "cord",
+          "start": 16.668,
+          "end": 16.908
+        },
+        {
+          "w": "straight",
+          "start": 16.908,
+          "end": 17.148
+        },
+        {
+          "w": "out",
+          "start": 17.148,
+          "end": 17.388
+        },
+        {
+          "w": "of",
+          "start": 17.388,
+          "end": 17.508
+        },
+        {
+          "w": "the",
+          "start": 17.508,
+          "end": 17.588
+        },
+        {
+          "w": "wall.",
+          "start": 17.588,
+          "end": 17.768
+        }
+      ]
+    },
+    {
+      "i": 8,
+      "speaker": "narrator",
+      "text": "Unluckily, the unplugged screen stayed on\u2014and turned blood red.",
+      "start": 18.149,
+      "speechEnd": 20.909,
+      "end": 21.089,
+      "words": [
+        {
+          "w": "Unluckily,",
+          "start": 18.149,
+          "end": 18.609
+        },
+        {
+          "w": "the",
+          "start": 18.749,
+          "end": 18.789
+        },
+        {
+          "w": "unplugged",
+          "start": 18.789,
+          "end": 19.269
+        },
+        {
+          "w": "screen",
+          "start": 19.269,
+          "end": 19.449
+        },
+        {
+          "w": "stayed",
+          "start": 19.449,
+          "end": 19.749
+        },
+        {
+          "w": "on",
+          "start": 19.749,
+          "end": 19.989
+        },
+        {
+          "w": "and",
+          "start": 19.989,
+          "end": 20.229
+        },
+        {
+          "w": "turned",
+          "start": 20.229,
+          "end": 20.409
+        },
+        {
+          "w": "blood",
+          "start": 20.409,
+          "end": 20.609
+        },
+        {
+          "w": "red.",
+          "start": 20.609,
+          "end": 20.789
+        }
+      ]
+    },
+    {
+      "i": 9,
+      "speaker": "narrator",
+      "text": "You see, a normal camera only traps light, like a sealed photograph.",
+      "start": 21.089,
+      "speechEnd": 24.0,
+      "end": 24.12,
+      "words": [
+        {
+          "w": "You",
+          "start": 21.089,
+          "end": 21.169
+        },
+        {
+          "w": "see,",
+          "start": 21.169,
+          "end": 21.289
+        },
+        {
+          "w": "a",
+          "start": 21.429,
+          "end": 21.469
+        },
+        {
+          "w": "normal",
+          "start": 21.469,
+          "end": 21.689
+        },
+        {
+          "w": "camera",
+          "start": 21.689,
+          "end": 21.989
+        },
+        {
+          "w": "only",
+          "start": 21.989,
+          "end": 22.309
+        },
+        {
+          "w": "traps",
+          "start": 22.309,
+          "end": 22.529
+        },
+        {
+          "w": "light,",
+          "start": 22.529,
+          "end": 22.789
+        },
+        {
+          "w": "like",
+          "start": 23.029,
+          "end": 23.129
+        },
+        {
+          "w": "a",
+          "start": 23.129,
+          "end": 23.229
+        },
+        {
+          "w": "sealed",
+          "start": 23.229,
+          "end": 23.429
+        },
+        {
+          "w": "photograph.",
+          "start": 23.429,
+          "end": 23.769
+        }
+      ]
+    },
+    {
+      "i": 10,
+      "speaker": "narrator",
+      "text": "Forcing a dark room into raw ASCII symbols doesn't just shrink the picture.",
+      "start": 24.12,
+      "speechEnd": 27.278,
+      "end": 27.398,
+      "words": [
+        {
+          "w": "Forcing",
+          "start": 24.12,
+          "end": 24.42
+        },
+        {
+          "w": "a",
+          "start": 24.42,
+          "end": 24.56
+        },
+        {
+          "w": "dark",
+          "start": 24.56,
+          "end": 24.78
+        },
+        {
+          "w": "room",
+          "start": 24.78,
+          "end": 25.02
+        },
+        {
+          "w": "into",
+          "start": 25.02,
+          "end": 25.2
+        },
+        {
+          "w": "raw",
+          "start": 25.2,
+          "end": 25.44
+        },
+        {
+          "w": "ASCII",
+          "start": 25.44,
+          "end": 25.72
+        },
+        {
+          "w": "symbols",
+          "start": 25.72,
+          "end": 26.1
+        },
+        {
+          "w": "doesn't",
+          "start": 26.1,
+          "end": 26.44
+        },
+        {
+          "w": "just",
+          "start": 26.44,
+          "end": 26.56
+        },
+        {
+          "w": "shrink",
+          "start": 26.56,
+          "end": 26.76
+        },
+        {
+          "w": "the",
+          "start": 26.76,
+          "end": 26.94
+        },
+        {
+          "w": "picture.",
+          "start": 26.94,
+          "end": 27.08
+        }
+      ]
+    },
+    {
+      "i": 11,
+      "speaker": "narrator",
+      "text": "It leaves gaps between every character\u2014big enough for something to crawl through.",
+      "start": 27.398,
+      "speechEnd": 30.611,
+      "end": 30.731,
+      "words": [
+        {
+          "w": "It",
+          "start": 27.398,
+          "end": 27.478
+        },
+        {
+          "w": "leaves",
+          "start": 27.478,
+          "end": 27.598
+        },
+        {
+          "w": "gaps",
+          "start": 27.598,
+          "end": 27.878
+        },
+        {
+          "w": "between",
+          "start": 27.878,
+          "end": 28.258
+        },
+        {
+          "w": "every",
+          "start": 28.258,
+          "end": 28.558
+        },
+        {
+          "w": "character,",
+          "start": 28.558,
+          "end": 28.878
+        },
+        {
+          "w": "big",
+          "start": 29.138,
+          "end": 29.238
+        },
+        {
+          "w": "enough",
+          "start": 29.238,
+          "end": 29.438
+        },
+        {
+          "w": "for",
+          "start": 29.438,
+          "end": 29.638
+        },
+        {
+          "w": "something",
+          "start": 29.638,
+          "end": 29.938
+        },
+        {
+          "w": "to",
+          "start": 29.938,
+          "end": 30.118
+        },
+        {
+          "w": "crawl",
+          "start": 30.118,
+          "end": 30.278
+        },
+        {
+          "w": "through.",
+          "start": 30.278,
+          "end": 30.518
+        }
+      ]
+    },
+    {
+      "i": 12,
+      "speaker": "narrator",
+      "text": "His dead monitor types one final line:",
+      "start": 30.731,
+      "speechEnd": 32.387,
+      "end": 32.547,
+      "words": [
+        {
+          "w": "His",
+          "start": 30.731,
+          "end": 30.851
+        },
+        {
+          "w": "dead",
+          "start": 30.851,
+          "end": 30.971
+        },
+        {
+          "w": "monitor",
+          "start": 30.971,
+          "end": 31.231
+        },
+        {
+          "w": "types",
+          "start": 31.231,
+          "end": 31.551
+        },
+        {
+          "w": "one",
+          "start": 31.551,
+          "end": 31.751
+        },
+        {
+          "w": "final",
+          "start": 31.751,
+          "end": 31.991
+        },
+        {
+          "w": "line.",
+          "start": 31.991,
+          "end": 32.251
+        }
+      ]
+    },
+    {
+      "i": 13,
+      "speaker": "entity",
+      "text": "Found the exit.",
+      "start": 32.547,
+      "speechEnd": 33.72,
+      "end": 33.86,
+      "words": [
+        {
+          "w": "Found",
+          "start": 32.547,
+          "end": 32.807
+        },
+        {
+          "w": "the",
+          "start": 32.807,
+          "end": 32.987
+        },
+        {
+          "w": "exit.",
+          "start": 32.987,
+          "end": 33.207
+        }
+      ]
+    },
+    {
+      "i": 14,
+      "speaker": "narrator",
+      "text": "When he looks down, his own hands are already turning into ASCII.",
+      "start": 33.86,
+      "speechEnd": 36.774,
+      "end": 36.834,
+      "words": [
+        {
+          "w": "When",
+          "start": 33.86,
+          "end": 33.96
+        },
+        {
+          "w": "he",
+          "start": 33.96,
+          "end": 34.02
+        },
+        {
+          "w": "looks",
+          "start": 34.02,
+          "end": 34.16
+        },
+        {
+          "w": "down,",
+          "start": 34.16,
+          "end": 34.38
+        },
+        {
+          "w": "his",
+          "start": 34.54,
+          "end": 34.6
+        },
+        {
+          "w": "own",
+          "start": 34.6,
+          "end": 34.76
+        },
+        {
+          "w": "hands",
+          "start": 34.76,
+          "end": 35.02
+        },
+        {
+          "w": "are",
+          "start": 35.02,
+          "end": 35.24
+        },
+        {
+          "w": "already",
+          "start": 35.24,
+          "end": 35.6
+        },
+        {
+          "w": "turning",
+          "start": 35.6,
+          "end": 35.94
+        },
+        {
+          "w": "into",
+          "start": 35.94,
+          "end": 36.22
+        },
+        {
+          "w": "ASCII.",
+          "start": 36.22,
+          "end": 36.58
+        }
+      ]
+    }
+  ]
+}

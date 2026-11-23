@@ -1,0 +1,41 @@
+[
+  {
+    "key": "venus_magellan",
+    "query": "Magellan Venus",
+    "nasa_id": "PIA00478",
+    "title": "Venus - Global View Centered at 180 degrees",
+    "date_created": "1996-11-26",
+    "center": "JPL",
+    "credit": "NASA/JPL",
+    "source_url": "https://images.nasa.gov/details/PIA00478",
+    "image_url": "http://images-assets.nasa.gov/image/PIA00478/PIA00478~large.jpg",
+    "local_file": "C:\\Users\\AFADAZIO\\OneDrive\\Desktop\\shortmaking\\videos\\venus-short\\assets\\venus_magellan.jpg",
+    "bytes": 491504
+  },
+  {
+    "key": "venus_clouds",
+    "query": "PIA00072",
+    "nasa_id": "PIA00072",
+    "title": "Venus Cloud Patterns colorized and filtered",
+    "date_created": "1996-02-01",
+    "center": "JPL",
+    "credit": "NASA/JPL",
+    "source_url": "https://images.nasa.gov/details/PIA00072",
+    "image_url": "http://images-assets.nasa.gov/image/PIA00072/PIA00072~small.jpg",
+    "local_file": "C:\\Users\\AFADAZIO\\OneDrive\\Desktop\\shortmaking\\videos\\venus-short\\assets\\venus_clouds.jpg",
+    "bytes": 27520
+  },
+  {
+    "key": "venus_volcano",
+    "query": "Venus radar volcano",
+    "nasa_id": "PIA00272",
+    "title": "Venus - Simulated Color of Ushas Mons",
+    "date_created": "1996-07-19",
+    "center": "JPL",
+    "credit": "NASA/JPL",
+    "source_url": "https://images.nasa.gov/details/PIA00272",
+    "image_url": "http://images-assets.nasa.gov/image/PIA00272/PIA00272~large.jpg",
+    "local_file": "C:\\Users\\AFADAZIO\\OneDrive\\Desktop\\shortmaking\\videos\\venus-short\\assets\\venus_volcano.jpg",
+    "bytes": 528548
+  }
+]
