@@ -1,7 +1,7 @@
 {
-  "story_duration": 189.886,
+  "story_duration": 190.076,
   "outro_duration": 10.3,
-  "total_duration": 200.186,
+  "total_duration": 200.316,
   "render_fps": 15,
   "output_fps": 30,
   "beats": [
@@ -265,5 +265,6 @@
       "duration": 12.511,
       "text": "Sam hadn't thrown a single punch in his life. He had broken his own mother's heart\u2014 and left us behind\u2014 just so she could live. He squeezed my shoulder one last time, picked up his duffel bag, and walked out the front door with his ruined, bruised face held high."
     }
-  ]
+  ],
+  "outro_start": 190.016
 }
