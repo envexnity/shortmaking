@@ -309,7 +309,7 @@ def main():
         vik_tunic=True,
     )
     thorfinn_pants = make_solid_irl_pants(pant_col=(44, 38, 34, 255), shoe_col=(66, 48, 34, 255))
-    bake_atlas_custom("outro_thorfinn", thorfinn_colors, "face_skeptic",
+    bake_atlas_custom("outro_thorfinn", thorfinn_colors, "face_chill",
                       custom_shirt_img=thorfinn_tunic, custom_pants_img=thorfinn_pants)
 
     print("\n[OK] All 11 character atlases generated in", OUT_TEX)

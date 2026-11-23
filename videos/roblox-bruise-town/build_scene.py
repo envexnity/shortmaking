@@ -768,15 +768,14 @@ def main():
     key_pose_bones(sam_s2["rig"], f_b14, {"LowerTorso-FK": (12, 0, 0), "Head": (12, 0, 0), "RightArm_FK": (-72, 18, -12), "LeftArm_FK": (-35, 0, -12)})
     key_rig_world(toby_s2["rig"], f_b14, Vector((131.5, 3.0, 0.0)), 145.0)
 
-    # Set 3 placements (Hospital Room)
+    # Set 3 placements (Hospital Room - Mom reclining upright against pillows under blanket)
     f_b13 = f_at(beats["b13_mom_sick"]["start"])
-    # Mom lying horizontally in hospital bed (X=179, Y=-3.5, Z=2.1)
-    key_rig_world(mom_s3["rig"], f_b13, Vector((179.0, -5.2, 2.2)), 0.0)
-    key_pose_bones(mom_s3["rig"], f_b13, {"LowerTorso-FK": (-88, 0, 0), "Head": (12, 0, 0), "RightArm_FK": (6, 0, 12), "LeftArm_FK": (6, 0, -12)})
-    key_rig_world(sam_s3["rig"], f_b13, Vector((182.2, -1.2, 0.0)), 120.0, scale=1.07)
-    key_pose_bones(sam_s3["rig"], f_b13, {"Head": (16, 0, 0), "RightArm_FK": (-35, 0, 10)})
-    key_rig_world(toby_s3["rig"], f_b13, Vector((176.2, -0.8, 0.0)), -125.0)
-    key_pose_bones(toby_s3["rig"], f_b13, {"Head": (14, 0, 0)})
+    key_rig_world(mom_s3["rig"], f_b13, Vector((179.0, -4.6, 1.1)), 0.0)
+    key_pose_bones(mom_s3["rig"], f_b13, {"LowerTorso-FK": (-16, 0, 0), "Head": (10, 0, 0), "RightArm_FK": (-20, 0, 12), "LeftArm_FK": (-20, 0, -12)})
+    key_rig_world(sam_s3["rig"], f_b13, Vector((182.6, -1.2, 0.0)), 135.0, scale=1.07)
+    key_pose_bones(sam_s3["rig"], f_b13, {"Head": (12, 0, -10), "RightArm_FK": (-30, 0, 10)})
+    key_rig_world(toby_s3["rig"], f_b13, Vector((175.4, -1.2, 0.0)), -135.0)
+    key_pose_bones(toby_s3["rig"], f_b13, {"Head": (10, 0, 10)})
 
     # Set 4 placements (Tuesday Apartment Climax: 93.75s .. 189.94s)
     f_b16 = f_at(beats["b16_apartment"]["start"])
@@ -796,28 +795,28 @@ def main():
     sets_info["bath_hinge"].rotation_euler = (0, 0, math.radians(-82))
     sets_info["bath_hinge"].keyframe_insert(data_path="rotation_euler", frame=f_b18_pull - 8)
 
-    # Sam starts behind door (Y=-8.2), steps out into hallway (Y=-4.5) with head down & hood on
+    # Sam starts behind door (Y=-8.2), steps out into hallway (Y=-4.6) with head down & hood on
     key_rig_world(sam_s4["rig"], f_b16, Vector((240.2, -8.4, 0.0)), 0.0, scale=1.07)
-    key_rig_world(sam_s4["rig"], f_b17_open, Vector((240.2, -5.0, 0.0)), 0.0, scale=1.07)
+    key_rig_world(sam_s4["rig"], f_b17_open, Vector((240.2, -4.8, 0.0)), 0.0, scale=1.07)
     key_pose_bones(sam_s4["rig"], f_b17_open, {"Head": (24, 0, 0), "RightArm_FK": (6, 0, 12), "LeftArm_FK": (6, 0, -12)})
 
-    # Hood flips back at f_b18_pull and Sam lifts his bruised face!
+    # Hood flips cleanly back/hidden at f_b18_pull and Sam lifts his bruised face!
     sam_hood.rotation_euler = (0.0, 0.0, 0.0)
     sam_hood.keyframe_insert(data_path="rotation_euler", frame=f_b16)
     sam_hood.keyframe_insert(data_path="rotation_euler", frame=f_b18_pull - 4)
-    sam_hood.rotation_euler = (math.radians(-118), 0.0, 0.0)
+    sam_hood.rotation_euler = (math.radians(-125), 0.0, 0.0)
     sam_hood.keyframe_insert(data_path="rotation_euler", frame=f_b18_pull + 3)
 
     key_pose_bones(sam_s4["rig"], f_b18_pull + 3, {"Head": (2, 0, 0), "RightArm_FK": (10, 0, 12), "LeftArm_FK": (10, 0, -12)})
-    key_pose_bones(sam_s4["rig"], f_b22_grab, {"Head": (4, 0, 0), "RightArm_FK": (-78, -14, 10), "LeftArm_FK": (-78, 14, -10)})
+    key_pose_bones(sam_s4["rig"], f_b22_grab, {"Head": (4, 0, -10), "RightArm_FK": (-78, -14, 10), "LeftArm_FK": (-78, 14, -10)})
     key_rig_world(sam_s4["rig"], f_b22_grab, Vector((240.2, -4.6, 0.0)), 0.0, scale=1.07)
 
-    # Toby knocks, reaches up to pull Sam's hood, staggers back in shock, yells
-    key_rig_world(toby_s4["rig"], f_b16, Vector((239.8, -1.0, 0.0)), 180.0)
+    # Keep Toby offset to viewer-right (X=237.6) so he NEVER blocks the center camera line to Sam!
+    key_rig_world(toby_s4["rig"], f_b16, Vector((237.8, -1.8, 0.0)), 155.0)
     key_pose_bones(toby_s4["rig"], f_b16, {"RightArm_FK": (-85, 0, 0), "Head": (-4, 0, 0)})
-    key_rig_world(toby_s4["rig"], f_b18_pull, Vector((239.9, -2.5, 0.0)), 175.0)
+    key_rig_world(toby_s4["rig"], f_b18_pull, Vector((238.4, -3.2, 0.0)), 145.0)
     key_pose_bones(toby_s4["rig"], f_b18_pull, {"RightArm_FK": (-128, 0, -12), "Head": (-8, 0, 0)})
-    key_rig_world(toby_s4["rig"], f_b19_shock + 6, Vector((239.9, -1.6, 0.0)), 175.0)
+    key_rig_world(toby_s4["rig"], f_b19_shock + 6, Vector((237.5, -2.0, 0.0)), 150.0)
     key_pose_bones(toby_s4["rig"], f_b19_shock + 6, {"LowerTorso-FK": (-10, 0, 0), "RightArm_FK": (-45, 0, 25), "LeftArm_FK": (-45, 0, -25)})
     key_pose_bones(toby_s4["rig"], f_b21_yell, {"LowerTorso-FK": (8, 0, 0), "RightArm_FK": (-95, 18, 15), "LeftArm_FK": (-95, -18, -15)})
 
@@ -834,79 +833,79 @@ def main():
     f_out0 = f_at(outro_start)
     f_out_mid = f_at(outro_start + 4.8)
     f_out_end = total_frames
-    key_rig_world(thorfinn_s5["rig"], f_out0, Vector((300.0, 0.0, 0.0)), 15.0, scale=1.05)
-    key_pose_bones(thorfinn_s5["rig"], f_out0, {"Head": (4, 0, -12), "RightArm_FK": (8, 0, 10), "LeftArm_FK": (8, 0, -10)})
-    key_pose_bones(thorfinn_s5["rig"], f_out_mid, {"Head": (-4, 0, 5), "LowerTorso-FK": (-4, 0, 0)})
-    key_pose_bones(thorfinn_s5["rig"], f_out_end, {"Head": (-6, 0, 8)})
+    key_rig_world(thorfinn_s5["rig"], f_out0, Vector((300.0, 0.0, 0.0)), 12.0, scale=1.05)
+    key_pose_bones(thorfinn_s5["rig"], f_out0, {"Head": (4, 0, -10), "RightArm_FK": (8, 0, 10), "LeftArm_FK": (8, 0, -10)})
+    key_pose_bones(thorfinn_s5["rig"], f_out_mid, {"Head": (-3, 0, 4), "LowerTorso-FK": (-4, 0, 0)})
+    key_pose_bones(thorfinn_s5["rig"], f_out_end, {"Head": (-5, 0, 6)})
 
     # ============================================================
     # Multi-Angle Camera Shots (Zero Static Holds, Locked to beats.json)
     # ============================================================
-    def shot_spec(name, t0, t1, p0, p1, tgt0, tgt1, lens=42.0, roll=0.0, orbit=0.0, kick_t=None):
+    def shot_spec(name, t0, t1, p0, p1, tgt0, tgt1, lens=40.0, roll=0.0, orbit=0.0, kick_t=None):
         sf = f_at(t0)
         ef = total_frames if t1 >= total_dur - 0.05 else max(sf + 2, f_at(t1) - 1)
         return (name, sf, ef, p0, p1, tgt0, tgt1, lens, roll, orbit, f_at(kick_t) if kick_t else None)
 
     shots = [
         shot_spec("01_Parking_Wide",    0.00, beats["b02_rule"]["start"],
-                  (10.0, 12.0, 5.5), (7.5, 9.5, 4.8), (0.0, -2.0, 2.8), (-0.5, -2.0, 3.0), lens=36.0),
+                  (10.0, 13.0, 5.5), (7.5, 10.5, 4.8), (0.0, -2.0, 2.8), (-0.5, -2.0, 3.0), lens=35.0),
         shot_spec("02_Parking_Shove",   beats["b02_rule"]["start"], beats["b03_instantly"]["start"],
-                  (3.2, 4.5, 3.8), (2.4, 3.2, 3.5), (0.2, -1.8, 3.2), (0.5, -1.8, 3.4), lens=44.0, kick_t=beats["b02_rule"]["start"] + 1.4),
+                  (4.0, 6.2, 3.8), (3.0, 4.8, 3.6), (0.2, -1.8, 3.0), (0.5, -1.8, 3.2), lens=38.0, kick_t=beats["b02_rule"]["start"] + 1.4),
         shot_spec("03_Marcus_BruiseCU", beats["b03_instantly"]["start"], beats["b04_marcus"]["start"],
-                  (1.8, -0.2, 4.4), (1.0, -0.6, 4.5), (-1.4, -1.8, 4.4), (-1.4, -1.8, 4.45), lens=65.0),
+                  (2.6, 1.8, 4.0), (1.8, 1.2, 4.1), (-1.4, -1.8, 3.6), (-1.4, -1.8, 3.8), lens=44.0),
         shot_spec("04_Marcus_Hallway",  beats["b04_marcus"]["start"], beats["b05_town_rule"]["start"],
-                  (-5.5, 5.0, 3.6), (-3.8, 3.5, 3.8), (-1.0, -2.5, 3.2), (-0.5, -2.2, 3.4), lens=40.0, orbit=-10.0),
+                  (-5.8, 6.2, 3.6), (-4.0, 4.8, 3.8), (-1.0, -2.5, 3.0), (-0.5, -2.2, 3.2), lens=38.0, orbit=-10.0),
         shot_spec("05_Town_Students",   beats["b05_town_rule"]["start"], beats["b06_sam_intro"]["start"],
-                  (-8.5, 4.5, 4.2), (-5.0, 5.5, 3.8), (0.0, -4.0, 3.2), (-1.5, -2.5, 3.2), lens=38.0),
+                  (-8.5, 5.8, 4.2), (-5.0, 6.5, 3.8), (0.0, -4.0, 3.0), (-1.5, -2.5, 3.0), lens=36.0),
         shot_spec("06_Sam_HeroIntro",   beats["b06_sam_intro"]["start"], beats["b07_sam_work"]["start"],
-                  (59.5, 6.2, 3.2), (58.8, 4.4, 3.8), (58.8, 0.0, 3.5), (58.4, 0.0, 4.0), lens=45.0),
+                  (59.8, 7.6, 3.2), (59.0, 5.8, 3.6), (59.0, 0.0, 3.2), (58.6, 0.0, 3.5), lens=40.0),
         shot_spec("07_AutoShop_Work",   beats["b07_sam_work"]["start"], beats["b08_bleachers"]["start"],
-                  (124.5, 7.5, 4.2), (121.0, 6.0, 3.8), (118.5, 0.5, 2.8), (118.5, 1.2, 3.2), lens=38.0, orbit=12.0),
+                  (124.5, 8.2, 4.2), (121.0, 6.8, 3.8), (118.5, 0.5, 2.8), (118.5, 1.2, 3.2), lens=38.0, orbit=12.0),
         shot_spec("08_Bleachers_Shove", beats["b08_bleachers"]["start"], beats["b09_welt"]["start"],
-                  (63.5, 5.8, 3.6), (62.0, 4.2, 3.5), (60.2, -1.0, 3.2), (60.0, -1.0, 3.5), lens=42.0, kick_t=beats["b08_bleachers"]["start"] + 3.2),
+                  (63.8, 7.2, 3.8), (62.2, 5.6, 3.6), (60.2, -1.0, 3.0), (60.0, -1.0, 3.3), lens=38.0, kick_t=beats["b08_bleachers"]["start"] + 3.2),
         shot_spec("09_Sam_Unmarked",    beats["b09_welt"]["start"], beats["b10_why_ask"]["start"],
-                  (63.2, 2.2, 4.2), (61.8, 2.0, 4.4), (60.4, -1.0, 4.2), (60.0, -1.0, 4.5), lens=54.0),
+                  (63.5, 4.2, 4.0), (62.2, 3.6, 4.1), (60.2, -1.0, 3.5), (59.8, -1.0, 3.8), lens=44.0),
         shot_spec("10_Porch_Talk",      beats["b10_why_ask"]["start"], beats["b11_no_enemies_sam"]["start"],
-                  (73.8, 10.5, 3.8), (72.2, 9.0, 3.8), (70.5, 4.4, 3.6), (70.3, 4.4, 3.7), lens=44.0),
+                  (73.8, 11.2, 3.8), (72.2, 9.6, 3.8), (70.5, 4.4, 3.4), (70.3, 4.4, 3.6), lens=40.0),
         shot_spec("11_Sam_QuoteSmile",  beats["b11_no_enemies_sam"]["start"], beats["b12_strongest"]["start"],
-                  (68.2, 8.2, 4.2), (68.6, 7.2, 4.3), (69.2, 4.4, 4.5), (69.2, 4.4, 4.6), lens=58.0),
+                  (68.2, 9.2, 4.0), (68.6, 8.0, 4.1), (69.2, 4.4, 3.8), (69.2, 4.4, 4.0), lens=48.0),
         shot_spec("12_Sam_Strongest",   beats["b12_strongest"]["start"], beats["b13_mom_sick"]["start"],
-                  (70.5, 9.5, 3.2), (70.2, 8.0, 4.0), (69.5, 4.4, 4.2), (69.5, 4.4, 4.5), lens=42.0),
+                  (70.5, 10.5, 3.2), (70.2, 8.8, 3.8), (69.5, 4.4, 3.8), (69.5, 4.4, 4.1), lens=40.0),
         shot_spec("13_Hospital_Room",   beats["b13_mom_sick"]["start"], beats["b14_night_shifts"]["start"],
-                  (184.5, 4.5, 4.5), (182.0, 1.5, 4.0), (179.0, -3.5, 2.6), (180.5, -4.0, 2.8), lens=38.0, orbit=-10.0),
+                  (183.0, 7.5, 4.8), (180.5, 5.5, 4.4), (179.0, -3.5, 2.8), (179.5, -3.5, 2.8), lens=36.0, orbit=-8.0),
         shot_spec("14_Morning_Coffee",  beats["b14_night_shifts"]["start"], beats["b15_tuesday"]["start"],
-                  (136.8, 4.8, 4.0), (135.0, 2.8, 3.8), (134.0, -1.5, 3.6), (133.8, -1.6, 4.0), lens=46.0),
+                  (136.6, 5.2, 4.0), (135.2, 3.6, 3.9), (134.0, -1.5, 3.4), (133.8, -1.6, 3.6), lens=42.0),
         shot_spec("15_Tuesday_Snap",    beats["b15_tuesday"]["start"], beats["b16_apartment"]["start"],
-                  (243.5, 4.0, 4.2), (242.5, 2.5, 4.0), (240.0, -6.5, 3.2), (240.0, -6.5, 3.4), lens=40.0, kick_t=beats["b15_tuesday"]["start"]),
+                  (243.5, 5.0, 4.2), (242.5, 3.5, 4.0), (240.0, -5.5, 3.2), (240.0, -5.5, 3.4), lens=38.0, kick_t=beats["b15_tuesday"]["start"]),
         shot_spec("16_Apt_DoorKnock",   beats["b16_apartment"]["start"], beats["b17_knock"]["start"],
-                  (244.0, 3.2, 3.8), (242.2, 1.5, 3.6), (239.8, -4.5, 3.2), (240.0, -6.0, 3.4), lens=38.0),
+                  (243.8, 3.8, 3.8), (242.2, 2.4, 3.6), (239.4, -4.5, 3.2), (239.8, -5.5, 3.4), lens=38.0),
         shot_spec("17_Bath_DoorCrack",  beats["b17_knock"]["start"], beats["b18_hood"]["start"],
-                  (242.5, -0.5, 3.8), (241.5, -1.2, 4.2), (240.2, -6.0, 3.8), (240.2, -5.2, 4.2), lens=46.0),
+                  (242.6, 0.5, 3.8), (241.6, -0.4, 4.0), (240.2, -5.0, 3.6), (240.2, -4.8, 3.8), lens=42.0),
         shot_spec("18_Hood_Pull",       beats["b18_hood"]["start"], beats["b19_breath"]["start"],
-                  (242.4, -2.0, 4.5), (241.6, -2.6, 4.6), (240.2, -4.8, 4.6), (240.2, -4.8, 4.7), lens=54.0, kick_t=beats["b18_hood"]["start"] + 3.0),
+                  (242.5, -0.4, 4.2), (241.8, -1.0, 4.3), (240.2, -4.6, 3.8), (240.2, -4.6, 4.0), lens=44.0, kick_t=beats["b18_hood"]["start"] + 3.0),
         shot_spec("19_Cant_Breathe",    beats["b19_breath"]["start"], beats["b20_bruised_face"]["start"],
-                  (240.6, -1.6, 4.8), (240.4, -2.4, 4.85), (240.2, -4.8, 4.7), (240.2, -4.8, 4.75), lens=65.0),
+                  (241.2, -0.2, 4.4), (240.8, -0.8, 4.5), (240.2, -4.6, 4.1), (240.2, -4.6, 4.3), lens=48.0),
         shot_spec("20_Bruised_FaceCU",  beats["b20_bruised_face"]["start"], beats["b21_who_did"]["start"],
-                  (240.8, -1.5, 4.7), (239.6, -2.2, 4.8), (240.2, -4.8, 4.7), (240.2, -4.8, 4.75), lens=68.0, orbit=10.0),
+                  (241.4, -0.2, 4.4), (240.4, -0.8, 4.5), (240.2, -4.6, 4.2), (240.2, -4.6, 4.3), lens=50.0, orbit=8.0),
         shot_spec("21_Toby_Yelling",    beats["b21_who_did"]["start"], beats["b22_nobody"]["start"],
-                  (242.2, -5.5, 4.2), (241.6, -4.8, 4.1), (239.9, -1.8, 3.8), (239.9, -1.8, 4.0), lens=48.0, roll=-3.0),
+                  (241.5, -5.2, 4.0), (240.8, -4.6, 4.0), (237.8, -2.0, 3.6), (237.6, -2.0, 3.8), lens=42.0, roll=-3.0),
         shot_spec("22_Sam_QuietSmile",  beats["b22_nobody"]["start"], beats["b23_remember_rule"]["start"],
-                  (241.8, -1.6, 4.4), (240.8, -2.2, 4.5), (240.2, -4.6, 4.3), (240.2, -4.6, 4.5), lens=52.0),
+                  (242.0, 0.2, 4.1), (241.2, -0.6, 4.2), (240.2, -4.6, 3.8), (240.2, -4.6, 4.0), lens=45.0),
         shot_spec("23_Remember_Rule",   beats["b23_remember_rule"]["start"], beats["b24_counter_bottles"]["start"],
-                  (237.5, -1.2, 4.2), (238.5, -2.0, 4.0), (240.1, -3.5, 3.8), (240.2, -4.2, 4.2), lens=44.0),
+                  (239.2, 1.5, 4.2), (239.6, 0.4, 4.0), (239.2, -3.5, 3.5), (239.6, -4.2, 3.8), lens=40.0),
         shot_spec("24_Counter_Bottles", beats["b24_counter_bottles"]["start"], beats["b25_dad_truth"]["start"],
-                  (243.0, 1.5, 4.6), (244.6, -0.4, 3.2), (245.3, -2.6, 3.9), (244.6, -0.6, 0.8), lens=48.0),
+                  (243.0, 2.2, 4.6), (244.4, 0.4, 3.4), (245.3, -2.6, 3.8), (244.6, -0.6, 1.2), lens=42.0),
         shot_spec("25_Dad_Truth_Wide",  beats["b25_dad_truth"]["start"], beats["b26_ending"]["start"],
-                  (236.2, 3.0, 4.0), (237.8, 1.5, 3.8), (241.0, -3.5, 3.4), (240.2, -4.4, 4.0), lens=38.0, orbit=-8.0),
+                  (236.2, 3.8, 4.0), (237.8, 2.2, 3.8), (240.5, -3.5, 3.4), (240.2, -4.4, 3.8), lens=36.0, orbit=-8.0),
         shot_spec("26_Walk_Out_Door",   beats["b26_ending"]["start"], outro_start,
-                  (239.5, -2.2, 3.4), (236.5, 1.8, 3.8), (236.5, 2.2, 3.4), (233.6, 5.2, 4.0), lens=40.0),
-        # Set 5: Roblox Thorfinn Sunset Outro (10.30s, 3 dynamic shots!)
+                  (239.8, -2.5, 3.4), (237.0, 1.4, 3.8), (236.5, 2.2, 3.4), (233.6, 5.2, 3.8), lens=38.0),
+        # Set 5: Roblox Thorfinn Sunset Outro (10.30s, wide/medium sunset framing like @Arseluz27!)
         shot_spec("27_Thorfinn_Silhouette", outro_start, outro_start + 3.2,
-                  (302.5, 5.8, 3.2), (301.4, 4.2, 3.6), (300.0, 0.0, 3.8), (300.0, 0.0, 4.2), lens=46.0, kick_t=outro_start + 0.1),
+                  (303.2, 9.8, 3.2), (301.8, 7.6, 3.5), (300.0, -8.0, 3.8), (300.0, -10.0, 4.0), lens=36.0, kick_t=outro_start + 0.1),
         shot_spec("28_Thorfinn_FaceGlow",   outro_start + 3.2, outro_start + 6.8,
-                  (299.2, 3.4, 4.4), (300.6, 2.6, 4.6), (300.0, 0.0, 4.5), (300.0, 0.0, 4.6), lens=56.0, orbit=14.0),
+                  (298.8, 7.2, 3.8), (301.0, 5.6, 4.0), (300.0, -8.0, 4.0), (300.0, -10.0, 4.2), lens=42.0, orbit=12.0),
         shot_spec("29_Thorfinn_HeroSun",    outro_start + 6.8, total_dur,
-                  (301.8, 4.8, 2.4), (300.2, 3.5, 3.2), (300.0, -4.0, 4.2), (300.0, -8.0, 4.8), lens=38.0, kick_t=outro_start + 6.85),
+                  (302.5, 9.5, 2.2), (300.4, 7.2, 3.0), (300.0, -12.0, 4.2), (300.0, -15.0, 4.6), lens=34.0, kick_t=outro_start + 6.85),
     ]
 
     # Ensure strictly continuous frame coverage 1..total_frames
