@@ -62,7 +62,8 @@
     "youtube_url": "https://youtube.com/shorts/IbXyHf7HwL4",
     "privacy": "private",
     "scheduled_slot": "2026-11-23T21:00:00+07:00",
-    "status": "scheduled",
-    "posted_at": null
+    "status": "posted",
+    "posted_at": "2026-11-23T21:00:00+07:00",
+    "tiktok_publish_id": "v_inbox_file~v2.7711366454403631125"
   }
 ]
