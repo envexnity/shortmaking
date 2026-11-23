@@ -863,7 +863,7 @@ def main():
         shot_spec("03_Marcus_BruiseCU", beats["b03_instantly"]["start"], beats["b04_marcus"]["start"],
                   (2.6, 1.8, 4.0), (1.8, 1.2, 4.1), (-1.4, -1.8, 3.6), (-1.4, -1.8, 3.8), lens=44.0),
         shot_spec("04_Marcus_Hallway",  beats["b04_marcus"]["start"], beats["b05_town_rule"]["start"],
-                  (-5.8, 6.2, 3.6), (-4.0, 4.8, 3.8), (-1.0, -2.5, 3.0), (-0.5, -2.2, 3.2), lens=38.0, orbit=-10.0),
+                  (-5.8, 7.8, 3.8), (-4.0, 6.4, 3.8), (-1.0, -2.5, 3.0), (-0.5, -2.2, 3.2), lens=36.0, orbit=-10.0),
         shot_spec("05_Town_Students",   beats["b05_town_rule"]["start"], beats["b06_sam_intro"]["start"],
                   (-8.5, 5.8, 4.2), (-5.0, 6.5, 3.8), (0.0, -4.0, 3.0), (-1.5, -2.5, 3.0), lens=36.0),
         shot_spec("06_Sam_HeroIntro",   beats["b06_sam_intro"]["start"], beats["b07_sam_work"]["start"],
