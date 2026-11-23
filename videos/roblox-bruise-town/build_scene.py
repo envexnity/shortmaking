@@ -505,10 +505,12 @@ def build_sets(scene):
     make_box("S3_Floor", (180, 0, -0.25), (30, 26, 0.5), m_hosp_floor, sets_col)
     make_box("S3_BackWall", (180, -8.5, 5.5), (26, 0.8, 11.0), m_hosp_wall, sets_col)
     make_box("S3_SideWall", (171, 0.0, 5.5), (0.8, 18.0, 11.0), m_hosp_wall, sets_col)
-    # Hospital bed
+    # Hospital bed + propped pillow + cozy blanket
     make_box("S3_BedFrame", (179, -2.5, 1.1), (4.4, 8.2, 0.6), m_bed_frame, sets_col)
+    make_box("S3_Headboard", (179, -6.4, 2.8), (4.4, 0.4, 3.4), m_bed_frame, sets_col)
     make_box("S3_Mattress", (179, -2.5, 1.7), (4.1, 7.8, 0.8), m_bed_sheet, sets_col)
-    make_box("S3_Pillow", (179, -5.6, 2.3), (2.8, 1.5, 0.45), m_hosp_wall, sets_col)
+    make_box("S3_Blanket", (179, -1.6, 2.3), (4.0, 5.2, 0.7), make_roblox_part_mat("M_HospBlanket", "#7EB0D4", rough=0.75), sets_col)
+    make_box("S3_Pillow", (179, -5.5, 3.4), (2.8, 1.3, 1.6), m_hosp_wall, sets_col, rot=(math.radians(22), 0, 0))
     # Glowing vital monitor + stand
     make_box("S3_MonStand", (175.2, -5.5, 2.2), (0.35, 0.35, 4.4), m_metal, sets_col)
     make_box("S3_MonBox", (175.2, -5.5, 4.6), (2.0, 0.8, 1.5), m_bed_frame, sets_col)
@@ -768,13 +770,20 @@ def main():
     key_pose_bones(sam_s2["rig"], f_b14, {"LowerTorso-FK": (12, 0, 0), "Head": (12, 0, 0), "RightArm_FK": (-72, 18, -12), "LeftArm_FK": (-35, 0, -12)})
     key_rig_world(toby_s2["rig"], f_b14, Vector((131.5, 3.0, 0.0)), 145.0)
 
-    # Set 3 placements (Hospital Room - Mom reclining upright against pillows under blanket)
+    # Set 3 placements (Hospital Room - Mom sitting propped against pillows under blanket)
     f_b13 = f_at(beats["b13_mom_sick"]["start"])
-    key_rig_world(mom_s3["rig"], f_b13, Vector((179.0, -4.6, 1.1)), 0.0)
-    key_pose_bones(mom_s3["rig"], f_b13, {"LowerTorso-FK": (-16, 0, 0), "Head": (10, 0, 0), "RightArm_FK": (-20, 0, 12), "LeftArm_FK": (-20, 0, -12)})
-    key_rig_world(sam_s3["rig"], f_b13, Vector((182.6, -1.2, 0.0)), 135.0, scale=1.07)
+    key_rig_world(mom_s3["rig"], f_b13, Vector((179.0, -4.4, 0.5)), 0.0)
+    key_pose_bones(mom_s3["rig"], f_b13, {
+        "LowerTorso-FK": (-18, 0, 0),
+        "Head": (12, 0, 0),
+        "RightArm_FK": (-35, 0, 10),
+        "LeftArm_FK": (-35, 0, -10),
+        "RightLeg-IK": (0, 0, 0, 0.0, 2.0, 1.5),
+        "LeftLeg-IK": (0, 0, 0, 0.0, 2.0, 1.5),
+    })
+    key_rig_world(sam_s3["rig"], f_b13, Vector((183.0, -1.2, 0.0)), 130.0, scale=1.07)
     key_pose_bones(sam_s3["rig"], f_b13, {"Head": (12, 0, -10), "RightArm_FK": (-30, 0, 10)})
-    key_rig_world(toby_s3["rig"], f_b13, Vector((175.4, -1.2, 0.0)), -135.0)
+    key_rig_world(toby_s3["rig"], f_b13, Vector((175.0, -1.2, 0.0)), -130.0)
     key_pose_bones(toby_s3["rig"], f_b13, {"Head": (10, 0, 10)})
 
     # Set 4 placements (Tuesday Apartment Climax: 93.75s .. 189.94s)
@@ -872,7 +881,7 @@ def main():
         shot_spec("12_Sam_Strongest",   beats["b12_strongest"]["start"], beats["b13_mom_sick"]["start"],
                   (70.5, 10.5, 3.2), (70.2, 8.8, 3.8), (69.5, 4.4, 3.8), (69.5, 4.4, 4.1), lens=40.0),
         shot_spec("13_Hospital_Room",   beats["b13_mom_sick"]["start"], beats["b14_night_shifts"]["start"],
-                  (183.0, 7.5, 4.8), (180.5, 5.5, 4.4), (179.0, -3.5, 2.8), (179.5, -3.5, 2.8), lens=36.0, orbit=-8.0),
+                  (182.5, 8.2, 5.2), (180.5, 6.2, 4.8), (179.0, -3.5, 3.2), (179.5, -3.5, 3.3), lens=34.0, orbit=-8.0),
         shot_spec("14_Morning_Coffee",  beats["b14_night_shifts"]["start"], beats["b15_tuesday"]["start"],
                   (136.6, 5.2, 4.0), (135.2, 3.6, 3.9), (134.0, -1.5, 3.4), (133.8, -1.6, 3.6), lens=42.0),
         shot_spec("15_Tuesday_Snap",    beats["b15_tuesday"]["start"], beats["b16_apartment"]["start"],
