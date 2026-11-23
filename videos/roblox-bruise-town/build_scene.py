@@ -931,12 +931,12 @@ def main():
 
     if args.stills:
         still_frames = [
-            f_at(beats["b03_instantly"]["start"] + 1.5),   # Marcus bruised face in parking lot
-            f_at(beats["b08_bleachers"]["start"] + 2.0),   # Sam unmarked stepping between Toby & Marcus
-            f_at(beats["b14_night_shifts"]["start"] + 3.0),# Sam morning coffee unmarked
-            f_at(beats["b13_mom_sick"]["start"] + 3.5),    # Mom in hospital bed + 3 orange pill bottles
-            f_at(beats["b20_bruised_face"]["start"] + 3.0),# Sam bruised face close-up reveal
-            f_at(outro_start + 4.5),                       # Roblox Thorfinn sunset outro
+            f_at(beats["b04_marcus"]["start"] + 2.0),         # Marcus varsity + IRL background students
+            f_at(beats["b08_bleachers"]["start"] + 2.0),      # Sam unmarked stepping between Toby & Marcus
+            f_at(beats["b13_mom_sick"]["start"] + 3.5),       # Mom in hospital bed + 3 orange pill bottles
+            f_at(beats["b20_bruised_face"]["start"] + 3.0),   # Sam bruised face close-up reveal
+            f_at(beats["b24_counter_bottles"]["start"] + 2.5),# Kitchen counter 3 pill bottles + envelope
+            f_at(outro_start + 4.5),                          # Roblox Thorfinn sunset outro
         ]
         for fr in still_frames:
             scene.frame_set(fr)
