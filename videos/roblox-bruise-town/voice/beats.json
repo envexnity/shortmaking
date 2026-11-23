@@ -1,0 +1,269 @@
+{
+  "story_duration": 189.886,
+  "outro_duration": 10.3,
+  "total_duration": 200.186,
+  "render_fps": 15,
+  "output_fps": 30,
+  "beats": [
+    {
+      "index": 1,
+      "id": "b01_intro",
+      "set": "parking",
+      "start": 0.05,
+      "end": 2.564,
+      "clip_end": 2.664,
+      "duration": 2.514,
+      "text": "In this town, nobody gets away with cruelty."
+    },
+    {
+      "index": 2,
+      "id": "b02_rule",
+      "set": "parking",
+      "start": 2.664,
+      "end": 8.238,
+      "clip_end": 8.298,
+      "duration": 5.574,
+      "text": "Whenever you hurt someone\u2014 a shove in the hallway, a slap, even a cruel word meant to make someone cry\u2014"
+    },
+    {
+      "index": 3,
+      "id": "b03_instantly",
+      "set": "parking",
+      "start": 8.298,
+      "end": 14.349,
+      "clip_end": 14.469,
+      "duration": 6.052,
+      "text": "the bruise doesn't show up on them. It shows up on you. Instantly. Dark purple, swollen, impossible to cover with makeup."
+    },
+    {
+      "index": 4,
+      "id": "b04_marcus",
+      "set": "parking",
+      "start": 14.469,
+      "end": 23.464,
+      "clip_end": 23.544,
+      "duration": 8.994,
+      "text": "At school, you can tell who the bullies are from across the parking lot. Marcus Vance, the varsity linebacker, walks around with two permanent black eyes and a split lip he's had since seventh grade."
+    },
+    {
+      "index": 5,
+      "id": "b05_town_rule",
+      "set": "parking",
+      "start": 23.544,
+      "end": 33.118,
+      "clip_end": 33.238,
+      "duration": 9.575,
+      "text": "Nobody sits near him. Nobody hires people with bruised faces. Everyone in town learns the same rule by age five: keep your hands to yourself, or wear your ugliness forever."
+    },
+    {
+      "index": 6,
+      "id": "b06_sam_intro",
+      "set": "bleachers",
+      "start": 33.238,
+      "end": 35.498,
+      "clip_end": 35.598,
+      "duration": 2.26,
+      "text": "My older brother, Sam, didn't have a single mark on him."
+    },
+    {
+      "index": 7,
+      "id": "b07_sam_work",
+      "set": "autoshop",
+      "start": 35.598,
+      "end": 46.209,
+      "clip_end": 46.309,
+      "duration": 10.611,
+      "text": "Sam was nineteen, six-foot-two, and worked double shifts at the auto shop so we could afford rent after our dad walked out. He never raised his voice. Never swung back when guys at the shop pushed him around."
+    },
+    {
+      "index": 8,
+      "id": "b08_bleachers",
+      "set": "bleachers",
+      "start": 46.309,
+      "end": 54.218,
+      "clip_end": 54.298,
+      "duration": 7.908,
+      "text": "Even when Marcus cornered me behind the bleachers last October and shoved me into the gravel, Sam just walked up, stepped between us, and let Marcus shove him twice without lifting a finger."
+    },
+    {
+      "index": 9,
+      "id": "b09_welt",
+      "set": "bleachers",
+      "start": 54.298,
+      "end": 59.67,
+      "clip_end": 59.77,
+      "duration": 5.372,
+      "text": "Marcus walked away with a fresh purple welt blooming across his cheek. Sam walked me home without a scratch."
+    },
+    {
+      "index": 10,
+      "id": "b10_why_ask",
+      "set": "bleachers",
+      "start": 59.77,
+      "end": 65.815,
+      "clip_end": 65.895,
+      "duration": 6.045,
+      "text": "\"Why don't you ever hit them back?\" I asked him that night while I washed the gravel out of my palms. \"One punch. They deserve it.\""
+    },
+    {
+      "index": 11,
+      "id": "b11_no_enemies_sam",
+      "set": "bleachers",
+      "start": 65.895,
+      "end": 71.927,
+      "clip_end": 72.027,
+      "duration": 6.033,
+      "text": "Sam just shook his head, smiling quietly. \"I don't have any enemies, Toby. Nobody deserves to carry that around.\""
+    },
+    {
+      "index": 12,
+      "id": "b12_strongest",
+      "set": "bleachers",
+      "start": 72.027,
+      "end": 73.731,
+      "clip_end": 73.851,
+      "duration": 1.704,
+      "text": "I thought he was the strongest person alive."
+    },
+    {
+      "index": 13,
+      "id": "b13_mom_sick",
+      "set": "hospital",
+      "start": 73.851,
+      "end": 83.601,
+      "clip_end": 83.701,
+      "duration": 9.75,
+      "text": "Then, last winter, our mom got sick. Not a cold\u2014 the kind of sickness that meant hospital beds, white walls, and three different medications that cost more than Sam made in a month."
+    },
+    {
+      "index": 14,
+      "id": "b14_night_shifts",
+      "set": "autoshop",
+      "start": 83.701,
+      "end": 93.495,
+      "clip_end": 93.745,
+      "duration": 9.794,
+      "text": "Sam started working night shifts on top of his day job. Every morning when I woke up for school, he was sitting at the kitchen table in his greasy jacket, drinking black coffee, exhausted\u2014 and still completely unmarked."
+    },
+    {
+      "index": 15,
+      "id": "b15_tuesday",
+      "set": "apartment",
+      "start": 93.745,
+      "end": 94.547,
+      "clip_end": 94.687,
+      "duration": 0.802,
+      "text": "Until Tuesday."
+    },
+    {
+      "index": 16,
+      "id": "b16_apartment",
+      "set": "apartment",
+      "start": 94.687,
+      "end": 101.442,
+      "clip_end": 101.522,
+      "duration": 6.755,
+      "text": "I came home early because the heater at school broke. The front door was unlocked. The apartment was dead silent, except for the sound of the bathroom faucet running."
+    },
+    {
+      "index": 17,
+      "id": "b17_knock",
+      "set": "apartment",
+      "start": 101.522,
+      "end": 112.941,
+      "clip_end": 113.021,
+      "duration": 11.418,
+      "text": "I knocked softly. \"Sam? You home?\" The water stopped. For a full minute, nobody answered. Then the door clicked open\u2014 just a crack\u2014 and Sam stepped out with his hood pulled low over his forehead."
+    },
+    {
+      "index": 18,
+      "id": "b18_hood",
+      "set": "apartment",
+      "start": 113.021,
+      "end": 118.567,
+      "clip_end": 118.817,
+      "duration": 5.547,
+      "text": "\"Hey, bud,\" he said, his voice rough. \"You're early.\" I reached up and pulled his hood back before he could stop me."
+    },
+    {
+      "index": 19,
+      "id": "b19_breath",
+      "set": "apartment",
+      "start": 118.817,
+      "end": 119.694,
+      "clip_end": 119.814,
+      "duration": 0.877,
+      "text": "I couldn't breathe."
+    },
+    {
+      "index": 20,
+      "id": "b20_bruised_face",
+      "set": "apartment",
+      "start": 119.814,
+      "end": 131.818,
+      "clip_end": 131.918,
+      "duration": 12.004,
+      "text": "Sam's face was unrecognizable. Both eyes were swollen nearly shut, dark purple and blue. His cheekbone was bruised black, his lip split, his jaw covered in fresh, deep welts\u2014 like he'd gone ten rounds in a cage fight."
+    },
+    {
+      "index": 21,
+      "id": "b21_who_did",
+      "set": "apartment",
+      "start": 131.918,
+      "end": 137.796,
+      "clip_end": 137.896,
+      "duration": 5.878,
+      "text": "\"Who did this to you?\" I yelled, tears springing to my eyes. \"Was it Marcus? Was it the guys at the shop? Tell me!\""
+    },
+    {
+      "index": 22,
+      "id": "b22_nobody",
+      "set": "apartment",
+      "start": 137.896,
+      "end": 146.001,
+      "clip_end": 146.101,
+      "duration": 8.106,
+      "text": "Sam grabbed my shoulders gently. Through his swollen, bruised lips, he forced a quiet smile. \"Nobody touched me, Toby,\" he whispered. \"I didn't hit anybody.\""
+    },
+    {
+      "index": 23,
+      "id": "b23_remember_rule",
+      "set": "apartment",
+      "start": 146.101,
+      "end": 157.386,
+      "clip_end": 157.486,
+      "duration": 11.285,
+      "text": "\"Then how\u2014\" I stopped. My voice died in my throat. I remembered the rule. Not just punches. Cruelty. Every time you lie to someone who loves you. Every time you break a promise. Every time you hurt someone's heart."
+    },
+    {
+      "index": 24,
+      "id": "b24_counter_bottles",
+      "set": "apartment",
+      "start": 157.486,
+      "end": 165.011,
+      "clip_end": 165.091,
+      "duration": 7.524,
+      "text": "On the kitchen counter behind him sat three orange prescription bottles\u2014 paid in full\u2014 and a crumpled envelope with our mom's handwriting on the front, torn open on the floor."
+    },
+    {
+      "index": 25,
+      "id": "b25_dad_truth",
+      "set": "apartment",
+      "start": 165.091,
+      "end": 177.326,
+      "clip_end": 177.426,
+      "duration": 12.235,
+      "text": "Sam had gone to our dad. Our dad, who had walked out four years ago. Our dad, who had sworn he'd only help pay for Mom's medicine if Sam promised to cut Mom and me out of his life forever\u2014 and tell Mom she was a burden he couldn't carry anymore."
+    },
+    {
+      "index": 26,
+      "id": "b26_ending",
+      "set": "apartment",
+      "start": 177.426,
+      "end": 189.936,
+      "clip_end": 190.076,
+      "duration": 12.511,
+      "text": "Sam hadn't thrown a single punch in his life. He had broken his own mother's heart\u2014 and left us behind\u2014 just so she could live. He squeezed my shoulder one last time, picked up his duffel bag, and walked out the front door with his ruined, bruised face held high."
+    }
+  ]
+}
