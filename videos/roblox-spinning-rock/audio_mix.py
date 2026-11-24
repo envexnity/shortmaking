@@ -74,7 +74,7 @@ def synth_space_sweep(dur: float = 0.75, seed: int = 3) -> np.ndarray:
     noise = rng.standard_normal(n).astype(np.float32)
     smooth = np.convolve(noise, np.hanning(35), mode="same")
     air = np.diff(smooth, prepend=0.0) * 5.0
-    env = np.sin(np.pi * t / dur) ** 1.3
+    env = np.maximum(0.0, np.sin(np.pi * t / dur)) ** 1.3
     sub = np.sin(2 * np.pi * (75.0 + 45.0 * (t / dur)) * t) * env * 0.35
     out = air * env + sub
     return out / (np.max(np.abs(out)) + 1e-6)
