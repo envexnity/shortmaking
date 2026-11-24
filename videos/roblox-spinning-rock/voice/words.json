@@ -1,0 +1,667 @@
+[
+  {
+    "start": 0.04,
+    "end": 0.16,
+    "word": "In"
+  },
+  {
+    "start": 0.16,
+    "end": 0.32,
+    "word": "this"
+  },
+  {
+    "start": 0.32,
+    "end": 0.66,
+    "word": "world,"
+  },
+  {
+    "start": 0.94,
+    "end": 1.24,
+    "word": "everyone"
+  },
+  {
+    "start": 1.24,
+    "end": 1.52,
+    "word": "lives"
+  },
+  {
+    "start": 1.52,
+    "end": 1.68,
+    "word": "on"
+  },
+  {
+    "start": 1.68,
+    "end": 1.76,
+    "word": "a"
+  },
+  {
+    "start": 1.76,
+    "end": 2.02,
+    "word": "giant"
+  },
+  {
+    "start": 2.02,
+    "end": 2.28,
+    "word": "rock"
+  },
+  {
+    "start": 2.448,
+    "end": 2.708,
+    "word": "spinning"
+  },
+  {
+    "start": 2.708,
+    "end": 2.868,
+    "word": "at"
+  },
+  {
+    "start": 2.868,
+    "end": 2.948,
+    "word": "a"
+  },
+  {
+    "start": 2.948,
+    "end": 3.188,
+    "word": "thousand"
+  },
+  {
+    "start": 3.188,
+    "end": 3.448,
+    "word": "miles"
+  },
+  {
+    "start": 3.448,
+    "end": 3.668,
+    "word": "an"
+  },
+  {
+    "start": 3.668,
+    "end": 3.848,
+    "word": "hour."
+  },
+  {
+    "start": 4.033,
+    "end": 4.253,
+    "word": "Nobody"
+  },
+  {
+    "start": 4.253,
+    "end": 4.573,
+    "word": "feels"
+  },
+  {
+    "start": 4.573,
+    "end": 4.813,
+    "word": "it,"
+  },
+  {
+    "start": 5.013,
+    "end": 5.093,
+    "word": "and"
+  },
+  {
+    "start": 5.093,
+    "end": 5.213,
+    "word": "there"
+  },
+  {
+    "start": 5.213,
+    "end": 5.293,
+    "word": "are"
+  },
+  {
+    "start": 5.293,
+    "end": 5.453,
+    "word": "no"
+  },
+  {
+    "start": 5.453,
+    "end": 6.013,
+    "word": "guardrails."
+  },
+  {
+    "start": 6.206,
+    "end": 6.266,
+    "word": "The"
+  },
+  {
+    "start": 6.266,
+    "end": 6.406,
+    "word": "only"
+  },
+  {
+    "start": 6.406,
+    "end": 6.566,
+    "word": "thing"
+  },
+  {
+    "start": 6.566,
+    "end": 6.846,
+    "word": "stopping"
+  },
+  {
+    "start": 6.846,
+    "end": 7.026,
+    "word": "you"
+  },
+  {
+    "start": 7.026,
+    "end": 7.166,
+    "word": "from"
+  },
+  {
+    "start": 7.166,
+    "end": 7.406,
+    "word": "flying"
+  },
+  {
+    "start": 7.406,
+    "end": 7.586,
+    "word": "off"
+  },
+  {
+    "start": 7.586,
+    "end": 7.686,
+    "word": "the"
+  },
+  {
+    "start": 7.686,
+    "end": 7.906,
+    "word": "map"
+  },
+  {
+    "start": 7.906,
+    "end": 8.026,
+    "word": "is"
+  },
+  {
+    "start": 8.026,
+    "end": 8.106,
+    "word": "an"
+  },
+  {
+    "start": 8.106,
+    "end": 8.366,
+    "word": "invisible"
+  },
+  {
+    "start": 8.366,
+    "end": 8.766,
+    "word": "force"
+  },
+  {
+    "start": 8.766,
+    "end": 9.106,
+    "word": "gluing"
+  },
+  {
+    "start": 9.106,
+    "end": 9.266,
+    "word": "your"
+  },
+  {
+    "start": 9.266,
+    "end": 9.506,
+    "word": "shoes"
+  },
+  {
+    "start": 9.506,
+    "end": 9.686,
+    "word": "to"
+  },
+  {
+    "start": 9.686,
+    "end": 9.766,
+    "word": "the"
+  },
+  {
+    "start": 9.766,
+    "end": 9.926,
+    "word": "dirt."
+  },
+  {
+    "start": 10.164,
+    "end": 10.264,
+    "word": "And"
+  },
+  {
+    "start": 10.264,
+    "end": 10.404,
+    "word": "that"
+  },
+  {
+    "start": 10.404,
+    "end": 10.604,
+    "word": "rock"
+  },
+  {
+    "start": 10.604,
+    "end": 10.924,
+    "word": "isn't"
+  },
+  {
+    "start": 10.924,
+    "end": 10.984,
+    "word": "even"
+  },
+  {
+    "start": 10.944,
+    "end": 11.244,
+    "word": "parked."
+  },
+  {
+    "start": 11.456,
+    "end": 11.616,
+    "word": "It's"
+  },
+  {
+    "start": 11.616,
+    "end": 11.796,
+    "word": "whipping"
+  },
+  {
+    "start": 11.796,
+    "end": 12.116,
+    "word": "around"
+  },
+  {
+    "start": 12.116,
+    "end": 12.276,
+    "word": "an"
+  },
+  {
+    "start": 12.276,
+    "end": 12.416,
+    "word": "even"
+  },
+  {
+    "start": 12.416,
+    "end": 12.716,
+    "word": "bigger"
+  },
+  {
+    "start": 12.716,
+    "end": 13.056,
+    "word": "burning"
+  },
+  {
+    "start": 13.056,
+    "end": 13.356,
+    "word": "rock"
+  },
+  {
+    "start": 13.356,
+    "end": 13.576,
+    "word": "at"
+  },
+  {
+    "start": 13.576,
+    "end": 13.916,
+    "word": "sixty-seven"
+  },
+  {
+    "start": 13.916,
+    "end": 14.556,
+    "word": "thousand"
+  },
+  {
+    "start": 14.556,
+    "end": 14.776,
+    "word": "miles"
+  },
+  {
+    "start": 14.776,
+    "end": 14.996,
+    "word": "an"
+  },
+  {
+    "start": 14.996,
+    "end": 15.156,
+    "word": "hour\u2014"
+  },
+  {
+    "start": 15.323,
+    "end": 15.463,
+    "word": "while"
+  },
+  {
+    "start": 15.463,
+    "end": 15.563,
+    "word": "the"
+  },
+  {
+    "start": 15.563,
+    "end": 15.703,
+    "word": "whole"
+  },
+  {
+    "start": 15.703,
+    "end": 16.003,
+    "word": "system"
+  },
+  {
+    "start": 16.003,
+    "end": 16.303,
+    "word": "flies"
+  },
+  {
+    "start": 16.303,
+    "end": 16.543,
+    "word": "through"
+  },
+  {
+    "start": 16.543,
+    "end": 16.663,
+    "word": "an"
+  },
+  {
+    "start": 16.663,
+    "end": 17.023,
+    "word": "infinitely"
+  },
+  {
+    "start": 17.023,
+    "end": 17.563,
+    "word": "expanding"
+  },
+  {
+    "start": 17.563,
+    "end": 17.903,
+    "word": "empty"
+  },
+  {
+    "start": 17.903,
+    "end": 18.203,
+    "word": "void."
+  },
+  {
+    "start": 18.468,
+    "end": 18.601,
+    "word": "You"
+  },
+  {
+    "start": 18.601,
+    "end": 18.735,
+    "word": "see,"
+  },
+  {
+    "start": 18.735,
+    "end": 18.868,
+    "word": "it's"
+  },
+  {
+    "start": 18.868,
+    "end": 19.046,
+    "word": "like"
+  },
+  {
+    "start": 19.046,
+    "end": 19.403,
+    "word": "standing"
+  },
+  {
+    "start": 19.403,
+    "end": 19.492,
+    "word": "on"
+  },
+  {
+    "start": 19.492,
+    "end": 19.581,
+    "word": "a"
+  },
+  {
+    "start": 19.581,
+    "end": 20.115,
+    "word": "merry-go-round"
+  },
+  {
+    "start": 20.115,
+    "end": 20.471,
+    "word": "strapped"
+  },
+  {
+    "start": 20.471,
+    "end": 20.56,
+    "word": "to"
+  },
+  {
+    "start": 20.56,
+    "end": 20.649,
+    "word": "a"
+  },
+  {
+    "start": 20.649,
+    "end": 21.228,
+    "word": "rollercoaster"
+  },
+  {
+    "start": 21.438,
+    "end": 21.719,
+    "word": "inside"
+  },
+  {
+    "start": 21.719,
+    "end": 21.813,
+    "word": "a"
+  },
+  {
+    "start": 21.813,
+    "end": 22.281,
+    "word": "pitch-black"
+  },
+  {
+    "start": 22.281,
+    "end": 22.515,
+    "word": "lobby"
+  },
+  {
+    "start": 22.515,
+    "end": 22.702,
+    "word": "that"
+  },
+  {
+    "start": 22.702,
+    "end": 22.936,
+    "word": "never"
+  },
+  {
+    "start": 22.936,
+    "end": 23.17,
+    "word": "stops"
+  },
+  {
+    "start": 23.17,
+    "end": 23.638,
+    "word": "stretching."
+  },
+  {
+    "start": 23.946,
+    "end": 24.066,
+    "word": "Yet"
+  },
+  {
+    "start": 24.066,
+    "end": 24.406,
+    "word": "everyone"
+  },
+  {
+    "start": 24.406,
+    "end": 24.586,
+    "word": "on"
+  },
+  {
+    "start": 24.586,
+    "end": 24.686,
+    "word": "the"
+  },
+  {
+    "start": 24.686,
+    "end": 24.906,
+    "word": "rock"
+  },
+  {
+    "start": 24.906,
+    "end": 25.046,
+    "word": "is"
+  },
+  {
+    "start": 25.046,
+    "end": 25.206,
+    "word": "just"
+  },
+  {
+    "start": 25.206,
+    "end": 25.646,
+    "word": "casually"
+  },
+  {
+    "start": 25.646,
+    "end": 25.946,
+    "word": "walking"
+  },
+  {
+    "start": 25.946,
+    "end": 26.186,
+    "word": "their"
+  },
+  {
+    "start": 26.186,
+    "end": 26.446,
+    "word": "dog,"
+  },
+  {
+    "start": 26.629,
+    "end": 26.809,
+    "word": "paying"
+  },
+  {
+    "start": 26.809,
+    "end": 27.129,
+    "word": "taxes,"
+  },
+  {
+    "start": 27.434,
+    "end": 27.514,
+    "word": "and"
+  },
+  {
+    "start": 27.514,
+    "end": 27.794,
+    "word": "arguing"
+  },
+  {
+    "start": 27.794,
+    "end": 28.034,
+    "word": "about"
+  },
+  {
+    "start": 28.034,
+    "end": 28.294,
+    "word": "traffic\u2014"
+  },
+  {
+    "start": 28.586,
+    "end": 28.906,
+    "word": "completely"
+  },
+  {
+    "start": 28.906,
+    "end": 29.226,
+    "word": "ignoring"
+  },
+  {
+    "start": 29.226,
+    "end": 29.446,
+    "word": "the"
+  },
+  {
+    "start": 29.446,
+    "end": 29.626,
+    "word": "fact"
+  },
+  {
+    "start": 29.626,
+    "end": 29.766,
+    "word": "that"
+  },
+  {
+    "start": 29.766,
+    "end": 29.866,
+    "word": "if"
+  },
+  {
+    "start": 29.866,
+    "end": 29.966,
+    "word": "the"
+  },
+  {
+    "start": 29.966,
+    "end": 30.186,
+    "word": "rock"
+  },
+  {
+    "start": 30.186,
+    "end": 30.406,
+    "word": "ever"
+  },
+  {
+    "start": 30.406,
+    "end": 30.566,
+    "word": "hits"
+  },
+  {
+    "start": 30.566,
+    "end": 30.726,
+    "word": "the"
+  },
+  {
+    "start": 30.726,
+    "end": 30.906,
+    "word": "brakes"
+  },
+  {
+    "start": 30.906,
+    "end": 31.086,
+    "word": "for"
+  },
+  {
+    "start": 31.086,
+    "end": 31.266,
+    "word": "one"
+  },
+  {
+    "start": 31.266,
+    "end": 31.526,
+    "word": "second,"
+  },
+  {
+    "start": 31.729,
+    "end": 31.969,
+    "word": "everyone"
+  },
+  {
+    "start": 31.969,
+    "end": 32.149,
+    "word": "gets"
+  },
+  {
+    "start": 32.149,
+    "end": 32.449,
+    "word": "launched"
+  },
+  {
+    "start": 32.449,
+    "end": 32.869,
+    "word": "sideways"
+  },
+  {
+    "start": 32.869,
+    "end": 33.129,
+    "word": "into"
+  },
+  {
+    "start": 33.129,
+    "end": 33.369,
+    "word": "space."
+  }
+]

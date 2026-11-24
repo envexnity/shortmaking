@@ -1,0 +1,74 @@
+{
+  "shots": [
+    {
+      "id": "b01a_town_rock",
+      "a": 1,
+      "b": 72
+    },
+    {
+      "id": "b01b_spin_1000",
+      "a": 73,
+      "b": 120
+    },
+    {
+      "id": "b02_no_guardrails",
+      "a": 121,
+      "b": 185
+    },
+    {
+      "id": "b03_glue_force",
+      "a": 186,
+      "b": 304
+    },
+    {
+      "id": "b04_not_parked",
+      "a": 305,
+      "b": 343
+    },
+    {
+      "id": "b05_orbit_sun",
+      "a": 344,
+      "b": 459
+    },
+    {
+      "id": "b06_expanding_void",
+      "a": 460,
+      "b": 553
+    },
+    {
+      "id": "b07_merry_go_round",
+      "a": 554,
+      "b": 642
+    },
+    {
+      "id": "b08_stretching_lobby",
+      "a": 643,
+      "b": 717
+    },
+    {
+      "id": "b09_casual_dog",
+      "a": 718,
+      "b": 798
+    },
+    {
+      "id": "b10a_paying_taxes",
+      "a": 799,
+      "b": 822
+    },
+    {
+      "id": "b10b_arguing_traffic",
+      "a": 823,
+      "b": 857
+    },
+    {
+      "id": "b11_hit_brakes",
+      "a": 858,
+      "b": 951
+    },
+    {
+      "id": "b12_launched_space",
+      "a": 952,
+      "b": 1012
+    }
+  ]
+}

@@ -1,0 +1,202 @@
+{
+  "total_duration": 33.783,
+  "fps": 30,
+  "beats": [
+    {
+      "index": 1,
+      "id": "b01a_town_rock",
+      "shot": "set1_town",
+      "start": 0.04,
+      "end": 2.428,
+      "clip_end": 2.448,
+      "duration": 2.388,
+      "caption": "In this world, everyone lives on a giant rock",
+      "word_range": [
+        0,
+        9
+      ]
+    },
+    {
+      "index": 2,
+      "id": "b01b_spin_1000",
+      "shot": "set2_space",
+      "start": 2.448,
+      "end": 3.953,
+      "clip_end": 4.033,
+      "duration": 1.505,
+      "caption": "spinning at a thousand miles an hour.",
+      "word_range": [
+        9,
+        16
+      ]
+    },
+    {
+      "index": 3,
+      "id": "b02_no_guardrails",
+      "shot": "set1_town",
+      "start": 4.033,
+      "end": 6.146,
+      "clip_end": 6.206,
+      "duration": 2.114,
+      "caption": "Nobody feels it, and there are no guardrails.",
+      "word_range": [
+        16,
+        24
+      ]
+    },
+    {
+      "index": 4,
+      "id": "b03_glue_force",
+      "shot": "set1_town",
+      "start": 6.206,
+      "end": 10.084,
+      "clip_end": 10.164,
+      "duration": 3.878,
+      "caption": "The only thing stopping you from flying off the map is an invisible force gluing your shoes to the dirt.",
+      "word_range": [
+        24,
+        44
+      ]
+    },
+    {
+      "index": 5,
+      "id": "b04_not_parked",
+      "shot": "set2_space",
+      "start": 10.164,
+      "end": 11.406,
+      "clip_end": 11.456,
+      "duration": 1.241,
+      "caption": "And that rock isn't even parked.",
+      "word_range": [
+        44,
+        50
+      ]
+    },
+    {
+      "index": 6,
+      "id": "b05_orbit_sun",
+      "shot": "set2_space",
+      "start": 11.456,
+      "end": 15.283,
+      "clip_end": 15.323,
+      "duration": 3.827,
+      "caption": "It's whipping around an even bigger burning rock at sixty-seven thousand miles an hour\u2014",
+      "word_range": [
+        50,
+        64
+      ]
+    },
+    {
+      "index": 7,
+      "id": "b06_expanding_void",
+      "shot": "set2_space",
+      "start": 15.323,
+      "end": 18.368,
+      "clip_end": 18.468,
+      "duration": 3.045,
+      "caption": "while the whole system flies through an infinitely expanding empty void.",
+      "word_range": [
+        64,
+        75
+      ]
+    },
+    {
+      "index": 8,
+      "id": "b07_merry_go_round",
+      "shot": "set3_analogy",
+      "start": 18.468,
+      "end": 21.408,
+      "clip_end": 21.438,
+      "duration": 2.941,
+      "caption": "You see, it's like standing on a merry-go-round strapped to a rollercoaster",
+      "word_range": [
+        75,
+        87
+      ]
+    },
+    {
+      "index": 9,
+      "id": "b08_stretching_lobby",
+      "shot": "set3_analogy",
+      "start": 21.438,
+      "end": 23.856,
+      "clip_end": 23.946,
+      "duration": 2.418,
+      "caption": "inside a pitch-black lobby that never stops stretching.",
+      "word_range": [
+        87,
+        95
+      ]
+    },
+    {
+      "index": 10,
+      "id": "b09_casual_dog",
+      "shot": "set1_town",
+      "start": 23.946,
+      "end": 26.589,
+      "clip_end": 26.629,
+      "duration": 2.643,
+      "caption": "Yet everyone on the rock is just casually walking their dog,",
+      "word_range": [
+        95,
+        106
+      ]
+    },
+    {
+      "index": 11,
+      "id": "b10a_paying_taxes",
+      "shot": "set1_town",
+      "start": 26.629,
+      "end": 27.394,
+      "clip_end": 27.434,
+      "duration": 0.765,
+      "caption": "paying taxes,",
+      "word_range": [
+        106,
+        108
+      ]
+    },
+    {
+      "index": 12,
+      "id": "b10b_arguing_traffic",
+      "shot": "set1_town",
+      "start": 27.434,
+      "end": 28.526,
+      "clip_end": 28.586,
+      "duration": 1.092,
+      "caption": "and arguing about traffic\u2014",
+      "word_range": [
+        108,
+        112
+      ]
+    },
+    {
+      "index": 13,
+      "id": "b11_hit_brakes",
+      "shot": "set1_sunset",
+      "start": 28.586,
+      "end": 31.679,
+      "clip_end": 31.729,
+      "duration": 3.092,
+      "caption": "completely ignoring the fact that if the rock ever hits the brakes for one second,",
+      "word_range": [
+        112,
+        127
+      ]
+    },
+    {
+      "index": 14,
+      "id": "b12_launched_space",
+      "shot": "set1_launch",
+      "start": 31.729,
+      "end": 33.643,
+      "clip_end": 33.783,
+      "duration": 1.914,
+      "caption": "everyone gets launched sideways into space.",
+      "word_range": [
+        127,
+        133
+      ]
+    }
+  ]
+}
