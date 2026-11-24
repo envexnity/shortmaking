@@ -60,6 +60,33 @@ def lerp3(a: tuple, b: tuple, u: float) -> tuple:
     return (lerp(a[0], b[0], u), lerp(a[1], b[1], u), lerp(a[2], b[2], u))
 
 
+def add_sun_light(name: str, elevation_deg: float, azimuth_deg: float, energy: float, color_hex: str, col=None):
+    ld = bpy.data.lights.new(name=f"{name}_Data", type="SUN")
+    ld.energy = energy
+    ld.color = bcl.hex_to_linear(color_hex)[:3]
+    ld.angle = math.radians(2.5)
+    lo = bpy.data.objects.new(name, ld)
+    (col or bpy.context.scene.collection).objects.link(lo)
+    lo.rotation_euler = (math.radians(90.0 - elevation_deg), 0.0, math.radians(azimuth_deg))
+    return lo
+
+
+def add_area_light(name: str, loc, target, energy: float, size: float, color_hex: str, col=None):
+    ld = bpy.data.lights.new(name=f"{name}_Data", type="AREA")
+    ld.shape = "RECTANGLE"
+    ld.size = size
+    ld.size_y = size * 0.75
+    ld.energy = energy
+    ld.color = bcl.hex_to_linear(color_hex)[:3]
+    ld.spread = math.radians(85.0)
+    lo = bpy.data.objects.new(name, ld)
+    lo.location = loc
+    (col or bpy.context.scene.collection).objects.link(lo)
+    q = (Vector(target) - Vector(loc)).to_track_quat("-Z", "Y")
+    lo.rotation_euler = q.to_euler()
+    return lo
+
+
 def find_word_time(words: list[dict], target: str, default_t: float, after: float = 0.0) -> float:
     tgt = target.lower()
     for w in words:
@@ -595,8 +622,8 @@ def build_hospital_set(scene):
     pf._finish_bm(bm, "S3_ClipSheet", (0, 0, 0), m_paper, col, parent=clip_root, smooth=False)
 
     # Clinical overhead area lights
-    bcl.add_area_light("S3_KeyLight", (OX + 0.5, 2.2, 2.9), target=(OX, -0.2, 1.15), energy=220.0, size=2.4, color_hex="#FFFFFF", col=col)
-    bcl.add_area_light("S3_RimLight", (OX - 1.5, -1.8, 2.6), target=(OX + 0.2, 0.2, 1.1), energy=140.0, size=1.8, color_hex="#BAE6FD", col=col)
+    add_area_light("S3_KeyLight", (OX + 0.5, 2.2, 2.9), target=(OX, -0.2, 1.15), energy=220.0, size=2.4, color_hex="#FFFFFF", col=col)
+    add_area_light("S3_RimLight", (OX - 1.5, -1.8, 2.6), target=(OX + 0.2, 0.2, 1.1), energy=140.0, size=1.8, color_hex="#BAE6FD", col=col)
 
     return {"col": col, "OX": OX, "doctor": doctor, "dad": dad_hosp, "mom": mom_hosp, "baby": baby}
 
@@ -628,7 +655,7 @@ def main():
     scene.camera = cam
 
     # Sun light for Set 1 Exterior
-    sun = bcl.add_sun_light("S1_Sun", elevation_deg=44.0, azimuth_deg=35.0, energy=3.4, color_hex="#FFF7ED")
+    sun = add_sun_light("S1_Sun", elevation_deg=44.0, azimuth_deg=35.0, energy=3.4, color_hex="#FFF7ED")
 
     # Build all 3 isolated sets
     s1 = build_starter_house_set(scene)
