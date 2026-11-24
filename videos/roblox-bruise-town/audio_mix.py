@@ -107,8 +107,8 @@ def main():
     b_l, a_l = butter(2, 5.0 / (SR * 0.5), btype="low")
     duck = np.clip(filtfilt(b_l, a_l, duck).astype(np.float32), 0.25, 0.60)
 
-    # Story background music (-24 LUFS source, gentle presence under voice)
-    mus_raw = load_stereo_48k(ROOT / "assets" / "music" / "story_bg_music.wav")
+    # Story background music (original Nujabes - Aruarian Dance, gentle presence under voice)
+    mus_raw = load_stereo_48k(ROOT / "assets" / "music" / "aruarian_dance_original.wav")
     reps = int(np.ceil(story_samples / len(mus_raw))) + 1
     mus = np.tile(mus_raw, (reps, 1))[:story_samples].copy()
     mus_rms = float(np.sqrt(np.mean(mus ** 2)) + 1e-6)
