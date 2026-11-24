@@ -32,7 +32,7 @@ Agents MUST automatically select and switch to the **best available TTS model** 
 - **Inline Emotion & Vocal Cues (`S2.1-Pro` / `s2.1-pro-free`):**
   Direct how lines are delivered directly inside the text using bracketed tags—not restricted to a rigid preset list, so natural-language stage directions work:
   - Examples: `[whispers sweetly]`, `[laughing nervously]`, `[sigh]`, `[excited]`, `[pause]`, `[deadpan]`, `[out of breath]`.
-  - Shortmaking tip: Use `[pause]` or `[deadpan]` for the mandatory *"Luckily... / Unluckily..."* double beat, and `[excited]` or `[whispering]` for the `"You see,"` analogy pivot.
+  - Shortmaking tip: Use `[pause]` or `[deadpan]` for dry reversals, and `[excited]` or `[whispering]` for the `"You see,"` analogy pivot.
 - **Massive Multilingual Reach:** 83 languages supported with automatic language detection, preserving natural accents and cadence across borders.
 - **Community Voice Library:** Search and select from **2,000,000+** user-uploaded and studio voices (from warm audiobook narrators to dramatic game characters) using the `fish-audio` MCP voice search tools.
 

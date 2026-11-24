@@ -34,7 +34,7 @@ User rules that apply:
    - **Setting:** year, place, pride.
    - **Action:** escalation over three or four beats, each a little bigger.
    - **Snap:** the moment it breaks.
-   - **Deadpan double line:** "Luckily ... / Unluckily ...".
+   - **Reversal / escalation:** a sharp complication or turn (never use *"Luckily... / Unluckily..."*).
    - **Explanation:** one physics idea through an everyday analogy (the kid on a swing).
    - **Consequence:** the rule it created.
    - **Callback twist:** the ending.
