@@ -65,6 +65,16 @@ props["water_stream"].location = (0.08, 0.25, 1.57)
 ### Failure D: Blind Euler Guessing Without Close-Up Contact QA
 - **Root Cause**: Rendering only wide overview stills hides hand-to-prop gaps, wrist twists, and subtle torso clipping until after a full 2,000+ frame render finishes.
 
+### Failure E: Multi-Video Code Audit Findings (Past 3D Shorts)
+| Video | Bug Category | Exact Evidence |
+| :--- | :--- | :--- |
+| `roblox-human-survival` | Floating props + frame pops | `props["pitcher"]`, `props["water_stream"]`, and `props["sw_clock"]` (`render_scene.py:564,715-716`) use hardcoded world XYZ; `qa_visual` logged **40 unplanned frame-diff pops** (`f313-319`, `f350-418`). |
+| `roblox-reel-Df1kubCJ-o0` & `v2` | Floating props + `0.00m` character clipping + Z-fighting | `c_burger`, `letter`, `party_cup`, `rock` use hardcoded world XYZ; `c_rock` & `c_purple` in `scene_town.py:290-291` are **`0.00m` apart** (`c_neighbor` at `0.40m`); 30+ coplanar wall/curb/counter Z-fighting joins. |
+| `roblox-theo-631` | Character clipping + Z-fighting + frame pops | `dad1` & `mom1` (`render_scene.py:808-809`) are **`0.56m` apart**; coplanar house/lawn/road joins (`S1_HBackWall` vs `S1_HSideL/R`, `S1_Lawn` vs `S1_Road`); **24 unplanned pops**. |
+| `roblox-bruise-town` | Frozen holds + Z-fighting + frame pops | **`48%` (`2,884 / 6,008` frames)** static (`diff < 0.3`), **40 unplanned pops**, and coplanar wall/bed/door joins (`S3_BackWall` vs `S3_SideWall`). |
+| `roblox-manual-breathing` | Frame pops | **18 unplanned frame-diff pops** (`f2-5`, `f529-535`, `f964-972`). |
+| `undershine-*` | Missing ground shadows | `visible_shadow = False` on terrain/structures (`build_scene.py`) causes floating-character look. |
+
 ---
 
 ## 3. Mandatory Engineering Fixes (The "Zero-Slop 3D" Contract)
