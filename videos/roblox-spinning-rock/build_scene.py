@@ -397,8 +397,8 @@ def build_set1_town(scene):
             c_tax.inverse_matrix = rc.inverse_matrix.copy()
             break
 
-    # Dog leash attached via CHILD_OF to BG_DogWalker's Right Arm
-    leash = make_box("Prop_Leash", (-1.5, 1.35, 1.65), (0.05, 2.4, 0.05), sc.make_mat("Mat_Leash", "#78350F", rough=0.6), col, rot=(math.radians(-26), 0, math.radians(-8)))
+    # Dog leash attached via CHILD_OF to BG_DogWalker's Right Arm hand tip (-1.5, 0, 2.0 in rig coords)
+    leash = make_box("Prop_Leash", (-1.1, 1.05, 1.55), (0.05, 2.2, 0.05), sc.make_mat("Mat_Leash", "#78350F", rough=0.6), col, rot=(math.radians(-22), 0, math.radians(-18)))
     c_lsh = leash.constraints.new("CHILD_OF")
     c_lsh.target = bg_dogwalker["internal_arm"]
     c_lsh.subtarget = "Right Arm"
@@ -487,14 +487,11 @@ def build_set2_space(scene):
         ic.data.materials.append(m_ice)
         ic.parent = earth_root
 
-    # Tiny suburban houses & trees on top of Earth (north cap around z=+6.4)
-    for idx, (lon_d, lat_d, hcol) in enumerate([(86, 76, "#F5D04C"), (110, 74, "#F2A2C8"), (65, 78, "#8ABDF7")]):
-        lon, lat = math.radians(lon_d), math.radians(lat_d)
-        nvec = Vector((math.cos(lat) * math.cos(lon), math.cos(lat) * math.sin(lon), math.sin(lat)))
-        hpos = nvec * (R_EARTH + 0.15)
+    # Tiny suburban houses & trees seated squarely on North Pole cap (top ~6.85)
+    for idx, (lx, ly, lz, hcol) in enumerate([(-1.05, -0.45, 6.72, "#F5D04C"), (1.15, -0.35, 6.68, "#F2A2C8"), (0.10, -1.25, 6.65, "#8ABDF7")]):
         hm = sc.make_mat(f"Mat_TinyH_{idx}", hcol, rough=0.5)
-        hb = make_box(f"TinyHouse_{idx}", hpos, (0.75, 0.75, 0.75), hm, col)
-        hb.rotation_euler = nvec.to_track_quat("Z", "Y").to_euler()
+        hb = make_box(f"TinyHouse_{idx}", (lx, ly, lz), (0.65, 0.65, 0.65), hm, col)
+        hb.rotation_euler = Vector((lx, ly, lz)).to_track_quat("Z", "Y").to_euler()
         hb.parent = earth_root
 
     # Equatorial white spin streaks around Earth
@@ -873,34 +870,33 @@ def main():
                 place_background_crowd_default(s1, t)
 
             if bid == "b01a_town_rock":
-                # Frame 0 @huss.hero-inspired elevated suburban street with Alex & Noob waving + IRL neighbors!
-                sc.set_char_transform(s1["alex"], -1.35, 0.2, -0.06, 8.0)
-                sc.set_char_transform(s1["noob"],  1.35, 0.2, -0.06, -8.0)
+                # Frame 0 @huss.hero-inspired elevated suburban street with Alex & Noob waving (3.3m apart, zero arm overlap!)
+                sc.set_char_transform(s1["alex"], -1.70, 0.2, -0.06, 8.0)
+                sc.set_char_transform(s1["noob"],  1.70, 0.2, -0.06, -8.0)
                 sc.set_char_pose(
                     s1["alex"],
                     torso_loc=(0, 0, 0.06 * abs(math.sin(t * 5))),
                     head_rot=(-6, 0, math.sin(t * 3) * 6),
-                    rarm_rot=(-125 + math.sin(t * 8) * 18, 12, -16),
-                    larm_rot=(12, -6, 10),
+                    rarm_rot=(-125 + math.sin(t * 8) * 16, 8, -10),
+                    larm_rot=(10, -4, 8),
                 )
                 sc.set_char_pose(
                     s1["noob"],
                     torso_loc=(0, 0, 0.09 * abs(math.sin(t * 6 + 0.5))),
                     head_rot=(-8, 0, math.cos(t * 4) * 8),
-                    rarm_rot=(-135 - math.sin(t * 9) * 20, 15, -18),
-                    larm_rot=(-135 + math.sin(t * 9) * 20, -15, 18),
+                    rarm_rot=(-130 - math.sin(t * 9) * 18, 10, -10),
+                    larm_rot=(-130 + math.sin(t * 9) * 18, -10, 10),
                 )
-                # Clean open street corridor push-in
                 sc.set_camera_look(
                     cam,
-                    (-0.6 + 0.7 * u, 11.4 - 2.6 * u, 6.2 - 2.6 * u),
+                    (-0.6 + 0.7 * u, 11.4 - 2.4 * u, 6.2 - 2.5 * u),
                     (0.0, -0.5, 3.0 - 0.2 * u),
                     lens=30.0 + 3.5 * u,
                     roll_deg=-2.2 * (1.0 - u),
                 )
 
             elif bid == "b01b_spin_1000":
-                # Spinning Roblox Earth rock at 1,000 mph with tiny Alex & Noob riding on top!
+                # Spinning Roblox Earth rock at 1,000 mph with tiny Alex & Noob planted cleanly on North Pole ice cap!
                 sc.set_hidden_tree(s2["spin_rings"], False)
                 sc.set_hidden_tree(s2["orbit_ring"], True)
                 for vr in s2["void_rings"]:
@@ -912,18 +908,17 @@ def main():
                 s2["earth_root"].matrix_world = earth_m
                 s2["spin_rings"].rotation_euler = (0.0, math.radians(16.0), math.radians(-spin_yaw * 1.4))
 
-                # Place tiny Alex & Noob (0.24x scale) cleanly visible on the upper-front cap!
                 for ch, local_off, lyaw in [
-                    (s2["alex_tiny"], Vector((-0.55, 1.35, s2["r_earth"] - 0.14)), 10.0),
-                    (s2["noob_tiny"], Vector(( 0.60, 1.25, s2["r_earth"] - 0.14)), -10.0),
+                    (s2["alex_tiny"], Vector((-0.65, 0.85, 6.72)), 10.0),
+                    (s2["noob_tiny"], Vector(( 0.65, 0.85, 6.72)), -10.0),
                 ]:
                     wpos = earth_m @ local_off
-                    sc.set_char_transform(ch, wpos.x, wpos.y, wpos.z, spin_yaw + lyaw, pitch_deg=12.0, roll_deg=-8.0, scale=0.24)
-                    sc.set_char_pose(ch, rarm_rot=(-135, 12, -16), larm_rot=(-135, -12, 16))
+                    sc.set_char_transform(ch, wpos.x, wpos.y, wpos.z, spin_yaw + lyaw, pitch_deg=10.0, roll_deg=-8.0, scale=0.28)
+                    sc.set_char_pose(ch, rarm_rot=(-135, 10, -12), larm_rot=(-135, -10, 12))
                 sc.set_camera_look(
                     cam,
-                    (s2["ox"] - 2.4 + 4.8 * u, 20.5 - 2.2 * u, 10.8 - 0.8 * u),
-                    (s2["ox"], 0.0, 3.6),
+                    (s2["ox"] - 2.2 + 4.4 * u, 19.5 - 2.0 * u, 10.2 - 0.8 * u),
+                    (s2["ox"], 0.0, 2.8),
                     lens=30.0,
                     roll_deg=3.0 * math.sin(u * math.pi),
                 )
@@ -1008,9 +1003,9 @@ def main():
                 spin_yaw = 210.0 + u * 160.0
                 earth_m = Matrix.Translation((s2["ox"], 0.0, 0.0)) @ Matrix.Rotation(math.radians(16.0), 4, "Y") @ Matrix.Rotation(math.radians(spin_yaw), 4, "Z")
                 s2["earth_root"].matrix_world = earth_m
-                for ch, local_off in [(s2["alex_tiny"], Vector((-0.55, 1.3, s2["r_earth"] - 0.14)),), (s2["noob_tiny"], Vector((0.60, 1.25, s2["r_earth"] - 0.14)),)]:
+                for ch, local_off in [(s2["alex_tiny"], Vector((-0.65, 0.85, 6.72)),), (s2["noob_tiny"], Vector((0.65, 0.85, 6.72)),)]:
                     wpos = earth_m @ local_off
-                    sc.set_char_transform(ch, wpos.x, wpos.y, wpos.z, spin_yaw, scale=0.24)
+                    sc.set_char_transform(ch, wpos.x, wpos.y, wpos.z, spin_yaw, scale=0.28)
                 sc.set_camera_look(
                     cam,
                     (s2["ox"] + 15.0 - 2.5 * u, 11.5 - 1.5 * u, 5.2 + 0.8 * u),
@@ -1034,9 +1029,9 @@ def main():
                 earth_m = Matrix.Translation(epos) @ Matrix.Rotation(math.radians(t * 240.0), 4, "Z")
                 s2["earth_root"].matrix_world = earth_m
                 s2["sun_root"].rotation_euler = (0, 0, t * 0.4)
-                for ch, off in [(s2["alex_tiny"], Vector((-0.55, 1.2, s2["r_earth"] - 0.14))), (s2["noob_tiny"], Vector((0.60, 1.2, s2["r_earth"] - 0.14)))]:
+                for ch, off in [(s2["alex_tiny"], Vector((-0.65, 0.85, 6.72))), (s2["noob_tiny"], Vector((0.65, 0.85, 6.72)))]:
                     wpos = earth_m @ off
-                    sc.set_char_transform(ch, wpos.x, wpos.y, wpos.z, t * 240.0, scale=0.24)
+                    sc.set_char_transform(ch, wpos.x, wpos.y, wpos.z, t * 240.0, scale=0.28)
 
                 if u < 0.50:
                     sub_u = u / 0.50
@@ -1049,12 +1044,11 @@ def main():
                     )
                 else:
                     sub_u = (u - 0.50) / 0.50
-                    # Side-lit 3/4 view so BOTH blazing Sun and colorful Earth are brightly visible!
                     sc.set_camera_look(
                         cam,
-                        (epos.x - 14.0 + 3.0 * sub_u, epos.y + 18.0 - 3.0 * sub_u, 10.5 - 1.5 * sub_u),
-                        (sun_c.x * 0.45 + epos.x * 0.55, sun_c.y * 0.45 + epos.y * 0.55, 2.5),
-                        lens=26.0 + 3.0 * sub_u,
+                        (epos.x - 10.0 + 2.0 * sub_u, epos.y + 22.0 - 3.0 * sub_u, 11.5 - 1.5 * sub_u),
+                        (sun_c.x * 0.30 + epos.x * 0.70, sun_c.y * 0.30 + epos.y * 0.70, 2.0),
+                        lens=23.0 + 2.0 * sub_u,
                         roll_deg=5.0,
                     )
 
@@ -1068,8 +1062,8 @@ def main():
                     vr.scale = (sc_val, sc_val, sc_val)
                 sun_c = s2["sun_pos"]
                 s2["earth_root"].matrix_world = Matrix.Translation((s2["ox"], 0, 0)) @ Matrix.Rotation(math.radians(t * 240.0), 4, "Z")
-                sc.set_char_transform(s2["alex_tiny"], s2["ox"] - 0.55, 1.2, s2["r_earth"] - 0.14, 0, scale=0.24)
-                sc.set_char_transform(s2["noob_tiny"], s2["ox"] + 0.60, 1.2, s2["r_earth"] - 0.14, 0, scale=0.24)
+                sc.set_char_transform(s2["alex_tiny"], s2["ox"] - 0.65, 0.85, 6.72, 0, scale=0.28)
+                sc.set_char_transform(s2["noob_tiny"], s2["ox"] + 0.65, 0.85, 6.72, 0, scale=0.28)
                 sc.set_camera_look(
                     cam,
                     (s2["ox"] - 6.0 - 18.0 * u, 28.0 + 36.0 * u, 18.0 + 22.0 * u),
@@ -1078,7 +1072,7 @@ def main():
                 )
 
             elif bid == "b07_merry_go_round":
-                # Alex & Noob both clearly visible side-by-side spinning on merry-go-round bolted to coaster!
+                # Alex & Noob standing at lx=+-1.72 leaning outward slightly with clear headroom!
                 cart_y = -6.0 + u * 26.0
                 cpos, cyaw = coaster_track_pos(cart_y, s3["ox"])
                 s3["cart_root"].location = cpos
@@ -1087,27 +1081,26 @@ def main():
                 s3["mgr_deck"].rotation_euler = (0, 0, spin_rad)
 
                 deck_m = Matrix.Translation(cpos) @ Matrix.Rotation(math.radians(cyaw), 4, "Z") @ Matrix.Translation((0, 0, 1.23)) @ Matrix.Rotation(spin_rad, 4, "Z")
-                for ch, lx, ly, lyaw in [(s3["alex_ride"], 1.35, 0.0, 90.0), (s3["noob_ride"], -1.35, 0.0, -90.0)]:
+                for ch, lx, ly, lyaw in [(s3["alex_ride"], 1.72, 0.0, 90.0), (s3["noob_ride"], -1.72, 0.0, -90.0)]:
                     wpos = deck_m @ Vector((lx, ly, 0.0))
                     sc.set_char_transform(ch, wpos.x, wpos.y, wpos.z, cyaw + math.degrees(spin_rad) + lyaw)
                     sc.set_char_pose(
                         ch,
-                        torso_rot=(-10.0, 0.0, 0.0),
-                        head_rot=(-6.0, 0.0, math.sin(t * 7.0) * 10.0),
+                        torso_rot=(8.0, 0.0, 0.0),
+                        head_rot=(-4.0, 0.0, math.sin(t * 7.0) * 10.0),
                         rarm_rot=(-56.0, 8.0, -8.0),
                         larm_rot=(-56.0, -8.0, 8.0),
                     )
                 s3["key_light"].location = (cpos.x + 6, cpos.y + 8, 12)
                 sc.set_camera_look(
                     cam,
-                    (cpos.x + 6.4 - 1.6 * u, cpos.y + 8.6, cpos.z + 4.4 - 0.5 * u),
+                    (cpos.x + 6.4 - 1.6 * u, cpos.y + 9.2, cpos.z + 4.4 - 0.5 * u),
                     (cpos.x, cpos.y, cpos.z + 3.2),
                     lens=28.0,
                     roll_deg=5.0 * math.sin(u * math.pi),
                 )
 
             elif bid == "b08_stretching_lobby":
-                # Reverse wide shot looking down stretching neon portal arches with coaster centered nicely!
                 cart_y = 20.0 + u * 26.0
                 cpos, cyaw = coaster_track_pos(cart_y, s3["ox"])
                 s3["cart_root"].location = cpos
@@ -1119,10 +1112,10 @@ def main():
                     ar.scale = (stretch, 1.0, stretch)
 
                 deck_m = Matrix.Translation(cpos) @ Matrix.Rotation(math.radians(cyaw), 4, "Z") @ Matrix.Translation((0, 0, 1.23)) @ Matrix.Rotation(spin_rad, 4, "Z")
-                for ch, lx, ly, lyaw in [(s3["alex_ride"], 1.35, 0.0, 90.0), (s3["noob_ride"], -1.35, 0.0, -90.0)]:
+                for ch, lx, ly, lyaw in [(s3["alex_ride"], 1.72, 0.0, 90.0), (s3["noob_ride"], -1.72, 0.0, -90.0)]:
                     wpos = deck_m @ Vector((lx, ly, 0.0))
                     sc.set_char_transform(ch, wpos.x, wpos.y, wpos.z, cyaw + math.degrees(spin_rad) + lyaw)
-                    sc.set_char_pose(ch, torso_rot=(-12, 0, 0), rarm_rot=(-58, 8, -8), larm_rot=(-58, -8, 8))
+                    sc.set_char_pose(ch, torso_rot=(8, 0, 0), rarm_rot=(-58, 8, -8), larm_rot=(-58, -8, 8))
                 sc.set_camera_look(
                     cam,
                     (cpos.x - 2.2, cpos.y - 13.0 - 3.0 * u, cpos.z + 5.8 + 1.2 * u),
@@ -1132,25 +1125,26 @@ def main():
                 )
 
             elif bid == "b09_casual_dog":
-                # Sunny @huss.hero street: IRL dog walker walking blocky golden dog (clean sightline!)
+                # Sunny @huss.hero street: IRL dog walker 3/4 toward camera walking blocky golden dog!
                 dx = -4.2 + u * 2.2
-                sc.set_char_transform(s1["bg_dogwalker"], dx, -6.4, 0.0, -90.0)
+                sc.set_char_transform(s1["bg_dogwalker"], dx, -6.4, 0.0, -38.0)
                 sc.animate_walk(s1["bg_dogwalker"], t, speed=4.6)
-                s1["dog"]["root"].location = (dx + 2.0, -6.1, 0.0)
-                s1["dog"]["root"].rotation_euler = (0, 0, 0)
+                # Override right arm slightly forward to hold leash
+                sc.set_char_pose(s1["bg_dogwalker"], rarm_rot=(-34.0, 6.0, -10.0))
+                s1["dog"]["root"].location = (dx + 2.0, -5.6, 0.0)
+                s1["dog"]["root"].rotation_euler = (0, 0, math.radians(15.0))
                 for i, lg in enumerate(s1["dog"]["legs"]):
                     lg.rotation_euler = (0, math.sin(t * 7.5 + i * 1.57) * 0.35, 0)
-                sc.set_char_transform(s1["noob"], -6.4, -6.8, 0.0, -45.0)
-                sc.set_char_pose(s1["noob"], torso_loc=(0, 0, 0.05 * abs(math.sin(t * 4))), rarm_rot=(-130 + math.sin(t * 8) * 18, 12, -16))
+                # Keep Noob cleanly clear of frame edge
+                sc.set_char_transform(s1["noob"], -18.0, -6.8, 0.0, 0.0)
                 sc.set_camera_look(
                     cam,
-                    (dx + 1.2, 2.8 - 1.4 * u, 2.8),
-                    (dx + 0.8, -6.2, 2.2),
-                    lens=33.0,
+                    (dx + 0.8, 2.8 - 1.4 * u, 2.8),
+                    (dx + 0.9, -6.0, 2.2),
+                    lens=32.0,
                 )
 
             elif bid == "b10a_paying_taxes":
-                # Medium-close on IRL Dad in blue plaid shirt holding white TAXES envelope clearly!
                 sc.set_char_transform(s1["bg_dad_plaid"], -10.5, -6.8, 0.0, 6.0)
                 sc.set_char_pose(
                     s1["bg_dad_plaid"],
@@ -1167,9 +1161,9 @@ def main():
                 )
 
             elif bid == "b10b_arguing_traffic":
-                # Whip angle to street: red & blue cars nose-to-nose, 2 IRL neighbors arguing cleanly in front!
-                sc.set_char_transform(s1["bg_neighbor_green"], 10.2, 1.4, -0.06, -85.0)
-                sc.set_char_transform(s1["bg_friend_coral"],   12.4, 1.4, -0.06,  85.0)
+                # Two IRL neighbors arguing FACE-TO-FACE in front of the red & blue cars!
+                sc.set_char_transform(s1["bg_neighbor_green"], 10.1, 1.4, -0.06,  68.0)
+                sc.set_char_transform(s1["bg_friend_coral"],   12.5, 1.4, -0.06, -68.0)
                 sc.animate_argue(s1["bg_neighbor_green"], t, phase=0.0)
                 sc.animate_argue(s1["bg_friend_coral"],   t, phase=1.8)
                 sc.set_camera_look(
@@ -1180,64 +1174,65 @@ def main():
                 )
 
             elif bid == "b11_hit_brakes":
-                # Dramatic @huss.hero Sunset-Red shift! Split into 2 sub-cuts at u=0.45
-                sc.set_char_transform(s1["alex"], -1.35, 0.0, -0.06, 6.0)
-                sc.set_char_transform(s1["noob"],  1.35, 0.0, -0.06, -6.0)
+                # Dramatic @huss.hero Sunset-Red shift! Separate Alex & Noob to +-1.65 (zero arm overlap!)
+                sc.set_char_transform(s1["alex"], -1.65, 0.0, -0.06, 6.0)
+                sc.set_char_transform(s1["noob"],  1.65, 0.0, -0.06, -6.0)
                 if u < 0.45:
                     sub_u = u / 0.45
                     sc.swap_atlas(s1["alex"], "alex_determined_atlas.png")
-                    sc.set_char_pose(s1["alex"], torso_rot=(-5, 0, 0), head_rot=(-4, 0, -6), rarm_rot=(-25, 10, -20))
-                    sc.set_char_pose(s1["noob"], torso_rot=(-5, 0, 0), head_rot=(-6, 0, 8), larm_rot=(-25, -10, 20))
+                    sc.set_char_pose(s1["alex"], torso_rot=(-5, 0, 0), head_rot=(-4, 0, -6), rarm_rot=(-25, 10, -16))
+                    sc.set_char_pose(s1["noob"], torso_rot=(-5, 0, 0), head_rot=(-6, 0, 8), larm_rot=(-25, -10, 16))
                     sc.set_camera_look(
                         cam,
                         (0.0, 9.8 - 2.0 * sub_u, 3.1),
                         (0.0, 0.0, 3.2),
-                        lens=32.0 + 3.0 * sub_u,
+                        lens=30.0 + 3.0 * sub_u,
                         roll_deg=-6.0,
                     )
                 else:
                     sub_u = (u - 0.45) / 0.55
-                    # Sudden shocked face swap & brake screech shudder — keep BOTH Alex & Noob framed!
                     sc.swap_atlas(s1["alex"], "alex_shocked_atlas.png")
                     sc.swap_atlas(s1["noob"], "02_Noob_Shocked_atlas.png")
-                    sc.set_char_pose(s1["alex"], torso_rot=(-10, 0, 0), head_rot=(-12, 0, 0), rarm_rot=(-125, 16, -24), larm_rot=(-125, -16, 24))
-                    sc.set_char_pose(s1["noob"], torso_rot=(-10, 0, 0), head_rot=(-12, 0, 0), rarm_rot=(-130, 18, -24), larm_rot=(-130, -18, 24))
+                    sc.set_char_pose(s1["alex"], torso_rot=(-10, 0, 0), head_rot=(-12, 0, 0), rarm_rot=(-115, 12, -16), larm_rot=(-115, -12, 16))
+                    sc.set_char_pose(s1["noob"], torso_rot=(-10, 0, 0), head_rot=(-12, 0, 0), rarm_rot=(-120, 12, -16), larm_rot=(-120, -12, 16))
                     k_sh = int((u - 0.45) * (f1 - f0))
                     sc.set_camera_look(
                         cam,
-                        (0.0, 8.6 - 1.4 * sub_u, 3.3),
+                        (0.0, 9.2 - 1.4 * sub_u, 3.3),
                         (0.0, 0.0, 3.4),
-                        lens=32.0 + 3.0 * sub_u,
+                        lens=30.0 + 3.0 * sub_u,
                         roll_deg=6.5,
                         shake_k=k_sh if k_sh < 7 else None,
                         shake_amp=0.14,
                     )
 
             elif bid == "b12_launched_space":
-                # PAYOFF: Everyone + red car launched diagonally sideways up into the sky (clear sightline!)
+                # PAYOFF: Widely spread clean silhouettes launching sideways into the sunset-to-space sky!
                 sc.swap_atlas(s1["alex"], "alex_shocked_atlas.png")
                 sc.swap_atlas(s1["noob"], "02_Noob_Shocked_atlas.png")
-                launch_d = (u ** 1.25) * 14.0
-                sc.set_char_transform(s1["alex"], -1.3 + launch_d * 0.80, -launch_d * 0.12, 0.4 + launch_d * 0.62, 18.0 + u * 210, pitch_deg=u * 140, roll_deg=-u * 90)
-                sc.set_char_transform(s1["noob"],  1.4 + launch_d * 0.95, -launch_d * 0.16, 0.7 + launch_d * 0.72, -20.0 - u * 240, pitch_deg=-u * 160, roll_deg=u * 110)
+                launch_d = (u ** 1.2) * 14.0
+                sc.set_char_transform(s1["alex"], -2.2 + launch_d * 0.72, 0.5, 1.2 + launch_d * 0.55, 18.0 + u * 210, pitch_deg=u * 130, roll_deg=-u * 80)
+                sc.set_char_transform(s1["noob"],  2.6 + launch_d * 0.90, -0.5, 2.0 + launch_d * 0.72, -20.0 - u * 240, pitch_deg=-u * 150, roll_deg=u * 100)
                 for ch in (s1["alex"], s1["noob"]):
                     sc.set_char_pose(ch, rarm_rot=(-155, 22, -32), larm_rot=(-155, -22, 32), rleg_loc=(0, 0.35, 0.35), lleg_loc=(0, -0.35, 0.25))
 
+                bg_offsets = [(-9.5, -5.0, 0.6), (-5.5, -6.5, 2.2), (6.0, -5.8, 1.2), (10.5, -6.5, 2.8), (-1.5, -7.2, 3.6), (14.5, -5.2, 0.8)]
                 for idx, ch in enumerate(s1["bg"]):
-                    ld = (u ** 1.25) * (12.0 + idx * 1.4)
-                    sc.set_char_transform(ch, -5.0 + idx * 2.2 + ld * 0.85, -5.5, 0.4 + ld * 0.58, idx * 45 + u * 180, pitch_deg=u * 120, roll_deg=u * 80)
+                    bx0, by0, bz0 = bg_offsets[idx]
+                    ld = (u ** 1.2) * (10.0 + idx * 1.4)
+                    sc.set_char_transform(ch, bx0 + ld * 0.82, by0, bz0 + ld * 0.58, idx * 45 + u * 180, pitch_deg=u * 120, roll_deg=u * 80)
                     sc.set_char_pose(ch, rarm_rot=(-145, 20, -25), larm_rot=(-145, -20, 25))
-                s1["car_red"].location = (8.2 + launch_d * 0.95, -1.6, 0.4 + launch_d * 0.58)
+                s1["car_red"].location = (9.5 + launch_d * 0.95, -2.2, 1.2 + launch_d * 0.62)
                 s1["car_red"].rotation_euler = (math.radians(-u * 55), math.radians(-u * 40), math.radians(u * 90))
-                s1["dog"]["root"].location = (-3.0 + launch_d * 0.85, -5.5, 0.4 + launch_d * 0.65)
+                s1["dog"]["root"].location = (-6.5 + launch_d * 0.78, -3.5, 1.4 + launch_d * 0.68)
                 s1["dog"]["root"].rotation_euler = (math.radians(u * 110), math.radians(-u * 75), 0)
 
                 k_sh = f - f0
                 sc.set_camera_look(
                     cam,
-                    (0.5 + 2.5 * u, 11.2 + 1.8 * u, 2.2),
-                    (2.0 + 6.5 * u, -1.5, 4.0 + 6.5 * u),
-                    lens=26.0,
+                    (0.5 + 2.5 * u, 11.4 + 1.8 * u, 2.2),
+                    (2.0 + 6.5 * u, -1.5, 4.4 + 6.5 * u),
+                    lens=24.0,
                     roll_deg=-7.5 * (1.0 - u),
                     shake_k=k_sh if k_sh < 7 else None,
                     shake_amp=0.20,

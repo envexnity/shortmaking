@@ -351,16 +351,20 @@ def swap_atlas(char_info: dict, atlas_filename: str):
 
 
 def set_char_transform(char_info: dict, wx: float, wy: float, wz: float, yaw_deg: float, pitch_deg: float = 0.0, roll_deg: float = 0.0, scale: float = 1.0):
-    """Exact world-space placement, orientation, and scale via MasterControl rest basis."""
+    """Exact world-space placement, orientation, and uniform scale around character soles (0,0,0)."""
     arm = char_info["arm"]
     pb = arm.pose.bones["MasterControl"]
-    rest_3x3 = arm.data.bones["MasterControl"].matrix_local.to_3x3()
-    inv_3x3 = rest_3x3.inverted()
-    pb.location = inv_3x3 @ Vector((wx, wy, wz))
+    m_rest = arm.data.bones["MasterControl"].matrix_local
+    m_rest_inv = m_rest.inverted()
+    m_rot = Euler((math.radians(pitch_deg), math.radians(roll_deg), math.radians(yaw_deg)), "XYZ").to_matrix().to_4x4()
+    m_scale = Matrix.Scale(scale, 4)
+    m_desired = Matrix.Translation((wx, wy, wz)) @ m_rot @ m_scale
+    m_pose = m_rest_inv @ m_desired @ m_rest
+    loc, quat, sc = m_pose.decompose()
+    pb.location = loc
     pb.rotation_mode = "XYZ"
-    world_rot = Euler((math.radians(pitch_deg), math.radians(roll_deg), math.radians(yaw_deg)), "XYZ").to_matrix()
-    pb.rotation_euler = (inv_3x3 @ world_rot @ rest_3x3).to_euler("XYZ")
-    pb.scale = (scale, scale, scale)
+    pb.rotation_euler = quat.to_euler("XYZ")
+    pb.scale = sc
 
 
 def set_char_pose(
