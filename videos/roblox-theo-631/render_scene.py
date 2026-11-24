@@ -770,7 +770,7 @@ def main():
                 cf.set_face_with_blink(dad1, "dad_serious_nod", f_idx, seed=1)
                 cf.set_face_with_blink(mom1, "mom_serious_nod", f_idx, seed=2)
                 s1["door_hinge"].rotation_euler = (0, 0, 0)
-                sc.set_camera_look(cam, (2.35 - 0.35 * u, -3.55, 1.48), (0.0, wy, 1.18), lens=32.0)
+                sc.set_camera_look(cam, (2.25 - 0.35 * u, -2.95, 1.46), (0.0, wy, 1.18), lens=32.0)
 
             elif t < 3.30:
                 # Shot 1b: Stop, face each other & camera (-42 / +42 deg!), serious nod, door swings open behind
@@ -954,10 +954,10 @@ def main():
                 u = smoothstep((t - (t_b03s + 1.85)) / max(0.2, t_b04s - (t_b03s + 1.85)))
                 sc.set_camera_look(cam, (OX + lerp(0.5, 0.45, u), lerp(7.6, 4.1, u), OZ + lerp(1.5, 0.32, u)), (OX, 2.75, OZ + 0.06), lens=lerp(28.0, 44.0, u))
             elif t < t_b04s + 2.95:
-                # 4a: Hero spotlight slow-orbit on Theo (stat card sits cleanly above at y=430px!)
+                # 4a: Hero spotlight slow-orbit on Theo (stat card sits cleanly above at y=385px!)
                 u = (t - t_b04s) / 2.95
-                ang = lerp(-0.35, 0.42, u)
-                sc.set_camera_look(cam, (tx + math.sin(ang) * 1.45, ty + math.cos(ang) * 1.45, tz + 0.18), (tx, ty + 0.05, tz + 0.10), lens=40.0, fstop=2.4)
+                ang = lerp(-0.55, 0.52, u)
+                sc.set_camera_look(cam, (tx + math.sin(ang) * 1.90, ty + math.cos(ang) * 1.90, tz + 0.24), (tx, ty + 0.02, tz + 0.06), lens=34.0, fstop=2.4)
             elif t < t_b05s:
                 # 4b: Reverse-angle over Theo looking at massive swarm behind him
                 u = (t - (t_b04s + 2.95)) / max(0.2, t_b05s - (t_b04s + 2.95))
