@@ -339,7 +339,8 @@ def build_sperm_racer(
 
     m_head = sc.make_stylized_pbr(
         f"Mat_{name}_SpermBody", head_hex, rough=0.20, coat=0.45, sss=0.20,
-        emit_hex="#F1F5F9" if head_hex == "#F8FAFC" else head_hex, emit_str=0.06,
+        emit_hex="#F1F5F9" if head_hex == "#F8FAFC" else head_hex,
+        emit_str=0.24 if head_hex in ("#FFFFFF", "#F8FAFC") else 0.06,
     )
     m_eye = sc.make_stylized_pbr("Mat_Sperm_EyeInk", "#0F172A", rough=0.18, coat=0.55)
     m_glint = sc.make_stylized_pbr("Mat_Sperm_Glint", "#FFFFFF", emit_hex="#FFFFFF", emit_str=2.2)
