@@ -304,7 +304,7 @@ def build_set1_town(scene):
     make_box("EdgeLine_N", (0, -4.65, -0.045), (108, 0.22, 0.03), m_stripe, col)
     make_box("EdgeLine_S", (0,  4.65, -0.045), (108, 0.22, 0.03), m_stripe, col)
 
-    # Pastel @huss.hero suburban houses along both sides
+    # Pastel @huss.hero suburban houses along both sides (push South row back to y=20.5 so camera corridor stays 100% open)
     house_palette = [
         ("#F5D04C", "#334155"),  # Sunny yellow + charcoal roof
         ("#F2A2C8", "#7C2D12"),  # Soft pink + warm brown roof
@@ -316,15 +316,15 @@ def build_set1_town(scene):
         wc, rc = house_palette[i % len(house_palette)]
         build_suburban_house(f"HouseN_{i}", (hx, -15.5, 0.0), +1, wc, rc, m_trim, m_win, m_door, col)
         wc2, rc2 = house_palette[(i + 2) % len(house_palette)]
-        build_suburban_house(f"HouseS_{i}", (hx + 4, 15.5, 0.0), -1, wc2, rc2, m_trim, m_win, m_door, col)
+        build_suburban_house(f"HouseS_{i}", (hx + 4, 21.0, 0.0), -1, wc2, rc2, m_trim, m_win, m_door, col)
 
     # Trees along lawns (clear of camera viewlines on road/sidewalks)
     for i, tx in enumerate([-18, -6, 6, 18, 30]):
         build_lowpoly_tree(f"TreeN_{i}", (tx, -10.5, 0.0), col, scale=0.92 + (i % 2) * 0.14)
-        build_lowpoly_tree(f"TreeS_{i}", (tx - 3, 10.5, 0.0), col, scale=0.95)
+        build_lowpoly_tree(f"TreeS_{i}", (tx - 3, 16.5, 0.0), col, scale=0.95)
 
-    # Streetlights & fire hydrant
-    for sx in (-16, 0, 16):
+    # Streetlights (clear of center x=0 hero sightline!) & fire hydrant
+    for sx in (-16, -7.5, 8.5, 18):
         make_box(f"LampPoleN_{sx}", (sx, -5.3, 3.6), (0.24, 0.24, 7.2), m_pole, col)
         make_box(f"LampArmN_{sx}", (sx, -4.6, 7.1), (0.22, 1.5, 0.20), m_pole, col)
         bpy.ops.mesh.primitive_uv_sphere_add(segments=12, ring_count=8, radius=0.42, location=(sx, -4.0, 6.85))
@@ -562,7 +562,7 @@ def build_set2_space(scene):
     alex_tiny = sc.append_r6_character("01_Alex_Protagonist", "Alex_Tiny", cast2)
     noob_tiny = sc.append_r6_character("02_Noob_BestFriend", "Noob_Tiny", cast2)
 
-    # Space lighting (Warm solar key + cool cosmic rim)
+    # Space lighting (Warm solar key + bright front cosmic fill + cool rim so Earth & riders pop brightly!)
     lcol = bpy.data.collections.new("Set2_Lights")
     col.children.link(lcol)
     sol_d = bpy.data.lights.new("Sun_SpaceKey", type="POINT")
@@ -572,8 +572,17 @@ def build_set2_space(scene):
     sol_l.location = (OX - 26, -22, 8)
     lcol.objects.link(sol_l)
 
+    sfill_d = bpy.data.lights.new("Space_FrontFill", type="AREA")
+    sfill_d.energy = 8500.0
+    sfill_d.size = 24.0
+    sfill_d.color = bcl.hex_to_linear("#E0F2FE")[:3]
+    sfill_l = bpy.data.objects.new("Space_FrontFill", sfill_d)
+    sfill_l.location = (OX + 4, 24, 12)
+    sfill_l.rotation_euler = (Vector((OX, 0, 2)) - sfill_l.location).to_track_quat("-Z", "Y").to_euler()
+    lcol.objects.link(sfill_l)
+
     rim_d = bpy.data.lights.new("Space_Rim", type="AREA")
-    rim_d.energy = 2400.0
+    rim_d.energy = 2800.0
     rim_d.size = 18.0
     rim_d.color = bcl.hex_to_linear("#93C5FD")[:3]
     rim_l = bpy.data.objects.new("Space_Rim", rim_d)
@@ -657,15 +666,20 @@ def build_set3_analogy(scene):
     disc = sc._link_only(bpy.context.active_object, col)
     disc.data.materials.append(m_mgr_red)
     disc.parent = mgr_deck
-    bpy.ops.mesh.primitive_cylinder_add(vertices=12, radius=0.18, depth=2.6, location=(0, 0, 1.3))
+    bpy.ops.mesh.primitive_cylinder_add(vertices=12, radius=0.18, depth=2.1, location=(0, 0, 1.05))
     pole = sc._link_only(bpy.context.active_object, col)
     pole.data.materials.append(m_rail)
     pole.parent = mgr_deck
+    # Waist/chest grab ring & spokes (clear of character faces!)
+    bpy.ops.mesh.primitive_torus_add(major_radius=1.85, minor_radius=0.07, major_segments=32, minor_segments=8, location=(0, 0, 1.95))
+    ring = sc._link_only(bpy.context.active_object, col)
+    ring.data.materials.append(m_mgr_blu)
+    ring.parent = mgr_deck
     for k in range(4):
         ang = k * math.pi * 0.5
-        hx, hy = math.cos(ang) * 1.1, math.sin(ang) * 1.1
-        make_box(f"MgrBarH_{k}", (hx, hy, 2.45), (2.1, 0.14, 0.14), m_mgr_blu, col, rot=(0, 0, ang)).parent = mgr_deck
-        make_box(f"MgrBarV_{k}", (math.cos(ang) * 2.1, math.sin(ang) * 2.1, 1.25), (0.14, 0.14, 2.45), m_rail, col).parent = mgr_deck
+        hx, hy = math.cos(ang) * 0.92, math.sin(ang) * 0.92
+        make_box(f"MgrBarH_{k}", (hx, hy, 1.95), (1.85, 0.12, 0.12), m_mgr_blu, col, rot=(0, 0, ang)).parent = mgr_deck
+        make_box(f"MgrBarV_{k}", (math.cos(ang) * 1.85, math.sin(ang) * 1.85, 1.0), (0.12, 0.12, 1.95), m_rail, col).parent = mgr_deck
 
     # Alex & Noob riding on the Merry-Go-Round
     cast3 = bpy.data.collections.new("Set3_RideCast")
@@ -703,10 +717,10 @@ def build_set3_analogy(scene):
 def set_town_day_or_sunset(s1: dict, world_info: dict, sunset: bool):
     sc.set_world_mode(world_info, "sunset" if sunset else "day")
     if sunset:
-        s1["sun"].data.energy = 1.6
-        s1["sun"].data.color = bcl.hex_to_linear("#FF8A4C")[:3]
-        s1["fill"].data.energy = 520.0
-        s1["fill"].data.color = bcl.hex_to_linear("#FFC19E")[:3]
+        s1["sun"].data.energy = 2.0
+        s1["sun"].data.color = bcl.hex_to_linear("#FF9A5C")[:3]
+        s1["fill"].data.energy = 1050.0
+        s1["fill"].data.color = bcl.hex_to_linear("#FFD4B8")[:3]
         for n in s1["win_mat"].node_tree.nodes:
             if n.type == "BSDF_PRINCIPLED":
                 n.inputs["Emission Strength"].default_value = 2.6
@@ -716,7 +730,7 @@ def set_town_day_or_sunset(s1: dict, world_info: dict, sunset: bool):
     else:
         s1["sun"].data.energy = 3.2
         s1["sun"].data.color = bcl.hex_to_linear("#FFFDF5")[:3]
-        s1["fill"].data.energy = 680.0
+        s1["fill"].data.energy = 780.0
         s1["fill"].data.color = bcl.hex_to_linear("#F8FBFF")[:3]
         for n in s1["win_mat"].node_tree.nodes:
             if n.type == "BSDF_PRINCIPLED":
@@ -728,6 +742,10 @@ def set_town_day_or_sunset(s1: dict, world_info: dict, sunset: bool):
 
 def place_background_crowd_default(s1: dict, t: float):
     """Place the 6 grounded IRL background characters cleanly on sidewalks with zero clipping."""
+    # Move heroes safely aside by default so they never photobomb background-only cuts!
+    sc.set_char_transform(s1["alex"], -28.0, 0.0, -0.06, 0.0)
+    sc.set_char_transform(s1["noob"], -31.0, 0.0, -0.06, 0.0)
+
     # Dog walker + dog strolling along north sidewalk
     walk_x = -6.0 + (t % 8.0) * 0.45
     sc.set_char_transform(s1["bg_dogwalker"], walk_x, -6.4, 0.0, -90.0)
@@ -1229,12 +1247,4 @@ def main():
                     shake_amp=0.22,
                 )
 
-            bpy.context.view_layer.update()
-            tag = still_targets.get(f) if args.stills else None
-            sc.render_frame(scene, f, preview_tag=tag)
-
-    print("build_scene.py COMPLETE!")
-
-
-if __name__ == "__main__":
-    main()
+            bpy.context.view

@@ -158,7 +158,7 @@ def main():
         for p in sorted(PREVIEWS_DIR.glob("*.png")):
             im = Image.open(p).convert("RGBA").resize((W, H), Image.Resampling.LANCZOS)
             # Composite matching beat's midpoint caption
-            stem = p.stem.replace("_a", "").replace("_b", "")
+            stem = re.sub(r"_(a|b)$", "", p.stem)
             t_mid = 0.5
             for b in beats_data["beats"]:
                 if b["id"] == stem:
