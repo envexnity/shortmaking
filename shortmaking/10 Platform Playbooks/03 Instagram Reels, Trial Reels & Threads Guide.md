@@ -80,6 +80,7 @@ Instagram displays your Reel cover in **two different aspect ratios**:
 1. **Trial Reels (Zero-Risk Hook A/B Testing)**:
    - Instagram's **Trial Reels** feature shows a Reel **exclusively to non-followers** for 24–72 hours without posting it to your profile grid or notifying followers.
    - Use Trial Reels to test two different `0–3s` hooks on the same video; graduate the winner to your main feed with 1 click (or configure automatic graduation if views cross a threshold).
+   - **Full Deep Research Playbook:** See [[Deep Research - Instagram Trial Reels Strategy, Mechanics & Growth Automation]] (covering 2025–2026 daily caps, 6–7s duplicate detection, 5-source volume workflows, ManyChat DM funnels, and Graph API `trial_params`).
 2. **Instagram `Collab` Tag (`collaborators` API field)**:
    - If you run two theme channels (e.g., `@Warp_Scale` and `@OrbitOddities`) or partner with a narrator/researcher account, pass `collaborators=["second_handle"]` in the Graph API container request.
    - The Reel publishes simultaneously to **both accounts' grids and follower pools**, merging all Likes, Sends, and Watch Time into a **single unified post**.

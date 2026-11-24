@@ -174,15 +174,25 @@ For our animated shorts (`cartoon-3d-short`, `make-3d-video`, `blender`, `roblox
 
 ## 7. Sources & References
 
-1. **[1]** Brock Johnson (*Build Your Tribe*), *"Complete Guide To Growing On Instagram With Trial Reels"*, YouTube, Nov 10, 2025 — https://youtu.be/GPfBBoroS-E
-2. **[2]** Social Media Today / Creatorflow / Reshma Shaji — Instagram Trial Reels Dec 2024 Launch, Non-Follower Mechanics & 1,000-Follower Eligibility (2024–2025)
-3. **[3]** Riffon, *"Instagram Trial Reels Daily Limits & Duplicate Detection (First 6–7 Seconds)"* (2025)
-4. **[4]** TrialReel.com / ItsModernMillie — Dynamic Daily Caps, 30-Day Lockout Penalties & 2025 Anti-Spam Guardrails
-5. **[5]** Instagram Help Center — Trial Reels Overview, 24-Hour Insights Unlock, Follower Exceptions (DM/Audio/Location), and Eligibility
-6. **[6]** Planoly / Makers.tv / Hashgifted — 72-Hour Auto-Share Window & Trial-vs-Trial Benchmarking (Adam Mosseri guidance)
-7. **[7]** Buffer — Trial Reels Workflow, Available Insights Metrics (Watch Time, Average Watch Time, Replays, Shares, Saves) & Notification Scheduling
-8. **[8]** Metricool / Socialinsider — Instagram Organic Benchmarks, Sends per Reach & Completion Rate Diagnostics (2025–2026)
-9. **[9]** Brandstory / CreatorsJet / Scribd Case Studies — Controlled Hook A/B Split-Testing, 3-Second Retention & Anti-Engagement-Pod Rules
-10. **[10]** Meta Instagram Graph API Documentation / AdaptlyPost / PostProxy — `trial_params` Container Object (`graduation_strategy`: `MANUAL` | `SS_PERFORMANCE`) & Two-Step Publishing
-11. **[11]** ManyChat — Instagram Comment-to-DM Webhook Automation on Trial Reels & Follower-Gate Conversion Funnels
-12. **[12]** Soundstripe / Socialk.it — Trial Reels Feature Restrictions (Collabs, Boosting/Ads, Remixing & Native vs. API Scheduling)
+1. **[1]** Social Media Today — Instagram Trial Reels Official Rollout & Non-Follower Testing (Dec 2024)
+2. **[2]** Creatorflow / Reshma Shaji — Trial Reels Eligibility, 1,000-Follower Threshold & Cold-Audience Distribution (2024–2025)
+3. **[3]** TheKeyword.co / Metrik.social — Public Professional Account & Recommendation Eligibility Requirements
+4. **[4]** Brock Johnson (*Build Your Tribe*), *"Complete Guide To Growing On Instagram With Trial Reels"*, YouTube, Nov 10, 2025 — https://youtu.be/GPfBBoroS-E
+5. **[5]** Brandstory / CreatorsJet — Controlled Hook A/B Split-Testing Case Study & 3-Second Retention Benchmarks
+6. **[6]** Riffon — Instagram Trial Reels Daily Caps & Duplicate Detection ("First 6–7 Seconds" Indexing) (2025)
+7. **[7]** TrialReel.com / ItsModernMillie — Dynamic Daily Posting Limits & 30-Day Feature Lockout Reports
+8. **[8]** Reddit / Creator Community Reports — Duplicate Upload Throttling & Anti-Spam Classifier Behavior
+9. **[9]** ManyChat — Instagram Comment-to-DM Webhook Automation on Trial Reels & Follower-Gate Flows
+10. **[10]** Scribd / Creator Growth Playbooks — 3-Second Hold Rate, Short Loop Testing & Anti-Engagement-Pod Rules
+11. **[11]** Metricool / Socialinsider — Instagram Reels Watch Time, Sends per Reach & Completion Rate Diagnostics (2025–2026)
+12. **[12]** Meta Instagram Graph API Documentation / PostProxy — `trial_params` Object & `graduation_strategy` (`MANUAL` | `SS_PERFORMANCE`)
+13. **[13]** AdaptlyPost / Foxli — Two-Step Content Publishing API (`media` Container Polling + `media_publish`)
+14. **[14]** Instagram Help Center — Trial Reels Overview, 24-Hour Insights Unlock & Follower Leak Exceptions (DM/Audio/Location)
+15. **[15]** Buffer — Trial Reels Insights Metrics & Push-Notification Scheduling Workflow
+16. **[16]** Reshma Shaji / Hashgifted — `Drafts and trial reels` Management & Safe Deletion/Graduation
+17. **[17]** Makers.tv — 72-Hour Auto-Share Evaluation Window & Performance Thresholds
+18. **[18]** Planoly — Adam Mosseri Guidance on Trial-vs-Trial Benchmarking & Send-Rate Weighting
+19. **[19]** Soundstripe / Metricool — Trial Reels Feature Restrictions (No Collabs, No Boosting/Ads, No Remixing)
+20. **[20]** Upload-Post — Graph API `graduation_strategy` Behavior & Validation Rules
+21. **[21]** PostProxy / Post-Pulse — External Queue Scheduling Architecture for Graph API Container Publishing
+22. **[22]** Socialk.it / Hotmart — Third-Party Scheduler API Support & Native Trial Toggle Constraints
