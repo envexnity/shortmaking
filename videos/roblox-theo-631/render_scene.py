@@ -299,12 +299,12 @@ def build_starter_house_set(scene):
         pf.make_bevel_box(f"S1_WinCrossH_{wx}", (wx, 1.99, 1.65), (0.90, 0.04, 0.06), m_trim, col, bevel_w=0.005, parent=house_root)
         pf.make_bevel_box(f"S1_WinCrossV_{wx}", (wx, 1.99, 1.65), (0.06, 0.04, 0.90), m_trim, col, bevel_w=0.005, parent=house_root)
 
-    # 12 Window & Chimney Dust Puffs (animated during b02_huss!)
+    # Dust puffs hidden until Beat 2; placed at left/right windows & chimney (none blocking door)
     dust_puffs = []
     dust_anchors = [
-        (-1.55, 2.15, 1.65, -1, 0.45), (-1.65, 2.15, 1.75, -1, 0.38), (-1.45, 2.15, 1.55, -1, 0.42), (-1.75, 2.15, 1.90, -1, 0.34),
-        (1.55, 2.15, 1.65, 1, 0.45), (1.65, 2.15, 1.75, 1, 0.38), (1.45, 2.15, 1.55, 1, 0.42), (1.75, 2.15, 1.90, 1, 0.34),
-        (1.40, -0.70, 5.95, 0, 0.42), (1.32, -0.65, 6.20, 0, 0.36), (1.48, -0.75, 6.35, 0, 0.32), (0.0, 2.10, 2.25, 0, 0.35),
+        (-1.60, 2.25, 1.65, -1, 0.48), (-1.78, 2.30, 1.82, -1, 0.40), (-1.45, 2.22, 1.50, -1, 0.44), (-1.90, 2.25, 2.02, -1, 0.36),
+        (1.60, 2.25, 1.65, 1, 0.48), (1.78, 2.30, 1.82, 1, 0.40), (1.45, 2.22, 1.50, 1, 0.44), (1.90, 2.25, 2.02, 1, 0.36),
+        (1.40, -0.70, 5.95, 0, 0.44), (1.32, -0.65, 6.22, 0, 0.38), (1.48, -0.75, 6.40, 0, 0.34), (-1.52, 2.20, 2.10, -1, 0.36),
     ]
     for di, (ax, ay, az, sx_dir, base_r) in enumerate(dust_anchors):
         p = pf.make_smooth_sphere(f"S1_Dust_{di}", (ax, ay, az), (base_r, base_r, base_r), m_dust, col, segs=14, parent=house_root)
@@ -391,21 +391,24 @@ def build_sperm_racer(
                 )
                 brows.append(b)
 
-    # Athletic Headband + Fluttering Ribbons
+    # Athletic Headband + Fluttering Ribbons (elliptical fit cleanly OUTSIDE 0.22 x 0.36 x 0.20 head!)
     ribbons = []
     if band_hex:
-        m_band = sc.make_stylized_pbr(f"Mat_{name}_Band_{band_hex}", band_hex, rough=0.36, coat=0.12, emit_hex=band_hex, emit_str=0.22)
-        pf.make_smooth_torus(
-            f"{name}_Headband", (0.0, -0.02, 0.04), 0.215, 0.036, m_band, col,
-            major_segs=28, minor_segs=10, rot=(math.radians(14), 0, 0), parent=root,
-        )
+        m_band = sc.make_stylized_pbr(f"Mat_{name}_Band_{band_hex}", band_hex, rough=0.34, coat=0.14, emit_hex=band_hex, emit_str=0.32)
+        bm_hb = bmesh.new()
+        pf.make_torus_bm(bm_hb, 1.0, 0.14, major_segs=32, minor_segs=10)
+        for v in bm_hb.verts:
+            v.co.x *= 0.232
+            v.co.y *= 0.345
+            v.co.z *= 0.232
+        pf._finish_bm(bm_hb, f"{name}_Headband", (0.0, 0.04, 0.045), m_band, col, rot=(math.radians(-16), 0, 0), parent=root)
         for ri, rz in enumerate((-12, 16)):
             rpiv = bpy.data.objects.new(f"{name}_RibbonPiv_{ri}", None)
-            rpiv.location = (-0.19, -0.14, 0.06 + ri * 0.03)
+            rpiv.location = (-0.21, -0.18, 0.08 + ri * 0.03)
             col.objects.link(rpiv)
             rpiv.parent = root
             pf.make_bevel_box(
-                f"{name}_Ribbon_{ri}", (-0.02, -0.16, 0.0), (0.052, 0.32, 0.012),
+                f"{name}_Ribbon_{ri}", (-0.02, -0.17, 0.0), (0.056, 0.34, 0.014),
                 m_band, col, bevel_w=0.004, segs=2, rot=(0, 0, math.radians(rz)), parent=rpiv,
             )
             ribbons.append(rpiv)
@@ -427,34 +430,33 @@ def build_tunnel_race_set(scene):
     scene.collection.children.link(col)
     OX, OZ = 120.0, 3.5
 
-    m_tunnel = sc.make_stylized_pbr("Mat_S2_Tunnel", "#7E123A", rough=0.35, coat=0.28, sss=0.25, bump_str=0.05, ao_str=0.18)
-    m_rib = sc.make_stylized_pbr("Mat_S2_Rib", "#BE185D", rough=0.30, coat=0.35, emit_hex="#F43F5E", emit_str=0.35)
+    m_tunnel = sc.make_stylized_pbr("Mat_S2_Tunnel", "#881337", rough=0.32, coat=0.28, sss=0.25, bump_str=0.05, ao_str=0.16, emit_hex="#9D174D", emit_str=0.16)
+    m_rib = sc.make_stylized_pbr("Mat_S2_Rib", "#BE185D", rough=0.30, coat=0.35, emit_hex="#F43F5E", emit_str=0.45)
     m_glow_strip = sc.make_stylized_pbr("Mat_S2_GlowStrip", "#FDA4AF", emit_hex="#FB7185", emit_str=3.2)
     m_mote = sc.make_stylized_pbr("Mat_S2_Mote", "#FDE68A", emit_hex="#F9A8D4", emit_str=4.5)
 
-    # Outer ribbed organic cylinder tunnel along +Y (y = -8 .. +94)
+    # Outer ribbed organic cylinder tunnel along +Y (y = -28 .. +112, closed ends with glowing mist!)
     bm = bmesh.new()
-    bmesh.ops.create_cone(bm, cap_ends=False, cap_tris=False, segments=32, radius1=4.5, radius2=4.5, depth=104.0)
-    # Flip normals inward for clean interior shading
+    bmesh.ops.create_cone(bm, cap_ends=True, cap_tris=False, segments=32, radius1=4.5, radius2=4.5, depth=140.0)
     for f in bm.faces:
         f.normal_flip()
-    pf._finish_bm(bm, "S2_TunnelWall", (OX, 43.0, OZ), m_tunnel, col, rot=(math.radians(90), 0, 0))
+    pf._finish_bm(bm, "S2_TunnelWall", (OX, 42.0, OZ), m_tunnel, col, rot=(math.radians(90), 0, 0))
 
     # Glowing organic tunnel ribs & longitudinal bioluminescent guide rails
-    for yi in range(0, 92, 3):
-        pf.make_smooth_torus(f"S2_Rib_{yi}", (OX, float(yi) - 4.0, OZ), 4.35, 0.14, m_rib, col, major_segs=32, minor_segs=8, rot=(math.radians(90), 0, 0))
+    for yi in range(-24, 108, 3):
+        pf.make_smooth_torus(f"S2_Rib_{yi}", (OX, float(yi), OZ), 4.35, 0.14, m_rib, col, major_segs=32, minor_segs=8, rot=(math.radians(90), 0, 0))
     for ang_deg in (40, 140, 220, 320):
         ang = math.radians(ang_deg)
         sx = OX + math.cos(ang) * 4.28
         sz = OZ + math.sin(ang) * 4.28
-        pf.make_bevel_box(f"S2_Strip_{ang_deg}", (sx, 43.0, sz), (0.10, 98.0, 0.10), m_glow_strip, col, bevel_w=0.02)
+        pf.make_bevel_box(f"S2_Strip_{ang_deg}", (sx, 42.0, sz), (0.10, 134.0, 0.10), m_glow_strip, col, bevel_w=0.02)
 
     # Floating bioluminescent particles inside tunnel
     rng = random.Random(631)
-    for mi in range(44):
+    for mi in range(52):
         ang = rng.uniform(0, math.pi * 2)
         rad = rng.uniform(1.8, 3.9)
-        my = rng.uniform(0.0, 82.0)
+        my = rng.uniform(-16.0, 88.0)
         pf.make_smooth_sphere(f"S2_Mote_{mi}", (OX + math.cos(ang) * rad, my, OZ + math.sin(ang) * rad), (0.06, 0.06, 0.06), m_mote, col, segs=8)
 
     # Starting Gate at Y = 4.0
@@ -499,23 +501,25 @@ def build_tunnel_race_set(scene):
                 )
         hazards.append((hroot, hx, hy, hz, hi))
 
-    # GLOWING GOLDEN EGG AT FINISH LINE (Y = 78.5)
+    # GLOWING GOLDEN EGG AT FINISH LINE (Y = 82.0)
     m_egg_core = sc.make_stylized_pbr("Mat_S2_EggCore", "#FBBF24", rough=0.14, coat=0.60, emit_hex="#FDE047", emit_str=4.5)
     m_egg_halo = sc.make_stylized_pbr("Mat_S2_EggHalo", "#FEF08A", rough=0.20, emit_hex="#FEF08A", emit_str=2.2, alpha=0.35)
     egg_root = bpy.data.objects.new("S2_GoldenEgg", None)
-    egg_root.location = (OX, 78.5, OZ)
+    egg_root.location = (OX, 82.0, OZ)
     col.objects.link(egg_root)
-    pf.make_smooth_sphere("S2_EggSphere", (0, 0, 0), (2.45, 2.45, 2.45), m_egg_core, col, segs=36, parent=egg_root)
-    pf.make_smooth_sphere("S2_EggCorona", (0, 0, 0), (2.82, 2.82, 2.82), m_egg_halo, col, segs=32, parent=egg_root)
+    pf.make_smooth_sphere("S2_EggSphere", (0, 0, 0), (2.20, 2.20, 2.20), m_egg_core, col, segs=36, parent=egg_root)
+    pf.make_smooth_sphere("S2_EggCorona", (0, 0, 0), (2.52, 2.52, 2.52), m_egg_halo, col, segs=32, parent=egg_root)
     for ei in range(12):
         ang = ei * math.pi * 2.0 / 12.0
-        pf.make_smooth_sphere(f"S2_EggMote_{ei}", (math.cos(ang) * 3.15, -0.6, math.sin(ang) * 3.15), (0.14, 0.14, 0.14), m_spike, col, segs=10, parent=egg_root)
+        pf.make_smooth_sphere(f"S2_EggMote_{ei}", (math.cos(ang) * 2.90, -0.5, math.sin(ang) * 2.90), (0.14, 0.14, 0.14), m_spike, col, segs=10, parent=egg_root)
 
     # HERO THEO (#631), NAMED RIVALS (#42, #12, #001), AND 56 WHITE TADPOLE SWARM SPERM!
     theo = build_sperm_racer("Sperm_Theo_631", col, head_hex="#FFFFFF", band_hex="#EF4444", has_face=True, angry_brows=True, n_tail_segs=6, scale=1.18)
     s42 = build_sperm_racer("Sperm_42", col, head_hex="#F8FAFC", band_hex="#06B6D4", has_face=True, angry_brows=False, n_tail_segs=5, scale=1.08)
     s12 = build_sperm_racer("Sperm_12", col, head_hex="#F8FAFC", band_hex="#F97316", has_face=True, angry_brows=False, n_tail_segs=5, scale=1.08)
     s001 = build_sperm_racer("Sperm_001", col, head_hex="#FFFFFF", band_hex="#A855F7", has_face=True, angry_brows=True, n_tail_segs=6, scale=1.15)
+    for init_sp, ix in ((theo, OX), (s42, OX - 1.35), (s12, OX + 1.35), (s001, OX + 0.85)):
+        init_sp["root"].location = (ix, 2.5, OZ)
 
     swarm = []
     for ci in range(56):
@@ -530,17 +534,18 @@ def build_tunnel_race_set(scene):
             f"Swarm_{ci:02d}", col, head_hex="#F8FAFC", band_hex=None,
             has_face=(ci < 14), angry_brows=False, n_tail_segs=4, scale=rng.uniform(0.88, 1.08),
         )
+        sp["root"].location = (sx, sy, sz)
         swarm.append({
             "sp": sp, "x0": sx, "y0": sy, "z0": sz,
             "speed": rng.uniform(8.8, 13.8), "phase": rng.uniform(0, math.pi * 2),
             "drop_t": rng.uniform(16.9, 23.2),
         })
 
-    # Bright Tunnel Lighting (warm coral/pink key + golden egg glow + cool cyan rim)
-    for li, ly in enumerate(range(-2, 86, 8)):
+    # Bright Tunnel Lighting (cover -14..+90 so reverse shots are never dark!)
+    for li, ly in enumerate(range(-14, 92, 8)):
         lt = bpy.data.objects.new(f"S2_Light_{li}", bpy.data.lights.new(f"S2_Pt_{li}", type="POINT"))
         lt.location = (OX + (1.2 if li % 2 == 0 else -1.2), float(ly), OZ + 2.4)
-        lt.data.energy = 260.0 if ly < 70 else 580.0
+        lt.data.energy = 320.0 if ly < 70 else 650.0
         lt.data.color = bcl.hex_to_linear("#FFE4E6" if ly < 70 else "#FEF08A")[:3]
         lt.data.shadow_soft_size = 1.2
         col.objects.link(lt)
