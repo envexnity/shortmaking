@@ -612,19 +612,29 @@ def build_hospital_set(scene):
     clip_root = bpy.data.objects.new("S3_Clipboard", None)
     col.objects.link(clip_root)
     cf._bind_bone(clip_root, doctor["arm"], "Arm_L_Lower")
-    clip_root.location = (0.44, 0.20, 0.72)
-    clip_root.rotation_euler = (math.radians(-38), math.radians(15), math.radians(18))
-    pf.make_bevel_box("S3_ClipWood", (0, 0, 0), (0.34, 0.025, 0.44), m_board, col, bevel_w=0.008, parent=clip_root)
+    clip_root.location = (0.44, 0.18, 0.72)
+    clip_root.rotation_euler = (math.radians(-65), math.radians(-10), math.radians(-24))
+    pf.make_bevel_box("S3_ClipWood", (0, 0, 0), (0.36, 0.025, 0.46), m_board, col, bevel_w=0.008, parent=clip_root)
     bm = bmesh.new()
-    v0 = bm.verts.new((-0.145, 0.016, -0.185))
-    v1 = bm.verts.new((0.145, 0.016, -0.185))
-    v2 = bm.verts.new((0.145, 0.016, 0.185))
-    v3 = bm.verts.new((-0.145, 0.016, 0.185))
+    v0 = bm.verts.new((-0.155, 0.016, -0.195))
+    v1 = bm.verts.new((0.155, 0.016, -0.195))
+    v2 = bm.verts.new((0.155, 0.016, 0.195))
+    v3 = bm.verts.new((-0.155, 0.016, 0.195))
     f = bm.faces.new((v0, v1, v2, v3))
     uv = bm.loops.layers.uv.new("UVMap")
     for lp, c in zip(f.loops, [(1.0, 0.0), (0.0, 0.0), (0.0, 1.0), (1.0, 1.0)]):
         lp[uv].uv = c
     pf._finish_bm(bm, "S3_ClipSheet", (0, 0, 0), m_paper, col, parent=clip_root, smooth=False)
+    bm_b = bmesh.new()
+    b0 = bm_b.verts.new((0.155, -0.016, -0.195))
+    b1 = bm_b.verts.new((-0.155, -0.016, -0.195))
+    b2 = bm_b.verts.new((-0.155, -0.016, 0.195))
+    b3 = bm_b.verts.new((0.155, -0.016, 0.195))
+    fb = bm_b.faces.new((b0, b1, b2, b3))
+    uvb = bm_b.loops.layers.uv.new("UVMap")
+    for lp, c in zip(fb.loops, [(1.0, 0.0), (0.0, 0.0), (0.0, 1.0), (1.0, 1.0)]):
+        lp[uvb].uv = c
+    pf._finish_bm(bm_b, "S3_ClipSheetBack", (0, 0, 0), m_paper, col, parent=clip_root, smooth=False)
 
     # Clinical overhead area lights
     add_area_light("S3_KeyLight", (OX + 0.5, 2.2, 2.9), target=(OX, -0.2, 1.15), energy=220.0, size=2.4, color_hex="#FFFFFF", col=col)
@@ -749,49 +759,50 @@ def main():
                     p.scale = (0.001, 0.001, 0.001)
 
             if t < 1.85:
-                # Shot 1a: Walking side-by-side toward Starter House
+                # Shot 1a: Walking side-by-side toward Starter House (front-3/4 tracking shot clearly clear of walls!)
                 u = smoothstep(t / 1.85)
-                wy = lerp(-0.2, -2.55, u)
-                cyc = math.sin(t * 10.5)
-                cf.set_char_transform(dad1, -0.42, wy, 0.0, yaw_deg=180.0)
-                cf.set_char_transform(mom1, 0.42, wy, 0.0, yaw_deg=180.0)
+                wy = lerp(2.20, -1.65, u)
+                cf.set_char_transform(dad1, 0.46, wy, 0.0, yaw_deg=180.0)
+                cf.set_char_transform(mom1, -0.46, wy, 0.0, yaw_deg=180.0)
                 for ch, ph in ((dad1, 0.0), (mom1, math.pi)):
                     sw = math.sin(t * 10.5 + ph)
                     cf.pose_char(ch, pelvis_z=abs(sw) * 0.04, arm_l=(sw * 24, 0, 0), arm_r=(-sw * 24, 0, 0), leg_l=(-sw * 26, 0, 0), leg_r=(sw * 26, 0, 0))
                 cf.set_face_with_blink(dad1, "dad_serious_nod", f_idx, seed=1)
                 cf.set_face_with_blink(mom1, "mom_serious_nod", f_idx, seed=2)
                 s1["door_hinge"].rotation_euler = (0, 0, 0)
-                sc.set_camera_look(cam, (0.65, wy - 3.6 + 0.12 * u, 1.38), (0.0, wy - 0.5, 1.25), lens=34.0)
+                sc.set_camera_look(cam, (2.35 - 0.35 * u, -3.55, 1.48), (0.0, wy, 1.18), lens=32.0)
 
             elif t < 3.30:
-                # Shot 1b: Stop, face each other, serious nod, door swings open
+                # Shot 1b: Stop, face each other & camera (-42 / +42 deg!), serious nod, door swings open behind
                 u = smoothstep((t - 1.85) / 1.45)
-                cf.set_char_transform(dad1, -0.45, -2.60, 0.0, yaw_deg=118.0)
-                cf.set_char_transform(mom1, 0.45, -2.60, 0.0, yaw_deg=-118.0)
+                cf.set_char_transform(dad1, 0.56, -2.25, 0.0, yaw_deg=-42.0)
+                cf.set_char_transform(mom1, -0.56, -2.25, 0.0, yaw_deg=42.0)
                 nod = math.sin(smoothstep((u - 0.25) / 0.55) * math.pi) * 24.0 if u > 0.25 else 0.0
                 cf.pose_char(dad1, head_rot=(-nod, 0, 0), arm_l=(10, 0, 0), arm_r=(10, 0, 0))
                 cf.pose_char(mom1, head_rot=(-nod, 0, 0), arm_l=(10, 0, 0), arm_r=(10, 0, 0))
                 cf.set_face_with_blink(dad1, "dad_serious_nod", f_idx, seed=1)
                 cf.set_face_with_blink(mom1, "mom_serious_nod", f_idx, seed=2)
                 s1["door_hinge"].rotation_euler = (0, 0, math.radians(-82.0 * smoothstep((u - 0.4) / 0.6)))
-                sc.set_camera_look(cam, (0.0, -0.35 + 0.35 * u, 1.46), (0.0, -2.60, 1.32), lens=38.0 + 4.0 * u)
+                sc.set_camera_look(cam, (0.0, 0.45 - 0.35 * u, 1.44), (0.0, -2.25, 1.28), lens=36.0 + 4.0 * u)
 
             elif t < t_b02s:
-                # Shot 1c: Step inside house & door SLAMS shut!
+                # Shot 1c: Turn & step inside house; door SLAMS shut!
                 u = smoothstep((t - 3.30) / max(0.2, t_b02s - 3.30))
-                wy = lerp(-2.60, -5.60, min(1.0, u / 0.72))
+                wy = lerp(-2.25, -5.85, min(1.0, u / 0.72))
                 sw = math.sin(t * 12.0) * (1.0 if u < 0.72 else 0.0)
-                cf.set_char_transform(dad1, -0.28, wy, 0.0, yaw_deg=180.0)
-                cf.set_char_transform(mom1, 0.28, wy, 0.0, yaw_deg=180.0)
+                cf.set_char_transform(dad1, 0.28, wy, 0.0, yaw_deg=180.0)
+                cf.set_char_transform(mom1, -0.28, wy, 0.0, yaw_deg=180.0)
                 cf.pose_char(dad1, arm_l=(sw * 22, 0, 0), arm_r=(-sw * 22, 0, 0), leg_l=(-sw * 24, 0, 0), leg_r=(sw * 24, 0, 0))
                 cf.pose_char(mom1, arm_l=(-sw * 22, 0, 0), arm_r=(sw * 22, 0, 0), leg_l=(sw * 24, 0, 0), leg_r=(-sw * 24, 0, 0))
                 door_open = 1.0 - smoothstep((u - 0.68) / 0.22)
                 s1["door_hinge"].rotation_euler = (0, 0, math.radians(-82.0 * door_open))
-                sc.set_camera_look(cam, (1.65 - 0.25 * u, -1.65, 1.52), (0.0, -4.35, 1.40), lens=32.0, kick_offset=kick, kick_amp=0.06)
+                sc.set_camera_look(cam, (1.65 - 0.25 * u, -1.35, 1.52), (0.0, -4.35, 1.40), lens=32.0, kick_offset=kick, kick_amp=0.06)
 
             else:
-                # Shot 2: b02_huss — Wide shot of Starter House violently shaking + dust puffs from windows!
+                # Shot 2: b02_huss — Dad & Mom are INSIDE the closed house while it violently shakes + window dust puffs!
                 u = (t - t_b02s) / max(0.1, t_b03s - t_b02s)
+                cf.set_char_transform(dad1, 0.28, -6.2, 0.0, yaw_deg=180.0)
+                cf.set_char_transform(mom1, -0.28, -6.2, 0.0, yaw_deg=180.0)
                 s1["door_hinge"].rotation_euler = (0, 0, 0)
                 pulse = sum(math.exp(-((t - ht) * 18.0) ** 2) for ht in beats["b02_huss"]["huss_hit_times"])
                 sx_j = math.sin(f_idx * 2.7) * (0.14 + 0.16 * pulse)
@@ -847,17 +858,17 @@ def main():
                 tz = OZ + math.cos((ty - 14.0) * 0.18) * 0.35
                 t_freq, t_amp = 28.0, 26.0
             elif t < t_b08s:
-                # Neck-and-neck burst (t_b07s .. t_b08s) -> Y: 56.0 -> 68.5
+                # Neck-and-neck burst (t_b07s .. t_b08s) -> Y: 56.0 -> 70.0
                 ur = smoothstep((t - t_b07s) / max(0.1, t_b08s - t_b07s))
-                ty = lerp(56.0, 68.5, ur)
-                tx = OX - 0.52 + 0.12 * ur
+                ty = lerp(56.0, 70.0, ur)
+                tx = OX - 0.56 + 0.14 * ur
                 tz = OZ
                 t_freq, t_amp = 32.0, 28.0
             else:
-                # Slow-motion climax lunge straight into Golden Egg! (Y: 68.5 -> 75.85 at t_won)
+                # Slow-motion climax lunge straight into Golden Egg at Y=82.0! (surface at Y=79.55 -> snout touches at Y=79.15!)
                 uc = smoothstep((t - t_b08s) / max(0.2, t_won - t_b08s))
-                ty = lerp(68.5, 75.85, uc)
-                tx = lerp(OX - 0.40, OX, uc)
+                ty = lerp(70.0, 79.15, uc)
+                tx = lerp(OX - 0.42, OX, uc)
                 tz = OZ
                 t_freq, t_amp = 10.0 if t < t_won else 4.0, 24.0
 
@@ -866,17 +877,17 @@ def main():
             s2["theo"]["root"].rotation_euler = (0.0, 0.0, math.radians(yaw_theo))
             animate_sperm_tail(s2["theo"], t, freq=t_freq, amp_deg=t_amp, phase=0.0)
 
-            # Sperm #42 (cyan band) -> gets launched off-screen at t_gone!
+            # Sperm #42 (cyan band) -> gets blasted by spiky immune cell right in frame!
             if t < t_go:
                 s2["s42"]["root"].location = (OX - 1.35, 2.35, OZ + 0.35)
                 s2["s42"]["root"].rotation_euler = (0, 0, 0)
             elif t < t_42:
                 u42 = (t - t_go) / max(0.1, t_42 - t_go)
-                s2["s42"]["root"].location = (OX - 1.25, lerp(2.35, 34.0, u42), OZ + 0.25)
+                s2["s42"]["root"].location = (OX - 1.15, lerp(2.35, 34.0, u42), OZ + 0.25)
                 s2["s42"]["root"].rotation_euler = (0, 0, 0)
             else:
                 ug = (t - t_42) / 0.55
-                s2["s42"]["root"].location = (OX - 1.25 - ug * 4.8, 34.0 + ug * 2.0, OZ + 0.25 + ug * 3.8)
+                s2["s42"]["root"].location = (OX - 1.15 - ug * 2.4, 34.0 + ug * 1.2, OZ + 0.25 + ug * 1.8)
                 s2["s42"]["root"].rotation_euler = (ug * 4.5, ug * 6.0, ug * 3.5)
             animate_sperm_tail(s2["s42"], t, freq=26.0, amp_deg=24.0, phase=1.4)
 
@@ -886,11 +897,11 @@ def main():
                 s2["s12"]["root"].rotation_euler = (0, 0, 0)
             elif t < t_12:
                 u12 = (t - t_go) / max(0.1, t_12 - t_go)
-                s2["s12"]["root"].location = (OX + 1.15, lerp(2.45, 40.2, u12), OZ + 0.42)
+                s2["s12"]["root"].location = (OX + 1.05, lerp(2.45, 40.2, u12), OZ + 0.42)
                 s2["s12"]["root"].rotation_euler = (0, 0, 0)
             else:
                 uc = (t - t_12) / 0.65
-                s2["s12"]["root"].location = (OX + 1.15 + uc * 4.2, 40.2 - uc * 3.5, OZ + 0.42 - uc * 3.2)
+                s2["s12"]["root"].location = (OX + 1.05 + uc * 2.4, 40.2 - uc * 2.0, OZ + 0.42 - uc * 1.8)
                 s2["s12"]["root"].rotation_euler = (uc * 7.5, uc * 5.0, uc * 6.0)
             animate_sperm_tail(s2["s12"], t, freq=26.0, amp_deg=24.0, phase=2.6)
 
@@ -902,10 +913,10 @@ def main():
                 s2["s001"]["root"].location = (OX + 0.65, lerp(2.55, 55.9, u1), OZ - 0.10)
             elif t < t_b08s:
                 u1 = smoothstep((t - t_b07s) / max(0.1, t_b08s - t_b07s))
-                s2["s001"]["root"].location = (OX + 0.54, lerp(55.9, 68.4, u1), OZ)
+                s2["s001"]["root"].location = (OX + 0.56, lerp(55.9, 69.8, u1), OZ)
             else:
                 u1 = smoothstep((t - t_b08s) / max(0.2, t_won - t_b08s))
-                s2["s001"]["root"].location = (OX + 0.68, lerp(68.4, 74.1, u1), OZ - 0.12)
+                s2["s001"]["root"].location = (OX + 0.72, lerp(69.8, 77.2, u1), OZ - 0.12)
             animate_sperm_tail(s2["s001"], t, freq=t_freq * 0.96, amp_deg=24.0, phase=3.1)
 
             # Animate all 56 swarm tadpole sperm!
@@ -962,29 +973,29 @@ def main():
                 # 6b: Tight dodge past green acid hazard + bump rival!
                 sc.set_camera_look(cam, (tx - 1.35, ty + 2.4, tz + 0.55), (tx, ty + 0.2, tz), lens=32.0, kick_offset=kick, kick_amp=0.07)
             elif t < t_12 - 0.15:
-                # 6c: Sperm 42? Gone! (track #42 getting yeeted)
+                # 6c: Sperm 42? Gone! (track #42 + spiky immune cell hazard clearly in frame!)
                 p42 = s2["s42"]["root"].location
-                sc.set_camera_look(cam, (OX - 0.15, p42.y + 3.2, OZ + 0.65), (p42.x, p42.y, p42.z), lens=32.0, kick_offset=kick, kick_amp=0.06)
+                sc.set_camera_look(cam, (OX + 0.25, p42.y + 3.6, OZ + 0.85), (OX - 0.95, 34.2, OZ + 0.35), lens=28.0, kick_offset=kick, kick_amp=0.06)
             elif t < t_b07s:
-                # 6d: Sperm 12? Cooked! (track #12 hitting hazard)
+                # 6d: Sperm 12? Cooked! (track #12 + acid hazard clearly in frame!)
                 p12 = s2["s12"]["root"].location
-                sc.set_camera_look(cam, (OX + 0.15, p12.y + 3.2, OZ + 0.65), (p12.x, p12.y, p12.z), lens=32.0, kick_offset=kick, kick_amp=0.07)
+                sc.set_camera_look(cam, (OX - 0.25, p12.y + 3.6, OZ + 0.85), (OX + 0.95, 40.2, OZ + 0.40), lens=28.0, kick_offset=kick, kick_amp=0.07)
             elif t < t_b07s + 1.20:
-                # 7a: Tight chase cam behind Theo drafting & speed-bursting!
+                # 7a: Tight chase cam behind Theo drafting & speed-bursting toward Golden Egg!
                 u = (t - t_b07s) / 1.20
-                sc.set_camera_look(cam, (tx, ty - 2.35, tz + 0.55), (OX, 78.5, OZ), lens=lerp(34.0, 23.0, u))
+                sc.set_camera_look(cam, (tx, ty - 2.35, tz + 0.55), (OX, 82.0, OZ), lens=lerp(34.0, 23.0, u))
             elif t < t_b08s:
-                # 7b: Neck-and-neck dual front-3/4 shot with Theo & #001 + Golden Egg ahead!
+                # 7b: Neck-and-neck chase shot looking FORWARD at Theo, Rival #001, AND glowing Golden Egg straight ahead!
                 u = (t - (t_b07s + 1.20)) / max(0.1, t_b08s - (t_b07s + 1.20))
-                sc.set_camera_look(cam, (OX + 0.05, ty + 3.2, OZ + 0.45), (OX, ty - 0.2, OZ), lens=34.0 + 4.0 * u)
+                sc.set_camera_look(cam, (OX - 1.35 + 0.35 * u, ty - 2.65, OZ + 0.55), (OX + 0.10, 82.0, OZ), lens=30.0 + 4.0 * u)
             elif t < t_b08s + 2.15:
                 # 8a: Slow-motion lunge side-chase toward glowing Golden Egg
                 u = (t - t_b08s) / 2.15
-                sc.set_camera_look(cam, (tx - 1.95, ty + 0.95, tz + 0.28), (OX, lerp(ty + 1.5, 77.5, u), OZ), lens=36.0)
+                sc.set_camera_look(cam, (tx - 2.15, ty + 0.65, tz + 0.35), (OX, lerp(ty + 2.2, 81.2, u), OZ), lens=34.0)
             else:
-                # 8b: Dramatic climax lunge right up to Golden Egg surface!
+                # 8b: Dramatic climax lunge right up to Golden Egg surface (strictly OUTSIDE egg radius 2.52!)
                 u = smoothstep((t - (t_b08s + 2.15)) / max(0.2, t_b09s - (t_b08s + 2.15)))
-                sc.set_camera_look(cam, (tx + 1.65 - 0.35 * u, ty + 1.85, tz + 0.20), (OX, 77.3, OZ), lens=38.0, kick_offset=kick, kick_amp=0.08)
+                sc.set_camera_look(cam, (OX + 2.45 - 0.25 * u, 76.2, OZ + 0.45), (OX, 80.2, OZ), lens=34.0, kick_offset=kick, kick_amp=0.08)
 
         # ---- SET 3: HOSPITAL DELIVERY ROOM (t_b09s .. end) ----
         else:
@@ -994,12 +1005,13 @@ def main():
                 active_world[0] = "hospital"
 
             OX = s3["OX"]
-            # Mom propped comfortably in bed
+            # Mom propped comfortably in bed with warm happy smile
             cf.pose_char(s3["mom"], pelvis_z=-0.22, torso_rot=(-26, 0, 0), head_rot=(10, 0, 0), arm_l=(35, 0, 12), arm_r=(35, 0, -12))
-            cf.set_face(s3["mom"], "mom_serious_nod.png")
+            cf.set_face(s3["mom"], "crowd_happy_2.png")
 
             # Position blonde Baby Theo cradled cleanly in Doctor's forearms
-            s3["baby"].location = (OX - 0.14, 0.22, 1.10)
+            s3["baby"].location = (OX - 0.14, 0.28, 1.08)
+            s3["baby"].scale = (1.12, 1.12, 1.12)
             s3["baby"].rotation_euler = (math.radians(-12), math.radians(-8), math.radians(14))
 
             if t < t_b09s + 1.35:
@@ -1015,16 +1027,16 @@ def main():
                 # 9b: Doctor looks at clipboard -> SHOCKED O_O face!
                 u = (t - (t_b09s + 1.35)) / max(0.1, t_b10s - (t_b09s + 1.35))
                 if u < 0.45:
-                    cf.pose_char(s3["doctor"], arm_l=(56, -12, 0), forearm_l=(68, -10, 0), arm_r=(44, 24, 0), forearm_r=(54, 22, 0), head_rot=(-22, 22, 0))
+                    cf.pose_char(s3["doctor"], arm_l=(44, -22, 0), forearm_l=(48, -16, 0), arm_r=(44, 24, 0), forearm_r=(54, 22, 0), head_rot=(-22, 22, 0))
                 else:
-                    cf.pose_char(s3["doctor"], arm_l=(56, -12, 0), forearm_l=(68, -10, 0), arm_r=(44, 24, 0), forearm_r=(54, 22, 0), head_rot=(6, -6, 0))
+                    cf.pose_char(s3["doctor"], arm_l=(44, -22, 0), forearm_l=(48, -16, 0), arm_r=(44, 24, 0), forearm_r=(54, 22, 0), head_rot=(6, -6, 0))
                 cf.set_face(s3["doctor"], "doctor_shocked.png" if u > 0.35 else "doctor_proud.png")
-                sc.set_camera_look(cam, (OX - 0.08, 1.72 - 0.28 * u, 1.48), (OX - 0.02, -0.10, 1.38), lens=42.0)
+                sc.set_camera_look(cam, (OX - 0.25, 1.80 - 0.28 * u, 1.44), (OX - 0.05, -0.05, 1.34), lens=38.0)
 
             else:
-                # 10: Hard cut + Dutch tilt + punch-in on DARK-HAIRED DAD staring in pure HORROR!
+                # 10: Hard cut + Dutch tilt + punch-in on DARK-HAIRED DAD staring in pure HORROR (hands clear of face!)
                 u = smoothstep((t - t_b10s) / max(0.2, total_dur - t_b10s))
-                cf.pose_char(s3["dad"], torso_rot=(-10, 0, 0), head_rot=(6, 16, 0), arm_l=(72, -14, -12), forearm_l=(62, 0, 0), arm_r=(72, 14, 12), forearm_r=(62, 0, 0))
+                cf.pose_char(s3["dad"], torso_rot=(-10, 0, 0), head_rot=(6, 16, 0), arm_l=(42, -20, -24), forearm_l=(38, 0, 0), arm_r=(42, 20, 24), forearm_r=(38, 0, 0))
                 cf.set_face(s3["dad"], "dad_horrified.png")
                 sc.set_camera_look(
                     cam,
