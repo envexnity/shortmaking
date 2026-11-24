@@ -1,0 +1,151 @@
+{
+  "total_duration": 36.077,
+  "fps": 30,
+  "beats": [
+    {
+      "index": 1,
+      "id": "b01_teamwork",
+      "shot": "hook_couple",
+      "start": 0.04,
+      "end": 4.872,
+      "clip_end": 4.932,
+      "duration": 4.832,
+      "huss_hit_times": [],
+      "countdown_ticks": [],
+      "caption": "In this world, to create a new human, two people of the opposite gender have to use... teamwork."
+    },
+    {
+      "index": 2,
+      "id": "b02_huss",
+      "shot": "house_shake",
+      "start": 4.932,
+      "end": 5.552,
+      "clip_end": 5.632,
+      "duration": 0.62,
+      "huss_hit_times": [
+        4.975,
+        5.19,
+        5.377
+      ],
+      "countdown_ticks": [],
+      "caption": "HUSS! HUSS! HUSS!"
+    },
+    {
+      "index": 3,
+      "id": "b03_deadliest_race",
+      "shot": "tunnel_gate",
+      "start": 5.632,
+      "end": 9.611,
+      "clip_end": 9.691,
+      "duration": 3.979,
+      "huss_hit_times": [],
+      "countdown_ticks": [],
+      "caption": "And in this world, to actually be born, you have to win the deadliest race in existence."
+    },
+    {
+      "index": 4,
+      "id": "b04_theo_intro",
+      "shot": "theo_stat_card",
+      "start": 9.691,
+      "end": 15.552,
+      "clip_end": 15.612,
+      "duration": 5.861,
+      "huss_hit_times": [],
+      "countdown_ticks": [],
+      "caption": "Hi, I\u2019m Theo. I\u2019m sperm number 631, and I\u2019m competing against a billion other sperm just to get a shot at life."
+    },
+    {
+      "index": 5,
+      "id": "b05_countdown_go",
+      "shot": "race_countdown",
+      "start": 15.612,
+      "end": 16.452,
+      "clip_end": 16.492,
+      "duration": 0.84,
+      "huss_hit_times": [],
+      "countdown_ticks": [
+        {
+          "label": "3...",
+          "start": 15.612,
+          "end": 15.812
+        },
+        {
+          "label": "2...",
+          "start": 15.822,
+          "end": 16.022
+        },
+        {
+          "label": "1...",
+          "start": 16.032,
+          "end": 16.232
+        },
+        {
+          "label": "GO!",
+          "start": 16.242,
+          "end": 16.452
+        }
+      ],
+      "caption": "3... 2... 1... GO!"
+    },
+    {
+      "index": 6,
+      "id": "b06_dropping",
+      "shot": "race_hazards",
+      "start": 16.492,
+      "end": 22.841,
+      "clip_end": 22.901,
+      "duration": 6.349,
+      "huss_hit_times": [],
+      "countdown_ticks": [],
+      "caption": "Most of them don't even make it past the first five minutes. Guys are dropping left and right. Sperm 42? Gone. Sperm 12? Cooked."
+    },
+    {
+      "index": 7,
+      "id": "b07_neck_and_neck",
+      "shot": "race_burst",
+      "start": 22.901,
+      "end": 25.268,
+      "clip_end": 25.328,
+      "duration": 2.367,
+      "huss_hit_times": [],
+      "countdown_ticks": [],
+      "caption": "It\u2019s me and one other sperm left. Neck and neck."
+    },
+    {
+      "index": 8,
+      "id": "b08_climax_win",
+      "shot": "race_climax",
+      "start": 25.328,
+      "end": 30.778,
+      "clip_end": 30.898,
+      "duration": 5.45,
+      "huss_hit_times": [],
+      "countdown_ticks": [],
+      "caption": "I gave it everything I had... and I actually won. I beat a billion-to-one odds. I\u2019m gonna be born."
+    },
+    {
+      "index": 9,
+      "id": "b09_hospital_doctor",
+      "shot": "hospital_doc",
+      "start": 30.898,
+      "end": 33.561,
+      "clip_end": 33.641,
+      "duration": 2.663,
+      "huss_hit_times": [],
+      "countdown_ticks": [],
+      "caption": "Wait... why is the doctor looking at me like that?"
+    },
+    {
+      "index": 10,
+      "id": "b10_dad_twist",
+      "shot": "dad_horror",
+      "start": 33.641,
+      "end": 35.897,
+      "clip_end": 36.077,
+      "duration": 2.256,
+      "huss_hit_times": [],
+      "countdown_ticks": [],
+      "caption": "Wait a minute... why does he have blonde hair?!"
+    }
+  ]
+}

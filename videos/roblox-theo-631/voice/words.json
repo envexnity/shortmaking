@@ -1,0 +1,682 @@
+[
+  {
+    "start": 0.04,
+    "end": 0.16,
+    "word": "In"
+  },
+  {
+    "start": 0.16,
+    "end": 0.36,
+    "word": "this"
+  },
+  {
+    "start": 0.36,
+    "end": 0.7,
+    "word": "world,"
+  },
+  {
+    "start": 0.94,
+    "end": 1.02,
+    "word": "to"
+  },
+  {
+    "start": 1.02,
+    "end": 1.28,
+    "word": "create"
+  },
+  {
+    "start": 1.28,
+    "end": 1.42,
+    "word": "a"
+  },
+  {
+    "start": 1.42,
+    "end": 1.58,
+    "word": "new"
+  },
+  {
+    "start": 1.58,
+    "end": 1.88,
+    "word": "human,"
+  },
+  {
+    "start": 2.06,
+    "end": 2.16,
+    "word": "two"
+  },
+  {
+    "start": 2.16,
+    "end": 2.4,
+    "word": "people"
+  },
+  {
+    "start": 2.4,
+    "end": 2.56,
+    "word": "of"
+  },
+  {
+    "start": 2.56,
+    "end": 2.66,
+    "word": "the"
+  },
+  {
+    "start": 2.66,
+    "end": 2.94,
+    "word": "opposite"
+  },
+  {
+    "start": 2.94,
+    "end": 3.32,
+    "word": "gender"
+  },
+  {
+    "start": 3.32,
+    "end": 3.58,
+    "word": "have"
+  },
+  {
+    "start": 3.58,
+    "end": 3.72,
+    "word": "to"
+  },
+  {
+    "start": 3.72,
+    "end": 3.96,
+    "word": "use..."
+  },
+  {
+    "start": 3.96,
+    "end": 4.4,
+    "word": "teamwork."
+  },
+  {
+    "start": 4.975,
+    "end": 5.175,
+    "word": "HUSS!"
+  },
+  {
+    "start": 5.19,
+    "end": 5.362,
+    "word": "HUSS!"
+  },
+  {
+    "start": 5.377,
+    "end": 5.552,
+    "word": "HUSS!"
+  },
+  {
+    "start": 5.632,
+    "end": 5.732,
+    "word": "And"
+  },
+  {
+    "start": 5.732,
+    "end": 5.792,
+    "word": "in"
+  },
+  {
+    "start": 5.792,
+    "end": 5.952,
+    "word": "this"
+  },
+  {
+    "start": 5.952,
+    "end": 6.292,
+    "word": "world,"
+  },
+  {
+    "start": 6.472,
+    "end": 6.572,
+    "word": "to"
+  },
+  {
+    "start": 6.572,
+    "end": 6.812,
+    "word": "actually"
+  },
+  {
+    "start": 6.812,
+    "end": 7.032,
+    "word": "be"
+  },
+  {
+    "start": 7.032,
+    "end": 7.332,
+    "word": "born,"
+  },
+  {
+    "start": 7.492,
+    "end": 7.572,
+    "word": "you"
+  },
+  {
+    "start": 7.572,
+    "end": 7.732,
+    "word": "have"
+  },
+  {
+    "start": 7.732,
+    "end": 7.852,
+    "word": "to"
+  },
+  {
+    "start": 7.852,
+    "end": 8.012,
+    "word": "win"
+  },
+  {
+    "start": 8.012,
+    "end": 8.132,
+    "word": "the"
+  },
+  {
+    "start": 8.132,
+    "end": 8.572,
+    "word": "deadliest"
+  },
+  {
+    "start": 8.572,
+    "end": 8.812,
+    "word": "race"
+  },
+  {
+    "start": 8.812,
+    "end": 8.992,
+    "word": "in"
+  },
+  {
+    "start": 8.992,
+    "end": 9.292,
+    "word": "existence."
+  },
+  {
+    "start": 9.691,
+    "end": 9.871,
+    "word": "Hi,"
+  },
+  {
+    "start": 10.011,
+    "end": 10.071,
+    "word": "I\u2019m"
+  },
+  {
+    "start": 10.071,
+    "end": 10.291,
+    "word": "Theo."
+  },
+  {
+    "start": 10.691,
+    "end": 10.851,
+    "word": "I\u2019m"
+  },
+  {
+    "start": 10.851,
+    "end": 11.051,
+    "word": "sperm"
+  },
+  {
+    "start": 11.051,
+    "end": 11.291,
+    "word": "number"
+  },
+  {
+    "start": 11.291,
+    "end": 12.171,
+    "word": "631,"
+  },
+  {
+    "start": 12.491,
+    "end": 12.711,
+    "word": "and"
+  },
+  {
+    "start": 12.711,
+    "end": 12.831,
+    "word": "I\u2019m"
+  },
+  {
+    "start": 12.831,
+    "end": 13.091,
+    "word": "competing"
+  },
+  {
+    "start": 13.091,
+    "end": 13.451,
+    "word": "against"
+  },
+  {
+    "start": 13.451,
+    "end": 13.591,
+    "word": "a"
+  },
+  {
+    "start": 13.591,
+    "end": 13.831,
+    "word": "billion"
+  },
+  {
+    "start": 13.831,
+    "end": 14.011,
+    "word": "other"
+  },
+  {
+    "start": 14.011,
+    "end": 14.331,
+    "word": "sperm"
+  },
+  {
+    "start": 14.331,
+    "end": 14.531,
+    "word": "just"
+  },
+  {
+    "start": 14.531,
+    "end": 14.691,
+    "word": "to"
+  },
+  {
+    "start": 14.691,
+    "end": 14.791,
+    "word": "get"
+  },
+  {
+    "start": 14.791,
+    "end": 14.851,
+    "word": "a"
+  },
+  {
+    "start": 14.851,
+    "end": 15.071,
+    "word": "shot"
+  },
+  {
+    "start": 15.071,
+    "end": 15.171,
+    "word": "at"
+  },
+  {
+    "start": 15.171,
+    "end": 15.371,
+    "word": "life."
+  },
+  {
+    "start": 15.612,
+    "end": 15.812,
+    "word": "3..."
+  },
+  {
+    "start": 15.822,
+    "end": 16.022,
+    "word": "2..."
+  },
+  {
+    "start": 16.032,
+    "end": 16.232,
+    "word": "1..."
+  },
+  {
+    "start": 16.242,
+    "end": 16.452,
+    "word": "GO!"
+  },
+  {
+    "start": 16.492,
+    "end": 16.632,
+    "word": "Most"
+  },
+  {
+    "start": 16.632,
+    "end": 16.772,
+    "word": "of"
+  },
+  {
+    "start": 16.772,
+    "end": 16.852,
+    "word": "them"
+  },
+  {
+    "start": 16.852,
+    "end": 17.072,
+    "word": "don't"
+  },
+  {
+    "start": 17.072,
+    "end": 17.132,
+    "word": "even"
+  },
+  {
+    "start": 17.072,
+    "end": 17.272,
+    "word": "make"
+  },
+  {
+    "start": 17.272,
+    "end": 17.332,
+    "word": "it"
+  },
+  {
+    "start": 17.332,
+    "end": 17.512,
+    "word": "past"
+  },
+  {
+    "start": 17.512,
+    "end": 17.652,
+    "word": "the"
+  },
+  {
+    "start": 17.652,
+    "end": 17.832,
+    "word": "first"
+  },
+  {
+    "start": 17.832,
+    "end": 18.052,
+    "word": "five"
+  },
+  {
+    "start": 18.052,
+    "end": 18.332,
+    "word": "minutes."
+  },
+  {
+    "start": 18.592,
+    "end": 18.792,
+    "word": "Guys"
+  },
+  {
+    "start": 18.792,
+    "end": 18.912,
+    "word": "are"
+  },
+  {
+    "start": 18.912,
+    "end": 19.152,
+    "word": "dropping"
+  },
+  {
+    "start": 19.152,
+    "end": 19.392,
+    "word": "left"
+  },
+  {
+    "start": 19.392,
+    "end": 19.552,
+    "word": "and"
+  },
+  {
+    "start": 19.552,
+    "end": 19.752,
+    "word": "right."
+  },
+  {
+    "start": 20.052,
+    "end": 20.372,
+    "word": "Sperm"
+  },
+  {
+    "start": 20.372,
+    "end": 20.732,
+    "word": "42?"
+  },
+  {
+    "start": 21.092,
+    "end": 21.312,
+    "word": "Gone."
+  },
+  {
+    "start": 21.652,
+    "end": 21.892,
+    "word": "Sperm"
+  },
+  {
+    "start": 21.892,
+    "end": 22.112,
+    "word": "12?"
+  },
+  {
+    "start": 22.452,
+    "end": 22.632,
+    "word": "Cooked."
+  },
+  {
+    "start": 22.901,
+    "end": 23.061,
+    "word": "It\u2019s"
+  },
+  {
+    "start": 23.061,
+    "end": 23.181,
+    "word": "me"
+  },
+  {
+    "start": 23.181,
+    "end": 23.281,
+    "word": "and"
+  },
+  {
+    "start": 23.281,
+    "end": 23.421,
+    "word": "one"
+  },
+  {
+    "start": 23.421,
+    "end": 23.581,
+    "word": "other"
+  },
+  {
+    "start": 23.581,
+    "end": 23.781,
+    "word": "sperm"
+  },
+  {
+    "start": 23.781,
+    "end": 24.121,
+    "word": "left."
+  },
+  {
+    "start": 24.561,
+    "end": 24.861,
+    "word": "Neck"
+  },
+  {
+    "start": 24.861,
+    "end": 24.941,
+    "word": "and"
+  },
+  {
+    "start": 24.941,
+    "end": 25.161,
+    "word": "neck."
+  },
+  {
+    "start": 25.328,
+    "end": 25.467,
+    "word": "I"
+  },
+  {
+    "start": 25.467,
+    "end": 25.743,
+    "word": "gave"
+  },
+  {
+    "start": 25.743,
+    "end": 25.882,
+    "word": "it"
+  },
+  {
+    "start": 25.882,
+    "end": 26.574,
+    "word": "everything"
+  },
+  {
+    "start": 26.574,
+    "end": 26.712,
+    "word": "I"
+  },
+  {
+    "start": 26.712,
+    "end": 26.92,
+    "word": "had..."
+  },
+  {
+    "start": 26.92,
+    "end": 27.128,
+    "word": "and"
+  },
+  {
+    "start": 27.128,
+    "end": 27.266,
+    "word": "I"
+  },
+  {
+    "start": 27.266,
+    "end": 27.82,
+    "word": "actually"
+  },
+  {
+    "start": 27.82,
+    "end": 28.027,
+    "word": "won."
+  },
+  {
+    "start": 28.027,
+    "end": 28.166,
+    "word": "I"
+  },
+  {
+    "start": 28.166,
+    "end": 28.443,
+    "word": "beat"
+  },
+  {
+    "start": 28.443,
+    "end": 28.581,
+    "word": "a"
+  },
+  {
+    "start": 28.581,
+    "end": 29.412,
+    "word": "billion-to-one"
+  },
+  {
+    "start": 29.412,
+    "end": 29.688,
+    "word": "odds."
+  },
+  {
+    "start": 29.688,
+    "end": 29.827,
+    "word": "I\u2019m"
+  },
+  {
+    "start": 29.827,
+    "end": 30.173,
+    "word": "gonna"
+  },
+  {
+    "start": 30.173,
+    "end": 30.311,
+    "word": "be"
+  },
+  {
+    "start": 30.311,
+    "end": 30.588,
+    "word": "born."
+  },
+  {
+    "start": 30.898,
+    "end": 31.098,
+    "word": "Wait..."
+  },
+  {
+    "start": 31.758,
+    "end": 32.058,
+    "word": "why"
+  },
+  {
+    "start": 32.058,
+    "end": 32.198,
+    "word": "is"
+  },
+  {
+    "start": 32.198,
+    "end": 32.298,
+    "word": "the"
+  },
+  {
+    "start": 32.298,
+    "end": 32.538,
+    "word": "doctor"
+  },
+  {
+    "start": 32.538,
+    "end": 32.798,
+    "word": "looking"
+  },
+  {
+    "start": 32.798,
+    "end": 32.958,
+    "word": "at"
+  },
+  {
+    "start": 32.958,
+    "end": 33.078,
+    "word": "me"
+  },
+  {
+    "start": 33.078,
+    "end": 33.258,
+    "word": "like"
+  },
+  {
+    "start": 33.258,
+    "end": 33.458,
+    "word": "that?"
+  },
+  {
+    "start": 33.641,
+    "end": 33.781,
+    "word": "Wait"
+  },
+  {
+    "start": 33.781,
+    "end": 33.881,
+    "word": "a"
+  },
+  {
+    "start": 33.881,
+    "end": 34.021,
+    "word": "minute..."
+  },
+  {
+    "start": 34.741,
+    "end": 34.921,
+    "word": "why"
+  },
+  {
+    "start": 34.921,
+    "end": 35.041,
+    "word": "does"
+  },
+  {
+    "start": 35.041,
+    "end": 35.121,
+    "word": "he"
+  },
+  {
+    "start": 35.121,
+    "end": 35.261,
+    "word": "have"
+  },
+  {
+    "start": 35.261,
+    "end": 35.481,
+    "word": "blonde"
+  },
+  {
+    "start": 35.481,
+    "end": 35.741,
+    "word": "hair?!"
+  }
+]
