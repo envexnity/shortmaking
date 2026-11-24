@@ -73,3 +73,19 @@ summary: The 12 real-world geometric, shader, and staging traps discovered durin
 ### Trap 12: Remotion 110 GB Temp Bundle Disk Exhaustion
 - **What goes wrong**: Running multiple Remotion renders writes `1.9 GB` per invocation to `$TMPDIR/remotion-webpack-bundle-*`, filling the C: drive and causing truncated/frozen renders.
 - **Mandatory Fix**: Set `$env:TMPDIR` to a local scratch folder and delete `remotion-*` before and after every render.
+
+### Trap 13: Floating / Disconnected Hand Props (Hardcoded World XYZ)
+- **What goes wrong**: In `roblox-human-survival`, `props["pitcher"].location = (0.28, 0.26, 1.78)` was hardcoded in world space while the character's arm rotated via Euler angles (`arm_l=(110, -24, -10)`), leaving the glass/pitcher floating in mid-air away from the hand.
+- **Mandatory Fix**: Never guess world-space coordinates for handheld props. Parent or constrain props to the hand bone via **`CHILD_OF`** (Blender) or **`Motor6D` / `WeldConstraint`** (Roblox Studio), or derive world position from `arm.matrix_world @ pose_bone.matrix @ grip_offset` after `view_layer.update()`.
+
+### Trap 14: Z-Fighting from Coplanar Faces & Bad Camera Clip Planes
+- **What goes wrong**: Placing rugs, decals, puddles, road lines, or inner walls at `0.000m` offset on top of floors/walls—or using `clip_start = 0.001, clip_end = 10000`—destroys depth-buffer precision and causes shimmering/flickering surfaces.
+- **Mandatory Fix**: Enforce a **`≥ 0.003m` (`3 mm`) normal offset** on all surface overlays/decals, butt-joint or inset walls by `≥ 0.01m`, and keep `clip_start ≥ 0.05` and `clip_end ≤ 500` for indoor/town scenes.
+
+### Trap 15: Character-to-Character & Limb Clipping
+- **What goes wrong**: Spawning R6/R15 rigs (`~1.0m` shoulder width) too close together or swinging arms `±110°` without swept-volume checks causes hands, heads, and torsos to pass straight through other characters or furniture.
+- **Mandatory Fix**: Enforce **`dist_xy ≥ 0.85m`** (idle) and **`≥ 1.25m`** (gesturing/arm-swinging) between rigs, and run a pre-render Python bounding-box / bone-distance assert across key frames.
+
+### Trap 16: Blind Euler Guessing Without Close-Up Contact Verification
+- **What goes wrong**: Posing arms with guessed `(rx, ry, rz)` Euler angles for target actions (drinking, eating, punching) and only inspecting wide overview stills hides hand-to-prop gaps until after the full render finishes.
+- **Mandatory Fix**: Use **2-bone IK** toward a target Empty (`Mouth_Target`, `Impact_Target`) for contact actions, and always render a **tight close-up contact still** of every hand-prop / character-interaction beat before launching the full render.
