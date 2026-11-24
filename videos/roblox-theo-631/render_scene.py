@@ -230,7 +230,7 @@ def build_starter_house_set(scene):
     m_knob = sc.make_stylized_pbr("Mat_S1_Knob", "#FACC15", rough=0.22, metal=0.9)
     m_win = sc.make_stylized_pbr("Mat_S1_WinLit", "#BAE6FD", rough=0.16, coat=0.35, emit_hex="#FEF08A", emit_str=0.85)
     m_dark_in = sc.make_stylized_pbr("Mat_S1_Inside", "#1E1B18", rough=0.90, coat=0.0)
-    m_dust = sc.make_stylized_pbr("Mat_S1_Dust", "#F1F5F9", rough=0.85, coat=0.0, sss=0.15)
+    m_dust = sc.make_stylized_pbr("Mat_S1_Dust", "#E8D3B9", rough=0.92, coat=0.0, sss=0.08, ao_str=0.25)
 
     # Ground & street
     pf.make_bevel_box("S1_Lawn", (0, -8.0, -0.15), (42.0, 26.0, 0.30), m_grass, col, bevel_w=0.02)
@@ -459,14 +459,14 @@ def build_tunnel_race_set(scene):
         my = rng.uniform(-16.0, 88.0)
         pf.make_smooth_sphere(f"S2_Mote_{mi}", (OX + math.cos(ang) * rad, my, OZ + math.sin(ang) * rad), (0.06, 0.06, 0.06), m_mote, col, segs=8)
 
-    # Starting Gate at Y = 4.0
+    # Starting Gate at Y = 4.9 (well clear of Shot 4a hero orbit!)
     m_gate = sc.make_stylized_pbr("Mat_S2_GateFrame", "#1E293B", rough=0.28, metal=0.80)
     m_bar_red = sc.make_stylized_pbr("Mat_S2_GateBar", "#EF4444", emit_hex="#EF4444", emit_str=6.5)
     m_bar_grn = sc.make_stylized_pbr("Mat_S2_GateBarGrn", "#22C55E", emit_hex="#22C55E", emit_str=7.5)
-    pf.make_smooth_torus("S2_StartArch", (OX, 4.0, OZ), 4.15, 0.24, m_gate, col, major_segs=32, minor_segs=10, rot=(math.radians(90), 0, 0))
+    pf.make_smooth_torus("S2_StartArch", (OX, 4.9, OZ), 4.15, 0.24, m_gate, col, major_segs=32, minor_segs=10, rot=(math.radians(90), 0, 0))
     gate_bars = []
     for gz in (OZ - 1.5, OZ, OZ + 1.5):
-        gb = pf.make_smooth_cyl(f"S2_GateBar_{gz:.1f}", (OX, 4.0, gz), 0.065, 7.6, m_bar_red, col, segs=14, rot=(0, math.radians(90), 0))
+        gb = pf.make_smooth_cyl(f"S2_GateBar_{gz:.1f}", (OX, 4.9, gz), 0.065, 7.6, m_bar_red, col, segs=14, rot=(0, math.radians(90), 0))
         gate_bars.append(gb)
 
     # Giant Biological Hazards (Y = 18 .. 56)
@@ -607,6 +607,9 @@ def build_hospital_set(scene):
     cf.set_char_transform(dad_hosp, OX + 0.92, 0.55, 0.0, yaw_deg=-24.0)
     # Mom sits resting propped in hospital bed
     cf.set_char_transform(mom_hosp, bed_x, bed_y - 0.40, 0.30, yaw_deg=18.0)
+    # Initialize Baby Theo cleanly inside Hospital set (never at Set 1 origin!)
+    baby.location = (OX - 0.14, 0.28, 1.08)
+    baby.scale = (1.12, 1.12, 1.12)
 
     # Clipboard attached to Doctor's Left Hand (Arm_L_Lower)
     clip_root = bpy.data.objects.new("S3_Clipboard", None)
@@ -759,31 +762,31 @@ def main():
                     p.scale = (0.001, 0.001, 0.001)
 
             if t < 1.85:
-                # Shot 1a: Walking side-by-side toward Starter House (front-3/4 tracking shot clearly clear of walls!)
+                # Shot 1a: Walking side-by-side toward Starter House (zero arm overlap + house framed!)
                 u = smoothstep(t / 1.85)
                 wy = lerp(2.20, -1.65, u)
-                cf.set_char_transform(dad1, 0.46, wy, 0.0, yaw_deg=180.0)
-                cf.set_char_transform(mom1, -0.46, wy, 0.0, yaw_deg=180.0)
+                cf.set_char_transform(dad1, 0.64, wy, 0.0, yaw_deg=180.0)
+                cf.set_char_transform(mom1, -0.64, wy, 0.0, yaw_deg=180.0)
                 for ch, ph in ((dad1, 0.0), (mom1, math.pi)):
                     sw = math.sin(t * 10.5 + ph)
                     cf.pose_char(ch, pelvis_z=abs(sw) * 0.04, arm_l=(sw * 24, 0, 0), arm_r=(-sw * 24, 0, 0), leg_l=(-sw * 26, 0, 0), leg_r=(sw * 26, 0, 0))
                 cf.set_face_with_blink(dad1, "dad_serious_nod", f_idx, seed=1)
                 cf.set_face_with_blink(mom1, "mom_serious_nod", f_idx, seed=2)
                 s1["door_hinge"].rotation_euler = (0, 0, 0)
-                sc.set_camera_look(cam, (2.25 - 0.35 * u, -2.95, 1.46), (0.0, wy, 1.18), lens=32.0)
+                sc.set_camera_look(cam, (2.45 - 0.35 * u, -3.95, 1.62), (0.0, wy - 0.8, 1.25), lens=30.0)
 
             elif t < 3.30:
-                # Shot 1b: Stop, face each other & camera (-42 / +42 deg!), serious nod, door swings open behind
+                # Shot 1b: Stop, face each other & camera (+48 / -48 deg!), serious nod, door swings open behind
                 u = smoothstep((t - 1.85) / 1.45)
-                cf.set_char_transform(dad1, 0.56, -2.25, 0.0, yaw_deg=-42.0)
-                cf.set_char_transform(mom1, -0.56, -2.25, 0.0, yaw_deg=42.0)
+                cf.set_char_transform(dad1, 0.62, -2.25, 0.0, yaw_deg=48.0)
+                cf.set_char_transform(mom1, -0.62, -2.25, 0.0, yaw_deg=-48.0)
                 nod = math.sin(smoothstep((u - 0.25) / 0.55) * math.pi) * 24.0 if u > 0.25 else 0.0
                 cf.pose_char(dad1, head_rot=(-nod, 0, 0), arm_l=(10, 0, 0), arm_r=(10, 0, 0))
                 cf.pose_char(mom1, head_rot=(-nod, 0, 0), arm_l=(10, 0, 0), arm_r=(10, 0, 0))
                 cf.set_face_with_blink(dad1, "dad_serious_nod", f_idx, seed=1)
                 cf.set_face_with_blink(mom1, "mom_serious_nod", f_idx, seed=2)
                 s1["door_hinge"].rotation_euler = (0, 0, math.radians(-82.0 * smoothstep((u - 0.4) / 0.6)))
-                sc.set_camera_look(cam, (0.0, 0.45 - 0.35 * u, 1.44), (0.0, -2.25, 1.28), lens=36.0 + 4.0 * u)
+                sc.set_camera_look(cam, (0.0, 0.95 - 0.35 * u, 1.42), (0.0, -2.25, 1.28), lens=34.0 + 3.0 * u)
 
             elif t < t_b02s:
                 # Shot 1c: Turn & step inside house; door SLAMS shut!
@@ -954,10 +957,10 @@ def main():
                 u = smoothstep((t - (t_b03s + 1.85)) / max(0.2, t_b04s - (t_b03s + 1.85)))
                 sc.set_camera_look(cam, (OX + lerp(0.5, 0.45, u), lerp(7.6, 4.1, u), OZ + lerp(1.5, 0.32, u)), (OX, 2.75, OZ + 0.06), lens=lerp(28.0, 44.0, u))
             elif t < t_b04s + 2.95:
-                # 4a: Hero spotlight slow-orbit on Theo (stat card sits cleanly above at y=385px!)
+                # 4a: Hero spotlight slow-orbit on Theo INSIDE gate (Y < 4.9 -> zero gate bar blocking!)
                 u = (t - t_b04s) / 2.95
                 ang = lerp(-0.55, 0.52, u)
-                sc.set_camera_look(cam, (tx + math.sin(ang) * 1.90, ty + math.cos(ang) * 1.90, tz + 0.24), (tx, ty + 0.02, tz + 0.06), lens=34.0, fstop=2.4)
+                sc.set_camera_look(cam, (tx + math.sin(ang) * 1.72, ty + math.cos(ang) * 1.72, tz + 0.22), (tx, ty + 0.02, tz + 0.06), lens=34.0, fstop=2.4)
             elif t < t_b05s:
                 # 4b: Reverse-angle over Theo looking at massive swarm behind him
                 u = (t - (t_b04s + 2.95)) / max(0.2, t_b05s - (t_b04s + 2.95))
@@ -965,7 +968,7 @@ def main():
             elif t < t_b06s:
                 # 5: 3... 2... 1... GO! Gate drops & swarm blasts forward
                 u = (t - t_b05s) / max(0.1, t_b06s - t_b05s)
-                sc.set_camera_look(cam, (OX + 1.85, 5.2 + 2.2 * u, OZ + 1.25), (OX, 3.2 + 2.5 * u, OZ), lens=28.0)
+                sc.set_camera_look(cam, (OX + 1.85, 6.2 + 2.0 * u, OZ + 1.25), (OX, 3.8 + 2.5 * u, OZ), lens=28.0)
             elif t < t_b06s + 1.65:
                 # 6a: Front-quarter chase cam as swarm rockets through hazards
                 sc.set_camera_look(cam, (tx + 1.45, ty + 3.1, tz + 0.72), (tx, ty + 0.4, tz), lens=30.0)
@@ -996,6 +999,14 @@ def main():
                 # 8b: Dramatic climax lunge right up to Golden Egg surface (strictly OUTSIDE egg radius 2.52!)
                 u = smoothstep((t - (t_b08s + 2.15)) / max(0.2, t_b09s - (t_b08s + 2.15)))
                 sc.set_camera_look(cam, (OX + 2.45 - 0.25 * u, 76.2, OZ + 0.45), (OX, 80.2, OZ), lens=34.0, kick_offset=kick, kick_amp=0.08)
+
+            # Anti-lens-occlusion guard: keep background swarm sperm clear of camera lens!
+            cam_p = cam.location
+            for item in s2["swarm"]:
+                sp_r = item["sp"]["root"]
+                if (sp_r.location - cam_p).length < 1.55:
+                    sp_r.location.z -= 2.4
+                    sp_r.location.x += 2.2 if sp_r.location.x >= cam_p.x else -2.2
 
         # ---- SET 3: HOSPITAL DELIVERY ROOM (t_b09s .. end) ----
         else:
