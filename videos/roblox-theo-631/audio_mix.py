@@ -98,7 +98,7 @@ def synth_liquid_swish(dur=0.22, seed=5) -> np.ndarray:
     noise = rng.standard_normal(n).astype(np.float32)
     sm = np.convolve(noise, np.hanning(33), mode="same")
     bp = np.diff(sm, prepend=0.0)
-    env = np.sin(np.pi * t / dur) ** 1.2
+    env = np.maximum(0.0, np.sin(np.pi * t / dur)) ** 1.2
     out = bp * env
     return out / (np.max(np.abs(out)) + 1e-6)
 
@@ -322,7 +322,7 @@ def main():
         if b_rms > target_b:
             bed *= (target_b / b_rms)
 
-    mix_raw = np.clip(vo + bed, -0.98, 0.98)
+    mix_raw = np.clip(np.nan_to_num(vo + bed), -0.98, 0.98)
     raw_wav = AUDIO_DIR / "mix_raw.wav"
     pcm = (mix_raw * 32767.0).astype(np.int16)
     with wave.open(str(raw_wav), "wb") as wf:
