@@ -393,27 +393,38 @@ def _ig_proof_params(access_token: str) -> dict[str, str]:
 
 
 def publish_instagram_reel(video_url: str, cfg: dict[str, Any]) -> dict[str, Any]:
-    """Publish an Instagram Reel via Graph API v21.0 3-step container workflow."""
-    ig_user_id = os.environ.get("IG_USER_ID")
+    """Publish an Instagram Reel (or Trial Reel when cfg['trial_reel'] is truthy) via Graph API v21.0."""
+    ig_user_id = os.environ.get("IG_USER_ID") or os.environ.get("IG_ACCOUNT_ID")
     access_token = os.environ.get("IG_ACCESS_TOKEN")
     if not ig_user_id or not access_token:
-        raise RuntimeError("Missing IG_USER_ID or IG_ACCESS_TOKEN environment variable.")
+        raise RuntimeError("Missing IG_USER_ID/IG_ACCOUNT_ID or IG_ACCESS_TOKEN environment variable.")
 
     base = "https://graph.facebook.com/v21.0"
     proof_params = _ig_proof_params(access_token)
+    is_trial = bool(cfg.get("trial_reel"))
     create_payload = {
         "media_type": "REELS",
         "video_url": video_url,
         "caption": cfg["caption"],
-        "share_to_feed": "true" if cfg.get("share_to_feed", True) else "false",
+        "share_to_feed": "false" if is_trial else ("true" if cfg.get("share_to_feed", True) else "false"),
         "thumb_offset": str(cfg.get("thumb_offset_ms", 500)),
         "access_token": access_token,
         **proof_params,
     }
+    if is_trial:
+        strategy = cfg.get("graduation_strategy", "MANUAL")
+        create_payload["trial_params"] = json.dumps({"graduation_strategy": strategy})
+
     create_data = urllib.parse.urlencode(create_payload).encode("utf-8")
 
-    with urllib.request.urlopen(urllib.request.Request(f"{base}/{ig_user_id}/media", data=create_data)) as r:
-        creation_id = json.loads(r.read().decode("utf-8"))["id"]
+    try:
+        with urllib.request.urlopen(urllib.request.Request(f"{base}/{ig_user_id}/media", data=create_data)) as r:
+            creation_id = json.loads(r.read().decode("utf-8"))["id"]
+    except urllib.error.HTTPError as exc:
+        err_body = exc.read().decode("utf-8", errors="replace")
+        if is_trial and "2207081" in err_body:
+            return {"platform": "instagram_trial", "status": "blocked_follower_threshold", "error_subcode": 2207081, "detail": err_body}
+        raise RuntimeError(f"Instagram container creation failed ({exc.code}): {err_body}") from exc
 
     print(f"  [Instagram] Created Reel container {creation_id}. Polling processing status...")
     for _ in range(45):

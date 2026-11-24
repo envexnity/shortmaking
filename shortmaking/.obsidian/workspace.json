@@ -25,10 +25,14 @@
             "id": "bab1643365330a39",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "80 Tools & MCPs/skills/scenario-labs-3d-skills/skills/dcc/blender/scenario-blender-hair/SKILL.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "SKILL"
             }
           }
         ],
