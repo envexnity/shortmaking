@@ -55,8 +55,12 @@ Instead of screen-recording flat Roblox Studio lighting, top Roblox animators re
 2. **Keyframe Snappy "Stepped-to-Spline" Poses (`ropilot_blender_run_python`)**:
    - Roblox characters have rigid blocky limbs—they look best with **exaggerated anticipation (`3 frames` squash down), `1-frame` overshoot, and `Back.Out` settle**.
    - Camera FOV: Use **`28mm–35mm` wide lenses close to the character** (`1.8–2.5m` distance) for comedic exaggeration, and add a `7-frame` sign-flipping camera shake on every slap/explosion.
-3. **Verify Poses Visually**:
-   - Call `ropilot_blender_screenshot` or `ropilot_blender_render` to inspect contact sheets before rendering the 30/60fps vertical `1080×1920` sequence.
+3. **Verify Poses & Physical Contacts Visually**:
+   - Call `ropilot_blender_screenshot` or `ropilot_blender_render` to inspect **tight close-up contact stills** of every hand-prop interaction (glasses, cups, tools) and multi-character shot before rendering the 30/60fps vertical `1080×1920` sequence.
+   - **Mandatory Prop & Anti-Clipping Rules**:
+     - **Never hardcode world `(X, Y, Z)` for handheld props**: Use a **`CHILD_OF` bone constraint** on the hand/arm bone (Blender) or **`Motor6D` / `WeldConstraint`** (Roblox Studio), and **2-bone IK** for target-seeking actions (drinking, eating, punching).
+     - **Zero Z-Fighting**: Offset decals/rugs/overlays by `≥ 0.003m`, butt-joint walls cleanly (`≥ 0.01m` inset), and keep `clip_start ≥ 0.05` / `clip_end ≤ 500`.
+     - **Zero Character Clipping**: Keep R6/R15 rigs **`≥ 0.85m` apart** (idle) and **`≥ 1.25m` apart** (gesturing/arm-swinging).
 4. **Blender 5.3 Look-Dev Upgrade for R6/R15 (Kill Plastic Viewport Renders)**:
    - See [[Blender 5.3 Cinematic Rendering & Animation Mastery Bible]] and `90 Templates & Starter Kits/blender-cinema-kit/blender_cinema_lib.py` (`BLENDER_EEVEE` with `use_raytracing=True` or Cycles `OPTIX` GPU).
    - Enable `AgX` (`AgX - Punchy`), add `add_cinema_bevel(...)` (`0.008m`) + subtle `Coat Weight` + procedural roughness breakup on R6/R15 plastic limbs/studs, wrap scenes in a Kelvin 3-point rim rig (`7600K` cool rim behind hero), enable `180°` motion blur (`motion_blur_shutter = 0.5`), and apply `BACK` / `ELASTIC` easing via `set_keyframe_easing(...)` (Blender 5.3 Slotted Actions).
