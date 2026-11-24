@@ -916,5 +916,43 @@
         "share_to_feed": true
       }
     }
+  },
+  {
+    "id": "roblox-theo-631",
+    "vault_note": "videos/roblox-theo-631/upload.md",
+    "video": "videos/roblox-theo-631/out/final.mp4",
+    "video_vertical": "videos/roblox-theo-631/out/final.mp4",
+    "posted_at": "2026-11-24T17:51:48+07:00",
+    "platforms": {
+      "youtube": {
+        "title": "Winning a 1 in 250,000,000 Race to Be Born \ud83d\udc80 #Shorts",
+        "description": "In this world, just to be born, Theo (#631) has to win a 1-in-250,000,000 race \u2014 until the doctor looks at his hair at the end... \ud83d\udc80\ud83d\ude2d\n\n#Shorts #Roblox #RobloxStorytime #Animation #PlotTwist",
+        "tags": [
+          "roblox",
+          "roblox storytime",
+          "in this world",
+          "roblox animation",
+          "funny animation",
+          "plot twist",
+          "shorts",
+          "blender 3d"
+        ],
+        "privacy": "public",
+        "youtube_id": "HN9RC0_Tf4E"
+      },
+      "tiktok": {
+        "use_vertical": true,
+        "caption": "Theo (#631) beat 1-in-250,000,000 odds to be born\u2026 wait for the dad's reaction at the end \ud83d\udc80\ud83d\ude2d #roblox #robloxstorytime #inthisworld #animation #plottwist",
+        "privacy_level": "SELF_ONLY",
+        "publish_id": "v_inbox_file~v2.7711687025946920980"
+      },
+      "instagram": {
+        "use_vertical": true,
+        "caption": "Winning a 1-in-250,000,000 race just to be born\u2026 wait until the doctor checks the clipboard \ud83d\udc80\ud83d\udc47\n\n#roblox #robloxstorytime #robloxanimation #plottwist #animatedshorts",
+        "thumb_offset_ms": 500,
+        "share_to_feed": true,
+        "media_id": "18112117003914571"
+      }
+    }
   }
 ]
