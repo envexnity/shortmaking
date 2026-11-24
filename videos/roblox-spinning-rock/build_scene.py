@@ -1247,4 +1247,12 @@ def main():
                     shake_amp=0.22,
                 )
 
-            bpy.context.view
+            bpy.context.view_layer.update()
+            tag = still_targets.get(f) if args.stills else None
+            sc.render_frame(scene, f, preview_tag=tag)
+
+    print("build_scene.py COMPLETE!")
+
+
+if __name__ == "__main__":
+    main()
