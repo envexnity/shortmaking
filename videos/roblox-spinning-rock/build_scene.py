@@ -381,13 +381,13 @@ def build_set1_town(scene):
         atlas_filename="bg_woman_jacket_atlas.png", strip_all_default_acc=True, keep_acc=("chestnut_bun",),
     )
 
-    # Attach white Tax Envelope cleanly via CHILD_OF to BG_DadPlaid's Right Arm (visible right in front of his chest/hand!)
-    tax_env = make_box("Prop_TaxEnvelope", (0.0, 0.0, 0.0), (1.35, 0.12, 0.90), sc.make_mat("Mat_TaxEnv", "#F8FAFC", rough=0.45, emit_hex="#FFFFFF", emit_str=0.12), col)
-    tax_stripe = make_box("Prop_TaxRed", (0.0, 0.065, 0.0), (0.98, 0.03, 0.22), sc.make_mat("Mat_TaxRed", "#EF4444", rough=0.40), col)
+    # Attach white Tax Envelope cleanly via CHILD_OF to BG_DadPlaid's Right Arm (flat face forward at hand!)
+    tax_env = make_box("Prop_TaxEnvelope", (0.0, 0.0, 0.0), (1.35, 0.16, 0.95), sc.make_mat("Mat_TaxEnv", "#F8FAFC", rough=0.45, emit_hex="#FFFFFF", emit_str=0.18), col)
+    tax_stripe = make_box("Prop_TaxRed", (0.0, 0.09, 0.0), (1.02, 0.04, 0.24), sc.make_mat("Mat_TaxRed", "#EF4444", rough=0.40), col)
     tax_stripe.parent = tax_env
-    # Right Arm bone in rig coords: arm center (-1.5, 0, 3.0), hand bottom (-1.5, 0, 2.0)
-    tax_env.location = (-1.50, 0.52, 1.95)
-    tax_env.rotation_euler = (math.radians(82), 0.0, math.radians(-12))
+    # Keep upright in Right Arm local space at (-1.50, 0.62, 2.05) so rotating arm -45 deg presents it squarely to camera!
+    tax_env.location = (-1.50, 0.62, 2.05)
+    tax_env.rotation_euler = (math.radians(35), 0.0, 0.0)
     c_tax = tax_env.constraints.new("CHILD_OF")
     c_tax.target = bg_dad_plaid["internal_arm"]
     c_tax.subtarget = "Right Arm"
@@ -1143,7 +1143,7 @@ def main():
                     s1["bg_dad_plaid"],
                     torso_loc=(0, 0, 0.03 * math.sin(t * 4)),
                     head_rot=(10.0, 0, math.sin(t * 6) * 5.0),
-                    rarm_rot=(-58.0, -8.0, 18.0),
+                    rarm_rot=(-46.0, -8.0, 14.0),
                     larm_rot=(8.0, -6.0, 8.0),
                 )
                 sc.set_camera_look(
@@ -1154,15 +1154,15 @@ def main():
                 )
 
             elif bid == "b10b_arguing_traffic":
-                # 4.8m separation arguing FACE-TO-FACE in front of cars (zero arm clipping!)
-                sc.set_char_transform(s1["bg_neighbor_green"], 9.0, 1.4, -0.06,  62.0)
-                sc.set_char_transform(s1["bg_friend_coral"],   13.8, 1.4, -0.06, -62.0)
+                # 5.5m separation arguing FACE-TO-FACE in front of cars (zero arm overlap!)
+                sc.set_char_transform(s1["bg_neighbor_green"], 8.6, 1.4, -0.06,  55.0)
+                sc.set_char_transform(s1["bg_friend_coral"],   14.1, 1.4, -0.06, -55.0)
                 sc.animate_argue(s1["bg_neighbor_green"], t, phase=0.0)
                 sc.animate_argue(s1["bg_friend_coral"],   t, phase=1.8)
                 sc.set_camera_look(
                     cam,
-                    (11.4, 11.4 - 1.4 * u, 3.2),
-                    (11.4, -0.4, 2.5),
+                    (11.35, 11.8 - 1.4 * u, 3.2),
+                    (11.35, -0.4, 2.5),
                     lens=28.0,
                 )
 
