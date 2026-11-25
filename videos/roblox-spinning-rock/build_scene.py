@@ -385,8 +385,8 @@ def build_set1_town(scene):
     tax_env = make_box("Prop_TaxEnvelope", (0.0, 0.0, 0.0), (1.35, 0.16, 0.95), sc.make_mat("Mat_TaxEnv", "#F8FAFC", rough=0.45, emit_hex="#FFFFFF", emit_str=0.18), col)
     tax_stripe = make_box("Prop_TaxRed", (0.0, 0.09, 0.0), (1.02, 0.04, 0.24), sc.make_mat("Mat_TaxRed", "#EF4444", rough=0.40), col)
     tax_stripe.parent = tax_env
-    tax_env.location = (1.50, 0.56, 2.05)
-    tax_env.rotation_euler = (math.radians(35), 0.0, 0.0)
+    tax_env.location = (1.80, 0.92, 2.05)
+    tax_env.rotation_euler = (math.radians(42), 0.0, math.radians(-10))
     c_tax = tax_env.constraints.new("CHILD_OF")
     c_tax.target = bg_dad_plaid["internal_arm"]
     c_tax.subtarget = "Right Arm"
@@ -397,7 +397,7 @@ def build_set1_town(scene):
             break
 
     # Dog leash attached via CHILD_OF to BG_DogWalker's Right Arm hand tip (+1.5 in rig space!)
-    leash = make_box("Prop_Leash", (1.65, 1.05, 1.45), (0.05, 2.1, 0.05), sc.make_mat("Mat_Leash", "#78350F", rough=0.6), col, rot=(math.radians(-24), 0, math.radians(-12)))
+    leash = make_box("Prop_Leash", (1.85, 1.25, 1.55), (0.05, 2.2, 0.05), sc.make_mat("Mat_Leash", "#78350F", rough=0.6), col, rot=(math.radians(-28), 0, math.radians(-22)))
     c_lsh = leash.constraints.new("CHILD_OF")
     c_lsh.target = bg_dogwalker["internal_arm"]
     c_lsh.subtarget = "Right Arm"
