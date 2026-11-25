@@ -1,0 +1,10 @@
+{
+  "items": [
+    { "type": "file", "ctime": 1795172400000, "path": "00 Home.md", "title": "Home Dashboard" },
+    { "type": "file", "ctime": 1795172400000, "path": "AGENTS.md", "title": "AI Operating Contract" },
+    { "type": "file", "ctime": 1795172400000, "path": "01 Quick Reference.md", "title": "Quick Reference" },
+    { "type": "file", "ctime": 1795172400000, "path": "3D Master Pipeline.canvas", "title": "Master Pipeline Canvas" },
+    { "type": "file", "ctime": 1795172400000, "path": "Art Styles Matrix.base", "title": "Art Styles Matrix" },
+    { "type": "file", "ctime": 1795172400000, "path": "MCP & Skills Registry.base", "title": "MCP & Skills Registry" }
+  ]
+}

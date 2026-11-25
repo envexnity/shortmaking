@@ -1,0 +1,37 @@
+filters:
+  and:
+    - file.ext == "md"
+    - or:
+        - file.inFolder("80 Tools & MCPs")
+        - file.inFolder("60 Engines, Web 3D & Delivery")
+formulas:
+  kind: if(file.inFolder("80 Tools & MCPs/skills"), "Vendored Skill", if(file.inFolder("80 Tools & MCPs"), "MCP & Tool Guide", "Engine Pipeline"))
+  words: (file.size / 6).round(0)
+properties:
+  formula.kind:
+    displayName: Type
+  formula.words:
+    displayName: ~Words
+  file.folder:
+    displayName: Folder
+views:
+  - type: table
+    name: MCPs & Core Tooling
+    filters:
+      and:
+        - '!file.inFolder("80 Tools & MCPs/skills")'
+    order:
+      - file.name
+      - formula.kind
+      - file.tags
+      - formula.words
+  - type: table
+    name: All Vendored SKILL.md Files
+    filters:
+      and:
+        - file.inFolder("80 Tools & MCPs/skills")
+        - 'file.name == "SKILL"'
+    order:
+      - file.folder
+      - file.name
+      - formula.words

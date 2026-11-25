@@ -1,0 +1,39 @@
+filters:
+  and:
+    - 'file.ext == "md"'
+    - 'file.inFolder("100 Social Media & Auto-Publishing Vault/10 Platform Playbooks")'
+
+properties:
+  title:
+    displayName: "Playbook Guide"
+  platform:
+    displayName: "Platform(s)"
+  aspect_ratio:
+    displayName: "Aspect Ratio"
+  optimal_duration:
+    displayName: "Sweet-Spot Length"
+  hashtag_cap:
+    displayName: "Hashtag Rule"
+  primary_signal:
+    displayName: "#1 Ranking Signal"
+  automation_api:
+    displayName: "Auto-Upload API"
+
+views:
+  - type: table
+    name: "Platform Optimization Matrix"
+    order:
+      - file.name
+      - platform
+      - aspect_ratio
+      - optimal_duration
+      - hashtag_cap
+      - primary_signal
+      - automation_api
+  - type: cards
+    name: "Platform Playbook Cards"
+    order:
+      - file.name
+      - platform
+      - primary_signal
+      - summary

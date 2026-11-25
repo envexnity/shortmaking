@@ -1,0 +1,48 @@
+filters:
+  and:
+    - 'file.ext == "md"'
+    - 'file.hasTag("upload-package")'
+
+formulas:
+  status_badge: 'if(status == "published", "✅ Published", if(status == "ready", "🟢 Ready to Auto-Publish", "⏳ Draft"))'
+  loudness_check: 'if(loudness_lufs <= -13.5 && loudness_lufs >= -15.5, "✅ " + loudness_lufs + " LUFS", "⚠️ Check LUFS")'
+
+properties:
+  formula.status_badge:
+    displayName: "Queue Status"
+  channel:
+    displayName: "Channel"
+  video_file:
+    displayName: "Master MP4"
+  resolution:
+    displayName: "Format"
+  duration_sec:
+    displayName: "Duration (s)"
+  formula.loudness_check:
+    displayName: "Audio Master"
+  scheduled_slot:
+    displayName: "Target Upload Slot"
+  platforms:
+    displayName: "Target Platforms"
+
+views:
+  - type: table
+    name: "Omnichannel Upload Queue"
+    order:
+      - file.name
+      - formula.status_badge
+      - channel
+      - resolution
+      - duration_sec
+      - formula.loudness_check
+      - scheduled_slot
+      - platforms
+      - video_file
+  - type: cards
+    name: "Upload Packages Gallery"
+    order:
+      - file.name
+      - formula.status_badge
+      - channel
+      - scheduled_slot
+      - summary

@@ -1,0 +1,17 @@
+{
+  "strictLineBreaks": false,
+  "alwaysUpdateLinks": true,
+  "newLinkFormat": "shortest",
+  "useMarkdownLinks": false,
+  "showUnsupportedFiles": true,
+  "attachmentFolderPath": "attachments",
+  "newFileLocation": "folder",
+  "newFileFolderPath": "00 Inbox",
+  "showLineNumber": false,
+  "spellcheck": false,
+  "alwaysShowLineNumbers": false,
+  "trashOption": "local",
+  "promptDelete": false,
+  "readableLineLength": true,
+  "tabSize": 2
+}

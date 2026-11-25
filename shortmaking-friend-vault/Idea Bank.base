@@ -1,0 +1,31 @@
+filters:
+  and:
+    - file.ext == "md"
+    - or:
+        - area == "ideation"
+        - area == "teardowns"
+        - area == "templates"
+formulas:
+  style_badge: 'if(style == "all", "🌐 All Styles", style)'
+properties:
+  file.name:
+    displayName: "Document / Idea Pack"
+  area:
+    displayName: "Category"
+  formula.style_badge:
+    displayName: "Target Style"
+  status:
+    displayName: "Status"
+  summary:
+    displayName: "Overview"
+views:
+  - type: table
+    name: "Ideation, Teardowns & Templates"
+    groupBy:
+      property: area
+      direction: ASC
+    order:
+      - file.name
+      - formula.style_badge
+      - status
+      - summary

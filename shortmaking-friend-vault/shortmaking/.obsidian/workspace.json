@@ -1,0 +1,256 @@
+{
+  "main": {
+    "id": "cc8c613822a86948",
+    "type": "split",
+    "children": [
+      {
+        "id": "38c9e0e1f2b2a35b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7afd00252f169ff4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "00 Home.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "00 Home"
+            }
+          },
+          {
+            "id": "bab1643365330a39",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "80 Tools & MCPs/skills/scenario-labs-3d-skills/skills/dcc/blender/scenario-blender-hair/SKILL.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "SKILL"
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "adf5c127e86df558",
+    "type": "split",
+    "children": [
+      {
+        "id": "4f1563ac1b7b8531",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "25bf5cde22bec064",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "49ba7b89329749d9",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "87227f45ae5ea715",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "d2ab758cf0682abd",
+    "type": "split",
+    "children": [
+      {
+        "id": "352aacfbdf66f165",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ca2c676ba194a318",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "00 Social Publishing Home.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
+            }
+          },
+          {
+            "id": "128abc68d7b1b942",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "00 Social Publishing Home.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
+            }
+          },
+          {
+            "id": "9c6d67438ce6575f",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "ad6a4c4648079bc8",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "c4e43debe1233296",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "00 Social Publishing Home.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "workspaces:Manage workspace layouts": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "bab1643365330a39",
+  "lastOpenFiles": [
+    "00 Home.md",
+    "80 Tools & MCPs/skills/scenario-labs-3d-skills/README.md",
+    "50 Upload Packages/Upload Package - Bun Town Burger Wrapper (Roblox R15).md",
+    "80 Tools & MCPs/skills/scenario-labs-3d-skills/skills/scenario-textures/SKILL.md",
+    "80 Tools & MCPs/skills/scenario-labs-3d-skills/skills/scenario-identity-library/SKILL.md",
+    "neuron.md",
+    "80 Tools & MCPs/skills/3dviz-pro-max/skills/3dviz-pro-max/references/catalog-index.md",
+    "80 Tools & MCPs/skills/3dviz-pro-max/skills/3dviz-pro-max/references/catalog-directions/environments-dioramas.md",
+    "50 Upload Packages/Upload Package - Asteroid Apophis Why Nuking It Fails.md",
+    "90 Templates/Three.js Studio Viewer Starter (Single-File r187).html",
+    "90 Templates/Scene Production Brief.md",
+    "90 Templates/Material Graph Recipe Template.md",
+    "90 Templates/QA Critique Report Template.md",
+    "90 Templates/Blender 5.3 Headless Starter Script.py",
+    "90 Templates/Art Style Study Template.md",
+    "90 Templates/3D Asset Brief.md",
+    "90 Templates",
+    "80 Tools & MCPs/skills/scenario-labs-3d-skills/skills/game-engines/roblox/scenario-roblox-architecture/scripts/templates/arena/src/server/Services/WeaponService.luau",
+    "80 Tools & MCPs/skills/scenario-labs-3d-skills/skills/game-engines/roblox/scenario-roblox-architecture/scripts/templates/arena/src/server/Services/TeamService.luau",
+    "80 Tools & MCPs/skills/scenario-labs-3d-skills/skills/game-engines/roblox/scenario-roblox-architecture/scripts/templates/arena/src/server/Services/RoundService.luau",
+    "80 Tools & MCPs/skills/scenario-labs-3d-skills/skills/game-engines/roblox/scenario-roblox-architecture/scripts/templates/arena/src/server/Services/PlayerService.luau",
+    "80 Tools & MCPs/skills/scenario-labs-3d-skills/skills/game-engines/roblox/scenario-roblox-architecture/scripts/templates/arena/src/server/Services/MapService.luau",
+    "80 Tools & MCPs/skills/scenario-labs-3d-skills/skills/game-engines/roblox/scenario-roblox-architecture/scripts/templates/arena/fixtures/replicated/Maps/FixtureMap.model.json",
+    "80 Tools & MCPs/skills/scenario-labs-3d-skills/skills/game-engines/roblox/scenario-roblox-architecture/scripts/templates/arena/src/client/Controllers/ShopController.luau",
+    "80 Tools & MCPs/skills/scenario-labs-3d-skills/skills/game-engines/unity/scenario-unity-web/scripts/WebRuntime/WebGLTemplates/AgentWeb/thumbnail.png",
+    "80 Tools & MCPs/skills/threejs-awesome-graphics/example-gallery/examples/threejs-procedural-vegetation/stylized-meadow-grass/assets/ground_texture/ground_07_4k/ground_07__roughness_1k.webp",
+    "80 Tools & MCPs/skills/threejs-awesome-graphics/example-gallery/examples/threejs-procedural-vegetation/stylized-meadow-grass/assets/ground_texture/ground_07_4k/ground_07__normal_gl_1k.webp",
+    "80 Tools & MCPs/skills/threejs-awesome-graphics/example-gallery/examples/threejs-procedural-vegetation/stylized-meadow-grass/assets/ground_texture/ground_07_4k/ground_07__metallic_1k.webp",
+    "80 Tools & MCPs/skills/threejs-awesome-graphics/example-gallery/examples/threejs-procedural-vegetation/stylized-meadow-grass/assets/ground_texture/ground_07_4k/ground_07__height_1k.webp",
+    "80 Tools & MCPs/skills/threejs-awesome-graphics/example-gallery/examples/threejs-procedural-vegetation/stylized-meadow-grass/assets/ground_texture/ground_07_4k/ground_07__basecolor_1k.webp",
+    "80 Tools & MCPs/skills/threejs-awesome-graphics/example-gallery/examples/threejs-procedural-vegetation/stylized-meadow-grass/assets/ground_texture/ground_07_4k/ground_07__ambientocclusion_1k.webp",
+    "80 Tools & MCPs/skills/threejs-awesome-graphics/example-gallery/examples/threejs-procedural-vegetation/stylized-meadow-grass/assets/skybox/sky_88_2k.png",
+    "80 Tools & MCPs/skills/threejs-awesome-graphics/example-gallery/examples/threejs-procedural-vegetation/stylized-meadow-grass/assets/grass_texture/grass_05_roughness_1k.webp",
+    "80 Tools & MCPs/skills/threejs-awesome-graphics/example-gallery/examples/threejs-procedural-vegetation/stylized-meadow-grass/assets/grass_texture/grass_05_normal_gl_1k.webp",
+    "80 Tools & MCPs/skills/creator-generalist-2d-3d/plugins/watch-video/skills/watch-video/references/briefs/write-craft-skill.md",
+    "80 Tools & MCPs/skills/creator-generalist-2d-3d/plugins/watch-video/skills/watch-video/references/briefs/distill-notes.md",
+    "80 Tools & MCPs/skills/blender-web-3d-skill/plugins/blender-web-3d/skills/blender-web-3d/assets/viewer/README.md",
+    "80 Tools & MCPs/skills/3dviz-pro-max/evals/skill-behavior/before-after-2026-09/with-skill-run4/src/docs/validation-report.md",
+    "80 Tools & MCPs/skills/3dviz-pro-max/evals/skill-behavior/before-after-2026-09/with-skill-run4/src/docs/design-system.md",
+    "80 Tools & MCPs/skills/3dviz-pro-max/evals/skill-behavior/before-after-2026-09/with-skill-run3/src/docs/validation-report.md",
+    "80 Tools & MCPs/skills/3dviz-pro-max/evals/skill-behavior/before-after-2026-09/with-skill-run3/src/docs/design-system.md",
+    "80 Tools & MCPs/skills/3dviz-pro-max/evals/skill-behavior/before-after-2026-09/with-skill-run2/src/docs/validation-report.md",
+    "80 Tools & MCPs/skills/3dviz-pro-max/evals/skill-behavior/before-after-2026-09/with-skill-run2/src/docs/design-system.md",
+    "80 Tools & MCPs/skills/3dviz-pro-max/evals/skill-behavior/before-after-2026-09/with-skill/src/docs/validation-report.md",
+    "80 Tools & MCPs/skills/3dviz-pro-max/evals/skill-behavior/before-after-2026-09/with-skill/src/docs/design-system.md",
+    "80 Tools & MCPs/skills/threejs-awesome-graphics/example-gallery/examples/threejs-procedural-vegetation/structured-ash-growth/assets/THIRD_PARTY_LICENSES.md"
+  ]
+}

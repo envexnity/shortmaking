@@ -1,0 +1,4102 @@
+{
+  "pal_hair": {
+    "key": "pal_hair",
+    "asset_id": 63690008,
+    "kind": "accessory",
+    "label": "Pal Hair (Classic Bacon Hair)",
+    "parsed": {
+      "class": "Accessory",
+      "name": "Pal Hair",
+      "mesh_id": 83293901,
+      "texture_id": 6858317867,
+      "scale": [
+        1.0,
+        1.0499999523162842,
+        1.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "vertex_color": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "attachment_name": "HairAttachment",
+      "attachment_pos": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "attachment_right": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "attachment_up": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "attachment_forward": [
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "attachment_cframe": {
+        "pos": [
+          8.657480066176504e-09,
+          0.34999990463256836,
+          0.2497277557849884
+        ],
+        "rot": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      },
+      "handle_size": [
+        1.0,
+        1.0,
+        2.0
+      ],
+      "template_id": null,
+      "meshes": [
+        {
+          "mesh_id": 83293901,
+          "texture_id": 6858317867,
+          "scale": [
+            1.0,
+            1.0499999523162842,
+            1.0
+          ],
+          "offset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "vertex_color": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    "files": {
+      "mesh": "c:\\Users\\AFADAZIO\\OneDrive\\Desktop\\shortmaking\\assets\\roblox-r6-characters\\marketplace_assets\\accessory\\pal_hair\\mesh_83293901.mesh",
+      "obj": "c:\\Users\\AFADAZIO\\OneDrive\\Desktop\\shortmaking\\assets\\roblox-r6-characters\\marketplace_assets\\accessory\\pal_hair\\pal_hair.obj",
+      "texture": "c:\\Users\\AFADAZIO\\OneDrive\\Desktop\\shortmaking\\assets\\roblox-r6-characters\\marketplace_assets\\accessory\\pal_hair\\tex_6858317867.png"
+    },
+    "mesh_stats": {
+      "version": "1.00",
+      "verts": 14058,
+      "faces": 4686
+    }
+  },
+  "blonde_spiked_hair": {
+    "key": "blonde_spiked_hair",
+    "asset_id": 376524487,
+    "kind": "accessory",
+    "label": "Blonde Spiked Hair",
+    "parsed": {
+      "class": "Accessory",
+      "name": "MessyHair",
+      "mesh_id": 319337852,
+      "texture_id": 376189070,
+      "scale": [
+        0.550000012,
+        0.550000012,
+        0.550000012
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "vertex_color": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "attachment_name": "HairAttachment",
+      "attachment_pos": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "attachment_right": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "attachment_up": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "attachment_forward": [
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "attachment_cframe": {
+        "pos": [
+          8.65748007e-09,
+          0.230000019,
+          0.0307277553
+        ],
+        "rot": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      },
+      "handle_size": [
+        1.02999997,
+        1.0,
+        1.66999996
+      ],
+      "template_id": null,
+      "meshes": [
+        {
+          "mesh_id": 319337852,
+          "texture_id": 376189070,
+          "scale": [
+            0.550000012,
+            0.550000012,
+            0.550000012
+          ],
+          "offset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "vertex_color": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    "files": {
+      "mesh": "c:\\Users\\AFADAZIO\\OneDrive\\Desktop\\shortmaking\\assets\\roblox-r6-characters\\marketplace_assets\\accessory\\blonde_spiked_hair\\mesh_319337852.mesh",
+      "obj": "c:\\Users\\AFADAZIO\\OneDrive\\Desktop\\shortmaking\\assets\\roblox-r6-characters\\marketplace_assets\\accessory\\blonde_spiked_hair\\blonde_spiked_hair.obj",
+      "texture": "c:\\Users\\AFADAZIO\\OneDrive\\Desktop\\shortmaking\\assets\\roblox-r6-characters\\marketplace_assets\\accessory\\blonde_spiked_hair\\tex_376189070.png"
+    },
+    "mesh_stats": {
+      "version": "1.00",
+      "verts": 5634,
+      "faces": 1878
+    }
+  },
+  "brown_charmer_hair": {
+    "key": "brown_charmer_hair",
+    "asset_id": 3814474927,
+    "kind": "accessory",
+    "label": "Brown Charmer Hair",
+    "parsed": {
+      "class": "Accessory",
+      "name": "Hair",
+      "mesh_id": 3711286040,
+      "texture_id": 3711286951,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "vertex_color": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "attachment_name": "HairAttachment",
+      "attachment_pos": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "attachment_right": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "attachment_up": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "attachment_forward": [
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "attachment_cframe": {
+        "pos": [
+          -0.00209319592,
+          0.292150021,
+          -0.0688171387
+        ],
+        "rot": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      },
+      "handle_size": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "template_id": null,
+      "meshes": [
+        {
+          "mesh_id": 3711286040,
+          "texture_id": 3711286951,
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "offset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "vertex_color": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    "files": {
+      "mesh": "c:\\Users\\AFADAZIO\\OneDrive\\Desktop\\shortmaking\\assets\\roblox-r6-characters\\marketplace_assets\\accessory\\brown_charmer_hair\\mesh_3711286040.mesh",
+      "obj": "c:\\Users\\AFADAZIO\\OneDrive\\Desktop\\shortmaking\\assets\\roblox-r6-characters\\marketplace_assets\\accessory\\brown_charmer_hair\\brown_charmer_hair.obj",
+      "texture": "c:\\Users\\AFADAZIO\\OneDrive\\Desktop\\shortmaking\\assets\\roblox-r6-characters\\marketplace_assets\\accessory\\brown_charmer_hair\\tex_3711286951.png"
+    },
+    "mesh_stats": {
+      "version": "3.00",
+      "verts": 2256,
+      "faces": 3096
+    }
+  },
+  "lavender_updo": {
+    "key": "lavender_updo",
+    "asset_id": 451220849,
+    "kind": "accessory",
+    "label": "Lavender Updo",
+    "parsed": {
+      "class": "Accessory",
+      "name": "LavanderHair",
+      "mesh_id": 81642452,
+      "texture_id": 6858318826,
+      "scale": [
+        1.149999976158142,
+        1.2000000476837158,
+        1.100000023841858
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "vertex_color": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "attachment_name": "HairAttachment",
+      "attachment_pos": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "attachment_right": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "attachment_up": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "attachment_forward": [
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "attachment_cframe": {
+        "pos": [
+          8.658389560878277e-09,
+          0.19999980926513672,
+          -0.0002722442150115967
+        ],
+        "rot": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      },
+      "handle_size": [
+        1.0,
+        1.0,
+        2.0
+      ],
+      "template_id": null,
+      "meshes": [
+        {
+          "mesh_id": 81642452,
+          "texture_id": 6858318826,
+          "scale": [
+            1.149999976158142,
+            1.2000000476837158,
+            1.100000023841858
+          ],
+          "offset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "vertex_color": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    "files": {
+      "mesh": "c:\\Users\\AFADAZIO\\OneDrive\\Desktop\\shortmaking\\assets\\roblox-r6-characters\\marketplace_assets\\accessory\\lavender_updo\\mesh_81642452.mesh",
+      "obj": "c:\\Users\\AFADAZIO\\OneDrive\\Desktop\\shortmaking\\assets\\roblox-r6-characters\\marketplace_assets\\accessory\\lavender_updo\\lavender_updo.obj",
+      "texture": "c:\\Users\\AFADAZIO\\OneDrive\\Desktop\\shortmaking\\assets\\roblox-r6-characters\\marketplace_assets\\accessory\\lavender_updo\\tex_6858318826.png"
+    },
+    "mesh_stats": {
+      "version": "1.00",
+      "verts": 9234,
+      "faces": 3078
+    }
+  },
+  "chestnut_bun": {
+    "key": "chestnut_bun",
+    "asset_id": 62724852,
+    "kind": "accessory",
+    "label": "Chestnut Bun",
+    "parsed": {
+      "class": "Accessory",
+      "name": "Kate Hair",
+      "mesh_id": 81642452,
+      "texture_id": 6858317942,
+      "scale": [
+        1.149999976158142,
+        1.2000000476837158,
+        1.100000023841858
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "vertex_color": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "attachment_name": "HairAttachment",
+      "attachment_pos": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "attachment_right": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "attachment_up": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "attachment_forward": [
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "attachment_cframe": {
+        "pos": [
+          8.658389560878277e-09,
+          0.19999980926513672,
+          -0.0002722442150115967
+        ],
+        "rot": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      },
+      "handle_size": [
+        1.0,
+        1.0,
+        2.0
+      ],
+      "template_id": null,
+      "meshes": [
+        {
+          "mesh_id": 81642452,
+          "texture_id": 6858317942,
+          "scale": [
+            1.149999976158142,
+            1.2000000476837158,
+            1.100000023841858
+          ],
+          "offset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "vertex_color": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    "files": {
+      "mesh": "c:\\Users\\AFADAZIO\\OneDrive\\Desktop\\shortmaking\\assets\\roblox-r6-characters\\marketplace_assets\\accessory\\chestnut_bun\\mesh_81642452.mesh",
+      "obj": "c:\\Users\\AFADAZIO\\OneDrive\\Desktop\\shortmaking\\assets\\roblox-r6-characters\\marketplace_assets\\accessory\\chestnut_bun\\chestnut_bun.obj",
+      "texture": "c:\\Users\\AFADAZIO\\OneDrive\\Desktop\\shortmaking\\assets\\roblox-r6-characters\\marketplace_assets\\accessory\\chestnut_bun\\tex_6858317942.png"
+    },
+    "mesh_stats": {
+      "version": "1.00",
+      "verts": 9234,
+      "faces": 3078
+    }
+  },
+  "shaggy": {
+    "key": "shaggy",
+    "asset_id": 20573078,
+    "kind": "accessory",
+    "label": "Shaggy",
+    "parsed": {
+      "class": "Accessory",
+      "name": "Sideswept Bangs Brown",
+      "mesh_id": 19999424,
+      "texture_id": 20571982,
+      "scale": [
+        1.07000005,
+        1.07000005,
+        1.07000005
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "vertex_color": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "attachment_name": "HairAttachment",
+      "attachment_pos": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "attachment_right": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "attachment_up": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "attachment_forward": [
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "attachment_cframe": {
+        "pos": [
+          0.120053358,
+          0.400000095,
+          -0.0702669546
+        ],
+        "rot": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      },
+      "handle_size": [
+        1.0,
+        1.0,
+        2.0
+      ],
+      "template_id": null,
+      "meshes": [
+        {
+          "mesh_id": 19999424,
+          "texture_id": 20571982,
+          "scale": [
+            1.07000005,
+            1.07000005,
+            1.07000005
+          ],
+          "offset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "vertex_color": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    "files": {
+      "mesh": "c:\\Users\\AFADAZIO\\OneDrive\\Desktop\\shortmaking\\assets\\roblox-r6-characters\\marketplace_assets\\accessory\\shaggy\\mesh_19999424.mesh",
+      "obj": "c:\\Users\\AFADAZIO\\OneDrive\\Desktop\\shortmaking\\assets\\roblox-r6-characters\\marketplace_assets\\accessory\\shaggy\\shaggy.obj",
+      "texture": "c:\\Users\\AFADAZIO\\OneDrive\\Desktop\\shortmaking\\assets\\roblox-r6-characters\\marketplace_assets\\accessory\\shaggy\\tex_20571982.png"
+    },
+    "mesh_stats": {
+      "version": "1.00",
+      "verts": 8028,
+      "faces": 2676
+    }
+  },
+  "orange_beanie_hair": {
+    "key": "orange_beanie_hair",
+    "asset_id": 376548738,
+    "kind": "accessory",
+    "label": "Orange Beanie with Black Hair",
+    "parsed": {
+      "class": "Accessory",
+      "name": "BrownCharmerHair",
+      "mesh_id": 74878559,
+      "texture_id": 382682502,
+      "scale": [
+        1.04999995,
+        1.0,
+        1.04999995
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "vertex_color": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "attachment_name": "HairAttachment",
+      "attachment_pos": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "attachment_right": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "attachment_up": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "attachment_forward": [
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "attachment_cframe": {
+        "pos": [
+          8.65748007e-09,
+          0.174999714,
+          0.0497277565
+        ],
+        "rot": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      },
+      "handle_size": [
+        1.19999957,
+        1.0,
+        1.5999999
+      ],
+      "template_id": null,
+      "meshes": [
+        {
+          "mesh_id": 74878559,
+          "texture_id": 382682502,
+          "scale": [
+            1.04999995,
+            1.0,
+            1.04999995
+          ],
+          "offset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "vertex_color": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    "files": {
+      "mesh": "c:\\Users\\AFADAZIO\\OneDrive\\Desktop\\shortmaking\\assets\\roblox-r6-characters\\marketplace_assets\\accessory\\orange_beanie_hair\\mesh_74878559.mesh",
+      "obj": "c:\\Users\\AFADAZIO\\OneDrive\\Desktop\\shortmaking\\assets\\roblox-r6-characters\\marketplace_assets\\accessory\\orange_beanie_hair\\orange_beanie_hair.obj",
+      "texture": "c:\\Users\\AFADAZIO\\OneDrive\\Desktop\\shortmaking\\assets\\roblox-r6-characters\\marketplace_assets\\accessory\\orange_beanie_hair\\tex_382682502.png"
+    },
+    "mesh_stats": {
+      "version": "1.00",
+      "verts": 17802,
+      "faces": 5934
+    }
+  },
+  "red_roblox_cap": {
+    "key": "red_roblox_cap",
+    "asset_id": 1028606,
+    "kind": "accessory",
+    "label": "Red Roblox Cap",
+    "parsed": {
+      "class": "Accessory",
+      "name": "RedBaseballCap",
+      "mesh_id": 1028604,
+      "texture_id": 1028605,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "vertex_color": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "attachment_name": "HatAttachment",
+      "attachment_pos": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "attachment_right": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "attachment_up": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "attachment_forward": [
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "attachment_cframe": {
+        "pos": [
+          8.65748007e-09,
+          -0.0999999046,
+          0.149727762
+        ],
+        "rot": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      },
+      "handle_size": [
+        1.0,
+        0.400000006,
+        1.0
+      ],
+      "template_id": null,
+      "meshes": [
+        {
+          "mesh_id": 1028604,
+          "texture_id": 1028605,
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "offset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "vertex_color": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    "files": {
+      "mesh": "c:\\Users\\AFADAZIO\\OneDrive\\Desktop\\shortmaking\\assets\\roblox-r6-characters\\marketplace_assets\\accessory\\red_roblox_cap\\mesh_1028604.mesh",
+      "obj": "c:\\Users\\AFADAZIO\\OneDrive\\Desktop\\shortmaking\\assets\\roblox-r6-characters\\marketplace_assets\\accessory\\red_roblox_cap\\red_roblox_cap.obj",
+      "texture": "c:\\Users\\AFADAZIO\\OneDrive\\Desktop\\shortmaking\\assets\\roblox-r6-characters\\marketplace_assets\\accessory\\red_roblox_cap\\tex_1028605.png"
+    },
+    "mesh_stats": {
+      "version": "1.00",
+      "verts": 4284,
+      "faces": 1428
+    }
+  },
+  "propeller_beanie": {
+    "key": "propeller_beanie",
+    "asset_id": 15967743,
+    "kind": "accessory",
+    "label": "Propeller Beanie",
+    "parsed": {
+      "class": "Accessory",
+      "name": "Angel",
+      "mesh_id": 15392960,
+      "texture_id": 15392970,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "vertex_color": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "attachment_name": "HatAttachment",
+      "attachment_pos": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "attachment_right": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "attachment_up": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "attachment_forward": [
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "attachment_cframe": {
+        "pos": [
+          8.65838956e-09,
+          0.949999809,
+          -0.000272244215
+        ],
+        "rot": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      },
+      "handle_size": [
+        4.0,
+        3.0,
+        3.0
+      ],
+      "template_id": null,
+      "meshes": [
+        {
+          "mesh_id": 15392960,
+          "texture_id": 15392970,
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "offset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "vertex_color": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    "files": {
+      "mesh": "c:\\Users\\AFADAZIO\\OneDrive\\Desktop\\shortmaking\\assets\\roblox-r6-characters\\marketplace_assets\\accessory\\propeller_beanie\\mesh_15392960.mesh",
+      "obj": "c:\\Users\\AFADAZIO\\OneDrive\\Desktop\\shortmaking\\assets\\roblox-r6-characters\\marketplace_assets\\accessory\\propeller_beanie\\propeller_beanie.obj",
+      "texture": "c:\\Users\\AFADAZIO\\OneDrive\\Desktop\\shortmaking\\assets\\roblox-r6-characters\\marketplace_assets\\accessory\\propeller_beanie\\tex_15392970.png"
+    },
+    "mesh_stats": {
+      "version": "1.00",
+      "verts": 7344,
+      "faces": 2448
+    }
+  },
+  "dominus_empyreus": {
+    "key": "dominus_empyreus",
+    "asset_id": 21070012,
+    "kind": "accessory",
+    "label": "Dominus Empyreus",
+    "parsed": {
+      "class": "Accessory",
+      "name": "HoodedAssassin",
+      "mesh_id": 21057410,
+      "texture_id": 21057378,
+      "scale": [
+        1.04999995,
+        1.04999995,
+        1.04999995
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "vertex_color": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "attachment_name": "HatAttachment",
+      "attachment_pos": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "attachment_right": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "attachment_up": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "attachment_forward": [
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "attachment_cframe": {
+        "pos": [
+          8.65838956e-09,
+          0.5,
+          -0.000272244215
+        ],
+        "rot": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      },
+      "handle_size": [
+        2.0,
+        2.0,
+        2.0
+      ],
+      "template_id": null,
+      "meshes": [
+        {
+          "mesh_id": 21057410,
+          "texture_id": 21057378,
+          "scale": [
+            1.04999995,
+            1.04999995,
+            1.04999995
+          ],
+          "offset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "vertex_color": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    "files": {
+      "mesh": "c:\\Users\\AFADAZIO\\OneDrive\\Desktop\\shortmaking\\assets\\roblox-r6-characters\\marketplace_assets\\accessory\\dominus_empyreus\\mesh_21057410.mesh",
+      "obj": "c:\\Users\\AFADAZIO\\OneDrive\\Desktop\\shortmaking\\assets\\roblox-r6-characters\\marketplace_assets\\accessory\\dominus_empyreus\\dominus_empyreus.obj",
+      "texture": "c:\\Users\\AFADAZIO\\OneDrive\\Desktop\\shortmaking\\assets\\roblox-r6-characters\\marketplace_assets\\accessory\\dominus_empyreus\\tex_21057378.png"
+    },
+    "mesh_stats": {
+      "version": "1.00",
+      "verts": 4968,
+      "faces": 1656
+    }
+  },
+  "valkyrie_helm": {
+    "key": "valkyrie_helm",
+    "asset_id": 1365767,
+    "kind": "accessory",
+    "label": "Valkyrie Helm",
+    "parsed": {
+      "class": "Accessory",
+      "name": "ValkyrieHelm",
+      "mesh_id": 1365696,
+      "texture_id": 1365693,
+      "scale": [
+        1.0,
+        1.0,
+        1.14999998
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "vertex_color": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "attachment_name": "HatAttachment",
+      "attachment_pos": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "attachment_right": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "attachment_up": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "attachment_forward": [
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "attachment_cframe": {
+        "pos": [
+          8.65838956e-09,
+          -0.243375778,
+          -0.265762806
+        ],
+        "rot": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      },
+      "handle_size": [
+        1.0,
+        0.800000012,
+        1.0
+      ],
+      "template_id": null,
+      "meshes": [
+        {
+          "mesh_id": 1365696,
+          "texture_id": 1365693,
+          "scale": [
+            1.0,
+            1.0,
+            1.14999998
+          ],
+          "offset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "vertex_color": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    "files": {
+      "mesh": "c:\\Users\\AFADAZIO\\OneDrive\\Desktop\\shortmaking\\assets\\roblox-r6-characters\\marketplace_assets\\accessory\\valkyrie_helm\\mesh_1365696.mesh",
+      "obj": "c:\\Users\\AFADAZIO\\OneDrive\\Desktop\\shortmaking\\assets\\roblox-r6-characters\\marketplace_assets\\accessory\\valkyrie_helm\\valkyrie_helm.obj",
+      "texture": "c:\\Users\\AFADAZIO\\OneDrive\\Desktop\\shortmaking\\assets\\roblox-r6-characters\\marketplace_assets\\accessory\\valkyrie_helm\\tex_1365693.png"
+    },
+    "mesh_stats": {
+      "version": "1.00",
+      "verts": 11295,
+      "faces": 3765
+    }
+  },
+  "domino_crown": {
+    "key": "domino_crown",
+    "asset_id": 1031429,
+    "kind": "accessory",
+    "label": "Domino Crown",
+    "parsed": {
+      "class": "Accessory",
+      "name": "DominoCrown",
+      "mesh_id": 1031410,
+      "texture_id": 1031417,
+      "scale": [
+        1.10000002,
+        1.10000002,
+        1.10000002
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "vertex_color": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "attachment_name": "HatAttachment",
+      "attachment_pos": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "attachment_right": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "attachment_up": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "attachment_forward": [
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "attachment_cframe": {
+        "pos": [
+          8.65838956e-09,
+          -0.349999905,
+          -0.000272244215
+        ],
+        "rot": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      },
+      "handle_size": [
+        1.0,
+        0.800000012,
+        1.0
+      ],
+      "template_id": null,
+      "meshes": [
+        {
+          "mesh_id": 1031410,
+          "texture_id": 1031417,
+          "scale": [
+            1.10000002,
+            1.10000002,
+            1.10000002
+          ],
+          "offset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "vertex_color": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    "files": {
+      "mesh": "c:\\Users\\AFADAZIO\\OneDrive\\Desktop\\shortmaking\\assets\\roblox-r6-characters\\marketplace_assets\\accessory\\domino_crown\\mesh_1031410.mesh",
+      "obj": "c:\\Users\\AFADAZIO\\OneDrive\\Desktop\\shortmaking\\assets\\roblox-r6-characters\\marketplace_assets\\accessory\\domino_crown\\domino_crown.obj",
+      "texture": "c:\\Users\\AFADAZIO\\OneDrive\\Desktop\\shortmaking\\assets\\roblox-r6-characters\\marketplace_assets\\accessory\\domino_crown\\tex_1031417.png"
+    },
+    "mesh_stats": {
+      "version": "1.00",
+      "verts": 1476,
+      "faces": 492
+    }
+  },
+  "classic_fedora": {
+    "key": "classic_fedora",
+    "asset_id": 1029025,
+    "kind": "accessory",
+    "label": "Classic ROBLOX Fedora",
+    "parsed": {
+      "class": "Accessory",
+      "name": "Fedora",
+      "mesh_id": 1029012,
+      "texture_id": 6858319566,
+      "scale": [
+        1.100000023841858,
+        1.100000023841858,
+        1.100000023841858
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "vertex_color": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "attachment_name": "HatAttachment",
+      "attachment_pos": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "attachment_right": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "attachment_up": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "attachment_forward": [
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "attachment_cframe": {
+        "pos": [
+          8.657480066176504e-09,
+          0.0,
+          0.04972775653004646
+        ],
+        "rot": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      },
+      "handle_size": [
+        1.0,
+        0.4000000059604645,
+        1.0
+      ],
+      "template_id": null,
+      "meshes": [
+        {
+          "mesh_id": 1029012,
+          "texture_id": 6858319566,
+          "scale": [
+            1.100000023841858,
+            1.100000023841858,
+            1.100000023841858
+          ],
+          "offset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "vertex_color": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    "files": {
+      "mesh": "c:\\Users\\AFADAZIO\\OneDrive\\Desktop\\shortmaking\\assets\\roblox-r6-characters\\marketplace_assets\\accessory\\classic_fedora\\mesh_1029012.mesh",
+      "obj": "c:\\Users\\AFADAZIO\\OneDrive\\Desktop\\shortmaking\\assets\\roblox-r6-characters\\marketplace_assets\\accessory\\classic_fedora\\classic_fedora.obj",
+      "texture": "c:\\Users\\AFADAZIO\\OneDrive\\Desktop\\shortmaking\\assets\\roblox-r6-characters\\marketplace_assets\\accessory\\classic_fedora\\tex_6858319566.png"
+    },
+    "mesh_stats": {
+      "version": "1.00",
+      "verts": 6750,
+      "faces": 2250
+    }
+  },
+  "void_star": {
+    "key": "void_star",
+    "asset_id": 1125510,
+    "kind": "accessory",
+    "label": "The Void Star",
+    "parsed": {
+      "class": "Accessory",
+      "name": "VoidStar",
+      "mesh_id": 1125478,
+      "texture_id": 1125479,
+      "scale": [
+        0.649999976,
+        0.649999976,
+        0.649999976
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "vertex_color": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "attachment_name": "HatAttachment",
+      "attachment_pos": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "attachment_right": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "attachment_up": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "attachment_forward": [
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "attachment_cframe": {
+        "pos": [
+          8.65838956e-09,
+          0.150000095,
+          -0.000272244215
+        ],
+        "rot": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      },
+      "handle_size": [
+        1.0,
+        0.400000006,
+        1.0
+      ],
+      "template_id": null,
+      "meshes": [
+        {
+          "mesh_id": 1125478,
+          "texture_id": 1125479,
+          "scale": [
+            0.649999976,
+            0.649999976,
+            0.649999976
+          ],
+          "offset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "vertex_color": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    "files": {
+      "mesh": "c:\\Users\\AFADAZIO\\OneDrive\\Desktop\\shortmaking\\assets\\roblox-r6-characters\\marketplace_assets\\accessory\\void_star\\mesh_1125478.mesh",
+      "obj": "c:\\Users\\AFADAZIO\\OneDrive\\Desktop\\shortmaking\\assets\\roblox-r6-characters\\marketplace_assets\\accessory\\void_star\\void_star.obj",
+      "texture": "c:\\Users\\AFADAZIO\\OneDrive\\Desktop\\shortmaking\\assets\\roblox-r6-characters\\marketplace_assets\\accessory\\void_star\\tex_1125479.png"
+    },
+    "mesh_stats": {
+      "version": "1.00",
+      "verts": 10836,
+      "faces": 3612
+    }
+  },
+  "nerd_glasses": {
+    "key": "nerd_glasses",
+    "asset_id": 11884330,
+    "kind": "accessory",
+    "label": "Nerd Glasses",
+    "parsed": {
+      "class": "Accessory",
+      "name": "Nerd Glasses",
+      "mesh_id": 11419729,
+      "texture_id": 112346956,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "vertex_color": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "attachment_name": "FaceFrontAttachment",
+      "attachment_pos": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "attachment_right": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "attachment_up": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "attachment_forward": [
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "attachment_cframe": {
+        "pos": [
+          3.93538357e-09,
+          -0.199999809,
+          -0.350272298
+        ],
+        "rot": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      },
+      "handle_size": [
+        1.0,
+        0.400000006,
+        1.0
+      ],
+      "template_id": null,
+      "meshes": [
+        {
+          "mesh_id": 11419729,
+          "texture_id": 112346956,
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "offset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "vertex_color": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    "files": {
+      "mesh": "c:\\Users\\AFADAZIO\\OneDrive\\Desktop\\shortmaking\\assets\\roblox-r6-characters\\marketplace_assets\\accessory\\nerd_glasses\\mesh_11419729.mesh",
+      "obj": "c:\\Users\\AFADAZIO\\OneDrive\\Desktop\\shortmaking\\assets\\roblox-r6-characters\\marketplace_assets\\accessory\\nerd_glasses\\nerd_glasses.obj",
+      "texture": "c:\\Users\\AFADAZIO\\OneDrive\\Desktop\\shortmaking\\assets\\roblox-r6-characters\\marketplace_assets\\accessory\\nerd_glasses\\tex_112346956.png"
+    },
+    "mesh_stats": {
+      "version": "1.00",
+      "verts": 2736,
+      "faces": 912
+    }
+  },
+  "stylish_aviators": {
+    "key": "stylish_aviators",
+    "asset_id": 376526673,
+    "kind": "accessory",
+    "label": "Stylish Aviators",
+    "parsed": {
+      "class": "Accessory",
+      "name": "VarietyShades02",
+      "mesh_id": 116436358,
+      "texture_id": 376188793,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "vertex_color": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "attachment_name": "FaceFrontAttachment",
+      "attachment_pos": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "attachment_right": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "attachment_up": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "attachment_forward": [
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "attachment_cframe": {
+        "pos": [
+          3.93538357e-09,
+          -0.139999866,
+          -0.450272292
+        ],
+        "rot": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      },
+      "handle_size": [
+        1.2000308,
+        0.400000036,
+        1.00000119
+      ],
+      "template_id": null,
+      "meshes": [
+        {
+          "mesh_id": 116436358,
+          "texture_id": 376188793,
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "offset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "vertex_color": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    "files": {
+      "mesh": "c:\\Users\\AFADAZIO\\OneDrive\\Desktop\\shortmaking\\assets\\roblox-r6-characters\\marketplace_assets\\accessory\\stylish_aviators\\mesh_116436358.mesh",
+      "obj": "c:\\Users\\AFADAZIO\\OneDrive\\Desktop\\shortmaking\\assets\\roblox-r6-characters\\marketplace_assets\\accessory\\stylish_aviators\\stylish_aviators.obj",
+      "texture": "c:\\Users\\AFADAZIO\\OneDrive\\Desktop\\shortmaking\\assets\\roblox-r6-characters\\marketplace_assets\\accessory\\stylish_aviators\\tex_376188793.png"
+    },
+    "mesh_stats": {
+      "version": "1.00",
+      "verts": 12888,
+      "faces": 4296
+    }
+  },
+  "midnight_shades": {
+    "key": "midnight_shades",
+    "asset_id": 30331986,
+    "kind": "accessory",
+    "label": "Midnight Shades",
+    "parsed": {
+      "class": "Accessory",
+      "name": "GlassesBlackFrame",
+      "mesh_id": 30166087,
+      "texture_id": 30166098,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "vertex_color": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "attachment_name": "FaceFrontAttachment",
+      "attachment_pos": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "attachment_right": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "attachment_up": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "attachment_forward": [
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "attachment_cframe": {
+        "pos": [
+          3.93538357e-09,
+          -0.176000118,
+          -0.340272307
+        ],
+        "rot": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      },
+      "handle_size": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "template_id": null,
+      "meshes": [
+        {
+          "mesh_id": 30166087,
+          "texture_id": 30166098,
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "offset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "vertex_color": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    "files": {
+      "mesh": "c:\\Users\\AFADAZIO\\OneDrive\\Desktop\\shortmaking\\assets\\roblox-r6-characters\\marketplace_assets\\accessory\\midnight_shades\\mesh_30166087.mesh",
+      "obj": "c:\\Users\\AFADAZIO\\OneDrive\\Desktop\\shortmaking\\assets\\roblox-r6-characters\\marketplace_assets\\accessory\\midnight_shades\\midnight_shades.obj",
+      "texture": "c:\\Users\\AFADAZIO\\OneDrive\\Desktop\\shortmaking\\assets\\roblox-r6-characters\\marketplace_assets\\accessory\\midnight_shades\\tex_30166098.png"
+    },
+    "mesh_stats": {
+      "version": "1.00",
+      "verts": 2592,
+      "faces": 864
+    }
+  },
+  "clockwork_shades": {
+    "key": "clockwork_shades",
+    "asset_id": 11748356,
+    "kind": "accessory",
+    "label": "Clockwork Shades",
+    "parsed": {
+      "class": "Accessory",
+      "name": "ClockworksShades",
+      "mesh_id": 1577360,
+      "texture_id": 1577349,
+      "scale": [
+        1.0,
+        1.29999995,
+        1.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "vertex_color": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "attachment_name": "FaceFrontAttachment",
+      "attachment_pos": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "attachment_right": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "attachment_up": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "attachment_forward": [
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "attachment_cframe": {
+        "pos": [
+          3.93538357e-09,
+          -0.239999771,
+          -0.450272292
+        ],
+        "rot": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      },
+      "handle_size": [
+        1.0,
+        1.60000002,
+        1.0
+      ],
+      "template_id": null,
+      "meshes": [
+        {
+          "mesh_id": 1577360,
+          "texture_id": 1577349,
+          "scale": [
+            1.0,
+            1.29999995,
+            1.0
+          ],
+          "offset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "vertex_color": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    "files": {
+      "mesh": "c:\\Users\\AFADAZIO\\OneDrive\\Desktop\\shortmaking\\assets\\roblox-r6-characters\\marketplace_assets\\accessory\\clockwork_shades\\mesh_1577360.mesh",
+      "obj": "c:\\Users\\AFADAZIO\\OneDrive\\Desktop\\shortmaking\\assets\\roblox-r6-characters\\marketplace_assets\\accessory\\clockwork_shades\\clockwork_shades.obj",
+      "texture": "c:\\Users\\AFADAZIO\\OneDrive\\Desktop\\shortmaking\\assets\\roblox-r6-characters\\marketplace_assets\\accessory\\clockwork_shades\\tex_1577349.png"
+    },
+    "mesh_stats": {
+      "version": "1.00",
+      "verts": 3744,
+      "faces": 1248
+    }
+  },
+  "rose_glasses": {
+    "key": "rose_glasses",
+    "asset_id": 25931812,
+    "kind": "accessory",
+    "label": "Rose Colored Glasses",
+    "parsed": {
+      "class": "Accessory",
+      "name": "Heartshades",
+      "mesh_id": 25648167,
+      "texture_id": 25648154,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "vertex_color": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "attachment_name": "FaceFrontAttachment",
+      "attachment_pos": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "attachment_right": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "attachment_up": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "attachment_forward": [
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "attachment_cframe": {
+        "pos": [
+          3.93629307e-09,
+          -0.199999809,
+          -0.40027231
+        ],
+        "rot": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      },
+      "handle_size": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "template_id": null,
+      "meshes": [
+        {
+          "mesh_id": 25648167,
+          "texture_id": 25648154,
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "offset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "vertex_color": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    "files": {
+      "mesh": "c:\\Users\\AFADAZIO\\OneDrive\\Desktop\\shortmaking\\assets\\roblox-r6-characters\\marketplace_assets\\accessory\\rose_glasses\\mesh_25648167.mesh",
+      "obj": "c:\\Users\\AFADAZIO\\OneDrive\\Desktop\\shortmaking\\assets\\roblox-r6-characters\\marketplace_assets\\accessory\\rose_glasses\\rose_glasses.obj",
+      "texture": "c:\\Users\\AFADAZIO\\OneDrive\\Desktop\\shortmaking\\assets\\roblox-r6-characters\\marketplace_assets\\accessory\\rose_glasses\\tex_25648154.png"
+    },
+    "mesh_stats": {
+      "version": "1.00",
+      "verts": 7884,
+      "faces": 2628
+    }
+  },
+  "bandit_mask": {
+    "key": "bandit_mask",
+    "asset_id": 20642008,
+    "kind": "accessory",
+    "label": "Bandit Mask",
+    "parsed": {
+      "class": "Accessory",
+      "name": "Bandana",
+      "mesh_id": 20637493,
+      "texture_id": 20637003,
+      "scale": [
+        1.0,
+        0.899999976,
+        1.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "vertex_color": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "attachment_name": "FaceFrontAttachment",
+      "attachment_pos": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "attachment_right": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "attachment_up": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "attachment_forward": [
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "attachment_cframe": {
+        "pos": [
+          3.93629307e-09,
+          0.300000191,
+          -0.600272298
+        ],
+        "rot": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      },
+      "handle_size": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "template_id": null,
+      "meshes": [
+        {
+          "mesh_id": 20637493,
+          "texture_id": 20637003,
+          "scale": [
+            1.0,
+            0.899999976,
+            1.0
+          ],
+          "offset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "vertex_color": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    "files": {
+      "mesh": "c:\\Users\\AFADAZIO\\OneDrive\\Desktop\\shortmaking\\assets\\roblox-r6-characters\\marketplace_assets\\accessory\\bandit_mask\\mesh_20637493.mesh",
+      "obj": "c:\\Users\\AFADAZIO\\OneDrive\\Desktop\\shortmaking\\assets\\roblox-r6-characters\\marketplace_assets\\accessory\\bandit_mask\\bandit_mask.obj",
+      "texture": "c:\\Users\\AFADAZIO\\OneDrive\\Desktop\\shortmaking\\assets\\roblox-r6-characters\\marketplace_assets\\accessory\\bandit_mask\\tex_20637003.png"
+    },
+    "mesh_stats": {
+      "version": "1.00",
+      "verts": 2232,
+      "faces": 744
+    }
+  },
+  "swordpack": {
+    "key": "swordpack",
+    "asset_id": 19398258,
+    "kind": "accessory",
+    "label": "Classic Swordpack",
+    "parsed": {
+      "class": "Accessory",
+      "name": "Swordpack",
+      "mesh_id": 19367813,
+      "texture_id": 19367808,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "vertex_color": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "attachment_name": "BodyBackAttachment",
+      "attachment_pos": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "attachment_right": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "attachment_up": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "attachment_forward": [
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "attachment_cframe": {
+        "pos": [
+          -9.09494702e-13,
+          -0.600000143,
+          -0.300272375
+        ],
+        "rot": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      },
+      "handle_size": [
+        3.0,
+        3.0,
+        2.0
+      ],
+      "template_id": null,
+      "meshes": [
+        {
+          "mesh_id": 19367813,
+          "texture_id": 19367808,
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "offset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "vertex_color": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    "files": {
+      "mesh": "c:\\Users\\AFADAZIO\\OneDrive\\Desktop\\shortmaking\\assets\\roblox-r6-characters\\marketplace_assets\\accessory\\swordpack\\mesh_19367813.mesh",
+      "obj": "c:\\Users\\AFADAZIO\\OneDrive\\Desktop\\shortmaking\\assets\\roblox-r6-characters\\marketplace_assets\\accessory\\swordpack\\swordpack.obj",
+      "texture": "c:\\Users\\AFADAZIO\\OneDrive\\Desktop\\shortmaking\\assets\\roblox-r6-characters\\marketplace_assets\\accessory\\swordpack\\tex_19367808.png"
+    },
+    "mesh_stats": {
+      "version": "1.00",
+      "verts": 6552,
+      "faces": 2184
+    }
+  },
+  "face_smile": {
+    "key": "face_smile",
+    "asset_id": 144075659,
+    "kind": "face",
+    "label": "Smile",
+    "parsed": {
+      "class": "Decal",
+      "name": "face",
+      "mesh_id": null,
+      "texture_id": null,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "vertex_color": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "attachment_name": "HatAttachment",
+      "attachment_pos": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "attachment_right": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "attachment_up": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "attachment_forward": [
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "attachment_cframe": null,
+      "handle_size": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "template_id": 144080495,
+      "meshes": []
+    },
+    "files": {
+      "texture": "c:\\Users\\AFADAZIO\\OneDrive\\Desktop\\shortmaking\\assets\\roblox-r6-characters\\marketplace_assets\\face\\face_smile\\tex_144080495.png"
+    }
+  },
+  "face_check_it": {
+    "key": "face_check_it",
+    "asset_id": 7074786,
+    "kind": "face",
+    "label": "Check It",
+    "parsed": {
+      "class": "Decal",
+      "name": "face",
+      "mesh_id": null,
+      "texture_id": null,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "vertex_color": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "attachment_name": "HatAttachment",
+      "attachment_pos": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "attachment_right": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "attachment_up": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "attachment_forward": [
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "attachment_cframe": null,
+      "handle_size": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "template_id": 7074780,
+      "meshes": []
+    },
+    "files": {
+      "texture": "c:\\Users\\AFADAZIO\\OneDrive\\Desktop\\shortmaking\\assets\\roblox-r6-characters\\marketplace_assets\\face\\face_check_it\\tex_7074780.png"
+    }
+  },
+  "face_chill": {
+    "key": "face_chill",
+    "asset_id": 7074764,
+    "kind": "face",
+    "label": "Chill",
+    "parsed": {
+      "class": "Decal",
+      "name": "face",
+      "mesh_id": null,
+      "texture_id": null,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "vertex_color": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "attachment_name": "HatAttachment",
+      "attachment_pos": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "attachment_right": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "attachment_up": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "attachment_forward": [
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "attachment_cframe": null,
+      "handle_size": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "template_id": 7074749,
+      "meshes": []
+    },
+    "files": {
+      "texture": "c:\\Users\\AFADAZIO\\OneDrive\\Desktop\\shortmaking\\assets\\roblox-r6-characters\\marketplace_assets\\face\\face_chill\\tex_7074749.png"
+    }
+  },
+  "face_silly_fun": {
+    "key": "face_silly_fun",
+    "asset_id": 15432080,
+    "kind": "face",
+    "label": "Silly Fun",
+    "parsed": {
+      "class": "Decal",
+      "name": "face",
+      "mesh_id": null,
+      "texture_id": null,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "vertex_color": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "attachment_name": "HatAttachment",
+      "attachment_pos": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "attachment_right": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "attachment_up": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "attachment_forward": [
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "attachment_cframe": null,
+      "handle_size": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "template_id": 15431991,
+      "meshes": []
+    },
+    "files": {
+      "texture": "c:\\Users\\AFADAZIO\\OneDrive\\Desktop\\shortmaking\\assets\\roblox-r6-characters\\marketplace_assets\\face\\face_silly_fun\\tex_15431991.png"
+    }
+  },
+  "face_man": {
+    "key": "face_man",
+    "asset_id": 86487700,
+    "kind": "face",
+    "label": "Man Face",
+    "parsed": {
+      "class": "Decal",
+      "name": "face",
+      "mesh_id": null,
+      "texture_id": null,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "vertex_color": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "attachment_name": "HatAttachment",
+      "attachment_pos": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "attachment_right": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "attachment_up": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "attachment_forward": [
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "attachment_cframe": null,
+      "handle_size": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "template_id": 83017053,
+      "meshes": []
+    },
+    "files": {
+      "texture": "c:\\Users\\AFADAZIO\\OneDrive\\Desktop\\shortmaking\\assets\\roblox-r6-characters\\marketplace_assets\\face\\face_man\\tex_83017053.png"
+    }
+  },
+  "face_woman": {
+    "key": "face_woman",
+    "asset_id": 86487766,
+    "kind": "face",
+    "label": "Woman Face",
+    "parsed": {
+      "class": "Decal",
+      "name": "face",
+      "mesh_id": null,
+      "texture_id": null,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "vertex_color": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "attachment_name": "HatAttachment",
+      "attachment_pos": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "attachment_right": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "attachment_up": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "attachment_forward": [
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "attachment_cframe": null,
+      "handle_size": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "template_id": 83022608,
+      "meshes": []
+    },
+    "files": {
+      "texture": "c:\\Users\\AFADAZIO\\OneDrive\\Desktop\\shortmaking\\assets\\roblox-r6-characters\\marketplace_assets\\face\\face_woman\\tex_83022608.png"
+    }
+  },
+  "face_sshf": {
+    "key": "face_sshf",
+    "asset_id": 494291269,
+    "kind": "face",
+    "label": "Super Super Happy Face",
+    "parsed": {
+      "class": "Decal",
+      "name": "face",
+      "mesh_id": null,
+      "texture_id": null,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "vertex_color": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "attachment_name": "HatAttachment",
+      "attachment_pos": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "attachment_right": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "attachment_up": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "attachment_forward": [
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "attachment_cframe": null,
+      "handle_size": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "template_id": 494290547,
+      "meshes": []
+    },
+    "files": {
+      "texture": "c:\\Users\\AFADAZIO\\OneDrive\\Desktop\\shortmaking\\assets\\roblox-r6-characters\\marketplace_assets\\face\\face_sshf\\tex_494290547.png"
+    }
+  },
+  "face_skeptic": {
+    "key": "face_skeptic",
+    "asset_id": 26424808,
+    "kind": "face",
+    "label": "Skeptic",
+    "parsed": {
+      "class": "Decal",
+      "name": "face",
+      "mesh_id": null,
+      "texture_id": null,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "vertex_color": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "attachment_name": "HatAttachment",
+      "attachment_pos": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "attachment_right": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "attachment_up": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "attachment_forward": [
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "attachment_cframe": null,
+      "handle_size": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "template_id": 26424652,
+      "meshes": []
+    },
+    "files": {
+      "texture": "c:\\Users\\AFADAZIO\\OneDrive\\Desktop\\shortmaking\\assets\\roblox-r6-characters\\marketplace_assets\\face\\face_skeptic\\tex_26424652.png"
+    }
+  },
+  "face_err": {
+    "key": "face_err",
+    "asset_id": 209994875,
+    "kind": "face",
+    "label": "Err / Grumpy",
+    "parsed": {
+      "class": "Decal",
+      "name": "face",
+      "mesh_id": null,
+      "texture_id": null,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "vertex_color": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "attachment_name": "HatAttachment",
+      "attachment_pos": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "attachment_right": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "attachment_up": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "attachment_forward": [
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "attachment_cframe": null,
+      "handle_size": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "template_id": 209713952,
+      "meshes": []
+    },
+    "files": {
+      "texture": "c:\\Users\\AFADAZIO\\OneDrive\\Desktop\\shortmaking\\assets\\roblox-r6-characters\\marketplace_assets\\face\\face_err\\tex_209713952.png"
+    }
+  },
+  "face_epic": {
+    "key": "face_epic",
+    "asset_id": 7074893,
+    "kind": "face",
+    "label": "Epic / Confident",
+    "parsed": {
+      "class": "Decal",
+      "name": "face",
+      "mesh_id": null,
+      "texture_id": null,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "vertex_color": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "attachment_name": "HatAttachment",
+      "attachment_pos": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "attachment_right": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "attachment_up": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "attachment_forward": [
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "attachment_cframe": null,
+      "handle_size": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "template_id": 7074882,
+      "meshes": []
+    },
+    "files": {
+      "texture": "c:\\Users\\AFADAZIO\\OneDrive\\Desktop\\shortmaking\\assets\\roblox-r6-characters\\marketplace_assets\\face\\face_epic\\tex_7074882.png"
+    }
+  },
+  "face_shocked": {
+    "key": "face_shocked",
+    "asset_id": 277950647,
+    "kind": "face",
+    "label": "Anguished / Shocked",
+    "parsed": {
+      "class": "Decal",
+      "name": "face",
+      "mesh_id": null,
+      "texture_id": null,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "vertex_color": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "attachment_name": "HatAttachment",
+      "attachment_pos": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "attachment_right": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "attachment_up": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "attachment_forward": [
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "attachment_cframe": null,
+      "handle_size": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "template_id": 277939506,
+      "meshes": []
+    },
+    "files": {
+      "texture": "c:\\Users\\AFADAZIO\\OneDrive\\Desktop\\shortmaking\\assets\\roblox-r6-characters\\marketplace_assets\\face\\face_shocked\\tex_277939506.png"
+    }
+  },
+  "shirt_roblox_jacket": {
+    "key": "shirt_roblox_jacket",
+    "asset_id": 607785314,
+    "kind": "shirt",
+    "label": "ROBLOX Jacket",
+    "parsed": {
+      "class": "Shirt",
+      "name": "Shirt",
+      "mesh_id": null,
+      "texture_id": null,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "vertex_color": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "attachment_name": "HatAttachment",
+      "attachment_pos": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "attachment_right": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "attachment_up": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "attachment_forward": [
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "attachment_cframe": null,
+      "handle_size": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "template_id": 607785311,
+      "meshes": []
+    },
+    "files": {
+      "texture": "c:\\Users\\AFADAZIO\\OneDrive\\Desktop\\shortmaking\\assets\\roblox-r6-characters\\marketplace_assets\\shirt\\shirt_roblox_jacket\\tex_607785311.png"
+    }
+  },
+  "shirt_denim_hoodie": {
+    "key": "shirt_denim_hoodie",
+    "asset_id": 398633584,
+    "kind": "shirt",
+    "label": "Denim Jacket with White Hoodie",
+    "parsed": {
+      "class": "Shirt",
+      "name": "Shirt",
+      "mesh_id": null,
+      "texture_id": null,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "vertex_color": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "attachment_name": "HatAttachment",
+      "attachment_pos": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "attachment_right": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "attachment_up": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "attachment_forward": [
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "attachment_cframe": null,
+      "handle_size": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "template_id": 398633582,
+      "meshes": []
+    },
+    "files": {
+      "texture": "c:\\Users\\AFADAZIO\\OneDrive\\Desktop\\shortmaking\\assets\\roblox-r6-characters\\marketplace_assets\\shirt\\shirt_denim_hoodie\\tex_398633582.png"
+    }
+  },
+  "shirt_blue_plaid": {
+    "key": "shirt_blue_plaid",
+    "asset_id": 398635081,
+    "kind": "shirt",
+    "label": "Blue Plaid Shirt",
+    "parsed": {
+      "class": "Shirt",
+      "name": "Shirt",
+      "mesh_id": null,
+      "texture_id": null,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "vertex_color": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "attachment_name": "HatAttachment",
+      "attachment_pos": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "attachment_right": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "attachment_up": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "attachment_forward": [
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "attachment_cframe": null,
+      "handle_size": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "template_id": 398635080,
+      "meshes": []
+    },
+    "files": {
+      "texture": "c:\\Users\\AFADAZIO\\OneDrive\\Desktop\\shortmaking\\assets\\roblox-r6-characters\\marketplace_assets\\shirt\\shirt_blue_plaid\\tex_398635080.png"
+    }
+  },
+  "shirt_pastel_jacket": {
+    "key": "shirt_pastel_jacket",
+    "asset_id": 398634295,
+    "kind": "shirt",
+    "label": "Pastel Starburst Top with Gray Jacket",
+    "parsed": {
+      "class": "Shirt",
+      "name": "Shirt",
+      "mesh_id": null,
+      "texture_id": null,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "vertex_color": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "attachment_name": "HatAttachment",
+      "attachment_pos": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "attachment_right": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "attachment_up": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "attachment_forward": [
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "attachment_cframe": null,
+      "handle_size": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "template_id": 398634294,
+      "meshes": []
+    },
+    "files": {
+      "texture": "c:\\Users\\AFADAZIO\\OneDrive\\Desktop\\shortmaking\\assets\\roblox-r6-characters\\marketplace_assets\\shirt\\shirt_pastel_jacket\\tex_398634294.png"
+    }
+  },
+  "shirt_moto_blue": {
+    "key": "shirt_moto_blue",
+    "asset_id": 144076358,
+    "kind": "shirt",
+    "label": "Blue and Black Motorcycle Shirt",
+    "parsed": {
+      "class": "Shirt",
+      "name": "Shirt",
+      "mesh_id": null,
+      "texture_id": null,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "vertex_color": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "attachment_name": "HatAttachment",
+      "attachment_pos": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "attachment_right": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "attachment_up": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "attachment_forward": [
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "attachment_cframe": null,
+      "handle_size": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "template_id": 144076357,
+      "meshes": []
+    },
+    "files": {
+      "texture": "c:\\Users\\AFADAZIO\\OneDrive\\Desktop\\shortmaking\\assets\\roblox-r6-characters\\marketplace_assets\\shirt\\shirt_moto_blue\\tex_144076357.png"
+    }
+  },
+  "shirt_guitar_black": {
+    "key": "shirt_guitar_black",
+    "asset_id": 4047884046,
+    "kind": "shirt",
+    "label": "Guitar Tee with Black Jacket",
+    "parsed": {
+      "class": "Shirt",
+      "name": "Shirt",
+      "mesh_id": null,
+      "texture_id": null,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "vertex_color": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "attachment_name": "HatAttachment",
+      "attachment_pos": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "attachment_right": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "attachment_up": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "attachment_forward": [
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "attachment_cframe": null,
+      "handle_size": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "template_id": 4047884003,
+      "meshes": []
+    },
+    "files": {
+      "texture": "c:\\Users\\AFADAZIO\\OneDrive\\Desktop\\shortmaking\\assets\\roblox-r6-characters\\marketplace_assets\\shirt\\shirt_guitar_black\\tex_4047884003.png"
+    }
+  },
+  "shirt_purple_teal": {
+    "key": "shirt_purple_teal",
+    "asset_id": 4047886060,
+    "kind": "shirt",
+    "label": "Purple and Teal Top",
+    "parsed": {
+      "class": "Shirt",
+      "name": "Shirt",
+      "mesh_id": null,
+      "texture_id": null,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "vertex_color": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "attachment_name": "HatAttachment",
+      "attachment_pos": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "attachment_right": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "attachment_up": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "attachment_forward": [
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "attachment_cframe": null,
+      "handle_size": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "template_id": 4047886039,
+      "meshes": []
+    },
+    "files": {
+      "texture": "c:\\Users\\AFADAZIO\\OneDrive\\Desktop\\shortmaking\\assets\\roblox-r6-characters\\marketplace_assets\\shirt\\shirt_purple_teal\\tex_4047886039.png"
+    }
+  },
+  "shirt_pizza": {
+    "key": "shirt_pizza",
+    "asset_id": 4047884939,
+    "kind": "shirt",
+    "label": "My Favorite Pizza Shirt",
+    "parsed": {
+      "class": "Shirt",
+      "name": "Shirt",
+      "mesh_id": null,
+      "texture_id": null,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "vertex_color": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "attachment_name": "HatAttachment",
+      "attachment_pos": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "attachment_right": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "attachment_up": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "attachment_forward": [
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "attachment_cframe": null,
+      "handle_size": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "template_id": 4047884910,
+      "meshes": []
+    },
+    "files": {
+      "texture": "c:\\Users\\AFADAZIO\\OneDrive\\Desktop\\shortmaking\\assets\\roblox-r6-characters\\marketplace_assets\\shirt\\shirt_pizza\\tex_4047884910.png"
+    }
+  },
+  "shirt_grey_denim": {
+    "key": "shirt_grey_denim",
+    "asset_id": 144076436,
+    "kind": "shirt",
+    "label": "Grey Striped Shirt with Denim Jacket",
+    "parsed": {
+      "class": "Shirt",
+      "name": "Shirt",
+      "mesh_id": null,
+      "texture_id": null,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "vertex_color": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "attachment_name": "HatAttachment",
+      "attachment_pos": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "attachment_right": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "attachment_up": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "attachment_forward": [
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "attachment_cframe": null,
+      "handle_size": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "template_id": 144076435,
+      "meshes": []
+    },
+    "files": {
+      "texture": "c:\\Users\\AFADAZIO\\OneDrive\\Desktop\\shortmaking\\assets\\roblox-r6-characters\\marketplace_assets\\shirt\\shirt_grey_denim\\tex_144076435.png"
+    }
+  },
+  "pants_black_white": {
+    "key": "pants_black_white",
+    "asset_id": 398633812,
+    "kind": "pants",
+    "label": "Black Jeans with White Shoes",
+    "parsed": {
+      "class": "Pants",
+      "name": "Pants",
+      "mesh_id": null,
+      "texture_id": null,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "vertex_color": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "attachment_name": "HatAttachment",
+      "attachment_pos": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "attachment_right": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "attachment_up": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "attachment_forward": [
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "attachment_cframe": null,
+      "handle_size": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "template_id": 398633811,
+      "meshes": []
+    },
+    "files": {
+      "texture": "c:\\Users\\AFADAZIO\\OneDrive\\Desktop\\shortmaking\\assets\\roblox-r6-characters\\marketplace_assets\\pants\\pants_black_white\\tex_398633811.png"
+    }
+  },
+  "pants_beautiful_you": {
+    "key": "pants_beautiful_you",
+    "asset_id": 398634487,
+    "kind": "pants",
+    "label": "Beautiful You Jeans",
+    "parsed": {
+      "class": "Pants",
+      "name": "Pants",
+      "mesh_id": null,
+      "texture_id": null,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "vertex_color": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "attachment_name": "HatAttachment",
+      "attachment_pos": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "attachment_right": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "attachment_up": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "attachment_forward": [
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "attachment_cframe": null,
+      "handle_size": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "template_id": 398634485,
+      "meshes": []
+    },
+    "files": {
+      "texture": "c:\\Users\\AFADAZIO\\OneDrive\\Desktop\\shortmaking\\assets\\roblox-r6-characters\\marketplace_assets\\pants\\pants_beautiful_you\\tex_398634485.png"
+    }
+  },
+  "pants_ripped_skater": {
+    "key": "pants_ripped_skater",
+    "asset_id": 398635338,
+    "kind": "pants",
+    "label": "Ripped Skater Pants",
+    "parsed": {
+      "class": "Pants",
+      "name": "Pants",
+      "mesh_id": null,
+      "texture_id": null,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "vertex_color": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "attachment_name": "HatAttachment",
+      "attachment_pos": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "attachment_right": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "attachment_up": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "attachment_forward": [
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "attachment_cframe": null,
+      "handle_size": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "template_id": 398635336,
+      "meshes": []
+    },
+    "files": {
+      "texture": "c:\\Users\\AFADAZIO\\OneDrive\\Desktop\\shortmaking\\assets\\roblox-r6-characters\\marketplace_assets\\pants\\pants_ripped_skater\\tex_398635336.png"
+    }
+  },
+  "pants_dark_green": {
+    "key": "pants_dark_green",
+    "asset_id": 144076760,
+    "kind": "pants",
+    "label": "Dark Green Jeans",
+    "parsed": {
+      "class": "Pants",
+      "name": "Pants",
+      "mesh_id": null,
+      "texture_id": null,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "vertex_color": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "attachment_name": "HatAttachment",
+      "attachment_pos": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "attachment_right": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "attachment_up": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "attachment_forward": [
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "attachment_cframe": null,
+      "handle_size": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "template_id": 144076759,
+      "meshes": []
+    },
+    "files": {
+      "texture": "c:\\Users\\AFADAZIO\\OneDrive\\Desktop\\shortmaking\\assets\\roblox-r6-characters\\marketplace_assets\\pants\\pants_dark_green\\tex_144076759.png"
+    }
+  },
+  "pants_jean_shorts": {
+    "key": "pants_jean_shorts",
+    "asset_id": 382537950,
+    "kind": "pants",
+    "label": "Jean Shorts with White Shoes",
+    "parsed": {
+      "class": "Pants",
+      "name": "Pants",
+      "mesh_id": null,
+      "texture_id": null,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "vertex_color": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "attachment_name": "HatAttachment",
+      "attachment_pos": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "attachment_right": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "attachment_up": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "attachment_forward": [
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "attachment_cframe": null,
+      "handle_size": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "template_id": 382537949,
+      "meshes": []
+    },
+    "files": {
+      "texture": "c:\\Users\\AFADAZIO\\OneDrive\\Desktop\\shortmaking\\assets\\roblox-r6-characters\\marketplace_assets\\pants\\pants_jean_shorts\\tex_382537949.png"
+    }
+  },
+  "pants_black_sneak": {
+    "key": "pants_black_sneak",
+    "asset_id": 382538503,
+    "kind": "pants",
+    "label": "Black Jeans with Sneakers",
+    "parsed": {
+      "class": "Pants",
+      "name": "Pants",
+      "mesh_id": null,
+      "texture_id": null,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "vertex_color": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "attachment_name": "HatAttachment",
+      "attachment_pos": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "attachment_right": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "attachment_up": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "attachment_forward": [
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "attachment_cframe": null,
+      "handle_size": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "template_id": 382538502,
+      "meshes": []
+    },
+    "files": {
+      "texture": "c:\\Users\\AFADAZIO\\OneDrive\\Desktop\\shortmaking\\assets\\roblox-r6-characters\\marketplace_assets\\pants\\pants_black_sneak\\tex_382538502.png"
+    }
+  },
+  "pants_black_slacks": {
+    "key": "pants_black_slacks",
+    "asset_id": 129459077,
+    "kind": "pants",
+    "label": "Black Slacks",
+    "parsed": {
+      "class": "Pants",
+      "name": "Pants",
+      "mesh_id": null,
+      "texture_id": null,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "vertex_color": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "attachment_name": "HatAttachment",
+      "attachment_pos": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "attachment_right": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "attachment_up": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "attachment_forward": [
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "attachment_cframe": null,
+      "handle_size": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "template_id": 129459076,
+      "meshes": []
+    },
+    "files": {
+      "texture": "c:\\Users\\AFADAZIO\\OneDrive\\Desktop\\shortmaking\\assets\\roblox-r6-characters\\marketplace_assets\\pants\\pants_black_slacks\\tex_129459076.png"
+    }
+  },
+  "beautiful_hair": {
+    "key": "beautiful_hair",
+    "asset_id": 16630147,
+    "kind": "accessory",
+    "label": "Beautiful Hair for Beautiful People",
+    "parsed": {
+      "class": "Accessory",
+      "name": "Ultra-Fabulous Hair",
+      "mesh_id": 16627529,
+      "texture_id": 16627494,
+      "scale": [
+        1.04999995,
+        1.04999995,
+        1.04999995
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "vertex_color": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "attachment_name": "HairAttachment",
+      "attachment_pos": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "attachment_right": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "attachment_up": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "attachment_forward": [
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "attachment_cframe": {
+        "pos": [
+          8.65838956e-09,
+          0.0999999046,
+          -0.000272244215
+        ],
+        "rot": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      },
+      "handle_size": [
+        2.0,
+        2.0,
+        2.0
+      ],
+      "template_id": null,
+      "meshes": [
+        {
+          "mesh_id": 16627529,
+          "texture_id": 16627494,
+          "scale": [
+            1.04999995,
+            1.04999995,
+            1.04999995
+          ],
+          "offset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "vertex_color": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    "files": {
+      "mesh": "c:\\Users\\AFADAZIO\\OneDrive\\Desktop\\shortmaking\\assets\\roblox-r6-characters\\marketplace_assets\\accessory\\beautiful_hair\\mesh_16627529.mesh",
+      "obj": "c:\\Users\\AFADAZIO\\OneDrive\\Desktop\\shortmaking\\assets\\roblox-r6-characters\\marketplace_assets\\accessory\\beautiful_hair\\beautiful_hair.obj",
+      "texture": "c:\\Users\\AFADAZIO\\OneDrive\\Desktop\\shortmaking\\assets\\roblox-r6-characters\\marketplace_assets\\accessory\\beautiful_hair\\tex_16627494.png"
+    },
+    "mesh_stats": {
+      "version": "1.00",
+      "verts": 3816,
+      "faces": 1272
+    }
+  },
+  "roblox_girl_hair": {
+    "key": "roblox_girl_hair",
+    "asset_id": 48474294,
+    "kind": "accessory",
+    "label": "ROBLOX Girl Hair",
+    "parsed": {
+      "class": "Accessory",
+      "name": "Pink Hair",
+      "mesh_id": 47963332,
+      "texture_id": 47942226,
+      "scale": [
+        0.949999988079071,
+        0.800000011920929,
+        0.75
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "vertex_color": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "attachment_name": "HairAttachment",
+      "attachment_pos": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "attachment_right": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "attachment_up": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "attachment_forward": [
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "attachment_cframe": {
+        "pos": [
+          8.657480066176504e-09,
+          -0.09999990463256836,
+          -0.07027224451303482
+        ],
+        "rot": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      },
+      "handle_size": [
+        1.0,
+        1.0,
+        2.0
+      ],
+      "template_id": null,
+      "meshes": [
+        {
+          "mesh_id": 47963332,
+          "texture_id": 47942226,
+          "scale": [
+            0.949999988079071,
+            0.800000011920929,
+            0.75
+          ],
+          "offset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "vertex_color": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    "files": {
+      "mesh": "c:\\Users\\AFADAZIO\\OneDrive\\Desktop\\shortmaking\\assets\\roblox-r6-characters\\marketplace_assets\\accessory\\roblox_girl_hair\\mesh_47963332.mesh",
+      "obj": "c:\\Users\\AFADAZIO\\OneDrive\\Desktop\\shortmaking\\assets\\roblox-r6-characters\\marketplace_assets\\accessory\\roblox_girl_hair\\roblox_girl_hair.obj",
+      "texture": "c:\\Users\\AFADAZIO\\OneDrive\\Desktop\\shortmaking\\assets\\roblox-r6-characters\\marketplace_assets\\accessory\\roblox_girl_hair\\tex_47942226.png"
+    },
+    "mesh_stats": {
+      "version": "1.00",
+      "verts": 7668,
+      "faces": 2556
+    }
+  }
+}

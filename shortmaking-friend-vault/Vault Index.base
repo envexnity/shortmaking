@@ -1,0 +1,94 @@
+filters:
+  and:
+    - file.ext == "md"
+    - file.name != "AGENTS.md"
+formulas:
+  word_count: (file.size / 5).round(0)
+  read_time_min: if(file.size > 0, ((file.size / 1200) + 1).round(0) + " min", "1 min")
+  folder_group: if(file.folder == "", "00 Root & Dashboards", file.folder)
+properties:
+  title:
+    displayName: Note Title
+  area:
+    displayName: Area
+  style:
+    displayName: Art Style
+  status:
+    displayName: Status
+  summary:
+    displayName: Summary
+  formula.word_count:
+    displayName: Est. Words
+  formula.read_time_min:
+    displayName: Read Time
+views:
+  - type: table
+    name: All Vault Notes (By Section)
+    groupBy:
+      property: formula.folder_group
+      direction: ASC
+    order:
+      - file.name
+      - area
+      - style
+      - status
+      - formula.read_time_min
+      - summary
+  - type: cards
+    name: Art Style & Engine Guides
+    filters:
+      and:
+        - area == "engines"
+    order:
+      - file.name
+      - style
+      - status
+      - summary
+  - type: table
+    name: Look & Craft Bible (Measured Specs)
+    filters:
+      and:
+        - area == "look-bible"
+    order:
+      - file.name
+      - style
+      - formula.read_time_min
+      - summary
+  - type: table
+    name: Reference Video Teardowns
+    filters:
+      and:
+        - area == "teardowns"
+    order:
+      - file.name
+      - style
+      - summary
+  - type: table
+    name: Social Publishing & Auto-Upload (Unified)
+    filters:
+      and:
+        - area == "distribution"
+    order:
+      - file.name
+      - platform
+      - hashtag_cap
+      - primary_signal
+      - automation_api
+      - summary
+  - type: table
+    name: Audio, Editing, Growth & Ops (Non-3D)
+    filters:
+      or:
+        - area == "audio"
+        - area == "pipeline"
+        - area == "qa"
+        - area == "multi-agent"
+        - area == "mcps-skills"
+        - area == "tools"
+        - area == "templates"
+    order:
+      - file.name
+      - area
+      - status
+      - formula.read_time_min
+      - summary
